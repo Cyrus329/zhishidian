@@ -2646,7 +2646,7 @@ window.KNOWLEDGE_ITEMS = [
       "1. 分式函数的分母必须（[[不等于0]]）。",
       "2. 偶次根式的被开方数必须（[[大于或等于0]]）。",
       "3. 对数函数的真数必须（[[大于0]]）。",
-      "4. arcsin x和arccos x中的x必须属于（[[-1,1]]）。",
+      "4. arcsin x和arccos x中的x必须属于（[[−1≤x≤1]]）。",
       "5. 求复杂函数定义域时，各限制条件最后取（[[交集]]）。"
     ],
     "selfTests": [
@@ -4747,7 +4747,7 @@ window.KNOWLEDGE_ITEMS = [
       "4. 对数函数 y=logₐx 的定义域要求 x（[[大于0]]）。",
       "5. y=tan x 的定义域要求 x≠（[[π/2+kπ]]）（k∈Z）。",
       "6. y=cot x 的定义域要求 x≠（[[kπ]]）（k∈Z）。",
-      "7. y=arcsin x 与 y=arccos x 的定义域都是（[[-1,1]]）。"
+      "7. y=arcsin x 与 y=arccos x 的定义域都是（[[−1≤x≤1]]）。"
     ],
     "selfTests": [
       {
@@ -6905,13 +6905,2619 @@ window.KNOWLEDGE_ITEMS = [
       "mnemonic": "管 → 管 → IC → LSI/VLSI",
       "sourceLabel": "第3天 · 7.17 · PDF资料整理"
     }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机的分类",
+    "range": "计算机的分类 · 第4天 · 7.18",
+    "id": "D03-COMP-CLASS-001",
+    "order": 66,
+    "title": "按运算速度与性能分类",
+    "oneLine": "按性能分类重点掌握嵌入式、巨型计算机、工作站、微型机与个人计算机之间的关系。",
+    "keywords": [
+      "嵌入式计算机",
+      "巨型计算机",
+      "工作站",
+      "微型机",
+      "个人计算机",
+      "银河计算机"
+    ],
+    "mustPatterns": [
+      "目前生活中应用最广泛的计算机类型是嵌入式计算机。",
+      "按照性能划分，“银河”计算机属于巨型计算机。",
+      "图形处理能力和任务并行能力更强的计算机类型是工作站。",
+      "不是所有的微型机都是个人计算机。"
+    ],
+    "basicExplain": [
+      "嵌入式计算机被嵌入各种设备中，数量大、应用范围广。",
+      "巨型计算机面向高强度科学计算与工程计算；“银河”属于这一类。",
+      "工作站通常面向专业图形、工程设计和高性能任务处理。",
+      "个人计算机属于微型机的一部分，但微型机还包括嵌入式系统等其他类型。"
+    ],
+    "examRefine": [
+      "最广泛应用：嵌入式计算机。",
+      "“银河”：巨型计算机。",
+      "专业图形与并行任务：工作站。",
+      "关系判断：个人计算机属于微型机，但微型机不等于个人计算机。"
+    ],
+    "confusions": [
+      [
+        "微型机",
+        "个人计算机",
+        "个人计算机是微型机的一类；微型机范围更大。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 目前生活中应用最广泛的计算机类型是（[[嵌入式]]）计算机。",
+      "2. 按照性能划分，中国国防科技大学研制的“银河”计算机属于（[[巨型计算机]]）。",
+      "3. 图形处理能力和任务并行能力更强的计算机类型是（[[工作站]]）。",
+      "4. 不是所有的（[[微型机]]）都是（[[个人计算机]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "生活中应用最广泛的计算机类型是什么？",
+        "a": "嵌入式计算机。"
+      },
+      {
+        "q": "“银河”计算机按性能属于哪一类？",
+        "a": "巨型计算机。"
+      },
+      {
+        "q": "微型机和个人计算机是什么关系？",
+        "a": "个人计算机属于微型机，但不是所有微型机都是个人计算机。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/computer-classification/by-performance.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：按运算速度与性能分类"
+    ],
+    "notebookSummary": {
+      "overview": "计算机按性能分类时，重点区分嵌入式、巨型机、工作站以及微型机与个人计算机的包含关系。",
+      "core": [
+        "嵌入式计算机应用最广泛。",
+        "“银河”属于巨型计算机。",
+        "工作站擅长专业图形和并行任务。",
+        "个人计算机是微型机的一类。"
+      ],
+      "method": [
+        "按“应用场景—性能层级—包含关系”三条线整理。"
+      ],
+      "mistakes": [
+        "不要把“微型机”和“个人计算机”完全等同。"
+      ],
+      "conclusion": "嵌入式最广，银河属巨型，工作站重专业，PC只是微型机的一部分。",
+      "mnemonic": "嵌入最广｜银河巨型｜工作站专业｜微型包含PC",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机的分类",
+    "range": "计算机的分类 · 第4天 · 7.18",
+    "id": "D03-COMP-CLASS-002",
+    "order": 67,
+    "title": "按工作原理分类",
+    "oneLine": "按工作原理，计算机分为数字计算机、模拟计算机和数模混合计算机。",
+    "keywords": [
+      "数字计算机",
+      "模拟计算机",
+      "数模混合计算机",
+      "工作原理"
+    ],
+    "mustPatterns": [
+      "按照工作原理将计算机分为数字计算机、模拟计算机和数模混合计算机。"
+    ],
+    "basicExplain": [
+      "数字计算机处理离散的数字量；模拟计算机处理连续变化的模拟量；数模混合计算机兼具两者特点。"
+    ],
+    "examRefine": [
+      "分类题必须完整写出三类：数字、模拟、数模混合。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 按照工作原理将计算机分为数字计算机、模拟计算机和（[[数模混合计算机]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "按工作原理，计算机分为哪三类？",
+        "a": "数字计算机、模拟计算机、数模混合计算机。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/computer-classification/by-principle.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：按工作原理分类"
+    ],
+    "notebookSummary": {
+      "overview": "计算机按处理信息的工作原理分成数字、模拟和数模混合三类。",
+      "core": [
+        "数字计算机处理离散数字量。",
+        "模拟计算机处理连续模拟量。",
+        "数模混合计算机结合两种处理方式。"
+      ],
+      "method": [
+        "记忆时抓住“离散—连续—混合”。"
+      ],
+      "mistakes": [
+        "不能漏写“数模混合计算机”。"
+      ],
+      "conclusion": "按工作原理：数字、模拟、数模混合。",
+      "mnemonic": "离散数字｜连续模拟｜两者混合",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机的分类",
+    "range": "计算机的分类 · 第4天 · 7.18",
+    "id": "D03-COMP-CLASS-003",
+    "order": 68,
+    "title": "按功能用途分类",
+    "oneLine": "计算机按功能用途分为专用计算机和通用计算机。",
+    "keywords": [
+      "专用计算机",
+      "通用计算机",
+      "功能用途"
+    ],
+    "mustPatterns": [
+      "计算机按功能用途分为专用计算机和通用计算机。"
+    ],
+    "basicExplain": [
+      "专用计算机为特定任务设计，功能集中；通用计算机可通过不同程序完成多种任务。"
+    ],
+    "examRefine": [
+      "用途分类只有两类：专用计算机、通用计算机。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机按功能用途分为（[[专用计算机]]）和（[[通用计算机]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "计算机按功能用途分为哪两类？",
+        "a": "专用计算机和通用计算机。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/computer-classification/by-purpose.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：按功能用途分类"
+    ],
+    "notebookSummary": {
+      "overview": "计算机按用途只分为专用和通用两类。",
+      "core": [
+        "专用计算机：为特定任务设计。",
+        "通用计算机：可完成多种任务。"
+      ],
+      "method": [
+        "看题目强调“专门任务”还是“多种用途”。"
+      ],
+      "mistakes": [
+        "不要把按用途分类与按性能分类混在一起。"
+      ],
+      "conclusion": "功能用途分类：专用计算机＋通用计算机。",
+      "mnemonic": "专用做一类｜通用做多类",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "反身代词",
+    "range": "反身代词 · 第4天 · 7.18",
+    "id": "D03-ENG-PRON-001",
+    "order": 69,
+    "title": "反身代词",
+    "oneLine": "反身代词表示“某人自己”，需与主语在人称和数上保持一致，并掌握常见固定搭配。",
+    "keywords": [
+      "myself",
+      "ourselves",
+      "yourself",
+      "yourselves",
+      "himself",
+      "herself",
+      "itself",
+      "themselves",
+      "by oneself",
+      "enjoy oneself",
+      "help oneself",
+      "devote oneself to"
+    ],
+    "mustPatterns": [
+      "反身代词表示“某人自己”。",
+      "myself、ourselves、yourself、yourselves、himself、herself、itself、themselves分别对应不同人称与数。",
+      "by oneself表示“独自地”；enjoy oneself表示“玩得开心”；help oneself表示“随便吃/用”。",
+      "teach oneself表示“自学”；make oneself at home表示“别客气/随意”；say to oneself表示“心里想/自言自语”。",
+      "behave oneself表示“守规矩”；hurt oneself表示“伤到自己”；come to oneself表示“苏醒过来”；devote oneself to表示“致力于”。"
+    ],
+    "basicExplain": [
+      "反身代词由物主代词或宾格代词加-self/-selves构成。",
+      "单数用-self，复数用-selves；反身代词必须与所指的人称、性别和数一致。",
+      "固定搭配中的oneself要根据句子主语替换成myself、yourself、himself等具体形式。"
+    ],
+    "examRefine": [
+      "主语是we时用ourselves；主语是they时用themselves。",
+      "enjoy oneself、help oneself、devote oneself to是高频固定搭配。",
+      "make oneself at home意为“别客气/随意”，不能按字面翻译。"
+    ],
+    "confusions": [
+      [
+        "by oneself",
+        "of oneself",
+        "by oneself表示“独自地”；不要与其他介词搭配混淆。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 反身代词表示（[[某人自己]]）。",
+      "2. myself我自己，ourselves我们自己，yourself你自己，yourselves你们自己；himself/herself/itself他/她/它自己，themselves他们自己。",
+      "3. （[[by oneself]]）独自地；（[[enjoy oneself]]）玩得开心；（[[help oneself]]）随便吃/用。",
+      "4. （[[teach oneself]]）自学；（[[make oneself at home]]）别客气/随意；（[[say to oneself]]）心里想/自言自语。",
+      "5. （[[behave oneself]]）守规矩；（[[hurt oneself]]）伤到自己；（[[come to oneself]]）苏醒过来；（[[devote oneself to]]）致力于。"
+    ],
+    "selfTests": [
+      {
+        "q": "“独自地”用哪个反身代词搭配？",
+        "a": "by oneself。"
+      },
+      {
+        "q": "“玩得开心”怎么表达？",
+        "a": "enjoy oneself。"
+      },
+      {
+        "q": "“致力于”怎么表达？",
+        "a": "devote oneself to。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/english-pronouns/reflexive-pronouns-1.png",
+      "./imports/day-04/english-pronouns/reflexive-pronouns-2.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：反身代词（两页连续内容）"
+    ],
+    "notebookSummary": {
+      "overview": "反身代词表示“自己”，核心是人称和数一致，并熟记固定搭配。",
+      "core": [
+        "单数用-self，复数用-selves。",
+        "反身代词必须与主语的人称和数一致。",
+        "高频搭配：by/enjoy/help/teach oneself，make oneself at home，devote oneself to。"
+      ],
+      "method": [
+        "先确定主语，再选择对应反身代词；固定搭配中的oneself随主语变化。"
+      ],
+      "mistakes": [
+        "herself不要误写成her self；themselves用于they。",
+        "make oneself at home不是“让自己在家”，而是“别客气”。"
+      ],
+      "conclusion": "反身代词=主语对应形式＋固定搭配。",
+      "mnemonic": "我myself｜你yourself｜他himself｜她herself｜它itself｜复数selves",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "category": "函数的性质",
+    "range": "函数的性质 · 第4天 · 7.18",
+    "id": "D03-MATH-PROP-001",
+    "order": 70,
+    "title": "奇偶性1——奇偶性定义",
+    "oneLine": "判断奇偶性先看定义域是否关于原点对称，再比较f(-x)与f(x)。",
+    "keywords": [
+      "奇函数",
+      "偶函数",
+      "定义域关于原点对称",
+      "f(-x)=-f(x)",
+      "f(-x)=f(x)",
+      "原点对称",
+      "y轴对称"
+    ],
+    "mustPatterns": [
+      "判断函数奇偶性的前提是定义域关于原点对称。",
+      "若f(-x)=-f(x)，函数为奇函数，图像关于原点对称。",
+      "若f(-x)=f(x)，函数为偶函数，图像关于y轴对称。",
+      "若奇函数在x=0处有定义，则其图像经过(0,0)。"
+    ],
+    "basicExplain": [
+      "奇偶性是自变量取相反数后，函数值保持不变或变为相反数的规律。",
+      "定义域不关于原点对称时，不能直接判为奇函数或偶函数。"
+    ],
+    "examRefine": [
+      "步骤：先查定义域对称，再计算f(-x)，最后比较。",
+      "零函数既是奇函数又是偶函数。"
+    ],
+    "confusions": [
+      [
+        "奇函数",
+        "偶函数",
+        "奇函数原点对称；偶函数y轴对称。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 判断奇偶性的前提：定义域（[[关于原点对称]]）。",
+      "2. 奇函数满足f(-x)=（[[-f(x)]]），图像关于（[[原点]]）对称；若x=0处有定义，必过（[[(0,0)]]）点。",
+      "3. 偶函数满足f(-x)=（[[f(x)]]），图像关于（[[y轴]]）对称。"
+    ],
+    "selfTests": [
+      {
+        "q": "判断奇偶性的第一步是什么？",
+        "a": "检查定义域是否关于原点对称。"
+      },
+      {
+        "q": "奇函数和偶函数的图像分别关于什么对称？",
+        "a": "奇函数关于原点对称，偶函数关于y轴对称。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/math-function-properties/parity-definition.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：奇偶性定义"
+    ],
+    "notebookSummary": {
+      "overview": "奇偶性判断的核心是“定义域对称＋比较f(-x)”。",
+      "core": [
+        "定义域必须关于原点对称。",
+        "f(-x)=-f(x)：奇函数，原点对称。",
+        "f(-x)=f(x)：偶函数，y轴对称。",
+        "奇函数若在0处有定义，则f(0)=0。"
+      ],
+      "method": [
+        "先定义域，后代-x，再比较符号关系。"
+      ],
+      "mistakes": [
+        "定义域不对称时不能继续套奇偶性公式。",
+        "零函数既奇又偶。"
+      ],
+      "conclusion": "先看域，再看f(-x)：变号为奇，不变为偶。",
+      "mnemonic": "域先对称｜变号奇｜不变偶",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "category": "函数的性质",
+    "range": "函数的性质 · 第4天 · 7.18",
+    "id": "D03-MATH-PROP-002",
+    "order": 71,
+    "title": "奇偶性2——常见奇函数",
+    "oneLine": "常见奇函数包括sin x、tan x、cot x、arcsin x、arctan x和奇次幂函数。",
+    "keywords": [
+      "sin x",
+      "tan x",
+      "cot x",
+      "arcsin x",
+      "arctan x",
+      "x^(2n+1)",
+      "奇函数"
+    ],
+    "mustPatterns": [
+      "常见奇函数：sin x、tan x、cot x。",
+      "常见奇函数：arcsin x、arctan x。",
+      "奇次幂函数x^(2n+1)是奇函数。"
+    ],
+    "basicExplain": [
+      "这些函数在各自关于原点对称的定义域上满足f(-x)=-f(x)。"
+    ],
+    "examRefine": [
+      "cot x虽有间断点，但其定义域关于原点对称，仍为奇函数。"
+    ],
+    "confusions": [
+      [
+        "sin x",
+        "cos x",
+        "sin x是奇函数，cos x是偶函数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 三角函数中的常见奇函数有（[[sin x]]）、（[[tan x]]）、（[[cot x]]）。",
+      "2. 反三角函数中的常见奇函数有（[[arcsin x]]）、（[[arctan x]]）。",
+      "3. 幂函数（[[x^(2n+1)]]）是奇函数。"
+    ],
+    "selfTests": [
+      {
+        "q": "列举三个常见奇三角函数。",
+        "a": "sin x、tan x、cot x。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/math-function-properties/common-odd-functions.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：常见奇函数"
+    ],
+    "notebookSummary": {
+      "overview": "常见奇函数可按三角、反三角和奇次幂三组记忆。",
+      "core": [
+        "三角：sin、tan、cot。",
+        "反三角：arcsin、arctan。",
+        "幂函数：x的奇次幂。"
+      ],
+      "method": [
+        "按“正切类＋反正切类＋奇次幂”分组记。"
+      ],
+      "mistakes": [
+        "cos x不是奇函数。"
+      ],
+      "conclusion": "sin/tan/cot，arcsin/arctan，奇次幂都属于常见奇函数。",
+      "mnemonic": "正弦正切余切｜反正弦反正切｜奇次幂",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "category": "函数的性质",
+    "range": "函数的性质 · 第4天 · 7.18",
+    "id": "D03-MATH-PROP-003",
+    "order": 72,
+    "title": "奇偶性3——常见偶函数",
+    "oneLine": "常见偶函数包括cos x、|x|、偶次幂函数和常数函数。",
+    "keywords": [
+      "cos x",
+      "|x|",
+      "x^(2n)",
+      "常数函数",
+      "偶函数"
+    ],
+    "mustPatterns": [
+      "cos x是偶函数。",
+      "|x|是偶函数。",
+      "偶次幂函数x^(2n)是偶函数。",
+      "定义域关于原点对称的常数函数是偶函数。"
+    ],
+    "basicExplain": [
+      "这些函数均满足f(-x)=f(x)，图像关于y轴对称。"
+    ],
+    "examRefine": [
+      "零函数既是偶函数，也是奇函数。"
+    ],
+    "confusions": [
+      [
+        "cos x",
+        "sin x",
+        "cos x偶，sin x奇。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 常见偶函数有（[[cos x]]）、（[[|x|]]）、（[[x^(2n)]]）和（[[常数函数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "列举四类常见偶函数。",
+        "a": "cos x、|x|、偶次幂函数、常数函数。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/math-function-properties/common-even-functions.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：常见偶函数"
+    ],
+    "notebookSummary": {
+      "overview": "常见偶函数抓住余弦、绝对值、偶次幂和常数四类。",
+      "core": [
+        "cos x。",
+        "|x|。",
+        "x的偶次幂。",
+        "常数函数（定义域需对称）。"
+      ],
+      "method": [
+        "看到“绝对值、平方、常数”优先联想到偶函数。"
+      ],
+      "mistakes": [
+        "零函数特殊：既奇又偶。"
+      ],
+      "conclusion": "cos、绝对值、偶次幂、常数是高频偶函数。",
+      "mnemonic": "余弦｜绝对值｜偶次幂｜常数",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-18",
+    "importDay": 4,
+    "importDate": "2026-07-18",
+    "importLabel": "第4天 · 7.18",
+    "batch": "第4天持续导入｜2026年7月18日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-18 提供的原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-18",
+        "day": 4,
+        "date": "2026-07-18",
+        "label": "第4天 · 7.18",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "category": "函数的性质",
+    "range": "函数的性质 · 第4天 · 7.18",
+    "id": "D03-MATH-PROP-004",
+    "order": 73,
+    "title": "有界——常见有界函数",
+    "oneLine": "常见有界函数包括sin x、cos x及常见反三角函数。",
+    "keywords": [
+      "有界函数",
+      "sin x",
+      "cos x",
+      "arcsin x",
+      "arccos x",
+      "arctan x",
+      "arccot x"
+    ],
+    "mustPatterns": [
+      "sin x和cos x是有界函数。",
+      "arcsin x、arccos x、arctan x、arccot x是有界函数。"
+    ],
+    "basicExplain": [
+      "sin x、cos x的函数值均限制在[-1,1]内。",
+      "反三角函数的值域是有限区间，因此属于有界函数。"
+    ],
+    "examRefine": [
+      "sin x、cos x虽定义域无界，但函数值有界。",
+      "判断有界看函数值是否被上下界限制，不是看定义域是否有限。"
+    ],
+    "confusions": [
+      [
+        "定义域有界",
+        "函数有界",
+        "函数有界讨论的是函数值，而不是自变量范围。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 常见有界函数有（[[sin x]]）、（[[cos x]]）、（[[arcsin x]]）、（[[arccos x]]）、（[[arctan x]]）、（[[arccot x]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "sin x为什么是有界函数？",
+        "a": "因为其函数值始终在[-1,1]内。"
+      }
+    ],
+    "images": [
+      "./imports/day-04/math-function-properties/common-bounded-functions.png"
+    ],
+    "sourceFiles": [
+      "2026-07-18 用户截图：常见有界函数"
+    ],
+    "notebookSummary": {
+      "overview": "有界性看函数值是否被限制，常见三角与反三角函数都是高频有界函数。",
+      "core": [
+        "sin x、cos x的值域是[-1,1]。",
+        "arcsin、arccos、arctan、arccot的值域均为有限区间。"
+      ],
+      "method": [
+        "判断有界时只看函数值能否超过某个固定上下界。"
+      ],
+      "mistakes": [
+        "定义域无界不代表函数无界。"
+      ],
+      "conclusion": "正弦余弦与常见反三角函数都属于有界函数。",
+      "mnemonic": "正余弦＋四个反三角＝常见有界",
+      "sourceLabel": "第4天 · 7.18 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "指示代词",
+    "range": "指示代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-001",
+    "order": 74,
+    "title": "指示代词：that与those",
+    "oneLine": "that与those都可替代前文名词，that代单数/不可数，those代复数。",
+    "keywords": [
+      "that",
+      "those",
+      "指示代词",
+      "替代"
+    ],
+    "mustPatterns": [
+      "that可替代前文出现的可数名词单数或不可数名词。",
+      "those可替代前文出现的可数名词复数。",
+      "that/those后常接后置定语。"
+    ],
+    "basicExplain": [
+      "用that/those避免重复同一个名词，但指代对象必须与前文一致。",
+      "后置定语常用来限定“哪一个/哪些”。"
+    ],
+    "examRefine": [
+      "看到比较结构时，先判断被替代名词是单数、复数还是不可数。"
+    ],
+    "confusions": [
+      [
+        "that",
+        "those",
+        "that代单数或不可数；those代复数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. that可替代前文出现的（[[可数名词单数]]）或（[[不可数名词]]）。",
+      "2. those可替代前文出现的（[[可数名词复数]]）。",
+      "3. that/those后面通常跟（[[后置定语]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "that与those的核心区别是什么？",
+        "a": "that代单数或不可数名词，those代复数名词。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image1.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "that和those用于替代前文名词，关键看被替代名词的数。",
+      "core": [
+        "that：可数单数/不可数。",
+        "those：可数复数。",
+        "后面常接后置定语。"
+      ],
+      "method": [
+        "先找前文被替代名词，再判断单复数与可数性。"
+      ],
+      "mistakes": [
+        "不要用those替代不可数名词。"
+      ],
+      "conclusion": "单数或不可数用that，复数用those。",
+      "mnemonic": "单不that，复数those",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "代词辨析",
+    "range": "代词辨析 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-002",
+    "order": 75,
+    "title": "it、one、that、those辨析",
+    "oneLine": "it同名同物；one/that/those同名异物，分别对应泛指单数、特指单数/不可数、特指复数。",
+    "keywords": [
+      "it",
+      "one",
+      "that",
+      "those",
+      "同名同物",
+      "同名异物"
+    ],
+    "mustPatterns": [
+      "it表示特指、同名同物。",
+      "one表示泛指、同名异物，只代可数名词单数。",
+      "that表示特指、同名异物，可代可数单数或不可数名词。",
+      "those表示特指、同名异物，只代可数名词复数。"
+    ],
+    "basicExplain": [
+      "先判断是否为同一个事物，再判断泛指/特指与数。"
+    ],
+    "examRefine": [
+      "代词替代题按“同物还是异物→泛指还是特指→单复数/可数性”三步判断。"
+    ],
+    "confusions": [
+      [
+        "it",
+        "one",
+        "it同名同物；one同名异物且泛指。"
+      ],
+      [
+        "that",
+        "those",
+        "that单数/不可数；those复数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. it表示（[[特指]]）、（[[同名同物]]）。",
+      "2. one表示（[[泛指]]）、（[[同名异物]]），只能代可数名词单数。",
+      "3. that表示（[[特指]]）、（[[同名异物]]），可代可数单数或不可数名词。",
+      "4. those表示（[[特指]]）、（[[同名异物]]），只能代可数名词复数。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么one不能替代不可数名词？",
+        "a": "one只代可数名词单数。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image2.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "代词替代题先分同物/异物，再分泛指/特指和单复数。",
+      "core": [
+        "it：特指、同名同物。",
+        "one：泛指、同名异物、可数单数。",
+        "that：特指、同名异物、单数/不可数。",
+        "those：特指、同名异物、复数。"
+      ],
+      "method": [
+        "同物选it；异物再看泛指与数。"
+      ],
+      "mistakes": [
+        "one不能代不可数名词；those不能代单数。"
+      ],
+      "conclusion": "it同物，one泛指单数，that特指单数/不可数，those特指复数。",
+      "mnemonic": "同物it；异物一one、单that、复those",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "不定代词",
+    "range": "不定代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-003",
+    "order": 76,
+    "title": "one、the one、ones、the ones",
+    "oneLine": "one/ones表泛指，the one/the ones表特指；单数与复数分别对应。",
+    "keywords": [
+      "one",
+      "the one",
+      "ones",
+      "the ones",
+      "泛指",
+      "特指"
+    ],
+    "mustPatterns": [
+      "one=a/an+单数名词。",
+      "the one=the+单数名词。",
+      "ones=复数名词，表示泛指。",
+      "the ones=the+复数名词，表示特指。"
+    ],
+    "basicExplain": [
+      "冠词the决定特指，词尾-s决定复数。"
+    ],
+    "examRefine": [
+      "先看是否特指，再看单数或复数。"
+    ],
+    "confusions": [
+      [
+        "one",
+        "the one",
+        "one泛指；the one特指。"
+      ],
+      [
+        "ones",
+        "the ones",
+        "ones泛指复数；the ones特指复数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. one表示（[[单数]]）（[[泛指]]），相当于a/an+名词。",
+      "2. the one表示（[[单数]]）（[[特指]]）。",
+      "3. ones表示（[[复数]]）（[[泛指]]）。",
+      "4. the ones表示（[[复数]]）（[[特指]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "the ones为什么表示特指复数？",
+        "a": "the表示特指，ones表示复数。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image3.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "是否有the决定特指，是否有-s决定复数。",
+      "core": [
+        "one：单数泛指。",
+        "the one：单数特指。",
+        "ones：复数泛指。",
+        "the ones：复数特指。"
+      ],
+      "method": [
+        "先看the，再看one/ones。"
+      ],
+      "mistakes": [
+        "不要把ones当作单数。"
+      ],
+      "conclusion": "the管特指，-s管复数。",
+      "mnemonic": "有the特指，有s复数",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "不定代词",
+    "range": "不定代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-004",
+    "order": 77,
+    "title": "other、the other、others、the others、another",
+    "oneLine": "other系列根据范围、是否特指和是否修饰名词区分。",
+    "keywords": [
+      "other",
+      "the other",
+      "others",
+      "the others",
+      "another"
+    ],
+    "mustPatterns": [
+      "other泛指其他的，修饰可数复数或不可数名词。",
+      "the other可指两者中的另一个，或特定范围内其余全部。",
+      "others=other+复数名词，泛指其他部分，不再修饰名词。",
+      "the others=the other+复数名词，特指范围内其余全部。",
+      "another表示三个及以上范围中的另一个，修饰单数名词。"
+    ],
+    "basicExplain": [
+      "带-s的others本身就是代词，后面不再接名词。",
+      "the表示特定范围，another强调三者或以上再一个。"
+    ],
+    "examRefine": [
+      "判断是否接名词、是否限定范围、范围是两者还是三者以上。"
+    ],
+    "confusions": [
+      [
+        "other",
+        "others",
+        "other后接名词；others独立使用。"
+      ],
+      [
+        "the other",
+        "another",
+        "the other常指两者中另一个；another指三者以上另一个。"
+      ]
+    ],
+    "clozeLines": [
+      "1. other泛指其他的，修饰（[[可数复数]]）或（[[不可数名词]]）。",
+      "2. the other可表示两者中的（[[另一个]]），也可表示特定范围内（[[其余全部]]）。",
+      "3. others相当于（[[other+复数名词]]），后面不再接名词。",
+      "4. the others表示特定范围内（[[其余全部]]）。",
+      "5. another表示（三个及以上中的（[[另一个]]）），修饰单数名词。"
+    ],
+    "selfTests": [
+      {
+        "q": "others后面为什么不能再接名词？",
+        "a": "因为others本身相当于other+复数名词。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image4.png",
+      "./imports/day-05/english-pronouns/image5.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "other系列看三点：范围、特指、后面是否接名词。",
+      "core": [
+        "other接名词，others独立。",
+        "the other/the others表示特定范围。",
+        "another表示三者以上另一个。"
+      ],
+      "method": [
+        "先看后面有没有名词，再看the和范围数量。"
+      ],
+      "mistakes": [
+        "others/the others后面不能再接名词。"
+      ],
+      "conclusion": "other接名词，others不接；the表特定，another表再一个。",
+      "mnemonic": "other有名词，others自己顶；两者the other，三者another",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "不定代词",
+    "range": "不定代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-005",
+    "order": 78,
+    "title": "all、none、both、either、neither",
+    "oneLine": "all/none对应三者及以上，both/either/neither对应两者。",
+    "keywords": [
+      "all",
+      "none",
+      "both",
+      "either",
+      "neither"
+    ],
+    "mustPatterns": [
+      "all表示三者及以上全部肯定。",
+      "none表示三者及以上全部否定。",
+      "both表示两者都，接复数概念。",
+      "either表示两者任意一个，通常按单数。",
+      "neither表示两者都不，通常按单数。"
+    ],
+    "basicExplain": [
+      "数量范围是核心：三者以上用all/none，两者用both/either/neither。"
+    ],
+    "examRefine": [
+      "先判断对象数量，再判断肯定或否定及谓语数。"
+    ],
+    "confusions": [
+      [
+        "none",
+        "neither",
+        "none三者及以上；neither两者。"
+      ],
+      [
+        "both",
+        "either",
+        "both两者都；either任意一个。"
+      ]
+    ],
+    "clozeLines": [
+      "1. all表示（[[三者及以上]]）全部肯定。",
+      "2. none表示（[[三者及以上]]）全部否定。",
+      "3. both表示（[[两者都]]），谓语通常用复数。",
+      "4. either表示两者中（[[任意一个]]），谓语通常用单数。",
+      "5. neither表示（[[两者都不]]），谓语通常用单数。"
+    ],
+    "selfTests": [
+      {
+        "q": "两者都不用哪个词？",
+        "a": "neither。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image6.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "范围两者还是三者以上，是这组词的首要判断点。",
+      "core": [
+        "三者以上：all/none。",
+        "两者：both/either/neither。",
+        "either/neither一般按单数。"
+      ],
+      "method": [
+        "先数对象，再判断全肯定、全否定或任意一个。"
+      ],
+      "mistakes": [
+        "不要用none表示仅两者都不。"
+      ],
+      "conclusion": "三者all/none；两者both/either/neither。",
+      "mnemonic": "三全all，三无none；两都both，两一either，两无neither",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "不定代词",
+    "range": "不定代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-006",
+    "order": 79,
+    "title": "each与every",
+    "oneLine": "each强调个体，可作代词/同位语；every强调整体，只作限定词。",
+    "keywords": [
+      "each",
+      "every",
+      "个体",
+      "整体",
+      "部分否定"
+    ],
+    "mustPatterns": [
+      "each与every后接单数名词，谓语通常用单数。",
+      "each适用于两者及以上，强调个体。",
+      "every适用于三者及以上，强调整体。",
+      "each可接of短语、作同位语或置于句末表示分别。",
+      "not every表示部分否定：不是所有。"
+    ],
+    "basicExplain": [
+      "each能独立作代词，every通常不能。",
+      "each作同位语时谓语与主语一致，可用复数。"
+    ],
+    "examRefine": [
+      "出现of短语、同位语或句末分别时优先each。"
+    ],
+    "confusions": [
+      [
+        "each",
+        "every",
+        "each强调个体且用法更灵活；every强调整体。"
+      ]
+    ],
+    "clozeLines": [
+      "1. each/every作限定词时，后接（[[单数名词]]），谓语用单数。",
+      "2. each适用于（[[两者及以上]]），强调（[[个体]]）。",
+      "3. every适用于（[[三者及以上]]），强调整体。",
+      "4. each可接（[[of短语]]）、作同位语或放句末表示分别。",
+      "5. not every表示（[[不是所有]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "They each have a cat.为什么谓语用have？",
+        "a": "each作同位语，谓语与复数主语They一致。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image7.png",
+      "./imports/day-05/english-pronouns/image8.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "each看个体且用法灵活，every看整体且后接单数。",
+      "core": [
+        "each：两者以上、个体、可作代词/同位语。",
+        "every：三者以上、整体。",
+        "not every是部分否定。"
+      ],
+      "method": [
+        "看到of、同位语、句末分别优先each。"
+      ],
+      "mistakes": [
+        "every不能像each一样作同位语。"
+      ],
+      "conclusion": "each个体，every整体；两者each，三者every。",
+      "mnemonic": "each逐个，every每个整体",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "不定代词",
+    "range": "不定代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-007",
+    "order": 80,
+    "title": "some与any",
+    "oneLine": "some常用于肯定句和表示请求邀请的疑问句；any常用于否定/疑问句，也可表示任何。",
+    "keywords": [
+      "some",
+      "any",
+      "请求",
+      "邀请",
+      "任何"
+    ],
+    "mustPatterns": [
+      "肯定陈述句多用some。",
+      "表示请求、邀请或客气语气的疑问句用some。",
+      "普通疑问句和否定句多用any。",
+      "any在肯定句中可表示任何。"
+    ],
+    "basicExplain": [
+      "句型不是唯一标准，还要看说话人的语气和词义。"
+    ],
+    "examRefine": [
+      "疑问句中若期待肯定回答、表示请求邀请，选some。"
+    ],
+    "confusions": [
+      [
+        "some",
+        "any",
+        "some偏肯定/请求；any偏疑问否定或“任何”。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 肯定陈述句多用（[[some]]）。",
+      "2. 表示请求、邀请、客气的疑问句用（[[some]]）。",
+      "3. 普通疑问句和否定句多用（[[any]]）。",
+      "4. any在肯定句中可表示（[[任何]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "Would you like some tea?为什么不用any？",
+        "a": "该疑问句表示邀请并期待肯定回答。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image9.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "some/any要结合句型、语气和词义判断。",
+      "core": [
+        "some：肯定句；请求/邀请疑问句。",
+        "any：普通疑问句、否定句；肯定句中表任何。"
+      ],
+      "method": [
+        "疑问句先判断是否请求/邀请。"
+      ],
+      "mistakes": [
+        "不能机械地认为所有疑问句都用any。"
+      ],
+      "conclusion": "肯定some，疑否any；请求邀请仍用some。",
+      "mnemonic": "肯定some，疑否any，请求some，任何any",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "限定词",
+    "range": "限定词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-008",
+    "order": 81,
+    "title": "few、a few、little、a little",
+    "oneLine": "few/a few修饰可数名词，little/a little修饰不可数名词；有a表示肯定。",
+    "keywords": [
+      "few",
+      "a few",
+      "little",
+      "a little",
+      "肯定",
+      "否定"
+    ],
+    "mustPatterns": [
+      "few与a few修饰可数名词。",
+      "little与a little修饰不可数名词。",
+      "few/little表示否定：几乎没有。",
+      "a few/a little表示肯定：有一些。"
+    ],
+    "basicExplain": [
+      "a不是数量大小的核心，而是把语气从否定转为肯定。"
+    ],
+    "examRefine": [
+      "先判断名词可数性，再判断语气肯定或否定。"
+    ],
+    "confusions": [
+      [
+        "few",
+        "little",
+        "few接可数；little接不可数。"
+      ],
+      [
+        "few",
+        "a few",
+        "few几乎没有；a few有一些。"
+      ]
+    ],
+    "clozeLines": [
+      "1. few/a few修饰（[[可数名词]]）。",
+      "2. little/a little修饰（[[不可数名词]]）。",
+      "3. few/little表示（[[否定]]），即几乎没有。",
+      "4. a few/a little表示（[[肯定]]），即有一些。"
+    ],
+    "selfTests": [
+      {
+        "q": "a little和little语气有何不同？",
+        "a": "a little表示有一点（肯定），little表示几乎没有（否定）。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image10.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "可数选few，不可数选little；有a肯定，无a否定。",
+      "core": [
+        "few/a few＋可数。",
+        "little/a little＋不可数。",
+        "有a表有一些，无a表几乎没有。"
+      ],
+      "method": [
+        "先看名词，再看句意。"
+      ],
+      "mistakes": [
+        "不要把little用于可数复数。"
+      ],
+      "conclusion": "few系可数，little系不可数；a决定肯定。",
+      "mnemonic": "few可数，little不可数；有a有一点",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "限定词",
+    "range": "限定词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-009",
+    "order": 82,
+    "title": "many与much",
+    "oneLine": "many修饰可数名词复数，much修饰不可数名词。",
+    "keywords": [
+      "many",
+      "much",
+      "可数名词复数",
+      "不可数名词"
+    ],
+    "mustPatterns": [
+      "many修饰可数名词复数。",
+      "much修饰不可数名词。"
+    ],
+    "basicExplain": [
+      "两者都表示“许多”，区别完全由名词可数性决定。"
+    ],
+    "examRefine": [
+      "many students；much time。"
+    ],
+    "confusions": [
+      [
+        "many",
+        "much",
+        "many＋可数复数；much＋不可数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. many修饰（[[可数名词复数]]）。",
+      "2. much修饰（[[不可数名词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "time前为什么用much？",
+        "a": "time表示时间时通常是不可数名词。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image11.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "many和much都表示许多，区别只看名词是否可数。",
+      "core": [
+        "many＋可数复数。",
+        "much＋不可数。"
+      ],
+      "method": [
+        "先判断名词可数性。"
+      ],
+      "mistakes": [
+        "many后不能直接接不可数名词。"
+      ],
+      "conclusion": "可数many，不可数much。",
+      "mnemonic": "many数得清，much数不清",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词与不定代词",
+    "category": "复合不定代词",
+    "range": "复合不定代词 · 第5天 · 7.19",
+    "id": "D05-ENG-PRON-010",
+    "order": 83,
+    "title": "复合不定代词",
+    "oneLine": "复合不定代词作主语谓语用单数，形容词修饰时必须后置。",
+    "keywords": [
+      "something",
+      "anything",
+      "nothing",
+      "everything",
+      "形容词后置",
+      "谓语单数"
+    ],
+    "mustPatterns": [
+      "常见复合不定代词包括something、anything、nothing、everything及-body/-one系列。",
+      "形容词修饰复合不定代词时必须后置。",
+      "复合不定代词作主语时谓语动词用单数。"
+    ],
+    "basicExplain": [
+      "复合不定代词本身是中心词，形容词放在其后。"
+    ],
+    "examRefine": [
+      "something important；Something is wrong。"
+    ],
+    "confusions": [
+      [
+        "important something",
+        "something important",
+        "正确结构是形容词后置：something important。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 形容词修饰复合不定代词时，应放在其（[[后面]]）。",
+      "2. 复合不定代词作主语时，谓语动词用（[[单数]]）。",
+      "3. “某件重要的事”应写作（[[something important]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "Everything are ready是否正确？",
+        "a": "错误，应为Everything is ready。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/english-pronouns/image12.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "复合不定代词两大考点：形容词后置、谓语单数。",
+      "core": [
+        "something/anything/nothing/everything。",
+        "-body/-one系列。",
+        "形容词后置，谓语单数。"
+      ],
+      "method": [
+        "看到复合不定代词，立即检查形容词位置与谓语数。"
+      ],
+      "mistakes": [
+        "不能写important something。"
+      ],
+      "conclusion": "复合不定代词：修饰后置，谓语单数。",
+      "mnemonic": "形容词后，谓语单",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "category": "函数图像",
+    "range": "函数图像 · 第5天 · 7.19",
+    "id": "D05-MATH-GRAPH-001",
+    "order": 84,
+    "title": "函数图像1——幂函数",
+    "oneLine": "幂函数图像都经过(1,1)，形状由指数α的正负和大小决定。",
+    "keywords": [
+      "幂函数",
+      "y=x^α",
+      "(1,1)",
+      "指数"
+    ],
+    "mustPatterns": [
+      "幂函数y=x^α在有定义时经过(1,1)。",
+      "α>1时第一象限内递增且上凸；0<α<1时递增且下凹。",
+      "α<0时在x>0上递减，x=0为竖直渐近线。"
+    ],
+    "basicExplain": [
+      "图像位置可通过比较x∈(0,1)与x>1时的幂大小判断。"
+    ],
+    "examRefine": [
+      "先看定义域，再看指数正负、奇偶与是否为分数。"
+    ],
+    "confusions": [
+      [
+        "0<α<1",
+        "α>1",
+        "前者在(0,1)上高于y=x，后者低于y=x。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 幂函数y=x^α通常经过定点（[[(1,1)]]）。",
+      "2. 当α<0时，x=0通常是（[[竖直渐近线]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么所有幂函数在x=1时通过(1,1)？",
+        "a": "因为1的任意实数次幂均为1（在有定义的条件下）。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/math-function-graphs/image13.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "幂函数图像由指数控制，但共同经过(1,1)。",
+      "core": [
+        "过(1,1)。",
+        "α>1与0<α<1的凹凸和相对位置不同。",
+        "α<0时x=0为渐近线。"
+      ],
+      "method": [
+        "先判定义域，再看指数正负与大小。"
+      ],
+      "mistakes": [
+        "不要只看图形，不检查负半轴是否有定义。"
+      ],
+      "conclusion": "幂函数：定点(1,1)，指数决定形状。",
+      "mnemonic": "幂函数一一过，正增负减看指数",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "category": "函数图像",
+    "range": "函数图像 · 第5天 · 7.19",
+    "id": "D05-MATH-GRAPH-002",
+    "order": 85,
+    "title": "函数图像2——指数函数",
+    "oneLine": "指数函数y=a^x过(0,1)，a>1递增，0<a<1递减。",
+    "keywords": [
+      "指数函数",
+      "y=a^x",
+      "a>1",
+      "0<a<1"
+    ],
+    "mustPatterns": [
+      "指数函数定义域为R，值域为(0,+∞)。",
+      "图像经过(0,1)。",
+      "a>1时递增；0<a<1时递减。",
+      "y=0是水平渐近线。"
+    ],
+    "basicExplain": [
+      "底数a与1的大小决定函数随x增大是增长还是衰减。"
+    ],
+    "examRefine": [
+      "指数函数的函数值恒为正。"
+    ],
+    "confusions": [
+      [
+        "指数函数",
+        "对数函数",
+        "指数函数过(0,1)，对数函数过(1,0)。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 指数函数y=a^x经过定点（[[(0,1)]]）。",
+      "2. 当a>1时函数（[[递增]]）；当0<a<1时函数（[[递减]]）。",
+      "3. 指数函数值域为（[[(0,+∞)]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "指数函数为什么不与x轴相交？",
+        "a": "因为a^x始终大于0。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/math-function-graphs/image15.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "指数函数的底数与1比较，决定增减性。",
+      "core": [
+        "定义域R，值域(0,+∞)。",
+        "过(0,1)。",
+        "a>1增，0<a<1减。"
+      ],
+      "method": [
+        "先看底数范围，再画过(0,1)的正值曲线。"
+      ],
+      "mistakes": [
+        "指数函数不过(1,0)。"
+      ],
+      "conclusion": "指数过(0,1)，底大于1增，小于1减。",
+      "mnemonic": "指数零点一，底大增底小减",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "category": "函数图像",
+    "range": "函数图像 · 第5天 · 7.19",
+    "id": "D05-MATH-GRAPH-003",
+    "order": 86,
+    "title": "函数图像3——对数函数",
+    "oneLine": "对数函数y=log_a x过(1,0)，a>1递增，0<a<1递减。",
+    "keywords": [
+      "对数函数",
+      "y=log_a x",
+      "(1,0)",
+      "x>0"
+    ],
+    "mustPatterns": [
+      "对数函数定义域为(0,+∞)，值域为R。",
+      "图像经过(1,0)。",
+      "a>1时递增；0<a<1时递减。",
+      "x=0是竖直渐近线。"
+    ],
+    "basicExplain": [
+      "对数函数与同底指数函数互为反函数，图像关于y=x对称。"
+    ],
+    "examRefine": [
+      "对数真数必须大于0。"
+    ],
+    "confusions": [
+      [
+        "指数函数",
+        "对数函数",
+        "二者互为反函数，定点分别为(0,1)与(1,0)。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 对数函数定义域为（[[(0,+∞)]]），图像经过（[[(1,0)]]）。",
+      "2. 当a>1时函数（[[递增]]）；当0<a<1时函数（[[递减]]）。",
+      "3. x=0是（[[竖直渐近线]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "对数函数与同底指数函数图像有什么关系？",
+        "a": "关于直线y=x对称。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/math-function-graphs/image14.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "对数函数是指数函数的反函数，定点和渐近线要牢记。",
+      "core": [
+        "定义域x>0，值域R。",
+        "过(1,0)。",
+        "a>1增，0<a<1减。"
+      ],
+      "method": [
+        "由指数函数关于y=x对称得到对数图像。"
+      ],
+      "mistakes": [
+        "对数函数不过(0,1)，且x不能等于0。"
+      ],
+      "conclusion": "对数过(1,0)，真数正，底大增底小减。",
+      "mnemonic": "对数一点零，真数必须正",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "category": "函数图像",
+    "range": "函数图像 · 第5天 · 7.19",
+    "id": "D05-MATH-GRAPH-004",
+    "order": 87,
+    "title": "函数图像4——三角函数",
+    "oneLine": "sin、cos周期为2π，tan周期为π；图像的零点、极值与渐近线是识图重点。",
+    "keywords": [
+      "sin x",
+      "cos x",
+      "tan x",
+      "周期",
+      "渐近线"
+    ],
+    "mustPatterns": [
+      "sin x为奇函数，cos x为偶函数，二者周期均为2π，值域均为[-1,1]。",
+      "tan x为奇函数，周期为π，在x=π/2+kπ处无定义。"
+    ],
+    "basicExplain": [
+      "正弦与余弦图像可通过相位平移互相转化；正切图像每个周期内单调递增。"
+    ],
+    "examRefine": [
+      "识图时看是否有界、是否有渐近线、周期长度与过原点情况。"
+    ],
+    "confusions": [
+      [
+        "sin x",
+        "cos x",
+        "sin过原点且奇；cos过(0,1)且偶。"
+      ],
+      [
+        "tan x",
+        "sin x",
+        "tan无界且有竖直渐近线。"
+      ]
+    ],
+    "clozeLines": [
+      "1. sin x与cos x的周期都是（[[2π]]），值域都是（[[−1≤x≤1]]）。",
+      "2. tan x的周期为（[[π]]），在x=（[[π/2+kπ]]）处无定义。",
+      "3. sin x和tan x是（[[奇函数]]），cos x是偶函数。"
+    ],
+    "selfTests": [
+      {
+        "q": "如何快速区分正弦、余弦和正切图像？",
+        "a": "看x=0处函数值、是否有界及是否存在竖直渐近线。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/math-function-graphs/image16.png",
+      "./imports/day-05/math-function-graphs/image17.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "三角函数识图看起点、周期、有界性和渐近线。",
+      "core": [
+        "sin：过原点、奇、周期2π。",
+        "cos：过(0,1)、偶、周期2π。",
+        "tan：过原点、奇、周期π、有渐近线。"
+      ],
+      "method": [
+        "先看有无渐近线，再看x=0处取值。"
+      ],
+      "mistakes": [
+        "不要把tan的周期写成2π。"
+      ],
+      "conclusion": "正余2π有界，正切π无界有渐近线。",
+      "mnemonic": "正弦零起，余弦一起，正切竖线周期π",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "category": "函数图像",
+    "range": "函数图像 · 第5天 · 7.19",
+    "id": "D05-MATH-GRAPH-005",
+    "order": 88,
+    "title": "函数图像5——反三角函数",
+    "oneLine": "反正弦、反余弦和反正切的定义域、值域与单调性决定图像形状。",
+    "keywords": [
+      "arcsin x",
+      "arccos x",
+      "arctan x",
+      "反三角函数"
+    ],
+    "mustPatterns": [
+      "arcsin x定义域[-1,1]，值域[-π/2,π/2]，单调递增。",
+      "arccos x定义域[-1,1]，值域[0,π]，单调递减。",
+      "arctan x定义域R，值域(-π/2,π/2)，单调递增。"
+    ],
+    "basicExplain": [
+      "反函数图像由原函数限制到单调区间后关于y=x对称得到。"
+    ],
+    "examRefine": [
+      "牢记定义域和值域互换，以及arccos的值域是[0,π]。"
+    ],
+    "confusions": [
+      [
+        "arcsin x",
+        "arccos x",
+        "前者递增且过原点；后者递减且过(0,π/2)。"
+      ],
+      [
+        "arctan x",
+        "tan x",
+        "二者定义域和值域互换，图像关于y=x对称（在主值区间）。"
+      ]
+    ],
+    "clozeLines": [
+      "1. arcsin x定义域为（[[−1≤x≤1]]），值域为（[[−π/2≤y≤π/2]]）。",
+      "2. arccos x值域为（[[0≤y≤π]]），且单调（[[递减]]）。",
+      "3. arctan x定义域为（[[R]]），值域为（[[−π/2<y<π/2]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么arccos x是递减函数？",
+        "a": "因为cos x在选定的主值区间[0,π]上单调递减，其反函数也递减。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/math-function-graphs/image18.png",
+      "./imports/day-05/math-function-graphs/image19.png",
+      "./imports/day-05/math-function-graphs/image20.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "反三角函数由主值区间上的三角函数取反得到，重点记定义域、值域和增减性。",
+      "core": [
+        "arcsin：[-1,1]→[-π/2,π/2]，增。",
+        "arccos：[-1,1]→[0,π]，减。",
+        "arctan：R→(-π/2,π/2)，增。"
+      ],
+      "method": [
+        "将原函数图像关于y=x对称，并交换定义域和值域。"
+      ],
+      "mistakes": [
+        "arccos值域不是[-π/2,π/2]。"
+      ],
+      "conclusion": "反正弦增、反余弦减、反正切增。",
+      "mnemonic": "反弦半π增，反余0到π减，反切全实数增",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+    "category": "系统软件",
+    "range": "系统软件 · 第5天 · 7.19",
+    "id": "D05-COMP-SW-001",
+    "order": 89,
+    "title": "高级语言",
+    "oneLine": "高级语言接近自然语言，分面向对象与面向过程，需翻译后执行。",
+    "keywords": [
+      "高级语言",
+      "源程序",
+      "Java",
+      "Python",
+      "面向对象",
+      "面向过程",
+      "解释型"
+    ],
+    "mustPatterns": [
+      "用高级语言编写的程序称为高级语言源程序。",
+      "Java是跨平台、采用虚拟机技术的面向对象解释型语言。",
+      "高级语言可分为面向对象和面向过程。",
+      "Python是面向对象的解释型语言。"
+    ],
+    "basicExplain": [
+      "高级语言不能由CPU直接执行，必须经编译或解释转换。"
+    ],
+    "examRefine": [
+      "区分源程序、目标程序以及编译型/解释型。"
+    ],
+    "confusions": [
+      [
+        "高级语言",
+        "机器语言",
+        "高级语言便于人读写；机器语言可直接执行。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 用高级语言编写的程序称为（[[高级语言源程序]]）。",
+      "2. Java具有（[[跨平台]]）特点，采用虚拟机技术。",
+      "3. 高级语言分为面向（[[对象]]）和面向（[[过程]]）。",
+      "4. Python是面向对象的（[[解释型]]）语言。"
+    ],
+    "selfTests": [
+      {
+        "q": "高级语言程序为什么不能直接被计算机执行？",
+        "a": "CPU只能直接执行机器语言，需要编译或解释转换。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/computer-software/image21.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "高级语言面向人，机器语言面向机器，高级语言必须翻译后执行。",
+      "core": [
+        "高级语言源程序。",
+        "面向对象/面向过程。",
+        "Java跨平台，Python常作为解释型语言。"
+      ],
+      "method": [
+        "语言题先判断是否可直接执行，再判断翻译方式。"
+      ],
+      "mistakes": [
+        "不要把高级语言源程序称为目标程序。"
+      ],
+      "conclusion": "高级语言易读写，但不能直接执行。",
+      "mnemonic": "高级给人写，翻译给机跑",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+    "category": "系统软件",
+    "range": "系统软件 · 第5天 · 7.19",
+    "id": "D05-COMP-SW-002",
+    "order": 90,
+    "title": "汇编语言",
+    "oneLine": "汇编语言用助记符替代二进制指令，仍需汇编程序翻译。",
+    "keywords": [
+      "汇编语言",
+      "助记符",
+      "难记难读",
+      "汇编程序"
+    ],
+    "mustPatterns": [
+      "汇编语言在机器语言基础上增加助记符。",
+      "助记符在一定程度上改善机器语言难记难读的缺点。",
+      "汇编语言仍需通过汇编程序转换为机器语言。"
+    ],
+    "basicExplain": [
+      "汇编语言与硬件结构联系紧密，属于低级语言。"
+    ],
+    "examRefine": [
+      "汇编语言不等于机器语言，也不能被CPU直接执行。"
+    ],
+    "confusions": [
+      [
+        "汇编语言",
+        "机器语言",
+        "汇编语言有助记符；机器语言是二进制编码。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 汇编语言在机器语言基础上增加了（[[助记符]]）。",
+      "2. 助记符改善了机器语言（[[难记难读]]）的缺点。",
+      "3. 汇编语言需经（[[汇编程序]]）翻译。"
+    ],
+    "selfTests": [
+      {
+        "q": "汇编语言能否直接执行？",
+        "a": "不能，需汇编成机器语言。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/computer-software/image22.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "汇编语言是带助记符的低级语言，比机器语言易读，但仍要翻译。",
+      "core": [
+        "机器语言基础＋助记符。",
+        "改善难记难读。",
+        "需汇编程序。"
+      ],
+      "method": [
+        "看到助记符就联想到汇编语言。"
+      ],
+      "mistakes": [
+        "汇编语言不能直接执行。"
+      ],
+      "conclusion": "汇编语言用助记符，需汇编后执行。",
+      "mnemonic": "助记符＝汇编，二进制＝机器",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+    "category": "系统软件",
+    "range": "系统软件 · 第5天 · 7.19",
+    "id": "D05-COMP-SW-003",
+    "order": 91,
+    "title": "机器语言",
+    "oneLine": "机器语言由二进制编码构成，是计算机唯一能直接执行的语言。",
+    "keywords": [
+      "机器语言",
+      "二进制编码",
+      "直接执行"
+    ],
+    "mustPatterns": [
+      "机器语言由二进制编码构成。",
+      "机器语言能够被计算机直接执行。"
+    ],
+    "basicExplain": [
+      "CPU硬件直接识别和执行机器指令。"
+    ],
+    "examRefine": [
+      "唯一可直接执行的程序语言是机器语言。"
+    ],
+    "confusions": [
+      [
+        "机器语言",
+        "高级语言",
+        "前者可直接执行；后者需翻译。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 由（[[二进制编码]]）构成的语言是机器语言。",
+      "2. 机器语言能够被计算机（[[直接执行]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "计算机唯一能直接执行哪种语言？",
+        "a": "机器语言。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/computer-software/image23.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "机器语言是CPU直接识别的二进制指令。",
+      "core": [
+        "二进制编码。",
+        "无需翻译，直接执行。"
+      ],
+      "method": [
+        "题目出现“直接执行”优先机器语言。"
+      ],
+      "mistakes": [
+        "汇编语言也不能直接执行。"
+      ],
+      "conclusion": "只有机器语言可以直接执行。",
+      "mnemonic": "二进制，机器识，直接跑",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+    "category": "系统软件",
+    "range": "系统软件 · 第5天 · 7.19",
+    "id": "D05-COMP-SW-004",
+    "order": 92,
+    "title": "编译程序",
+    "oneLine": "编译程序把整个源程序一次性翻译成目标程序。",
+    "keywords": [
+      "编译程序",
+      "源程序",
+      "目标程序",
+      "编译"
+    ],
+    "mustPatterns": [
+      "C语言源程序变为目标程序必须经过编译。",
+      "编译程序会产生目标程序。"
+    ],
+    "basicExplain": [
+      "编译通常先生成可供后续链接/执行的目标代码，之后运行不必逐句重新翻译。"
+    ],
+    "examRefine": [
+      "编译与解释的核心区别是是否产生目标程序。"
+    ],
+    "confusions": [
+      [
+        "编译程序",
+        "解释程序",
+        "编译产生目标程序；解释不产生。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 用C语言编制的源程序变为目标程序，必须经过（[[编译]]）过程。",
+      "2. 编译程序会产生（[[目标程序]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "编译程序和解释程序最关键的区别是什么？",
+        "a": "编译程序产生目标程序，解释程序不产生。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/computer-software/image24.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "编译是先整体翻译并生成目标程序，再执行。",
+      "core": [
+        "源程序→编译→目标程序。",
+        "编译会产生目标程序。"
+      ],
+      "method": [
+        "看到目标程序，优先判断为编译。"
+      ],
+      "mistakes": [
+        "不要把“边解释边执行”写成编译。"
+      ],
+      "conclusion": "编译产生目标程序。",
+      "mnemonic": "编译先成品，解释边走边译",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+    "category": "系统软件",
+    "range": "系统软件 · 第5天 · 7.19",
+    "id": "D05-COMP-SW-005",
+    "order": 93,
+    "title": "系统软件的概念",
+    "oneLine": "系统软件管理和控制计算机资源，核心是操作系统。",
+    "keywords": [
+      "系统软件",
+      "操作系统",
+      "语言处理程序",
+      "数据库管理系统",
+      "应用软件"
+    ],
+    "mustPatterns": [
+      "系统软件包括操作系统、程序设计语言、语言处理程序和数据库管理系统。",
+      "系统软件的核心是操作系统。",
+      "计算机软件系统分为系统软件和应用软件。",
+      "程序、数据及相关文档资料统称软件。"
+    ],
+    "basicExplain": [
+      "系统软件服务于计算机系统运行，应用软件服务于具体用户任务。"
+    ],
+    "examRefine": [
+      "操作系统是系统软件核心；数据库管理系统属于系统软件。"
+    ],
+    "confusions": [
+      [
+        "系统软件",
+        "应用软件",
+        "系统软件管理系统资源；应用软件解决具体问题。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 系统软件包括（[[操作系统]]）、程序设计语言、（[[语言处理程序]]）和（[[数据库管理系统]]）。",
+      "2. 系统软件的核心是（[[操作系统]]）。",
+      "3. 软件系统分为（[[系统软件]]）和（[[应用软件]]）。",
+      "4. 程序、数据及相关文档资料统称（[[软件]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "数据库管理系统属于系统软件还是应用软件？",
+        "a": "系统软件。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/computer-software/image25.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "系统软件负责让计算机系统正常运行和管理资源，操作系统是核心。",
+      "core": [
+        "系统软件：操作系统、语言/语言处理、数据库管理系统。",
+        "核心：操作系统。",
+        "软件＝程序＋数据＋文档。"
+      ],
+      "method": [
+        "判断软件类型时看它是管理系统还是解决具体业务。"
+      ],
+      "mistakes": [
+        "不要把数据库管理系统误判为普通应用软件。"
+      ],
+      "conclusion": "系统软件管系统，应用软件办具体事。",
+      "mnemonic": "系统软件四类，核心操作系统",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
+  },
+  {
+    "importBatchId": "date-2026-07-19",
+    "importDay": 5,
+    "importDate": "2026-07-19",
+    "importLabel": "第5天 · 7.19",
+    "batch": "第5天持续导入｜2026年7月19日",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在 2026-07-19 上传的7页Word资料及其中原始截图人工整理并核对。",
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-19",
+        "day": 5,
+        "date": "2026-07-19",
+        "label": "第5天 · 7.19",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+    "category": "系统软件",
+    "range": "系统软件 · 第5天 · 7.19",
+    "id": "D05-COMP-SW-006",
+    "order": 94,
+    "title": "解释程序",
+    "oneLine": "解释程序逐句翻译并立即执行，不生成独立目标程序。",
+    "keywords": [
+      "解释程序",
+      "目标程序",
+      "逐句翻译",
+      "即时执行"
+    ],
+    "mustPatterns": [
+      "编译程序会产生目标程序，解释程序不会产生目标程序。",
+      "解释方式通常边翻译边执行。"
+    ],
+    "basicExplain": [
+      "解释程序每次运行时都要参与翻译，因此不先生成完整目标代码。"
+    ],
+    "examRefine": [
+      "是否产生目标程序是编译/解释辨析的高频考点。"
+    ],
+    "confusions": [
+      [
+        "解释程序",
+        "编译程序",
+        "解释不产生目标程序；编译产生。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 编译程序会产生（[[目标程序]]），而（[[解释程序]]）不会产生。",
+      "2. 解释程序通常采用（[[逐句翻译并执行]]）的方式。"
+    ],
+    "selfTests": [
+      {
+        "q": "解释程序会不会生成独立目标程序？",
+        "a": "不会。"
+      }
+    ],
+    "images": [
+      "./imports/day-05/computer-software/image26.png"
+    ],
+    "sourceFiles": [
+      "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
+    ],
+    "notebookSummary": {
+      "overview": "解释方式边翻译边执行，不留下独立目标程序。",
+      "core": [
+        "解释不产生目标程序。",
+        "运行时逐句翻译执行。"
+      ],
+      "method": [
+        "看到“不产生目标程序”选解释。"
+      ],
+      "mistakes": [
+        "不要把解释程序与汇编程序混淆。"
+      ],
+      "conclusion": "解释不产目标程序，编译会产。",
+      "mnemonic": "解释边译边跑，编译先生成",
+      "sourceLabel": "第5天 · 7.19 · 知识点背诵"
+    }
   }
 ];
 
 window.KNOWLEDGE_META = {
-  "version": "v41 第3天持续导入与笔记本总结版",
-  "name": "全新题库｜7.15第1天 + 7.16第2天 + 7.17第3天｜计算机、英语、数学分科持续导入",
-  "totalCards": 65,
+  "version": "v43 日期纠正与第5天持续导入版",
+  "name": "全新题库｜7.15第1天、7.16第2天、7.17第3天、7.18第4天、7.19第5天｜分科分区持续导入",
+  "totalCards": 94,
   "notes": [
     "本版本从v25空题库建立，不包含旧题库知识点。",
     "2026年7月15日固定为第1天；同一自然日期无论导入多少次，仍属于第1天。",
@@ -6946,7 +9552,10 @@ window.KNOWLEDGE_META = {
     "侧边栏新增“导出笔记本总结”，可将全部卡片总结按学科和日期导出为TXT，方便打印或誊写。",
     "2026年7月17日记录为第3天；同一天继续发送资料仍归入第3天。",
     "本次新增19张独立卡：计算机4张、英语14张、数学1张；未覆盖原卡。",
-    "所有新增卡均已配置“笔记本总结”；两份计算机PDF作为独立PDF资料整理卡保存。"
+    "所有新增卡均已配置“笔记本总结”；两份计算机PDF作为独立PDF资料整理卡保存。",
+    "日期纠正：v42新增的8张卡应归入2026年7月18日第4天，已修正日期、导入记录和图片目录；卡片ID保持不变。",
+    "2026年7月19日记录为第5天，本次7页Word共26张截图，合并连续页后整理为21张新卡：英语10、数学5、计算机6。",
+    "全部新卡均配置填空、自测、理解说明、易错点、原始截图和笔记本总结。"
   ],
   "chapters": {
     "全部": [
@@ -6954,19 +9563,29 @@ window.KNOWLEDGE_META = {
       "英语｜第一章 基础语法｜名词",
       "英语｜第一章 基础语法｜句子结构",
       "数学｜第一章 函数｜1.1 函数概念与定义域",
-      "数学｜第一章 函数｜1.2 反函数"
+      "数学｜第一章 函数｜1.2 反函数",
+      "英语｜第一章 基础语法｜代词",
+      "数学｜第一章 函数｜1.3 函数的性质",
+      "英语｜第一章 基础语法｜代词与不定代词",
+      "数学｜第一章 函数｜1.2 基本初等函数图像",
+      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成"
     ],
     "计算机": [
-      "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础"
+      "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成"
     ],
     "英语": [
       "英语｜第一章 基础语法｜名词",
-      "英语｜第一章 基础语法｜句子结构"
+      "英语｜第一章 基础语法｜句子结构",
+      "英语｜第一章 基础语法｜代词",
+      "英语｜第一章 基础语法｜代词与不定代词"
     ],
     "考点必背": [],
     "数学": [
       "数学｜第一章 函数｜1.1 函数概念与定义域",
-      "数学｜第一章 函数｜1.2 反函数"
+      "数学｜第一章 函数｜1.2 反函数",
+      "数学｜第一章 函数｜1.3 函数的性质",
+      "数学｜第一章 函数｜1.2 基本初等函数图像"
     ]
   },
   "recordTypes": [
@@ -7163,11 +9782,11 @@ window.KNOWLEDGE_META = {
       "day": 3,
       "date": "2026-07-17",
       "label": "第3天 · 7.17",
-      "title": "第3天｜计算机发展、英语名词与数学反函数",
+      "title": "第3天｜计算机发展、英语名词、数学反函数",
       "subject": "计算机、英语、数学",
       "count": 19,
       "category": "知识点、笔记与PDF资料分开记录",
-      "description": "7月17日为第3天。本次导入计算机发展趋势与两份PDF、英语名词的数与不可数名词、数学反函数笔记；所有卡片均生成笔记本总结。",
+      "description": "7月17日为第3天，共导入19张：计算机发展/PDF专题、英语名词知识点与笔记、数学反函数笔记。",
       "images": [
         "./imports/day-03/computer-trends/hardware-development.png",
         "./imports/day-03/computer-trends/four-trends.png",
@@ -7193,7 +9812,7 @@ window.KNOWLEDGE_META = {
         {
           "recordType": "知识点背诵",
           "count": 15,
-          "action": "新增15张",
+          "action": "当前共15张",
           "titles": [
             "硬件上的发展",
             "四个化",
@@ -7238,6 +9857,128 @@ window.KNOWLEDGE_META = {
           ]
         }
       ]
+    },
+    {
+      "id": "date-2026-07-18",
+      "day": 4,
+      "date": "2026-07-18",
+      "label": "第4天 · 7.18",
+      "title": "第4天｜计算机分类、反身代词与函数性质",
+      "subject": "计算机、英语、数学",
+      "count": 8,
+      "category": "知识点背诵",
+      "description": "原v42新增的8张卡已纠正为7月18日第4天，卡片ID保持不变以保留学习记录。",
+      "images": [
+        "./imports/day-04/computer-classification/by-performance.png",
+        "./imports/day-04/computer-classification/by-principle.png",
+        "./imports/day-04/computer-classification/by-purpose.png",
+        "./imports/day-04/english-pronouns/reflexive-pronouns-1.png",
+        "./imports/day-04/english-pronouns/reflexive-pronouns-2.png",
+        "./imports/day-04/math-function-properties/parity-definition.png",
+        "./imports/day-04/math-function-properties/common-odd-functions.png",
+        "./imports/day-04/math-function-properties/common-even-functions.png",
+        "./imports/day-04/math-function-properties/common-bounded-functions.png"
+      ],
+      "records": [
+        {
+          "recordType": "知识点背诵",
+          "count": 8,
+          "action": "新增8张",
+          "titles": [
+            "按运算速度与性能分类",
+            "按工作原理分类",
+            "按功能用途分类",
+            "反身代词",
+            "奇偶性1——奇偶性定义",
+            "奇偶性2——常见奇函数",
+            "奇偶性3——常见偶函数",
+            "有界——常见有界函数"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "date-2026-07-19",
+      "day": 5,
+      "date": "2026-07-19",
+      "label": "第5天 · 7.19",
+      "title": "第5天｜代词辨析、基本函数图像与系统软件",
+      "subject": "英语、数学、计算机",
+      "count": 21,
+      "category": "知识点背诵与原图整理",
+      "description": "7月19日为第5天。本次将7页Word中的26张截图合并整理为21张独立卡：英语10张、数学5张、计算机6张。",
+      "images": [
+        "./imports/day-05/english-pronouns/image1.png",
+        "./imports/day-05/english-pronouns/image2.png",
+        "./imports/day-05/english-pronouns/image3.png",
+        "./imports/day-05/english-pronouns/image4.png",
+        "./imports/day-05/english-pronouns/image5.png",
+        "./imports/day-05/english-pronouns/image6.png",
+        "./imports/day-05/english-pronouns/image7.png",
+        "./imports/day-05/english-pronouns/image8.png",
+        "./imports/day-05/english-pronouns/image9.png",
+        "./imports/day-05/english-pronouns/image10.png",
+        "./imports/day-05/english-pronouns/image11.png",
+        "./imports/day-05/english-pronouns/image12.png",
+        "./imports/day-05/math-function-graphs/image13.png",
+        "./imports/day-05/math-function-graphs/image15.png",
+        "./imports/day-05/math-function-graphs/image14.png",
+        "./imports/day-05/math-function-graphs/image16.png",
+        "./imports/day-05/math-function-graphs/image17.png",
+        "./imports/day-05/math-function-graphs/image18.png",
+        "./imports/day-05/math-function-graphs/image19.png",
+        "./imports/day-05/math-function-graphs/image20.png",
+        "./imports/day-05/computer-software/image21.png",
+        "./imports/day-05/computer-software/image22.png",
+        "./imports/day-05/computer-software/image23.png",
+        "./imports/day-05/computer-software/image24.png",
+        "./imports/day-05/computer-software/image25.png",
+        "./imports/day-05/computer-software/image26.png"
+      ],
+      "records": [
+        {
+          "recordType": "知识点背诵",
+          "count": 10,
+          "action": "英语新增10张",
+          "titles": [
+            "指示代词：that与those",
+            "it、one、that、those辨析",
+            "one、the one、ones、the ones",
+            "other、the other、others、the others、another",
+            "all、none、both、either、neither",
+            "each与every",
+            "some与any",
+            "few、a few、little、a little",
+            "many与much",
+            "复合不定代词"
+          ]
+        },
+        {
+          "recordType": "知识点背诵",
+          "count": 5,
+          "action": "数学新增5张",
+          "titles": [
+            "函数图像1——幂函数",
+            "函数图像2——指数函数",
+            "函数图像3——对数函数",
+            "函数图像4——三角函数",
+            "函数图像5——反三角函数"
+          ]
+        },
+        {
+          "recordType": "知识点背诵",
+          "count": 6,
+          "action": "计算机新增6张",
+          "titles": [
+            "高级语言",
+            "汇编语言",
+            "机器语言",
+            "编译程序",
+            "系统软件的概念",
+            "解释程序"
+          ]
+        }
+      ]
     }
   ],
   "sourceOutline": {
@@ -7262,7 +10003,7 @@ window.KNOWLEDGE_META = {
       {
         "name": "计算机的分类",
         "expected": 3,
-        "imported": 0
+        "imported": 3
       },
       {
         "name": "计算机性能指标",
@@ -7286,5 +10027,5 @@ window.KNOWLEDGE_META = {
     "录屏2": 0
   },
   "removedOldExamCards": 0,
-  "note": "当前共65张卡：计算机17张、英语25张、数学23张；全部卡片均提供“笔记本总结”，14道数学题保留“本题原理”。"
+  "note": "当前共94张卡：计算机26张、英语36张、数学32张。7.18的8张日期已纠正；7.19新增21张。"
 };

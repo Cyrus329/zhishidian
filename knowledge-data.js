@@ -80,7 +80,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-01/von-neumann.png"
+      "./imports/day-01/von-neumann.webp"
     ],
     "sourceFiles": [
       "2026-07-15 用户截图：冯·诺依曼"
@@ -204,7 +204,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-01/turing.png"
+      "./imports/day-01/turing.webp"
     ],
     "sourceFiles": [
       "2026-07-15 用户截图：图灵"
@@ -294,7 +294,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-01/babbage.png"
+      "./imports/day-01/babbage.webp"
     ],
     "sourceFiles": [
       "2026-07-15 用户截图：巴贝奇"
@@ -375,7 +375,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-01/shannon.png"
+      "./imports/day-01/shannon.webp"
     ],
     "sourceFiles": [
       "2026-07-15 用户截图：香农"
@@ -653,7 +653,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-01/alan-turing-mindmap.png"
+      "./imports/day-01/alan-turing-mindmap.webp"
     ],
     "pdf": "./imports/day-01/alan-turing-source.pdf",
     "pdfTextLines": [
@@ -814,7 +814,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-01/alan-turing-keypoints.png"
+      "./imports/day-01/alan-turing-keypoints.webp"
     ],
     "sourceFiles": [
       "2026-07-15 用户新发图片：01-阿兰·图灵知识点图（独立图片知识点卡）"
@@ -1014,7 +1014,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/von-neumann-mindmap.png"
+      "./imports/day-02/von-neumann-mindmap.webp"
     ],
     "pdf": "./imports/day-02/von-neumann-source.pdf",
     "pdfTextLines": [
@@ -1136,7 +1136,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/von-neumann-keypoints.jpg"
+      "./imports/day-02/von-neumann-keypoints.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户新发图片：02-冯·诺依曼知识点图（独立图片知识点卡）"
@@ -1245,7 +1245,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-double-genitive.png"
+      "./imports/day-02/english-double-genitive.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：英语名词所有格—双重所有格"
@@ -1353,7 +1353,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-of-genitive.png"
+      "./imports/day-02/english-of-genitive.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：英语名词所有格—of所有格"
@@ -1472,7 +1472,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-s-genitive.png"
+      "./imports/day-02/english-s-genitive.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：英语名词所有格—'s所有格（第②—⑥条）"
@@ -1588,8 +1588,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes/image3.png",
-      "./imports/day-02/english-notes/image4.png"
+      "./imports/day-02/english-notes/image3.webp",
+      "./imports/day-02/english-notes/image4.webp"
     ],
     "sourceFiles": [
       "2026-07-16 英语课堂笔记DOCX：句子成分与可作主语的词性"
@@ -1713,11 +1713,11 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes/image5.png",
-      "./imports/day-02/english-notes/image6.png",
-      "./imports/day-02/english-notes/image7.png",
-      "./imports/day-02/english-notes/image11.png",
-      "./imports/day-02/english-notes/image13.png"
+      "./imports/day-02/english-notes/image5.webp",
+      "./imports/day-02/english-notes/image6.webp",
+      "./imports/day-02/english-notes/image7.webp",
+      "./imports/day-02/english-notes/image11.webp",
+      "./imports/day-02/english-notes/image13.webp"
     ],
     "sourceFiles": [
       "2026-07-16 英语课堂笔记DOCX：五种基本句型"
@@ -1819,8 +1819,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes/image1.png",
-      "./imports/day-02/english-notes/image2.png"
+      "./imports/day-02/english-notes/image1.webp",
+      "./imports/day-02/english-notes/image2.webp"
     ],
     "subject": "英语",
     "chapter": "英语｜第一章 基础语法｜句子结构",
@@ -1926,9 +1926,9 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes/image8.png",
-      "./imports/day-02/english-notes/image9.png",
-      "./imports/day-02/english-notes/image10.png"
+      "./imports/day-02/english-notes/image8.webp",
+      "./imports/day-02/english-notes/image9.webp",
+      "./imports/day-02/english-notes/image10.webp"
     ],
     "subject": "英语",
     "chapter": "英语｜第一章 基础语法｜句子结构",
@@ -2033,8 +2033,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes/image11.png",
-      "./imports/day-02/english-notes/image12.png"
+      "./imports/day-02/english-notes/image11.webp",
+      "./imports/day-02/english-notes/image12.webp"
     ],
     "subject": "英语",
     "chapter": "英语｜第一章 基础语法｜句子结构",
@@ -2156,11 +2156,11 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes/image14.png",
-      "./imports/day-02/english-notes/image15.png",
-      "./imports/day-02/english-notes/image16.png",
-      "./imports/day-02/english-notes/image17.png",
-      "./imports/day-02/english-notes/image18.png"
+      "./imports/day-02/english-notes/image14.webp",
+      "./imports/day-02/english-notes/image15.webp",
+      "./imports/day-02/english-notes/image16.webp",
+      "./imports/day-02/english-notes/image17.webp",
+      "./imports/day-02/english-notes/image18.webp"
     ],
     "subject": "英语",
     "chapter": "英语｜第一章 基础语法｜句子结构",
@@ -2314,11 +2314,11 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes-pdf/sentence-components/page-1.png",
-      "./imports/day-02/english-notes-pdf/sentence-components/page-2.png",
-      "./imports/day-02/english-notes-pdf/sentence-components/page-3.png",
-      "./imports/day-02/english-notes-pdf/sentence-components/page-4.png",
-      "./imports/day-02/english-notes-pdf/sentence-components/page-5.png"
+      "./imports/day-02/english-notes-pdf/sentence-components/page-1.webp",
+      "./imports/day-02/english-notes-pdf/sentence-components/page-2.webp",
+      "./imports/day-02/english-notes-pdf/sentence-components/page-3.webp",
+      "./imports/day-02/english-notes-pdf/sentence-components/page-4.webp",
+      "./imports/day-02/english-notes-pdf/sentence-components/page-5.webp"
     ],
     "pdf": "./imports/day-02/english-notes-pdf/句子成分及句子类型_扫描版.pdf",
     "sourceFiles": [
@@ -2459,11 +2459,11 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/english-notes-pdf/sentence-types/page-1.png",
-      "./imports/day-02/english-notes-pdf/sentence-types/page-2.png",
-      "./imports/day-02/english-notes-pdf/sentence-types/page-3.png",
-      "./imports/day-02/english-notes-pdf/sentence-types/page-4.png",
-      "./imports/day-02/english-notes-pdf/sentence-types/page-5.png"
+      "./imports/day-02/english-notes-pdf/sentence-types/page-1.webp",
+      "./imports/day-02/english-notes-pdf/sentence-types/page-2.webp",
+      "./imports/day-02/english-notes-pdf/sentence-types/page-3.webp",
+      "./imports/day-02/english-notes-pdf/sentence-types/page-4.webp",
+      "./imports/day-02/english-notes-pdf/sentence-types/page-5.webp"
     ],
     "pdf": "./imports/day-02/english-notes-pdf/句子类型_扫描版.pdf",
     "sourceFiles": [
@@ -2561,8 +2561,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image2.png",
-      "./imports/day-02/math-function-notes/image3.png"
+      "./imports/day-02/math-function-notes/image2.webp",
+      "./imports/day-02/math-function-notes/image3.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数的两大要素与函数相同判定"
@@ -2660,8 +2660,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image4.png",
-      "./imports/day-02/math-function-notes/image5.png"
+      "./imports/day-02/math-function-notes/image4.webp",
+      "./imports/day-02/math-function-notes/image5.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：具体函数定义域"
@@ -2762,9 +2762,9 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image1.png",
-      "./imports/day-02/math-function-notes/image2.png",
-      "./imports/day-02/math-function-notes/image3.png"
+      "./imports/day-02/math-function-notes/image1.webp",
+      "./imports/day-02/math-function-notes/image2.webp",
+      "./imports/day-02/math-function-notes/image3.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂笔记：函数概念（原Word内3张截图）"
@@ -2847,12 +2847,12 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image4.png",
-      "./imports/day-02/math-function-notes/image5.png",
-      "./imports/day-02/math-function-notes/image6.png",
-      "./imports/day-02/math-function-notes/image7.png",
-      "./imports/day-02/math-function-notes/image8.png",
-      "./imports/day-02/math-function-notes/image9.png"
+      "./imports/day-02/math-function-notes/image4.webp",
+      "./imports/day-02/math-function-notes/image5.webp",
+      "./imports/day-02/math-function-notes/image6.webp",
+      "./imports/day-02/math-function-notes/image7.webp",
+      "./imports/day-02/math-function-notes/image8.webp",
+      "./imports/day-02/math-function-notes/image9.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂笔记：定义域规则、例题与练习",
@@ -2929,7 +2929,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-KNOW-002"
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image6.png"
+      "./imports/day-02/math-function-notes/image6.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数定义域例题/练习"
@@ -3032,7 +3032,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-002"
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image7.png"
+      "./imports/day-02/math-function-notes/image7.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数定义域例题/练习"
@@ -3140,7 +3140,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-001"
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image8.png"
+      "./imports/day-02/math-function-notes/image8.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数定义域例题/练习"
@@ -3248,7 +3248,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-002"
     ],
     "images": [
-      "./imports/day-02/math-function-notes/image9.png"
+      "./imports/day-02/math-function-notes/image9.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数定义域例题/练习"
@@ -3376,10 +3376,10 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image7.png",
-      "./imports/day-02/math-function-domain-part2/image8.png",
-      "./imports/day-02/math-function-domain-part2/image9.png",
-      "./imports/day-02/math-function-domain-part2/image10.png"
+      "./imports/day-02/math-function-domain-part2/image7.webp",
+      "./imports/day-02/math-function-domain-part2/image8.webp",
+      "./imports/day-02/math-function-domain-part2/image9.webp",
+      "./imports/day-02/math-function-domain-part2/image10.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：抽象函数定义域（原Word内第7—10张）"
@@ -3479,10 +3479,10 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image3.png",
-      "./imports/day-02/math-function-domain-part2/image4.png",
-      "./imports/day-02/math-function-domain-part2/image5.png",
-      "./imports/day-02/math-function-domain-part2/image6.png"
+      "./imports/day-02/math-function-domain-part2/image3.webp",
+      "./imports/day-02/math-function-domain-part2/image4.webp",
+      "./imports/day-02/math-function-domain-part2/image5.webp",
+      "./imports/day-02/math-function-domain-part2/image6.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂笔记：具体函数与分段函数定义域",
@@ -3585,10 +3585,10 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image7.png",
-      "./imports/day-02/math-function-domain-part2/image8.png",
-      "./imports/day-02/math-function-domain-part2/image9.png",
-      "./imports/day-02/math-function-domain-part2/image10.png"
+      "./imports/day-02/math-function-domain-part2/image7.webp",
+      "./imports/day-02/math-function-domain-part2/image8.webp",
+      "./imports/day-02/math-function-domain-part2/image9.webp",
+      "./imports/day-02/math-function-domain-part2/image10.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂笔记：抽象函数定义域",
@@ -3666,7 +3666,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-001"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image1.png"
+      "./imports/day-02/math-function-domain-part2/image1.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -3776,7 +3776,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-001"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image2.png"
+      "./imports/day-02/math-function-domain-part2/image2.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -3881,7 +3881,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-003"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image3.png"
+      "./imports/day-02/math-function-domain-part2/image3.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -3986,7 +3986,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-003"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image4.png"
+      "./imports/day-02/math-function-domain-part2/image4.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4091,7 +4091,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-003"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image5.png"
+      "./imports/day-02/math-function-domain-part2/image5.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4193,7 +4193,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-003"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image6.png"
+      "./imports/day-02/math-function-domain-part2/image6.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4298,7 +4298,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-004"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image7.png"
+      "./imports/day-02/math-function-domain-part2/image7.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4403,7 +4403,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-004"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image8.png"
+      "./imports/day-02/math-function-domain-part2/image8.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4508,7 +4508,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-004"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image9.png"
+      "./imports/day-02/math-function-domain-part2/image9.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4613,7 +4613,7 @@ window.KNOWLEDGE_ITEMS = [
       "D02-MATH-NOTE-004"
     ],
     "images": [
-      "./imports/day-02/math-function-domain-part2/image10.png"
+      "./imports/day-02/math-function-domain-part2/image10.webp"
     ],
     "sourceFiles": [
       "2026-07-16 数学课堂截图：函数相同与定义域进阶"
@@ -4764,7 +4764,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/math-common-function-domains/common-function-domains.png"
+      "./imports/day-02/math-common-function-domains/common-function-domains.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：常见函数定义域"
@@ -4868,7 +4868,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/computer-history-events/computer-generations.png"
+      "./imports/day-02/computer-history-events/computer-generations.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：计算机的分代"
@@ -4954,7 +4954,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/computer-history-events/eniac.png"
+      "./imports/day-02/computer-history-events/eniac.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：ENIAC"
@@ -5028,7 +5028,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/computer-history-events/sunway-taihulight.png"
+      "./imports/day-02/computer-history-events/sunway-taihulight.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：神威·太湖之光"
@@ -5100,7 +5100,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/computer-history-events/univac.png"
+      "./imports/day-02/computer-history-events/univac.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：UNIVAC"
@@ -5173,7 +5173,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-02/computer-history-events/edvac.png"
+      "./imports/day-02/computer-history-events/edvac.webp"
     ],
     "sourceFiles": [
       "2026-07-16 用户截图：EDVAC"
@@ -5247,7 +5247,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/computer-trends/hardware-development.png"
+      "./imports/day-03/computer-trends/hardware-development.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：硬件上的发展"
@@ -5321,7 +5321,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/computer-trends/four-trends.png"
+      "./imports/day-03/computer-trends/four-trends.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：四个化"
@@ -5410,7 +5410,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/determiners-both.png"
+      "./imports/day-03/english-nouns/determiners-both.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：既可修饰可数又可修饰不可数的限定词"
@@ -5504,7 +5504,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/determiners-countable.png"
+      "./imports/day-03/english-nouns/determiners-countable.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：只能修饰可数名词的限定词"
@@ -5589,7 +5589,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/determiners-uncountable.png"
+      "./imports/day-03/english-nouns/determiners-uncountable.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：只能修饰不可数名词的限定词"
@@ -5682,7 +5682,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/irregular-plural-1.png"
+      "./imports/day-03/english-nouns/irregular-plural-1.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：不规则变化（1）"
@@ -5778,7 +5778,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/irregular-plural-2.png"
+      "./imports/day-03/english-nouns/irregular-plural-2.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：不规则变化（2）"
@@ -5872,7 +5872,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/regular-plural-1.png"
+      "./imports/day-03/english-nouns/regular-plural-1.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：规则变化（1）"
@@ -5966,7 +5966,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/regular-plural-2.png"
+      "./imports/day-03/english-nouns/regular-plural-2.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：规则变化（2）"
@@ -6060,7 +6060,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/plural-meaning-change.png"
+      "./imports/day-03/english-nouns/plural-meaning-change.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：复数表达不同意义"
@@ -6149,7 +6149,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/uncountable-group-1.png"
+      "./imports/day-03/english-nouns/uncountable-group-1.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：常见不可数名词第1组"
@@ -6238,7 +6238,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/uncountable-group-2.png"
+      "./imports/day-03/english-nouns/uncountable-group-2.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：常见不可数名词第2组"
@@ -6327,7 +6327,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/uncountable-group-3.png"
+      "./imports/day-03/english-nouns/uncountable-group-3.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：常见不可数名词第3组"
@@ -6417,7 +6417,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/uncountable-group-4.png"
+      "./imports/day-03/english-nouns/uncountable-group-4.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：常见不可数名词第4组"
@@ -6506,7 +6506,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/countable-uncountable.png"
+      "./imports/day-03/english-nouns/countable-uncountable.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：名词的可数与不可数性"
@@ -6582,7 +6582,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/english-nouns/abstract-concretization.png"
+      "./imports/day-03/english-nouns/abstract-concretization.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：抽象名词具体化"
@@ -6659,7 +6659,7 @@ window.KNOWLEDGE_ITEMS = [
     ],
     "examples": [],
     "images": [
-      "./imports/day-03/math-inverse-function/inverse-function-steps.png"
+      "./imports/day-03/math-inverse-function/inverse-function-steps.webp"
     ],
     "sourceFiles": [
       "2026-07-17 用户截图：反函数求解步骤"
@@ -6767,7 +6767,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/computer-pdf/computer-basic-03-page-1.png"
+      "./imports/day-03/computer-pdf/computer-basic-03-page-1.webp"
     ],
     "pdf": "./imports/day-03/computer-pdf/computer-basic-03-famous-computers.pdf",
     "sourceFiles": [
@@ -6867,7 +6867,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-03/computer-pdf/computer-basic-04-page-1.png"
+      "./imports/day-03/computer-pdf/computer-basic-04-page-1.webp"
     ],
     "pdf": "./imports/day-03/computer-pdf/computer-basic-04-development-stages.pdf",
     "sourceFiles": [
@@ -6987,7 +6987,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/computer-classification/by-performance.png"
+      "./imports/day-04/computer-classification/by-performance.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：按运算速度与性能分类"
@@ -7064,7 +7064,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/computer-classification/by-principle.png"
+      "./imports/day-04/computer-classification/by-principle.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：按工作原理分类"
@@ -7139,7 +7139,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/computer-classification/by-purpose.png"
+      "./imports/day-04/computer-classification/by-purpose.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：按功能用途分类"
@@ -7248,8 +7248,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/english-pronouns/reflexive-pronouns-1.png",
-      "./imports/day-04/english-pronouns/reflexive-pronouns-2.png"
+      "./imports/day-04/english-pronouns/reflexive-pronouns-1.webp",
+      "./imports/day-04/english-pronouns/reflexive-pronouns-2.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：反身代词（两页连续内容）"
@@ -7346,7 +7346,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/math-function-properties/parity-definition.png"
+      "./imports/day-04/math-function-properties/parity-definition.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：奇偶性定义"
@@ -7437,7 +7437,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/math-function-properties/common-odd-functions.png"
+      "./imports/day-04/math-function-properties/common-odd-functions.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：常见奇函数"
@@ -7523,7 +7523,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/math-function-properties/common-even-functions.png"
+      "./imports/day-04/math-function-properties/common-even-functions.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：常见偶函数"
@@ -7612,7 +7612,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-04/math-function-properties/common-bounded-functions.png"
+      "./imports/day-04/math-function-properties/common-bounded-functions.webp"
     ],
     "sourceFiles": [
       "2026-07-18 用户截图：常见有界函数"
@@ -7698,7 +7698,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image1.png"
+      "./imports/day-05/english-pronouns/image1.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -7793,7 +7793,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image2.png"
+      "./imports/day-05/english-pronouns/image2.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -7889,7 +7889,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image3.png"
+      "./imports/day-05/english-pronouns/image3.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -7987,8 +7987,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image4.png",
-      "./imports/day-05/english-pronouns/image5.png"
+      "./imports/day-05/english-pronouns/image4.webp",
+      "./imports/day-05/english-pronouns/image5.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8084,7 +8084,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image6.png"
+      "./imports/day-05/english-pronouns/image6.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8176,8 +8176,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image7.png",
-      "./imports/day-05/english-pronouns/image8.png"
+      "./imports/day-05/english-pronouns/image7.webp",
+      "./imports/day-05/english-pronouns/image8.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8266,7 +8266,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image9.png"
+      "./imports/day-05/english-pronouns/image9.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8360,7 +8360,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image10.png"
+      "./imports/day-05/english-pronouns/image10.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8444,7 +8444,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image11.png"
+      "./imports/day-05/english-pronouns/image11.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8531,7 +8531,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/english-pronouns/image12.png"
+      "./imports/day-05/english-pronouns/image12.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8616,7 +8616,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/math-function-graphs/image13.png"
+      "./imports/day-05/math-function-graphs/image13.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8703,7 +8703,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/math-function-graphs/image15.png"
+      "./imports/day-05/math-function-graphs/image15.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8790,7 +8790,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/math-function-graphs/image14.png"
+      "./imports/day-05/math-function-graphs/image14.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8881,8 +8881,8 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/math-function-graphs/image16.png",
-      "./imports/day-05/math-function-graphs/image17.png"
+      "./imports/day-05/math-function-graphs/image16.webp",
+      "./imports/day-05/math-function-graphs/image17.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -8973,9 +8973,9 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/math-function-graphs/image18.png",
-      "./imports/day-05/math-function-graphs/image19.png",
-      "./imports/day-05/math-function-graphs/image20.png"
+      "./imports/day-05/math-function-graphs/image18.webp",
+      "./imports/day-05/math-function-graphs/image19.webp",
+      "./imports/day-05/math-function-graphs/image20.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9066,7 +9066,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/computer-software/image21.png"
+      "./imports/day-05/computer-software/image21.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9152,7 +9152,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/computer-software/image22.png"
+      "./imports/day-05/computer-software/image22.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9235,7 +9235,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/computer-software/image23.png"
+      "./imports/day-05/computer-software/image23.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9318,7 +9318,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/computer-software/image24.png"
+      "./imports/day-05/computer-software/image24.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9406,7 +9406,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/computer-software/image25.png"
+      "./imports/day-05/computer-software/image25.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9490,7 +9490,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "images": [
-      "./imports/day-05/computer-software/image26.png"
+      "./imports/day-05/computer-software/image26.webp"
     ],
     "sourceFiles": [
       "2026-07-19 用户上传Word：cbb9d54c-602f-4f48-b2b5-334d1885dd66.docx"
@@ -9511,13 +9511,5251 @@ window.KNOWLEDGE_ITEMS = [
       "mnemonic": "解释边译边跑，编译先生成",
       "sourceLabel": "第5天 · 7.19 · 知识点背诵"
     }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "性能指标",
+    "range": "性能指标 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-001",
+    "order": 95,
+    "title": "字长",
+    "oneLine": "字长是CPU一次能够处理的二进制位数，字长越长，处理能力通常越强。",
+    "keywords": [
+      "字长",
+      "通常所说的CPU位数就是CPU的字长",
+      "字长越长"
+    ],
+    "mustPatterns": [
+      "通常所说的CPU位数就是CPU的字长。",
+      "字长越长，CPU的数据处理能力通常越强。"
+    ],
+    "basicExplain": [
+      "字长是CPU一次能够处理的二进制位数，字长越长，处理能力通常越强。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：通常所说的CPU位数就是CPU的字长。；字长越长，CPU的数据处理能力通常越强。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 通常所说的CPU位数就是CPU的（[[字长]]）。",
+      "2. 一般来说，CPU字长越长，处理能力越（[[强]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“字长”最核心的结论是什么？",
+        "a": "通常所说的CPU位数就是CPU的字长。；字长越长，CPU的数据处理能力通常越强。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image1.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "字长是CPU一次能够处理的二进制位数，字长越长，处理能力通常越强。",
+      "core": [
+        "通常所说的CPU位数就是CPU的字长。",
+        "字长越长，CPU的数据处理能力通常越强。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "通常所说的CPU位数就是CPU的字长。；字长越长，CPU的数据处理能力通常越强。",
+      "mnemonic": "CPU位数＝字长",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "性能指标",
+    "range": "性能指标 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-002",
+    "order": 96,
+    "title": "主频",
+    "oneLine": "主频反映CPU单位时间内产生时钟脉冲的次数，常用GHz表示。",
+    "keywords": [
+      "主频",
+      "主频是CPU单位时间内产生时钟脉冲的次数",
+      "主频常用GHz作为单位",
+      "其他条件相同时"
+    ],
+    "mustPatterns": [
+      "主频是CPU单位时间内产生时钟脉冲的次数。",
+      "主频常用GHz作为单位。",
+      "其他条件相同时，主频越高，运算速度通常越快。"
+    ],
+    "basicExplain": [
+      "主频反映CPU单位时间内产生时钟脉冲的次数，常用GHz表示。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：主频是CPU单位时间内产生时钟脉冲的次数。；主频常用GHz作为单位。；其他条件相同时，主频越高，运算速度通常越快。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. CPU在单位时间内产生时钟脉冲的次数称为（[[主频]]）。",
+      "2. 主频常用（[[GHz]]）表示。"
+    ],
+    "selfTests": [
+      {
+        "q": "“主频”最核心的结论是什么？",
+        "a": "主频是CPU单位时间内产生时钟脉冲的次数。；主频常用GHz作为单位。；其他条件相同时，主频越高，运算速度通常越快。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image2.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "主频反映CPU单位时间内产生时钟脉冲的次数，常用GHz表示。",
+      "core": [
+        "主频是CPU单位时间内产生时钟脉冲的次数。",
+        "主频常用GHz作为单位。",
+        "其他条件相同时，主频越高，运算速度通常越快。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "主频是CPU单位时间内产生时钟脉冲的次数。；主频常用GHz作为单位。；其他条件相同时，主频越高，运算速度通常越快。",
+      "mnemonic": "主频看时钟，单位GHz",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "性能指标",
+    "range": "性能指标 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-003",
+    "order": 97,
+    "title": "内存容量",
+    "oneLine": "内存容量通常指RAM可存储数据的大小，是衡量计算机性能的重要指标。",
+    "keywords": [
+      "内存容量",
+      "内存容量通常指随机存取存储器RAM的容量",
+      "内存容量是计算机性能的重要指标之一"
+    ],
+    "mustPatterns": [
+      "内存容量通常指随机存取存储器RAM的容量。",
+      "内存容量是计算机性能的重要指标之一。"
+    ],
+    "basicExplain": [
+      "内存容量通常指RAM可存储数据的大小，是衡量计算机性能的重要指标。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：内存容量通常指随机存取存储器RAM的容量。；内存容量是计算机性能的重要指标之一。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 内存容量通常指（[[RAM]]）的容量。",
+      "2. 内存容量是衡量计算机（[[性能]]）的重要指标之一。"
+    ],
+    "selfTests": [
+      {
+        "q": "“内存容量”最核心的结论是什么？",
+        "a": "内存容量通常指随机存取存储器RAM的容量。；内存容量是计算机性能的重要指标之一。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image3.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "内存容量通常指RAM可存储数据的大小，是衡量计算机性能的重要指标。",
+      "core": [
+        "内存容量通常指随机存取存储器RAM的容量。",
+        "内存容量是计算机性能的重要指标之一。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "内存容量通常指随机存取存储器RAM的容量。；内存容量是计算机性能的重要指标之一。",
+      "mnemonic": "内存容量看RAM",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "性能指标",
+    "range": "性能指标 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-004",
+    "order": 98,
+    "title": "可靠性",
+    "oneLine": "可靠性是计算机在规定条件和时间内无故障工作的能力，常用MTBF衡量。",
+    "keywords": [
+      "可靠性",
+      "可靠性表示计算机在规定条件和时间内无故障工作的能力",
+      "可靠性常用平均无故障时间MTBF衡量"
+    ],
+    "mustPatterns": [
+      "可靠性表示计算机在规定条件和时间内无故障工作的能力。",
+      "可靠性常用平均无故障时间MTBF衡量。"
+    ],
+    "basicExplain": [
+      "可靠性是计算机在规定条件和时间内无故障工作的能力，常用MTBF衡量。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：可靠性表示计算机在规定条件和时间内无故障工作的能力。；可靠性常用平均无故障时间MTBF衡量。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机在规定条件和时间内无故障工作的能力称为（[[可靠性]]）。",
+      "2. 平均无故障时间的英文缩写是（[[MTBF]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“可靠性”最核心的结论是什么？",
+        "a": "可靠性表示计算机在规定条件和时间内无故障工作的能力。；可靠性常用平均无故障时间MTBF衡量。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image4.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "可靠性是计算机在规定条件和时间内无故障工作的能力，常用MTBF衡量。",
+      "core": [
+        "可靠性表示计算机在规定条件和时间内无故障工作的能力。",
+        "可靠性常用平均无故障时间MTBF衡量。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "可靠性表示计算机在规定条件和时间内无故障工作的能力。；可靠性常用平均无故障时间MTBF衡量。",
+      "mnemonic": "可靠性看MTBF",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "性能指标",
+    "range": "性能指标 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-005",
+    "order": 99,
+    "title": "运算速度",
+    "oneLine": "运算速度常用每秒执行百万条指令数MIPS表示。",
+    "keywords": [
+      "运算速度",
+      "运算速度可用MIPS表示",
+      "MIPS表示每秒执行百万条指令数"
+    ],
+    "mustPatterns": [
+      "运算速度可用MIPS表示。",
+      "MIPS表示每秒执行百万条指令数。"
+    ],
+    "basicExplain": [
+      "运算速度常用每秒执行百万条指令数MIPS表示。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：运算速度可用MIPS表示。；MIPS表示每秒执行百万条指令数。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 运算速度常用（[[MIPS]]）表示。",
+      "2. MIPS表示每秒执行（[[百万]]）条指令。"
+    ],
+    "selfTests": [
+      {
+        "q": "“运算速度”最核心的结论是什么？",
+        "a": "运算速度可用MIPS表示。；MIPS表示每秒执行百万条指令数。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image5.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "运算速度常用每秒执行百万条指令数MIPS表示。",
+      "core": [
+        "运算速度可用MIPS表示。",
+        "MIPS表示每秒执行百万条指令数。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "运算速度可用MIPS表示。；MIPS表示每秒执行百万条指令数。",
+      "mnemonic": "速度单位MIPS",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "性能指标",
+    "range": "性能指标 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-006",
+    "order": 100,
+    "title": "机器字",
+    "oneLine": "机器字是计算机一次能够直接处理的一组二进制位。",
+    "keywords": [
+      "机器字",
+      "机器字由若干二进制位组成",
+      "计算机一次能够处理的二进制位数与字长有关"
+    ],
+    "mustPatterns": [
+      "机器字由若干二进制位组成。",
+      "计算机一次能够处理的二进制位数与字长有关。"
+    ],
+    "basicExplain": [
+      "机器字是计算机一次能够直接处理的一组二进制位。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：机器字由若干二进制位组成。；计算机一次能够处理的二进制位数与字长有关。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 机器字由若干（[[二进制位]]）组成。",
+      "2. 计算机一次能够处理的二进制位数称为（[[字长]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“机器字”最核心的结论是什么？",
+        "a": "机器字由若干二进制位组成。；计算机一次能够处理的二进制位数与字长有关。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image6.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "机器字是计算机一次能够直接处理的一组二进制位。",
+      "core": [
+        "机器字由若干二进制位组成。",
+        "计算机一次能够处理的二进制位数与字长有关。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "机器字由若干二进制位组成。；计算机一次能够处理的二进制位数与字长有关。",
+      "mnemonic": "机器字＝一次处理的一串二进制",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机特点",
+    "range": "计算机特点 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-007",
+    "order": 101,
+    "title": "计算机的特点",
+    "oneLine": "计算机具有运算速度快、精度高、存储容量大、逻辑判断强和自动化程度高等特点。",
+    "keywords": [
+      "计算机的特点",
+      "运算速度快",
+      "计算精度高",
+      "存储容量大",
+      "具有逻辑判断能力",
+      "自动化程度高",
+      "通用性强"
+    ],
+    "mustPatterns": [
+      "运算速度快。",
+      "计算精度高。",
+      "存储容量大。",
+      "具有逻辑判断能力。",
+      "自动化程度高。",
+      "通用性强。"
+    ],
+    "basicExplain": [
+      "计算机具有运算速度快、精度高、存储容量大、逻辑判断强和自动化程度高等特点。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：运算速度快。；计算精度高。；存储容量大。；具有逻辑判断能力。；自动化程度高。；通用性强。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机具有运算速度（[[快]]）、计算精度（[[高]]）、存储容量（[[大]]）等特点。",
+      "2. 计算机还具有逻辑判断能力和较高的（[[自动化程度]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“计算机的特点”最核心的结论是什么？",
+        "a": "运算速度快。；计算精度高。；存储容量大。；具有逻辑判断能力。；自动化程度高。；通用性强。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image7.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "计算机具有运算速度快、精度高、存储容量大、逻辑判断强和自动化程度高等特点。",
+      "core": [
+        "运算速度快。",
+        "计算精度高。",
+        "存储容量大。",
+        "具有逻辑判断能力。",
+        "自动化程度高。",
+        "通用性强。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "运算速度快。；计算精度高。；存储容量大。；具有逻辑判断能力。；自动化程度高。；通用性强。",
+      "mnemonic": "快、准、大、逻辑、自动、通用",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机应用",
+    "range": "计算机应用 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-008",
+    "order": 102,
+    "title": "自动控制",
+    "oneLine": "自动控制是利用计算机对生产过程或设备进行实时检测、判断和控制。",
+    "keywords": [
+      "自动控制",
+      "计算机可用于现代工业生产过程的自动控制",
+      "自动控制强调实时检测、分析和控制"
+    ],
+    "mustPatterns": [
+      "计算机可用于现代工业生产过程的自动控制。",
+      "自动控制强调实时检测、分析和控制。"
+    ],
+    "basicExplain": [
+      "自动控制是利用计算机对生产过程或设备进行实时检测、判断和控制。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：计算机可用于现代工业生产过程的自动控制。；自动控制强调实时检测、分析和控制。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 利用计算机对生产过程进行实时控制属于（[[自动控制]]）应用。"
+    ],
+    "selfTests": [
+      {
+        "q": "“自动控制”最核心的结论是什么？",
+        "a": "计算机可用于现代工业生产过程的自动控制。；自动控制强调实时检测、分析和控制。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image8.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "自动控制是利用计算机对生产过程或设备进行实时检测、判断和控制。",
+      "core": [
+        "计算机可用于现代工业生产过程的自动控制。",
+        "自动控制强调实时检测、分析和控制。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "计算机可用于现代工业生产过程的自动控制。；自动控制强调实时检测、分析和控制。",
+      "mnemonic": "检测—判断—控制",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机应用",
+    "range": "计算机应用 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-009",
+    "order": 103,
+    "title": "数据处理",
+    "oneLine": "数据处理是对大量数据进行收集、存储、分类、统计和加工。",
+    "keywords": [
+      "数据处理",
+      "数据处理包括数据的收集、存储、分类、统计和加工",
+      "办公自动化、财务管理和银行业务常属于数据处理"
+    ],
+    "mustPatterns": [
+      "数据处理包括数据的收集、存储、分类、统计和加工。",
+      "办公自动化、财务管理和银行业务常属于数据处理。"
+    ],
+    "basicExplain": [
+      "数据处理是对大量数据进行收集、存储、分类、统计和加工。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：数据处理包括数据的收集、存储、分类、统计和加工。；办公自动化、财务管理和银行业务常属于数据处理。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 对大量数据进行收集、存储、分类和统计属于（[[数据处理]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“数据处理”最核心的结论是什么？",
+        "a": "数据处理包括数据的收集、存储、分类、统计和加工。；办公自动化、财务管理和银行业务常属于数据处理。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image9.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "数据处理是对大量数据进行收集、存储、分类、统计和加工。",
+      "core": [
+        "数据处理包括数据的收集、存储、分类、统计和加工。",
+        "办公自动化、财务管理和银行业务常属于数据处理。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "数据处理包括数据的收集、存储、分类、统计和加工。；办公自动化、财务管理和银行业务常属于数据处理。",
+      "mnemonic": "数据处理＝收存分统计",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机应用",
+    "range": "计算机应用 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-010",
+    "order": 104,
+    "title": "科学计算",
+    "oneLine": "科学计算是计算机最早的应用领域，主要解决复杂数值计算问题。",
+    "keywords": [
+      "科学计算",
+      "科学计算是计算机最早的应用领域",
+      "科学计算又称数值计算"
+    ],
+    "mustPatterns": [
+      "科学计算是计算机最早的应用领域。",
+      "科学计算又称数值计算。"
+    ],
+    "basicExplain": [
+      "科学计算是计算机最早的应用领域，主要解决复杂数值计算问题。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：科学计算是计算机最早的应用领域。；科学计算又称数值计算。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机最早的应用领域是（[[科学计算]]）。",
+      "2. 科学计算又称（[[数值计算]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“科学计算”最核心的结论是什么？",
+        "a": "科学计算是计算机最早的应用领域。；科学计算又称数值计算。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image10.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "科学计算是计算机最早的应用领域，主要解决复杂数值计算问题。",
+      "core": [
+        "科学计算是计算机最早的应用领域。",
+        "科学计算又称数值计算。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "科学计算是计算机最早的应用领域。；科学计算又称数值计算。",
+      "mnemonic": "最早应用＝科学计算",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机应用",
+    "range": "计算机应用 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-011",
+    "order": 105,
+    "title": "计算机辅助工程缩写",
+    "oneLine": "CAD、CAI、CAM、CAT等缩写分别对应不同的计算机辅助应用。",
+    "keywords": [
+      "计算机辅助工程缩写",
+      "CAD：计算机辅助设计",
+      "CAI：计算机辅助教学",
+      "CAM：计算机辅助制造",
+      "CAT：计算机辅助测试",
+      "CAE：计算机辅助工程",
+      "CBE：计算机辅助教育"
+    ],
+    "mustPatterns": [
+      "CAD：计算机辅助设计。",
+      "CAI：计算机辅助教学。",
+      "CAM：计算机辅助制造。",
+      "CAT：计算机辅助测试。",
+      "CAE：计算机辅助工程。",
+      "CBE：计算机辅助教育。",
+      "CIMS：计算机集成制造系统。",
+      "CAPP：计算机辅助工艺过程设计。"
+    ],
+    "basicExplain": [
+      "CAD、CAI、CAM、CAT等缩写分别对应不同的计算机辅助应用。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：CAD：计算机辅助设计。；CAI：计算机辅助教学。；CAM：计算机辅助制造。；CAT：计算机辅助测试。；CAE：计算机辅助工程。；CBE：计算机辅助教育。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. CAD表示（[[计算机辅助设计]]）。",
+      "2. CAI表示（[[计算机辅助教学]]）。",
+      "3. CAM表示（[[计算机辅助制造]]）。",
+      "4. CAT表示（[[计算机辅助测试]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“计算机辅助工程缩写”最核心的结论是什么？",
+        "a": "CAD：计算机辅助设计。；CAI：计算机辅助教学。；CAM：计算机辅助制造。；CAT：计算机辅助测试。；CAE：计算机辅助工程。；CBE：计算机辅助教育。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image11.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "CAD、CAI、CAM、CAT等缩写分别对应不同的计算机辅助应用。",
+      "core": [
+        "CAD：计算机辅助设计。",
+        "CAI：计算机辅助教学。",
+        "CAM：计算机辅助制造。",
+        "CAT：计算机辅助测试。",
+        "CAE：计算机辅助工程。",
+        "CBE：计算机辅助教育。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "CAD：计算机辅助设计。；CAI：计算机辅助教学。；CAM：计算机辅助制造。；CAT：计算机辅助测试。；CAE：计算机辅助工程。；CBE：计算机辅助教育。",
+      "mnemonic": "D设计、I教学、M制造、T测试",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制基本概念",
+    "range": "数制基本概念 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-012",
+    "order": 106,
+    "title": "数制基本概念：基数、数位、权位、数码",
+    "oneLine": "数制由基数、数位、位权和数码等基本概念构成。",
+    "keywords": [
+      "数制基本概念：基数、数位、权位、数码",
+      "基数：一种数制所使用的数码个数",
+      "数位：数码在数中的位置",
+      "位权：某数位代表的权值",
+      "数码：数制中使用的基本数字符号"
+    ],
+    "mustPatterns": [
+      "基数：一种数制所使用的数码个数。",
+      "数位：数码在数中的位置。",
+      "位权：某数位代表的权值。",
+      "数码：数制中使用的基本数字符号。"
+    ],
+    "basicExplain": [
+      "数制由基数、数位、位权和数码等基本概念构成。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：基数：一种数制所使用的数码个数。；数位：数码在数中的位置。；位权：某数位代表的权值。；数码：数制中使用的基本数字符号。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 一种数制所使用的数码个数称为（[[基数]]）。",
+      "2. 数码在数中的位置称为（[[数位]]）。",
+      "3. 某一数位代表的权值称为（[[位权]]）。",
+      "4. 数制中使用的基本数字符号称为（[[数码]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“数制基本概念：基数、数位、权位、数码”最核心的结论是什么？",
+        "a": "基数：一种数制所使用的数码个数。；数位：数码在数中的位置。；位权：某数位代表的权值。；数码：数制中使用的基本数字符号。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image12.webp",
+      "./imports/day-06/cards/image13.webp",
+      "./imports/day-06/cards/image14.webp",
+      "./imports/day-06/cards/image15.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "数制由基数、数位、位权和数码等基本概念构成。",
+      "core": [
+        "基数：一种数制所使用的数码个数。",
+        "数位：数码在数中的位置。",
+        "位权：某数位代表的权值。",
+        "数码：数制中使用的基本数字符号。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "基数：一种数制所使用的数码个数。；数位：数码在数中的位置。；位权：某数位代表的权值。；数码：数制中使用的基本数字符号。",
+      "mnemonic": "基数看个数，数位看位置，位权看权值，数码看符号",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制基本概念",
+    "range": "数制基本概念 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-013",
+    "order": 107,
+    "title": "进制的表示方法",
+    "oneLine": "二、八、十、十六进制常用B、O(Q)、D、H作后缀。",
+    "keywords": [
+      "进制的表示方法",
+      "二进制常用B表示",
+      "八进制常用O或Q表示",
+      "十进制常用D表示",
+      "十六进制常用H表示"
+    ],
+    "mustPatterns": [
+      "二进制常用B表示。",
+      "八进制常用O或Q表示。",
+      "十进制常用D表示。",
+      "十六进制常用H表示。"
+    ],
+    "basicExplain": [
+      "二、八、十、十六进制常用B、O(Q)、D、H作后缀。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：二进制常用B表示。；八进制常用O或Q表示。；十进制常用D表示。；十六进制常用H表示。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 二进制、八进制、十进制、十六进制分别常用（[[B]]）、（[[O或Q]]）、（[[D]]）、（[[H]]）表示。"
+    ],
+    "selfTests": [
+      {
+        "q": "“进制的表示方法”最核心的结论是什么？",
+        "a": "二进制常用B表示。；八进制常用O或Q表示。；十进制常用D表示。；十六进制常用H表示。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image16.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "二、八、十、十六进制常用B、O(Q)、D、H作后缀。",
+      "core": [
+        "二进制常用B表示。",
+        "八进制常用O或Q表示。",
+        "十进制常用D表示。",
+        "十六进制常用H表示。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "二进制常用B表示。；八进制常用O或Q表示。；十进制常用D表示。；十六进制常用H表示。",
+      "mnemonic": "B二、O八、D十、H十六",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制基本概念",
+    "range": "数制基本概念 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-014",
+    "order": 108,
+    "title": "计算机采用二进制的原因",
+    "oneLine": "计算机采用二进制是因为电路易实现、运算规则简单、可靠性高并适合逻辑运算。",
+    "keywords": [
+      "计算机采用二进制的原因",
+      "二进制只有0和1",
+      "二进制运算规则简单",
+      "二进制具有较高可靠性",
+      "二进制便于进行逻辑运算"
+    ],
+    "mustPatterns": [
+      "二进制只有0和1，物理实现简单。",
+      "二进制运算规则简单。",
+      "二进制具有较高可靠性。",
+      "二进制便于进行逻辑运算。"
+    ],
+    "basicExplain": [
+      "计算机采用二进制是因为电路易实现、运算规则简单、可靠性高并适合逻辑运算。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：二进制只有0和1，物理实现简单。；二进制运算规则简单。；二进制具有较高可靠性。；二进制便于进行逻辑运算。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机采用二进制的主要原因包括物理实现（[[简单]]）、运算规则（[[简单]]）、可靠性高和便于逻辑运算。"
+    ],
+    "selfTests": [
+      {
+        "q": "“计算机采用二进制的原因”最核心的结论是什么？",
+        "a": "二进制只有0和1，物理实现简单。；二进制运算规则简单。；二进制具有较高可靠性。；二进制便于进行逻辑运算。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image17.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "计算机采用二进制是因为电路易实现、运算规则简单、可靠性高并适合逻辑运算。",
+      "core": [
+        "二进制只有0和1，物理实现简单。",
+        "二进制运算规则简单。",
+        "二进制具有较高可靠性。",
+        "二进制便于进行逻辑运算。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "二进制只有0和1，物理实现简单。；二进制运算规则简单。；二进制具有较高可靠性。；二进制便于进行逻辑运算。",
+      "mnemonic": "两状态、规则少、可靠高、逻辑强",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "二进制运算",
+    "range": "二进制运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-015",
+    "order": 109,
+    "title": "二进制加法运算",
+    "oneLine": "二进制加法遵循逢2进1。",
+    "keywords": [
+      "二进制加法运算",
+      "二进制加法的进位规则是逢2进1",
+      "0+0=0"
+    ],
+    "mustPatterns": [
+      "二进制加法的进位规则是逢2进1。",
+      "0+0=0，0+1=1，1+1=10。"
+    ],
+    "basicExplain": [
+      "二进制加法遵循逢2进1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：二进制加法的进位规则是逢2进1。；0+0=0，0+1=1，1+1=10。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 二进制加法的进位规则是（[[逢2进1]]）。",
+      "2. 二进制中1+1等于（[[10]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“二进制加法运算”最核心的结论是什么？",
+        "a": "二进制加法的进位规则是逢2进1。；0+0=0，0+1=1，1+1=10。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image18.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "二进制加法遵循逢2进1。",
+      "core": [
+        "二进制加法的进位规则是逢2进1。",
+        "0+0=0，0+1=1，1+1=10。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "二进制加法的进位规则是逢2进1。；0+0=0，0+1=1，1+1=10。",
+      "mnemonic": "二进制加法：逢2进1",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "二进制运算",
+    "range": "二进制运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-016",
+    "order": 110,
+    "title": "二进制减法运算",
+    "oneLine": "二进制减法遵循借1当2。",
+    "keywords": [
+      "二进制减法运算",
+      "二进制减法的借位规则是借1当2",
+      "不够减时向高位借1"
+    ],
+    "mustPatterns": [
+      "二进制减法的借位规则是借1当2。",
+      "不够减时向高位借1。"
+    ],
+    "basicExplain": [
+      "二进制减法遵循借1当2。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：二进制减法的借位规则是借1当2。；不够减时向高位借1。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 二进制减法的借位规则是（[[借1当2]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“二进制减法运算”最核心的结论是什么？",
+        "a": "二进制减法的借位规则是借1当2。；不够减时向高位借1。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image19.webp",
+      "./imports/day-06/cards/image20.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "二进制减法遵循借1当2。",
+      "core": [
+        "二进制减法的借位规则是借1当2。",
+        "不够减时向高位借1。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "二进制减法的借位规则是借1当2。；不够减时向高位借1。",
+      "mnemonic": "二进制减法：借1当2",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "逻辑运算",
+    "range": "逻辑运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-017",
+    "order": 111,
+    "title": "与运算",
+    "oneLine": "与运算只有两个输入均为1时结果才为1。",
+    "keywords": [
+      "与运算",
+      "与运算规则：同为1得1"
+    ],
+    "mustPatterns": [
+      "与运算规则：同为1得1，其余得0。"
+    ],
+    "basicExplain": [
+      "与运算只有两个输入均为1时结果才为1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：与运算规则：同为1得1，其余得0。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 与运算中，只有两个输入都为（[[1]]）时结果才为1。"
+    ],
+    "selfTests": [
+      {
+        "q": "“与运算”最核心的结论是什么？",
+        "a": "与运算规则：同为1得1，其余得0。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image21.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "与运算只有两个输入均为1时结果才为1。",
+      "core": [
+        "与运算规则：同为1得1，其余得0。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "与运算规则：同为1得1，其余得0。",
+      "mnemonic": "与：全1才1",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "逻辑运算",
+    "range": "逻辑运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-018",
+    "order": 112,
+    "title": "或运算",
+    "oneLine": "或运算只要有一个输入为1，结果就为1。",
+    "keywords": [
+      "或运算",
+      "或运算规则：有1得1"
+    ],
+    "mustPatterns": [
+      "或运算规则：有1得1，全0得0。"
+    ],
+    "basicExplain": [
+      "或运算只要有一个输入为1，结果就为1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：或运算规则：有1得1，全0得0。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 或运算中，只要有一个输入为（[[1]]），结果就是1。"
+    ],
+    "selfTests": [
+      {
+        "q": "“或运算”最核心的结论是什么？",
+        "a": "或运算规则：有1得1，全0得0。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image22.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "或运算只要有一个输入为1，结果就为1。",
+      "core": [
+        "或运算规则：有1得1，全0得0。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "或运算规则：有1得1，全0得0。",
+      "mnemonic": "或：有1就1",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "逻辑运算",
+    "range": "逻辑运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-019",
+    "order": 113,
+    "title": "异或运算",
+    "oneLine": "异或运算相同为0，不同为1。",
+    "keywords": [
+      "异或运算",
+      "异或运算规则：相同得0"
+    ],
+    "mustPatterns": [
+      "异或运算规则：相同得0，不同得1。"
+    ],
+    "basicExplain": [
+      "异或运算相同为0，不同为1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：异或运算规则：相同得0，不同得1。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 异或运算的规则是相同为（[[0]]），不同为（[[1]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“异或运算”最核心的结论是什么？",
+        "a": "异或运算规则：相同得0，不同得1。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image23.webp",
+      "./imports/day-06/cards/image24.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "异或运算相同为0，不同为1。",
+      "core": [
+        "异或运算规则：相同得0，不同得1。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "异或运算规则：相同得0，不同得1。",
+      "mnemonic": "异或：同0异1",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "逻辑运算",
+    "range": "逻辑运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-020",
+    "order": 114,
+    "title": "非运算",
+    "oneLine": "非运算对单个位取反，0变1，1变0。",
+    "keywords": [
+      "非运算",
+      "非运算规则：0变1"
+    ],
+    "mustPatterns": [
+      "非运算规则：0变1，1变0。"
+    ],
+    "basicExplain": [
+      "非运算对单个位取反，0变1，1变0。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：非运算规则：0变1，1变0。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 非运算中0变（[[1]]），1变（[[0]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“非运算”最核心的结论是什么？",
+        "a": "非运算规则：0变1，1变0。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image25.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "非运算对单个位取反，0变1，1变0。",
+      "core": [
+        "非运算规则：0变1，1变0。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "非运算规则：0变1，1变0。",
+      "mnemonic": "非＝取反",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制转换",
+    "range": "数制转换 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-021",
+    "order": 115,
+    "title": "补0法的原则",
+    "oneLine": "进制数补0时，整数在左侧补0、小数在右侧补0，数值不变。",
+    "keywords": [
+      "补0法的原则",
+      "整数部分不足位数时在左侧补0",
+      "小数部分不足位数时在右侧补0",
+      "补0不会改变数值大小"
+    ],
+    "mustPatterns": [
+      "整数部分不足位数时在左侧补0。",
+      "小数部分不足位数时在右侧补0。",
+      "补0不会改变数值大小。"
+    ],
+    "basicExplain": [
+      "进制数补0时，整数在左侧补0、小数在右侧补0，数值不变。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：整数部分不足位数时在左侧补0。；小数部分不足位数时在右侧补0。；补0不会改变数值大小。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 整数部分不足位数时在（[[左侧]]）补0。",
+      "2. 小数部分不足位数时在（[[右侧]]）补0。"
+    ],
+    "selfTests": [
+      {
+        "q": "“补0法的原则”最核心的结论是什么？",
+        "a": "整数部分不足位数时在左侧补0。；小数部分不足位数时在右侧补0。；补0不会改变数值大小。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image26.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "进制数补0时，整数在左侧补0、小数在右侧补0，数值不变。",
+      "core": [
+        "整数部分不足位数时在左侧补0。",
+        "小数部分不足位数时在右侧补0。",
+        "补0不会改变数值大小。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "整数部分不足位数时在左侧补0。；小数部分不足位数时在右侧补0。；补0不会改变数值大小。",
+      "mnemonic": "整数左补，小数右补",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制转换",
+    "range": "数制转换 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-022",
+    "order": 116,
+    "title": "十六进制转二进制",
+    "oneLine": "一位十六进制数对应四位二进制数。",
+    "keywords": [
+      "十六进制转二进制",
+      "十六进制每1位对应二进制4位"
+    ],
+    "mustPatterns": [
+      "十六进制每1位对应二进制4位。"
+    ],
+    "basicExplain": [
+      "一位十六进制数对应四位二进制数。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：十六进制每1位对应二进制4位。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 一位十六进制数对应（[[4]]）位二进制数。"
+    ],
+    "selfTests": [
+      {
+        "q": "“十六进制转二进制”最核心的结论是什么？",
+        "a": "十六进制每1位对应二进制4位。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image27.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "一位十六进制数对应四位二进制数。",
+      "core": [
+        "十六进制每1位对应二进制4位。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "十六进制每1位对应二进制4位。",
+      "mnemonic": "十六转二：1变4",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制转换",
+    "range": "数制转换 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-023",
+    "order": 117,
+    "title": "八进制转二进制",
+    "oneLine": "一位八进制数对应三位二进制数。",
+    "keywords": [
+      "八进制转二进制",
+      "八进制每1位对应二进制3位"
+    ],
+    "mustPatterns": [
+      "八进制每1位对应二进制3位。"
+    ],
+    "basicExplain": [
+      "一位八进制数对应三位二进制数。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：八进制每1位对应二进制3位。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 一位八进制数对应（[[3]]）位二进制数。"
+    ],
+    "selfTests": [
+      {
+        "q": "“八进制转二进制”最核心的结论是什么？",
+        "a": "八进制每1位对应二进制3位。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image28.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "一位八进制数对应三位二进制数。",
+      "core": [
+        "八进制每1位对应二进制3位。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "八进制每1位对应二进制3位。",
+      "mnemonic": "八转二：1变3",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制转换",
+    "range": "数制转换 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-024",
+    "order": 118,
+    "title": "八进制与十六进制相互转换",
+    "oneLine": "八进制与十六进制互换时，通常以二进制作为桥梁。",
+    "keywords": [
+      "八进制与十六进制相互转换",
+      "八进制转十六进制：先转二进制",
+      "十六进制转八进制：先转二进制"
+    ],
+    "mustPatterns": [
+      "八进制转十六进制：先转二进制，再按4位分组。",
+      "十六进制转八进制：先转二进制，再按3位分组。"
+    ],
+    "basicExplain": [
+      "八进制与十六进制互换时，通常以二进制作为桥梁。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：八进制转十六进制：先转二进制，再按4位分组。；十六进制转八进制：先转二进制，再按3位分组。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 八进制和十六进制相互转换时，通常以（[[二进制]]）作为桥梁。"
+    ],
+    "selfTests": [
+      {
+        "q": "“八进制与十六进制相互转换”最核心的结论是什么？",
+        "a": "八进制转十六进制：先转二进制，再按4位分组。；十六进制转八进制：先转二进制，再按3位分组。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image29.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "八进制与十六进制互换时，通常以二进制作为桥梁。",
+      "core": [
+        "八进制转十六进制：先转二进制，再按4位分组。",
+        "十六进制转八进制：先转二进制，再按3位分组。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "八进制转十六进制：先转二进制，再按4位分组。；十六进制转八进制：先转二进制，再按3位分组。",
+      "mnemonic": "八十六互转，先过二进制",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "二进制运算",
+    "range": "二进制运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-025",
+    "order": 119,
+    "title": "移位运算",
+    "oneLine": "R进制左移一位相当于乘R，右移一位相当于除R。",
+    "keywords": [
+      "移位运算",
+      "R进制数左移一位相当于乘R",
+      "R进制数右移一位相当于除R"
+    ],
+    "mustPatterns": [
+      "R进制数左移一位相当于乘R。",
+      "R进制数右移一位相当于除R。"
+    ],
+    "basicExplain": [
+      "R进制左移一位相当于乘R，右移一位相当于除R。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：R进制数左移一位相当于乘R。；R进制数右移一位相当于除R。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. R进制左移一位相当于乘（[[R]]）。",
+      "2. R进制右移一位相当于除以（[[R]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“移位运算”最核心的结论是什么？",
+        "a": "R进制数左移一位相当于乘R。；R进制数右移一位相当于除R。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image30.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "R进制左移一位相当于乘R，右移一位相当于除R。",
+      "core": [
+        "R进制数左移一位相当于乘R。",
+        "R进制数右移一位相当于除R。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "R进制数左移一位相当于乘R。；R进制数右移一位相当于除R。",
+      "mnemonic": "左乘R，右除R",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "二进制运算",
+    "range": "二进制运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-026",
+    "order": 120,
+    "title": "二进制奇偶判断",
+    "oneLine": "二进制整数看最低位，末位0为偶数，末位1为奇数。",
+    "keywords": [
+      "二进制奇偶判断",
+      "二进制整数最低位为0时是偶数",
+      "二进制整数最低位为1时是奇数"
+    ],
+    "mustPatterns": [
+      "二进制整数最低位为0时是偶数。",
+      "二进制整数最低位为1时是奇数。"
+    ],
+    "basicExplain": [
+      "二进制整数看最低位，末位0为偶数，末位1为奇数。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：二进制整数最低位为0时是偶数。；二进制整数最低位为1时是奇数。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 二进制整数末位为0表示（[[偶数]]），末位为1表示（[[奇数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“二进制奇偶判断”最核心的结论是什么？",
+        "a": "二进制整数最低位为0时是偶数。；二进制整数最低位为1时是奇数。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image31.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "二进制整数看最低位，末位0为偶数，末位1为奇数。",
+      "core": [
+        "二进制整数最低位为0时是偶数。",
+        "二进制整数最低位为1时是奇数。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "二进制整数最低位为0时是偶数。；二进制整数最低位为1时是奇数。",
+      "mnemonic": "末0偶，末1奇",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制转换",
+    "range": "数制转换 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-027",
+    "order": 121,
+    "title": "R进制转十进制",
+    "oneLine": "R进制数转十进制采用按权展开求和。",
+    "keywords": [
+      "R进制转十进制",
+      "R进制转十进制的方法是按权展开求和"
+    ],
+    "mustPatterns": [
+      "R进制转十进制的方法是按权展开求和。"
+    ],
+    "basicExplain": [
+      "R进制数转十进制采用按权展开求和。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：R进制转十进制的方法是按权展开求和。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. R进制数转换为十进制采用（[[按权展开求和]]）法。"
+    ],
+    "selfTests": [
+      {
+        "q": "“R进制转十进制”最核心的结论是什么？",
+        "a": "R进制转十进制的方法是按权展开求和。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image32.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "R进制数转十进制采用按权展开求和。",
+      "core": [
+        "R进制转十进制的方法是按权展开求和。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "R进制转十进制的方法是按权展开求和。",
+      "mnemonic": "转十进制：按权展开",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+    "category": "数制转换",
+    "range": "数制转换 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-028",
+    "order": 122,
+    "title": "十进制转R进制",
+    "oneLine": "十进制整数用除R取余逆序法，小数用乘R取整顺序法。",
+    "keywords": [
+      "十进制转R进制",
+      "十进制整数转R进制：除R取余",
+      "十进制小数转R进制：乘R取整"
+    ],
+    "mustPatterns": [
+      "十进制整数转R进制：除R取余，逆序排列。",
+      "十进制小数转R进制：乘R取整，顺序排列。"
+    ],
+    "basicExplain": [
+      "十进制整数用除R取余逆序法，小数用乘R取整顺序法。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：十进制整数转R进制：除R取余，逆序排列。；十进制小数转R进制：乘R取整，顺序排列。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 十进制整数转R进制使用（[[除R取余，逆序排列]]）。",
+      "2. 十进制小数转R进制使用（[[乘R取整，顺序排列]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“十进制转R进制”最核心的结论是什么？",
+        "a": "十进制整数转R进制：除R取余，逆序排列。；十进制小数转R进制：乘R取整，顺序排列。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image33.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "十进制整数用除R取余逆序法，小数用乘R取整顺序法。",
+      "core": [
+        "十进制整数转R进制：除R取余，逆序排列。",
+        "十进制小数转R进制：乘R取整，顺序排列。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "十进制整数转R进制：除R取余，逆序排列。；十进制小数转R进制：乘R取整，顺序排列。",
+      "mnemonic": "整数除取余倒排，小数乘取整顺排",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "存储单位",
+    "range": "存储单位 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-029",
+    "order": 123,
+    "title": "存储单位换算",
+    "oneLine": "1Byte=8bit，常见存储单位按1024倍换算。",
+    "keywords": [
+      "存储单位换算",
+      "1Byte等于8bit",
+      "1KB=1024B",
+      "1MB=1024KB",
+      "1GB=1024MB"
+    ],
+    "mustPatterns": [
+      "1Byte等于8bit。",
+      "1KB=1024B。",
+      "1MB=1024KB。",
+      "1GB=1024MB。"
+    ],
+    "basicExplain": [
+      "1Byte=8bit，常见存储单位按1024倍换算。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：1Byte等于8bit。；1KB=1024B。；1MB=1024KB。；1GB=1024MB。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 1Byte等于（[[8]]）bit。",
+      "2. 1KB等于（[[1024]]）B。",
+      "3. 1MB等于（[[1024]]）KB。"
+    ],
+    "selfTests": [
+      {
+        "q": "“存储单位换算”最核心的结论是什么？",
+        "a": "1Byte等于8bit。；1KB=1024B。；1MB=1024KB。；1GB=1024MB。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image34.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "1Byte=8bit，常见存储单位按1024倍换算。",
+      "core": [
+        "1Byte等于8bit。",
+        "1KB=1024B。",
+        "1MB=1024KB。",
+        "1GB=1024MB。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "1Byte等于8bit。；1KB=1024B。；1MB=1024KB。；1GB=1024MB。",
+      "mnemonic": "字节8位，单位1024进",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "存储单位",
+    "range": "存储单位 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-030",
+    "order": 124,
+    "title": "位（bit）",
+    "oneLine": "位是计算机中最小的数据单位，一个二进制位只能表示0或1。",
+    "keywords": [
+      "位（bit）",
+      "位bit是计算机中最小的数据单位",
+      "一个二进制位只能表示0或1"
+    ],
+    "mustPatterns": [
+      "位bit是计算机中最小的数据单位。",
+      "一个二进制位只能表示0或1。"
+    ],
+    "basicExplain": [
+      "位是计算机中最小的数据单位，一个二进制位只能表示0或1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：位bit是计算机中最小的数据单位。；一个二进制位只能表示0或1。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机中最小的数据单位是（[[位bit]]）。",
+      "2. 一个二进制位只能表示（[[0或1]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“位（bit）”最核心的结论是什么？",
+        "a": "位bit是计算机中最小的数据单位。；一个二进制位只能表示0或1。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image35.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "位是计算机中最小的数据单位，一个二进制位只能表示0或1。",
+      "core": [
+        "位bit是计算机中最小的数据单位。",
+        "一个二进制位只能表示0或1。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "位bit是计算机中最小的数据单位。；一个二进制位只能表示0或1。",
+      "mnemonic": "最小单位bit",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "机器数",
+    "range": "机器数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-031",
+    "order": 125,
+    "title": "已知补码求原码",
+    "oneLine": "正数补码与原码相同；负数由补码求原码时符号位不变，其余位取反加1。",
+    "keywords": [
+      "已知补码求原码",
+      "正数的原码、反码和补码相同",
+      "负数由补码求原码：符号位不变"
+    ],
+    "mustPatterns": [
+      "正数的原码、反码和补码相同。",
+      "负数由补码求原码：符号位不变，其余位取反加1。"
+    ],
+    "basicExplain": [
+      "正数补码与原码相同；负数由补码求原码时符号位不变，其余位取反加1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：正数的原码、反码和补码相同。；负数由补码求原码：符号位不变，其余位取反加1。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 正数的补码与原码（[[相同]]）。",
+      "2. 负数由补码求原码时，符号位不变，其余位（[[取反加1]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“已知补码求原码”最核心的结论是什么？",
+        "a": "正数的原码、反码和补码相同。；负数由补码求原码：符号位不变，其余位取反加1。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image36.webp",
+      "./imports/day-06/cards/image37.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "正数补码与原码相同；负数由补码求原码时符号位不变，其余位取反加1。",
+      "core": [
+        "正数的原码、反码和补码相同。",
+        "负数由补码求原码：符号位不变，其余位取反加1。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "正数的原码、反码和补码相同。；负数由补码求原码：符号位不变，其余位取反加1。",
+      "mnemonic": "正数相同，负数取反加1",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "机器数",
+    "range": "机器数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-032",
+    "order": 126,
+    "title": "数符",
+    "oneLine": "机器数最高位通常作符号位，0表示正，1表示负。",
+    "keywords": [
+      "数符",
+      "数符0表示正数",
+      "数符1表示负数"
+    ],
+    "mustPatterns": [
+      "数符0表示正数。",
+      "数符1表示负数。"
+    ],
+    "basicExplain": [
+      "机器数最高位通常作符号位，0表示正，1表示负。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：数符0表示正数。；数符1表示负数。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 机器数的符号位为0表示（[[正数]]），为1表示（[[负数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“数符”最核心的结论是什么？",
+        "a": "数符0表示正数。；数符1表示负数。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image38.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "机器数最高位通常作符号位，0表示正，1表示负。",
+      "core": [
+        "数符0表示正数。",
+        "数符1表示负数。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "数符0表示正数。；数符1表示负数。",
+      "mnemonic": "符号位：0正1负",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "机器数",
+    "range": "机器数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-033",
+    "order": 127,
+    "title": "求移码",
+    "oneLine": "移码可由补码将符号位取反得到。",
+    "keywords": [
+      "求移码",
+      "移码与补码的数值位相同",
+      "补码符号位取反即可得到移码"
+    ],
+    "mustPatterns": [
+      "移码与补码的数值位相同。",
+      "补码符号位取反即可得到移码。"
+    ],
+    "basicExplain": [
+      "移码可由补码将符号位取反得到。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：移码与补码的数值位相同。；补码符号位取反即可得到移码。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 由补码求移码时，只需将（[[符号位取反]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“求移码”最核心的结论是什么？",
+        "a": "移码与补码的数值位相同。；补码符号位取反即可得到移码。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image39.webp",
+      "./imports/day-06/cards/image40.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "移码可由补码将符号位取反得到。",
+      "core": [
+        "移码与补码的数值位相同。",
+        "补码符号位取反即可得到移码。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "移码与补码的数值位相同。；补码符号位取反即可得到移码。",
+      "mnemonic": "补码变移码，只翻符号位",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "浮点数",
+    "range": "浮点数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-034",
+    "order": 128,
+    "title": "尾数和阶码",
+    "oneLine": "浮点数由阶码和尾数组成，阶码决定范围，尾数决定精度。",
+    "keywords": [
+      "尾数和阶码",
+      "浮点数主要由阶码和尾数组成",
+      "阶码位数决定表示范围",
+      "尾数位数决定表示精度"
+    ],
+    "mustPatterns": [
+      "浮点数主要由阶码和尾数组成。",
+      "阶码位数决定表示范围。",
+      "尾数位数决定表示精度。"
+    ],
+    "basicExplain": [
+      "浮点数由阶码和尾数组成，阶码决定范围，尾数决定精度。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：浮点数主要由阶码和尾数组成。；阶码位数决定表示范围。；尾数位数决定表示精度。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 浮点数主要由（[[阶码]]）和（[[尾数]]）组成。",
+      "2. 阶码决定表示（[[范围]]），尾数决定表示（[[精度]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“尾数和阶码”最核心的结论是什么？",
+        "a": "浮点数主要由阶码和尾数组成。；阶码位数决定表示范围。；尾数位数决定表示精度。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image41.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "浮点数由阶码和尾数组成，阶码决定范围，尾数决定精度。",
+      "core": [
+        "浮点数主要由阶码和尾数组成。",
+        "阶码位数决定表示范围。",
+        "尾数位数决定表示精度。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "浮点数主要由阶码和尾数组成。；阶码位数决定表示范围。；尾数位数决定表示精度。",
+      "mnemonic": "阶码管范围，尾数管精度",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "机器数",
+    "range": "机器数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-035",
+    "order": 129,
+    "title": "二进制最多状态数",
+    "oneLine": "n位二进制数最多有2^n种不同状态。",
+    "keywords": [
+      "二进制最多状态数",
+      "n位二进制数最多表示2^n种状态",
+      "n位无符号数最大值为2^n-1"
+    ],
+    "mustPatterns": [
+      "n位二进制数最多表示2^n种状态。",
+      "n位无符号数最大值为2^n-1。"
+    ],
+    "basicExplain": [
+      "n位二进制数最多有2^n种不同状态。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：n位二进制数最多表示2^n种状态。；n位无符号数最大值为2^n-1。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. n位二进制数最多有（[[2^n]]）种状态。",
+      "2. n位无符号数最大值为（[[2^n-1]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“二进制最多状态数”最核心的结论是什么？",
+        "a": "n位二进制数最多表示2^n种状态。；n位无符号数最大值为2^n-1。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image42.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "n位二进制数最多有2^n种不同状态。",
+      "core": [
+        "n位二进制数最多表示2^n种状态。",
+        "n位无符号数最大值为2^n-1。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "n位二进制数最多表示2^n种状态。；n位无符号数最大值为2^n-1。",
+      "mnemonic": "n位状态2的n次方",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "机器数",
+    "range": "机器数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-036",
+    "order": 130,
+    "title": "无符号数",
+    "oneLine": "n位无符号二进制数的范围是0到2^n-1。",
+    "keywords": [
+      "无符号数",
+      "n位无符号数范围为0～2^n-1",
+      "6位无符号数最大值是63"
+    ],
+    "mustPatterns": [
+      "n位无符号数范围为0～2^n-1。",
+      "6位无符号数最大值是63。"
+    ],
+    "basicExplain": [
+      "n位无符号二进制数的范围是0到2^n-1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：n位无符号数范围为0～2^n-1。；6位无符号数最大值是63。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. n位无符号数的范围是（[[0～2^n-1]]）。",
+      "2. 6位无符号数最大值是（[[63]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“无符号数”最核心的结论是什么？",
+        "a": "n位无符号数范围为0～2^n-1。；6位无符号数最大值是63。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image43.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "n位无符号二进制数的范围是0到2^n-1。",
+      "core": [
+        "n位无符号数范围为0～2^n-1。",
+        "6位无符号数最大值是63。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "n位无符号数范围为0～2^n-1。；6位无符号数最大值是63。",
+      "mnemonic": "无符号：0到2^n-1",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "机器数",
+    "range": "机器数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-037",
+    "order": 131,
+    "title": "有符号数",
+    "oneLine": "n位补码有符号数的范围是-2^(n-1)到2^(n-1)-1。",
+    "keywords": [
+      "有符号数",
+      "n位补码有符号数范围为-2^(n-1)～2^(n-1)-1",
+      "8位补码范围为-128～127"
+    ],
+    "mustPatterns": [
+      "n位补码有符号数范围为-2^(n-1)～2^(n-1)-1。",
+      "8位补码范围为-128～127。"
+    ],
+    "basicExplain": [
+      "n位补码有符号数的范围是-2^(n-1)到2^(n-1)-1。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：n位补码有符号数范围为-2^(n-1)～2^(n-1)-1。；8位补码范围为-128～127。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. n位补码有符号数范围是（[[-2^(n-1)～2^(n-1)-1]]）。",
+      "2. 8位补码范围是（[[-128～127]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“有符号数”最核心的结论是什么？",
+        "a": "n位补码有符号数范围为-2^(n-1)～2^(n-1)-1。；8位补码范围为-128～127。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image44.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "n位补码有符号数的范围是-2^(n-1)到2^(n-1)-1。",
+      "core": [
+        "n位补码有符号数范围为-2^(n-1)～2^(n-1)-1。",
+        "8位补码范围为-128～127。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "n位补码有符号数范围为-2^(n-1)～2^(n-1)-1。；8位补码范围为-128～127。",
+      "mnemonic": "有符号少一位作符号",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-038",
+    "order": 132,
+    "title": "Unicode",
+    "oneLine": "Unicode是统一字符编码标准，常见实现有UTF-8、UTF-16和UTF-32。",
+    "keywords": [
+      "Unicode",
+      "Unicode旨在统一世界各种文字的编码",
+      "Unicode兼容ASCII",
+      "常见编码形式有UTF-8、UTF-16、UTF-32"
+    ],
+    "mustPatterns": [
+      "Unicode旨在统一世界各种文字的编码。",
+      "Unicode兼容ASCII。",
+      "常见编码形式有UTF-8、UTF-16、UTF-32。"
+    ],
+    "basicExplain": [
+      "Unicode是统一字符编码标准，常见实现有UTF-8、UTF-16和UTF-32。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：Unicode旨在统一世界各种文字的编码。；Unicode兼容ASCII。；常见编码形式有UTF-8、UTF-16、UTF-32。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 统一世界各种文字编码的标准是（[[Unicode]]）。",
+      "2. Unicode常见编码形式有（[[UTF-8]]）、（[[UTF-16]]）和（[[UTF-32]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“Unicode”最核心的结论是什么？",
+        "a": "Unicode旨在统一世界各种文字的编码。；Unicode兼容ASCII。；常见编码形式有UTF-8、UTF-16、UTF-32。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image45.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "Unicode是统一字符编码标准，常见实现有UTF-8、UTF-16和UTF-32。",
+      "core": [
+        "Unicode旨在统一世界各种文字的编码。",
+        "Unicode兼容ASCII。",
+        "常见编码形式有UTF-8、UTF-16、UTF-32。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "Unicode旨在统一世界各种文字的编码。；Unicode兼容ASCII。；常见编码形式有UTF-8、UTF-16、UTF-32。",
+      "mnemonic": "Unicode统一，UTF负责实现",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-039",
+    "order": 133,
+    "title": "标准ASCII",
+    "oneLine": "标准ASCII使用7位二进制编码，可表示128个字符，范围0～127。",
+    "keywords": [
+      "标准ASCII",
+      "标准ASCII使用7位编码",
+      "标准ASCII可表示128个字符",
+      "标准ASCII码值范围为0～127"
+    ],
+    "mustPatterns": [
+      "标准ASCII使用7位编码。",
+      "标准ASCII可表示128个字符。",
+      "标准ASCII码值范围为0～127。"
+    ],
+    "basicExplain": [
+      "标准ASCII使用7位二进制编码，可表示128个字符，范围0～127。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：标准ASCII使用7位编码。；标准ASCII可表示128个字符。；标准ASCII码值范围为0～127。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 标准ASCII使用（[[7]]）位编码。",
+      "2. 标准ASCII可表示（[[128]]）个字符。",
+      "3. 标准ASCII码值范围是（[[0～127]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“标准ASCII”最核心的结论是什么？",
+        "a": "标准ASCII使用7位编码。；标准ASCII可表示128个字符。；标准ASCII码值范围为0～127。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image46.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "标准ASCII使用7位二进制编码，可表示128个字符，范围0～127。",
+      "core": [
+        "标准ASCII使用7位编码。",
+        "标准ASCII可表示128个字符。",
+        "标准ASCII码值范围为0～127。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "标准ASCII使用7位编码。；标准ASCII可表示128个字符。；标准ASCII码值范围为0～127。",
+      "mnemonic": "ASCII：7位128个",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-040",
+    "order": 134,
+    "title": "ASCII码值大小比较",
+    "oneLine": "ASCII码值通常按空格、数字、大写字母、小写字母递增。",
+    "keywords": [
+      "ASCII码值大小比较",
+      "ASCII码比较依据字符对应的编码数值",
+      "常见顺序：空格＜数字＜大写字母＜小写字母"
+    ],
+    "mustPatterns": [
+      "ASCII码比较依据字符对应的编码数值。",
+      "常见顺序：空格＜数字＜大写字母＜小写字母。"
+    ],
+    "basicExplain": [
+      "ASCII码值通常按空格、数字、大写字母、小写字母递增。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：ASCII码比较依据字符对应的编码数值。；常见顺序：空格＜数字＜大写字母＜小写字母。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. ASCII码值常见顺序是空格＜（[[数字]]）＜大写字母＜（[[小写字母]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“ASCII码值大小比较”最核心的结论是什么？",
+        "a": "ASCII码比较依据字符对应的编码数值。；常见顺序：空格＜数字＜大写字母＜小写字母。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image47.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "ASCII码值通常按空格、数字、大写字母、小写字母递增。",
+      "core": [
+        "ASCII码比较依据字符对应的编码数值。",
+        "常见顺序：空格＜数字＜大写字母＜小写字母。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "ASCII码比较依据字符对应的编码数值。；常见顺序：空格＜数字＜大写字母＜小写字母。",
+      "mnemonic": "空格—数字—大写—小写",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-041",
+    "order": 135,
+    "title": "常见ASCII码值及计算",
+    "oneLine": "常见ASCII值包括换行10、回车13、空格32、0为48、A为65、a为97。",
+    "keywords": [
+      "常见ASCII码值及计算",
+      "换行LF的ASCII码为10",
+      "回车CR的ASCII码为13",
+      "空格ASCII码为32",
+      "字符0的ASCII码为48",
+      "大写A为65",
+      "同一字母大小写ASCII码相差32"
+    ],
+    "mustPatterns": [
+      "换行LF的ASCII码为10。",
+      "回车CR的ASCII码为13。",
+      "空格ASCII码为32。",
+      "字符0的ASCII码为48。",
+      "大写A为65，小写a为97。",
+      "同一字母大小写ASCII码相差32。"
+    ],
+    "basicExplain": [
+      "常见ASCII值包括换行10、回车13、空格32、0为48、A为65、a为97。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：换行LF的ASCII码为10。；回车CR的ASCII码为13。；空格ASCII码为32。；字符0的ASCII码为48。；大写A为65，小写a为97。；同一字母大小写ASCII码相差32。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 空格的ASCII码为（[[32]]）。",
+      "2. 字符0的ASCII码为（[[48]]）。",
+      "3. 大写A和小写a的ASCII码分别是（[[65]]）和（[[97]]）。",
+      "4. 同一字母大小写ASCII码相差（[[32]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“常见ASCII码值及计算”最核心的结论是什么？",
+        "a": "换行LF的ASCII码为10。；回车CR的ASCII码为13。；空格ASCII码为32。；字符0的ASCII码为48。；大写A为65，小写a为97。；同一字母大小写ASCII码相差32。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image48.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "常见ASCII值包括换行10、回车13、空格32、0为48、A为65、a为97。",
+      "core": [
+        "换行LF的ASCII码为10。",
+        "回车CR的ASCII码为13。",
+        "空格ASCII码为32。",
+        "字符0的ASCII码为48。",
+        "大写A为65，小写a为97。",
+        "同一字母大小写ASCII码相差32。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "换行LF的ASCII码为10。；回车CR的ASCII码为13。；空格ASCII码为32。；字符0的ASCII码为48。；大写A为65，小写a为97。；同一字母大小写ASCII码相差32。",
+      "mnemonic": "空32、0是48、A65、a97",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-042",
+    "order": 136,
+    "title": "UTF-8",
+    "oneLine": "UTF-8是Unicode的一种可变长度字符编码。",
+    "keywords": [
+      "UTF-8",
+      "UTF-8是Unicode的一种编码实现",
+      "UTF-8采用可变长度编码"
+    ],
+    "mustPatterns": [
+      "UTF-8是Unicode的一种编码实现。",
+      "UTF-8采用可变长度编码。"
+    ],
+    "basicExplain": [
+      "UTF-8是Unicode的一种可变长度字符编码。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：UTF-8是Unicode的一种编码实现。；UTF-8采用可变长度编码。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. UTF-8是（[[Unicode]]）的一种可变长度字符编码。"
+    ],
+    "selfTests": [
+      {
+        "q": "“UTF-8”最核心的结论是什么？",
+        "a": "UTF-8是Unicode的一种编码实现。；UTF-8采用可变长度编码。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image49.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "UTF-8是Unicode的一种可变长度字符编码。",
+      "core": [
+        "UTF-8是Unicode的一种编码实现。",
+        "UTF-8采用可变长度编码。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "UTF-8是Unicode的一种编码实现。；UTF-8采用可变长度编码。",
+      "mnemonic": "UTF-8＝Unicode可变长",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-043",
+    "order": 137,
+    "title": "扩充ASCII",
+    "oneLine": "扩充ASCII使用8位编码，可表示256个字符，扩展区通常为128～255。",
+    "keywords": [
+      "扩充ASCII",
+      "扩充ASCII使用8位编码",
+      "扩充ASCII可表示256个字符",
+      "扩展区码值通常为128～255"
+    ],
+    "mustPatterns": [
+      "扩充ASCII使用8位编码。",
+      "扩充ASCII可表示256个字符。",
+      "扩展区码值通常为128～255。"
+    ],
+    "basicExplain": [
+      "扩充ASCII使用8位编码，可表示256个字符，扩展区通常为128～255。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：扩充ASCII使用8位编码。；扩充ASCII可表示256个字符。；扩展区码值通常为128～255。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 扩充ASCII使用（[[8]]）位编码。",
+      "2. 扩充ASCII可表示（[[256]]）个字符。",
+      "3. 扩展区码值范围是（[[128～255]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“扩充ASCII”最核心的结论是什么？",
+        "a": "扩充ASCII使用8位编码。；扩充ASCII可表示256个字符。；扩展区码值通常为128～255。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image50.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "扩充ASCII使用8位编码，可表示256个字符，扩展区通常为128～255。",
+      "core": [
+        "扩充ASCII使用8位编码。",
+        "扩充ASCII可表示256个字符。",
+        "扩展区码值通常为128～255。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "扩充ASCII使用8位编码。；扩充ASCII可表示256个字符。；扩展区码值通常为128～255。",
+      "mnemonic": "扩充ASCII：8位256个",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-044",
+    "order": 138,
+    "title": "点阵式输出码的计算",
+    "oneLine": "点阵字形每个点占1bit，所需字节数等于点阵总点数除以8并向上取整。",
+    "keywords": [
+      "点阵式输出码的计算",
+      "点阵字形每个点用1bit表示",
+      "n×m点阵所需字节数为n×m÷8",
+      "24×24点阵需要72Byte"
+    ],
+    "mustPatterns": [
+      "点阵字形每个点用1bit表示。",
+      "n×m点阵所需字节数为n×m÷8，不能整除时向上取整。",
+      "24×24点阵需要72Byte。"
+    ],
+    "basicExplain": [
+      "点阵字形每个点占1bit，所需字节数等于点阵总点数除以8并向上取整。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：点阵字形每个点用1bit表示。；n×m点阵所需字节数为n×m÷8，不能整除时向上取整。；24×24点阵需要72Byte。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 点阵字形每个点占（[[1bit]]）。",
+      "2. 24×24点阵字形需要（[[72Byte]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“点阵式输出码的计算”最核心的结论是什么？",
+        "a": "点阵字形每个点用1bit表示。；n×m点阵所需字节数为n×m÷8，不能整除时向上取整。；24×24点阵需要72Byte。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image51.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "点阵字形每个点占1bit，所需字节数等于点阵总点数除以8并向上取整。",
+      "core": [
+        "点阵字形每个点用1bit表示。",
+        "n×m点阵所需字节数为n×m÷8，不能整除时向上取整。",
+        "24×24点阵需要72Byte。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "点阵字形每个点用1bit表示。；n×m点阵所需字节数为n×m÷8，不能整除时向上取整。；24×24点阵需要72Byte。",
+      "mnemonic": "点阵字节＝点数÷8",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "图形编码",
+    "range": "图形编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-045",
+    "order": 139,
+    "title": "点阵图和矢量图的区别",
+    "oneLine": "点阵图放大易失真，矢量图放大通常不失真。",
+    "keywords": [
+      "点阵图和矢量图的区别",
+      "点阵图由像素组成",
+      "矢量图由数学描述构成"
+    ],
+    "mustPatterns": [
+      "点阵图由像素组成，放大容易失真。",
+      "矢量图由数学描述构成，缩放通常不失真。"
+    ],
+    "basicExplain": [
+      "点阵图放大易失真，矢量图放大通常不失真。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：点阵图由像素组成，放大容易失真。；矢量图由数学描述构成，缩放通常不失真。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 放大后容易失真的图形是（[[点阵图]]）。",
+      "2. 放大后通常不失真的图形是（[[矢量图]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“点阵图和矢量图的区别”最核心的结论是什么？",
+        "a": "点阵图由像素组成，放大容易失真。；矢量图由数学描述构成，缩放通常不失真。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image52.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "点阵图放大易失真，矢量图放大通常不失真。",
+      "core": [
+        "点阵图由像素组成，放大容易失真。",
+        "矢量图由数学描述构成，缩放通常不失真。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "点阵图由像素组成，放大容易失真。；矢量图由数学描述构成，缩放通常不失真。",
+      "mnemonic": "点阵会糊，矢量不糊",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-046",
+    "order": 140,
+    "title": "常见汉字字符集",
+    "oneLine": "常见汉字字符集包括GB2312、BIG5、GBK和GB18030。",
+    "keywords": [
+      "常见汉字字符集",
+      "GB2312是常见简体中文字符集",
+      "BIG5常用于繁体中文",
+      "GBK是GB2312的扩展",
+      "GB18030覆盖范围更广"
+    ],
+    "mustPatterns": [
+      "GB2312是常见简体中文字符集。",
+      "BIG5常用于繁体中文。",
+      "GBK是GB2312的扩展。",
+      "GB18030覆盖范围更广。"
+    ],
+    "basicExplain": [
+      "常见汉字字符集包括GB2312、BIG5、GBK和GB18030。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：GB2312是常见简体中文字符集。；BIG5常用于繁体中文。；GBK是GB2312的扩展。；GB18030覆盖范围更广。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 常见汉字字符集包括（[[GB2312]]）、（[[BIG5]]）、（[[GBK]]）和（[[GB18030]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“常见汉字字符集”最核心的结论是什么？",
+        "a": "GB2312是常见简体中文字符集。；BIG5常用于繁体中文。；GBK是GB2312的扩展。；GB18030覆盖范围更广。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image53.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "常见汉字字符集包括GB2312、BIG5、GBK和GB18030。",
+      "core": [
+        "GB2312是常见简体中文字符集。",
+        "BIG5常用于繁体中文。",
+        "GBK是GB2312的扩展。",
+        "GB18030覆盖范围更广。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "GB2312是常见简体中文字符集。；BIG5常用于繁体中文。；GBK是GB2312的扩展。；GB18030覆盖范围更广。",
+      "mnemonic": "GB2312—GBK—GB18030，繁体BIG5",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-047",
+    "order": 141,
+    "title": "机内码",
+    "oneLine": "机内码是汉字在计算机内部存储和处理时使用的编码。",
+    "keywords": [
+      "机内码",
+      "汉字在计算机内部存储和处理使用机内码",
+      "GB2312中一个汉字机内码通常占2Byte",
+      "机内码两个字节的最高位均为1"
+    ],
+    "mustPatterns": [
+      "汉字在计算机内部存储和处理使用机内码。",
+      "GB2312中一个汉字机内码通常占2Byte。",
+      "机内码两个字节的最高位均为1。"
+    ],
+    "basicExplain": [
+      "机内码是汉字在计算机内部存储和处理时使用的编码。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：汉字在计算机内部存储和处理使用机内码。；GB2312中一个汉字机内码通常占2Byte。；机内码两个字节的最高位均为1。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 汉字在计算机内部存储和处理时使用（[[机内码]]）。",
+      "2. 一个汉字机内码通常占（[[2Byte]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“机内码”最核心的结论是什么？",
+        "a": "汉字在计算机内部存储和处理使用机内码。；GB2312中一个汉字机内码通常占2Byte。；机内码两个字节的最高位均为1。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image54.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "机内码是汉字在计算机内部存储和处理时使用的编码。",
+      "core": [
+        "汉字在计算机内部存储和处理使用机内码。",
+        "GB2312中一个汉字机内码通常占2Byte。",
+        "机内码两个字节的最高位均为1。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "汉字在计算机内部存储和处理使用机内码。；GB2312中一个汉字机内码通常占2Byte。；机内码两个字节的最高位均为1。",
+      "mnemonic": "机内码：内部用、两字节",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-048",
+    "order": 142,
+    "title": "区位码",
+    "oneLine": "区位码用四位十进制表示汉字位置，前两位是区号，后两位是位号。",
+    "keywords": [
+      "区位码",
+      "区位码由区号和位号组成",
+      "区位码常用四位十进制表示",
+      "前两位为区号"
+    ],
+    "mustPatterns": [
+      "区位码由区号和位号组成。",
+      "区位码常用四位十进制表示。",
+      "前两位为区号，后两位为位号。"
+    ],
+    "basicExplain": [
+      "区位码用四位十进制表示汉字位置，前两位是区号，后两位是位号。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：区位码由区号和位号组成。；区位码常用四位十进制表示。；前两位为区号，后两位为位号。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 区位码前两位表示（[[区号]]），后两位表示（[[位号]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“区位码”最核心的结论是什么？",
+        "a": "区位码由区号和位号组成。；区位码常用四位十进制表示。；前两位为区号，后两位为位号。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image55.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "区位码用四位十进制表示汉字位置，前两位是区号，后两位是位号。",
+      "core": [
+        "区位码由区号和位号组成。",
+        "区位码常用四位十进制表示。",
+        "前两位为区号，后两位为位号。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "区位码由区号和位号组成。；区位码常用四位十进制表示。；前两位为区号，后两位为位号。",
+      "mnemonic": "区位码：前区后位",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-049",
+    "order": 143,
+    "title": "国标码",
+    "oneLine": "国标码是汉字交换码，可由区位码的两个字节各加20H得到。",
+    "keywords": [
+      "国标码",
+      "国标码又称汉字交换码",
+      "区位码两个字节分别加20H可得到国标码"
+    ],
+    "mustPatterns": [
+      "国标码又称汉字交换码。",
+      "区位码两个字节分别加20H可得到国标码。"
+    ],
+    "basicExplain": [
+      "国标码是汉字交换码，可由区位码的两个字节各加20H得到。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：国标码又称汉字交换码。；区位码两个字节分别加20H可得到国标码。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 国标码又称汉字（[[交换码]]）。",
+      "2. 区位码两个字节各加（[[20H]]）得到国标码。"
+    ],
+    "selfTests": [
+      {
+        "q": "“国标码”最核心的结论是什么？",
+        "a": "国标码又称汉字交换码。；区位码两个字节分别加20H可得到国标码。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image56.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "国标码是汉字交换码，可由区位码的两个字节各加20H得到。",
+      "core": [
+        "国标码又称汉字交换码。",
+        "区位码两个字节分别加20H可得到国标码。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "国标码又称汉字交换码。；区位码两个字节分别加20H可得到国标码。",
+      "mnemonic": "区位码＋20H＝国标码",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-050",
+    "order": 144,
+    "title": "区位码、国标码与机内码的计算",
+    "oneLine": "区位码加2020H得国标码，国标码加8080H得机内码，区位码加A0A0H也可得机内码。",
+    "keywords": [
+      "区位码、国标码与机内码的计算",
+      "区位码+2020H=国标码",
+      "国标码+8080H=机内码",
+      "区位码+A0A0H=机内码"
+    ],
+    "mustPatterns": [
+      "区位码+2020H=国标码。",
+      "国标码+8080H=机内码。",
+      "区位码+A0A0H=机内码。"
+    ],
+    "basicExplain": [
+      "区位码加2020H得国标码，国标码加8080H得机内码，区位码加A0A0H也可得机内码。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：区位码+2020H=国标码。；国标码+8080H=机内码。；区位码+A0A0H=机内码。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 区位码加（[[2020H]]）得到国标码。",
+      "2. 国标码加（[[8080H]]）得到机内码。",
+      "3. 区位码加（[[A0A0H]]）得到机内码。"
+    ],
+    "selfTests": [
+      {
+        "q": "“区位码、国标码与机内码的计算”最核心的结论是什么？",
+        "a": "区位码+2020H=国标码。；国标码+8080H=机内码。；区位码+A0A0H=机内码。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image57.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "区位码加2020H得国标码，国标码加8080H得机内码，区位码加A0A0H也可得机内码。",
+      "core": [
+        "区位码+2020H=国标码。",
+        "国标码+8080H=机内码。",
+        "区位码+A0A0H=机内码。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "区位码+2020H=国标码。；国标码+8080H=机内码。；区位码+A0A0H=机内码。",
+      "mnemonic": "区＋2020＝国；国＋8080＝机",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-051",
+    "order": 145,
+    "title": "字形码",
+    "oneLine": "字形码用于汉字显示和打印，常见表示方式有点阵和矢量。",
+    "keywords": [
+      "字形码",
+      "字形码用于汉字显示或打印",
+      "字形码常见表示方式有点阵和矢量"
+    ],
+    "mustPatterns": [
+      "字形码用于汉字显示或打印。",
+      "字形码常见表示方式有点阵和矢量。"
+    ],
+    "basicExplain": [
+      "字形码用于汉字显示和打印，常见表示方式有点阵和矢量。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：字形码用于汉字显示或打印。；字形码常见表示方式有点阵和矢量。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 用于汉字显示和打印的编码是（[[字形码]]）。",
+      "2. 字形码常见表示方式有（[[点阵]]）和（[[矢量]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“字形码”最核心的结论是什么？",
+        "a": "字形码用于汉字显示或打印。；字形码常见表示方式有点阵和矢量。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image58.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "字形码用于汉字显示和打印，常见表示方式有点阵和矢量。",
+      "core": [
+        "字形码用于汉字显示或打印。",
+        "字形码常见表示方式有点阵和矢量。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "字形码用于汉字显示或打印。；字形码常见表示方式有点阵和矢量。",
+      "mnemonic": "字形码管输出，点阵或矢量",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-052",
+    "order": 146,
+    "title": "区位码、国标码与机内码的范围",
+    "oneLine": "三种汉字编码的常见范围分别是区位码0101H～5E5EH、国标码2121H～7E7EH、机内码A1A1H～FEFEH。",
+    "keywords": [
+      "区位码、国标码与机内码的范围",
+      "区位码范围常记为0101H～5E5EH",
+      "国标码范围常记为2121H～7E7EH",
+      "机内码范围常记为A1A1H～FEFEH"
+    ],
+    "mustPatterns": [
+      "区位码范围常记为0101H～5E5EH。",
+      "国标码范围常记为2121H～7E7EH。",
+      "机内码范围常记为A1A1H～FEFEH。"
+    ],
+    "basicExplain": [
+      "三种汉字编码的常见范围分别是区位码0101H～5E5EH、国标码2121H～7E7EH、机内码A1A1H～FEFEH。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：区位码范围常记为0101H～5E5EH。；国标码范围常记为2121H～7E7EH。；机内码范围常记为A1A1H～FEFEH。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 国标码常见范围是（[[2121H～7E7EH]]）。",
+      "2. 机内码常见范围是（[[A1A1H～FEFEH]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“区位码、国标码与机内码的范围”最核心的结论是什么？",
+        "a": "区位码范围常记为0101H～5E5EH。；国标码范围常记为2121H～7E7EH。；机内码范围常记为A1A1H～FEFEH。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image59.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "三种汉字编码的常见范围分别是区位码0101H～5E5EH、国标码2121H～7E7EH、机内码A1A1H～FEFEH。",
+      "core": [
+        "区位码范围常记为0101H～5E5EH。",
+        "国标码范围常记为2121H～7E7EH。",
+        "机内码范围常记为A1A1H～FEFEH。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "区位码范围常记为0101H～5E5EH。；国标码范围常记为2121H～7E7EH。；机内码范围常记为A1A1H～FEFEH。",
+      "mnemonic": "区01起，国21起，机A1起",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "字符编码",
+    "range": "字符编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-053",
+    "order": 147,
+    "title": "产生乱码的原因",
+    "oneLine": "乱码通常由编码方式不一致、解码方式错误或缺少相应字库造成。",
+    "keywords": [
+      "产生乱码的原因",
+      "保存和读取时使用不同编码可能产生乱码",
+      "缺少对应字符集或字库也可能产生乱码"
+    ],
+    "mustPatterns": [
+      "保存和读取时使用不同编码可能产生乱码。",
+      "缺少对应字符集或字库也可能产生乱码。"
+    ],
+    "basicExplain": [
+      "乱码通常由编码方式不一致、解码方式错误或缺少相应字库造成。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：保存和读取时使用不同编码可能产生乱码。；缺少对应字符集或字库也可能产生乱码。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 乱码常由编码与解码方式（[[不一致]]）造成。"
+    ],
+    "selfTests": [
+      {
+        "q": "“产生乱码的原因”最核心的结论是什么？",
+        "a": "保存和读取时使用不同编码可能产生乱码。；缺少对应字符集或字库也可能产生乱码。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image60.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "乱码通常由编码方式不一致、解码方式错误或缺少相应字库造成。",
+      "core": [
+        "保存和读取时使用不同编码可能产生乱码。",
+        "缺少对应字符集或字库也可能产生乱码。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "保存和读取时使用不同编码可能产生乱码。；缺少对应字符集或字库也可能产生乱码。",
+      "mnemonic": "编码不一致就乱码",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+    "category": "汉字编码",
+    "range": "汉字编码 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-COMP-054",
+    "order": 148,
+    "title": "输入码",
+    "oneLine": "输入码用于把汉字输入计算机，常见类型有音码、形码和音形码。",
+    "keywords": [
+      "输入码",
+      "输入码又称外码",
+      "常见输入码包括音码、形码和音形码",
+      "同一汉字可有不同输入码"
+    ],
+    "mustPatterns": [
+      "输入码又称外码，用于汉字输入。",
+      "常见输入码包括音码、形码和音形码。",
+      "同一汉字可有不同输入码，但对应唯一机内码。"
+    ],
+    "basicExplain": [
+      "输入码用于把汉字输入计算机，常见类型有音码、形码和音形码。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：输入码又称外码，用于汉字输入。；常见输入码包括音码、形码和音形码。；同一汉字可有不同输入码，但对应唯一机内码。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 汉字输入计算机时使用的编码称为（[[输入码或外码]]）。",
+      "2. 常见输入码包括（[[音码]]）、（[[形码]]）和音形码。"
+    ],
+    "selfTests": [
+      {
+        "q": "“输入码”最核心的结论是什么？",
+        "a": "输入码又称外码，用于汉字输入。；常见输入码包括音码、形码和音形码。；同一汉字可有不同输入码，但对应唯一机内码。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image61.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "输入码用于把汉字输入计算机，常见类型有音码、形码和音形码。",
+      "core": [
+        "输入码又称外码，用于汉字输入。",
+        "常见输入码包括音码、形码和音形码。",
+        "同一汉字可有不同输入码，但对应唯一机内码。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "输入码又称外码，用于汉字输入。；常见输入码包括音码、形码和音形码。；同一汉字可有不同输入码，但对应唯一机内码。",
+      "mnemonic": "输入码是外码，音形都能输",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词",
+    "range": "冠词 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-ENG-001",
+    "order": 149,
+    "title": "定冠词the：特指",
+    "oneLine": "the用于特指双方都知道、上文已提到或独一无二的人或事物。",
+    "keywords": [
+      "定冠词the：特指",
+      "the表示特指",
+      "上文已提到的人或事物再次出现时用the",
+      "双方都知道的对象用the",
+      "独一无二的事物前常用the",
+      "形容词最高级、序数词前常用the"
+    ],
+    "mustPatterns": [
+      "the表示特指。",
+      "上文已提到的人或事物再次出现时用the。",
+      "双方都知道的对象用the。",
+      "独一无二的事物前常用the。",
+      "形容词最高级、序数词前常用the。"
+    ],
+    "basicExplain": [
+      "the用于特指双方都知道、上文已提到或独一无二的人或事物。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：the表示特指。；上文已提到的人或事物再次出现时用the。；双方都知道的对象用the。；独一无二的事物前常用the。；形容词最高级、序数词前常用the。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 定冠词（[[the]]）主要表示特指。",
+      "2. 上文已提到的人或事物再次出现时通常用（[[the]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“定冠词the：特指”最核心的结论是什么？",
+        "a": "the表示特指。；上文已提到的人或事物再次出现时用the。；双方都知道的对象用the。；独一无二的事物前常用the。；形容词最高级、序数词前常用the。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image62.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "the用于特指双方都知道、上文已提到或独一无二的人或事物。",
+      "core": [
+        "the表示特指。",
+        "上文已提到的人或事物再次出现时用the。",
+        "双方都知道的对象用the。",
+        "独一无二的事物前常用the。",
+        "形容词最高级、序数词前常用the。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "the表示特指。；上文已提到的人或事物再次出现时用the。；双方都知道的对象用the。；独一无二的事物前常用the。；形容词最高级、序数词前常用the。",
+      "mnemonic": "特指、再提、双方知、独一无二",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词",
+    "range": "冠词 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-ENG-002",
+    "order": 150,
+    "title": "不定冠词a/an：泛指",
+    "oneLine": "a/an表示泛指，a用于辅音音素前，an用于元音音素前。",
+    "keywords": [
+      "不定冠词a/an：泛指",
+      "a/an表示泛指“一个”",
+      "a用于辅音音素开头的词前",
+      "an用于元音音素开头的词前",
+      "判断a/an看读音而不是首字母",
+      "hour、honest前用an"
+    ],
+    "mustPatterns": [
+      "a/an表示泛指“一个”。",
+      "a用于辅音音素开头的词前。",
+      "an用于元音音素开头的词前。",
+      "判断a/an看读音而不是首字母。",
+      "hour、honest前用an；university、European前用a。"
+    ],
+    "basicExplain": [
+      "a/an表示泛指，a用于辅音音素前，an用于元音音素前。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：a/an表示泛指“一个”。；a用于辅音音素开头的词前。；an用于元音音素开头的词前。；判断a/an看读音而不是首字母。；hour、honest前用an；university、European前用a。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 不定冠词a/an表示（[[泛指]]）。",
+      "2. a用于（[[辅音音素]]）开头的词前，an用于（[[元音音素]]）开头的词前。",
+      "3. 判断a/an主要看单词的（[[读音]]），而不是首字母。"
+    ],
+    "selfTests": [
+      {
+        "q": "“不定冠词a/an：泛指”最核心的结论是什么？",
+        "a": "a/an表示泛指“一个”。；a用于辅音音素开头的词前。；an用于元音音素开头的词前。；判断a/an看读音而不是首字母。；hour、honest前用an；university、European前用a。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image63.webp",
+      "./imports/day-06/cards/image64.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "a/an表示泛指，a用于辅音音素前，an用于元音音素前。",
+      "core": [
+        "a/an表示泛指“一个”。",
+        "a用于辅音音素开头的词前。",
+        "an用于元音音素开头的词前。",
+        "判断a/an看读音而不是首字母。",
+        "hour、honest前用an；university、European前用a。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "a/an表示泛指“一个”。；a用于辅音音素开头的词前。；an用于元音音素开头的词前。；判断a/an看读音而不是首字母。；hour、honest前用an；university、European前用a。",
+      "mnemonic": "看音不看字母",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词",
+    "range": "冠词 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-ENG-003",
+    "order": 151,
+    "title": "零冠词：不用冠词",
+    "oneLine": "复数或不可数名词表泛指，以及专有名词、学科、语言、节日、三餐等前常用零冠词。",
+    "keywords": [
+      "零冠词：不用冠词",
+      "复数名词或不可数名词表示泛指时常用零冠词",
+      "专有名词、语言、学科、球类、节日、月份、星期、三餐前常不用冠词",
+      "by+交通工具常用零冠词",
+      "固定搭配中也常出现零冠词"
+    ],
+    "mustPatterns": [
+      "复数名词或不可数名词表示泛指时常用零冠词。",
+      "专有名词、语言、学科、球类、节日、月份、星期、三餐前常不用冠词。",
+      "by+交通工具常用零冠词。",
+      "固定搭配中也常出现零冠词。"
+    ],
+    "basicExplain": [
+      "复数或不可数名词表泛指，以及专有名词、学科、语言、节日、三餐等前常用零冠词。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：复数名词或不可数名词表示泛指时常用零冠词。；专有名词、语言、学科、球类、节日、月份、星期、三餐前常不用冠词。；by+交通工具常用零冠词。；固定搭配中也常出现零冠词。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 复数名词或不可数名词表示泛指时常用（[[零冠词]]）。",
+      "2. by+交通工具通常（[[不用冠词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“零冠词：不用冠词”最核心的结论是什么？",
+        "a": "复数名词或不可数名词表示泛指时常用零冠词。；专有名词、语言、学科、球类、节日、月份、星期、三餐前常不用冠词。；by+交通工具常用零冠词。；固定搭配中也常出现零冠词。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image65.webp",
+      "./imports/day-06/cards/image66.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "复数或不可数名词表泛指，以及专有名词、学科、语言、节日、三餐等前常用零冠词。",
+      "core": [
+        "复数名词或不可数名词表示泛指时常用零冠词。",
+        "专有名词、语言、学科、球类、节日、月份、星期、三餐前常不用冠词。",
+        "by+交通工具常用零冠词。",
+        "固定搭配中也常出现零冠词。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "复数名词或不可数名词表示泛指时常用零冠词。；专有名词、语言、学科、球类、节日、月份、星期、三餐前常不用冠词。；by+交通工具常用零冠词。；固定搭配中也常出现零冠词。",
+      "mnemonic": "泛指复数不可数，专有学科语言餐",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词",
+    "range": "冠词 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-ENG-004",
+    "order": 152,
+    "title": "定冠词与零冠词固定短语",
+    "oneLine": "有无the可能改变短语含义，如in bed与in the bed、go to school与go to the school。",
+    "keywords": [
+      "定冠词与零冠词固定短语",
+      "in",
+      "in",
+      "go",
+      "go"
+    ],
+    "mustPatterns": [
+      "in bed表示卧床/睡觉，in the bed表示在床上。",
+      "in hospital表示住院，in the hospital表示在医院里。",
+      "go to school表示上学，go to the school表示去学校。",
+      "go to church表示做礼拜，go to the church表示去教堂。"
+    ],
+    "basicExplain": [
+      "有无the可能改变短语含义，如in bed与in the bed、go to school与go to the school。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：in bed表示卧床/睡觉，in the bed表示在床上。；in hospital表示住院，in the hospital表示在医院里。；go to school表示上学，go to the school表示去学校。；go to church表示做礼拜，go to the church表示去教堂。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 表示“上学”用（[[go to school]]），表示“去学校”用（[[go to the school]]）。",
+      "2. 表示“住院”用（[[in hospital]]），表示“在医院里”用（[[in the hospital]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“定冠词与零冠词固定短语”最核心的结论是什么？",
+        "a": "in bed表示卧床/睡觉，in the bed表示在床上。；in hospital表示住院，in the hospital表示在医院里。；go to school表示上学，go to the school表示去学校。；go to church表示做礼拜，go to the church表示去教堂。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image67.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "有无the可能改变短语含义，如in bed与in the bed、go to school与go to the school。",
+      "core": [
+        "in bed表示卧床/睡觉，in the bed表示在床上。",
+        "in hospital表示住院，in the hospital表示在医院里。",
+        "go to school表示上学，go to the school表示去学校。",
+        "go to church表示做礼拜，go to the church表示去教堂。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "in bed表示卧床/睡觉，in the bed表示在床上。；in hospital表示住院，in the hospital表示在医院里。；go to school表示上学，go to the school表示去学校。；go to church表示做礼拜，go to the church表示去教堂。",
+      "mnemonic": "无the重功能，有the重地点",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "幂与指数",
+    "range": "幂与指数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-001",
+    "order": 153,
+    "title": "幂函数运算规律",
+    "oneLine": "同底数幂相乘指数相加，相除指数相减，幂的幂指数相乘。",
+    "keywords": [
+      "幂函数运算规律",
+      "a^m·a^n=a^(m+n)",
+      "a^m/a^n=a^(m-n)（a≠0）",
+      "(a^m)^n=a^(mn)",
+      "a^(-n)=1/a^n",
+      "a^(m/n)=n次根号下a^m"
+    ],
+    "mustPatterns": [
+      "a^m·a^n=a^(m+n)。",
+      "a^m/a^n=a^(m-n)（a≠0）。",
+      "(a^m)^n=a^(mn)。",
+      "a^(-n)=1/a^n。",
+      "a^(m/n)=n次根号下a^m。"
+    ],
+    "basicExplain": [
+      "同底数幂相乘指数相加，相除指数相减，幂的幂指数相乘。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：a^m·a^n=a^(m+n)。；a^m/a^n=a^(m-n)（a≠0）。；(a^m)^n=a^(mn)。；a^(-n)=1/a^n。；a^(m/n)=n次根号下a^m。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 同底数幂相乘，指数（[[相加]]）。",
+      "2. 同底数幂相除，指数（[[相减]]）。",
+      "3. 幂的幂，指数（[[相乘]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“幂函数运算规律”最核心的结论是什么？",
+        "a": "a^m·a^n=a^(m+n)。；a^m/a^n=a^(m-n)（a≠0）。；(a^m)^n=a^(mn)。；a^(-n)=1/a^n。；a^(m/n)=n次根号下a^m。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image68.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "同底数幂相乘指数相加，相除指数相减，幂的幂指数相乘。",
+      "core": [
+        "a^m·a^n=a^(m+n)。",
+        "a^m/a^n=a^(m-n)（a≠0）。",
+        "(a^m)^n=a^(mn)。",
+        "a^(-n)=1/a^n。",
+        "a^(m/n)=n次根号下a^m。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "a^m·a^n=a^(m+n)。；a^m/a^n=a^(m-n)（a≠0）。；(a^m)^n=a^(mn)。；a^(-n)=1/a^n。；a^(m/n)=n次根号下a^m。",
+      "mnemonic": "乘加、除减、幂乘",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "代数公式",
+    "range": "代数公式 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-002",
+    "order": 154,
+    "title": "平方与立方公式",
+    "oneLine": "完全平方、平方差、立方和与立方差公式是代数化简的基础。",
+    "keywords": [
+      "平方与立方公式",
+      "(a+b)^2=a^2+2ab+b^2",
+      "(a-b)^2=a^2-2ab+b^2",
+      "a^2-b^2=(a+b)(a-b)",
+      "a^3-b^3=(a-b)(a^2+ab+b^2)",
+      "a^3+b^3=(a+b)(a^2-ab+b^2)"
+    ],
+    "mustPatterns": [
+      "(a+b)^2=a^2+2ab+b^2。",
+      "(a-b)^2=a^2-2ab+b^2。",
+      "a^2-b^2=(a+b)(a-b)。",
+      "a^3-b^3=(a-b)(a^2+ab+b^2)。",
+      "a^3+b^3=(a+b)(a^2-ab+b^2)。"
+    ],
+    "basicExplain": [
+      "完全平方、平方差、立方和与立方差公式是代数化简的基础。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：(a+b)^2=a^2+2ab+b^2。；(a-b)^2=a^2-2ab+b^2。；a^2-b^2=(a+b)(a-b)。；a^3-b^3=(a-b)(a^2+ab+b^2)。；a^3+b^3=(a+b)(a^2-ab+b^2)。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 平方差公式：a^2-b^2=（[[(a+b)(a-b)]]）。",
+      "2. 立方差公式：a^3-b^3=（[[(a-b)(a^2+ab+b^2)]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“平方与立方公式”最核心的结论是什么？",
+        "a": "(a+b)^2=a^2+2ab+b^2。；(a-b)^2=a^2-2ab+b^2。；a^2-b^2=(a+b)(a-b)。；a^3-b^3=(a-b)(a^2+ab+b^2)。；a^3+b^3=(a+b)(a^2-ab+b^2)。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image69.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "完全平方、平方差、立方和与立方差公式是代数化简的基础。",
+      "core": [
+        "(a+b)^2=a^2+2ab+b^2。",
+        "(a-b)^2=a^2-2ab+b^2。",
+        "a^2-b^2=(a+b)(a-b)。",
+        "a^3-b^3=(a-b)(a^2+ab+b^2)。",
+        "a^3+b^3=(a+b)(a^2-ab+b^2)。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "(a+b)^2=a^2+2ab+b^2。；(a-b)^2=a^2-2ab+b^2。；a^2-b^2=(a+b)(a-b)。；a^3-b^3=(a-b)(a^2+ab+b^2)。；a^3+b^3=(a+b)(a^2-ab+b^2)。",
+      "mnemonic": "平方差一正一负；立方和差同号在前",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "一元二次方程",
+    "range": "一元二次方程 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-003",
+    "order": 155,
+    "title": "一元二次方程求根公式",
+    "oneLine": "ax²+bx+c=0的根由求根公式确定，判别式Δ=b²-4ac决定根的情况。",
+    "keywords": [
+      "一元二次方程求根公式",
+      "一元二次方程一般式为ax²+bx+c=0（a≠0）",
+      "求根公式x=(-b±√Δ)/(2a)",
+      "判别式Δ=b²-4ac",
+      "Δ>0有两个不等实根"
+    ],
+    "mustPatterns": [
+      "一元二次方程一般式为ax²+bx+c=0（a≠0）。",
+      "求根公式x=(-b±√Δ)/(2a)。",
+      "判别式Δ=b²-4ac。",
+      "Δ>0有两个不等实根；Δ=0有两个相等实根；Δ<0无实根。"
+    ],
+    "basicExplain": [
+      "ax²+bx+c=0的根由求根公式确定，判别式Δ=b²-4ac决定根的情况。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：一元二次方程一般式为ax²+bx+c=0（a≠0）。；求根公式x=(-b±√Δ)/(2a)。；判别式Δ=b²-4ac。；Δ>0有两个不等实根；Δ=0有两个相等实根；Δ<0无实根。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 一元二次方程的判别式是（[[Δ=b²-4ac]]）。",
+      "2. 求根公式是（[[x=(-b±√Δ)/(2a)]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“一元二次方程求根公式”最核心的结论是什么？",
+        "a": "一元二次方程一般式为ax²+bx+c=0（a≠0）。；求根公式x=(-b±√Δ)/(2a)。；判别式Δ=b²-4ac。；Δ>0有两个不等实根；Δ=0有两个相等实根；Δ<0无实根。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image70.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "ax²+bx+c=0的根由求根公式确定，判别式Δ=b²-4ac决定根的情况。",
+      "core": [
+        "一元二次方程一般式为ax²+bx+c=0（a≠0）。",
+        "求根公式x=(-b±√Δ)/(2a)。",
+        "判别式Δ=b²-4ac。",
+        "Δ>0有两个不等实根；Δ=0有两个相等实根；Δ<0无实根。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "一元二次方程一般式为ax²+bx+c=0（a≠0）。；求根公式x=(-b±√Δ)/(2a)。；判别式Δ=b²-4ac。；Δ>0有两个不等实根；Δ=0有两个相等实根；Δ<0无实根。",
+      "mnemonic": "先算Δ，再判根",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "复数",
+    "range": "复数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-004",
+    "order": 156,
+    "title": "一元二次方程与复数",
+    "oneLine": "当判别式小于0时，方程在复数范围内有一对共轭复根。",
+    "keywords": [
+      "一元二次方程与复数",
+      "虚数单位i满足i²=-1",
+      "当Δ<0时",
+      "复数乘法按多项式展开并用i²=-1化简"
+    ],
+    "mustPatterns": [
+      "虚数单位i满足i²=-1。",
+      "当Δ<0时，一元二次方程在复数范围内有一对共轭复根。",
+      "复数乘法按多项式展开并用i²=-1化简。"
+    ],
+    "basicExplain": [
+      "当判别式小于0时，方程在复数范围内有一对共轭复根。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：虚数单位i满足i²=-1。；当Δ<0时，一元二次方程在复数范围内有一对共轭复根。；复数乘法按多项式展开并用i²=-1化简。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 虚数单位i满足（[[i²=-1]]）。",
+      "2. 当判别式Δ<0时，方程在复数范围内有一对（[[共轭复根]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“一元二次方程与复数”最核心的结论是什么？",
+        "a": "虚数单位i满足i²=-1。；当Δ<0时，一元二次方程在复数范围内有一对共轭复根。；复数乘法按多项式展开并用i²=-1化简。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image71.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "当判别式小于0时，方程在复数范围内有一对共轭复根。",
+      "core": [
+        "虚数单位i满足i²=-1。",
+        "当Δ<0时，一元二次方程在复数范围内有一对共轭复根。",
+        "复数乘法按多项式展开并用i²=-1化简。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "虚数单位i满足i²=-1。；当Δ<0时，一元二次方程在复数范围内有一对共轭复根。；复数乘法按多项式展开并用i²=-1化简。",
+      "mnemonic": "Δ负进复数，i平方等负一",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "指数运算",
+    "range": "指数运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-005",
+    "order": 157,
+    "title": "指数运算规律",
+    "oneLine": "指数运算遵循同底数乘除和幂的幂等基本规律。",
+    "keywords": [
+      "指数运算规律",
+      "a^m·a^n=a^(m+n)",
+      "a^m/a^n=a^(m-n)",
+      "(a^m)^n=a^(mn)",
+      "(ab)^n=a^n"
+    ],
+    "mustPatterns": [
+      "a^m·a^n=a^(m+n)。",
+      "a^m/a^n=a^(m-n)。",
+      "(a^m)^n=a^(mn)。",
+      "(ab)^n=a^n b^n。"
+    ],
+    "basicExplain": [
+      "指数运算遵循同底数乘除和幂的幂等基本规律。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：a^m·a^n=a^(m+n)。；a^m/a^n=a^(m-n)。；(a^m)^n=a^(mn)。；(ab)^n=a^n b^n。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. (a^m)^n=（[[a^(mn)]]）。",
+      "2. (ab)^n=（[[a^n b^n]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“指数运算规律”最核心的结论是什么？",
+        "a": "a^m·a^n=a^(m+n)。；a^m/a^n=a^(m-n)。；(a^m)^n=a^(mn)。；(ab)^n=a^n b^n。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image72.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "指数运算遵循同底数乘除和幂的幂等基本规律。",
+      "core": [
+        "a^m·a^n=a^(m+n)。",
+        "a^m/a^n=a^(m-n)。",
+        "(a^m)^n=a^(mn)。",
+        "(ab)^n=a^n b^n。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "a^m·a^n=a^(m+n)。；a^m/a^n=a^(m-n)。；(a^m)^n=a^(mn)。；(ab)^n=a^n b^n。",
+      "mnemonic": "指数规律：乘加除减幂乘",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "对数运算",
+    "range": "对数运算 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-006",
+    "order": 158,
+    "title": "对数运算性质",
+    "oneLine": "对数的乘积化和、商化差、幂化系数。",
+    "keywords": [
+      "对数运算性质",
+      "log_a1=0",
+      "log_aa=1",
+      "log_a(mn)=log_am+log_an",
+      "log_a(m/n)=log_am-log_an",
+      "log_a(m^n)=nlog_am",
+      "a^(log_aN)=N"
+    ],
+    "mustPatterns": [
+      "log_a1=0。",
+      "log_aa=1。",
+      "log_a(mn)=log_am+log_an。",
+      "log_a(m/n)=log_am-log_an。",
+      "log_a(m^n)=nlog_am。",
+      "a^(log_aN)=N。"
+    ],
+    "basicExplain": [
+      "对数的乘积化和、商化差、幂化系数。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：log_a1=0。；log_aa=1。；log_a(mn)=log_am+log_an。；log_a(m/n)=log_am-log_an。；log_a(m^n)=nlog_am。；a^(log_aN)=N。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. log_a(mn)=（[[log_am+log_an]]）。",
+      "2. log_a(m/n)=（[[log_am-log_an]]）。",
+      "3. log_a(m^n)=（[[nlog_am]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“对数运算性质”最核心的结论是什么？",
+        "a": "log_a1=0。；log_aa=1。；log_a(mn)=log_am+log_an。；log_a(m/n)=log_am-log_an。；log_a(m^n)=nlog_am。；a^(log_aN)=N。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image73.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "对数的乘积化和、商化差、幂化系数。",
+      "core": [
+        "log_a1=0。",
+        "log_aa=1。",
+        "log_a(mn)=log_am+log_an。",
+        "log_a(m/n)=log_am-log_an。",
+        "log_a(m^n)=nlog_am。",
+        "a^(log_aN)=N。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "log_a1=0。；log_aa=1。；log_a(mn)=log_am+log_an。；log_a(m/n)=log_am-log_an。；log_a(m^n)=nlog_am。；a^(log_aN)=N。",
+      "mnemonic": "乘变加、除变减、幂提到前",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-007",
+    "order": 159,
+    "title": "三角函数定义",
+    "oneLine": "直角三角形中，正弦、余弦、正切、余切、正割、余割由边长比定义。",
+    "keywords": [
+      "三角函数定义",
+      "sinα=对边/斜边",
+      "cosα=邻边/斜边",
+      "tanα=对边/邻边",
+      "cotα=邻边/对边",
+      "secα=斜边/邻边",
+      "cscα=斜边/对边"
+    ],
+    "mustPatterns": [
+      "sinα=对边/斜边。",
+      "cosα=邻边/斜边。",
+      "tanα=对边/邻边。",
+      "cotα=邻边/对边。",
+      "secα=斜边/邻边。",
+      "cscα=斜边/对边。"
+    ],
+    "basicExplain": [
+      "直角三角形中，正弦、余弦、正切、余切、正割、余割由边长比定义。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：sinα=对边/斜边。；cosα=邻边/斜边。；tanα=对边/邻边。；cotα=邻边/对边。；secα=斜边/邻边。；cscα=斜边/对边。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sinα=（[[对边/斜边]]）。",
+      "2. cosα=（[[邻边/斜边]]）。",
+      "3. tanα=（[[对边/邻边]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“三角函数定义”最核心的结论是什么？",
+        "a": "sinα=对边/斜边。；cosα=邻边/斜边。；tanα=对边/邻边。；cotα=邻边/对边。；secα=斜边/邻边。；cscα=斜边/对边。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image74.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "直角三角形中，正弦、余弦、正切、余切、正割、余割由边长比定义。",
+      "core": [
+        "sinα=对边/斜边。",
+        "cosα=邻边/斜边。",
+        "tanα=对边/邻边。",
+        "cotα=邻边/对边。",
+        "secα=斜边/邻边。",
+        "cscα=斜边/对边。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "sinα=对边/斜边。；cosα=邻边/斜边。；tanα=对边/邻边。；cotα=邻边/对边。；secα=斜边/邻边。；cscα=斜边/对边。",
+      "mnemonic": "正弦对斜，余弦邻斜，正切对邻",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-008",
+    "order": 160,
+    "title": "三角函数倒数关系",
+    "oneLine": "正弦与余割、余弦与正割、正切与余切互为倒数。",
+    "keywords": [
+      "三角函数倒数关系",
+      "1/sin",
+      "1/cos",
+      "1/tan"
+    ],
+    "mustPatterns": [
+      "1/sin x=csc x。",
+      "1/cos x=sec x。",
+      "1/tan x=cot x=cos x/sin x。"
+    ],
+    "basicExplain": [
+      "正弦与余割、余弦与正割、正切与余切互为倒数。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：1/sin x=csc x。；1/cos x=sec x。；1/tan x=cot x=cos x/sin x。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 1/sin x=（[[csc x]]）。",
+      "2. 1/cos x=（[[sec x]]）。",
+      "3. 1/tan x=（[[cot x]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“三角函数倒数关系”最核心的结论是什么？",
+        "a": "1/sin x=csc x。；1/cos x=sec x。；1/tan x=cot x=cos x/sin x。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image75.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "正弦与余割、余弦与正割、正切与余切互为倒数。",
+      "core": [
+        "1/sin x=csc x。",
+        "1/cos x=sec x。",
+        "1/tan x=cot x=cos x/sin x。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "1/sin x=csc x。；1/cos x=sec x。；1/tan x=cot x=cos x/sin x。",
+      "mnemonic": "sin-csc，cos-sec，tan-cot",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-009",
+    "order": 161,
+    "title": "三角函数平方关系",
+    "oneLine": "三角函数的基本平方关系包括sin²x+cos²x=1等。",
+    "keywords": [
+      "三角函数平方关系",
+      "sin²x+cos²x=1",
+      "tan²x+1=sec²x",
+      "cot²x+1=csc²x"
+    ],
+    "mustPatterns": [
+      "sin²x+cos²x=1。",
+      "tan²x+1=sec²x。",
+      "cot²x+1=csc²x。"
+    ],
+    "basicExplain": [
+      "三角函数的基本平方关系包括sin²x+cos²x=1等。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：sin²x+cos²x=1。；tan²x+1=sec²x。；cot²x+1=csc²x。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sin²x+cos²x=（[[1]]）。",
+      "2. tan²x+1=（[[sec²x]]）。",
+      "3. cot²x+1=（[[csc²x]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“三角函数平方关系”最核心的结论是什么？",
+        "a": "sin²x+cos²x=1。；tan²x+1=sec²x。；cot²x+1=csc²x。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image76.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "三角函数的基本平方关系包括sin²x+cos²x=1等。",
+      "core": [
+        "sin²x+cos²x=1。",
+        "tan²x+1=sec²x。",
+        "cot²x+1=csc²x。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "sin²x+cos²x=1。；tan²x+1=sec²x。；cot²x+1=csc²x。",
+      "mnemonic": "正余平方和1；切加1等割平方",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-010",
+    "order": 162,
+    "title": "二倍角公式",
+    "oneLine": "二倍角公式可把2x的三角函数化为x的函数。",
+    "keywords": [
+      "二倍角公式",
+      "sin2x=2sinx",
+      "cos2x=cos²x-sin²x",
+      "cos2x=2cos²x-1",
+      "cos2x=1-2sin²x"
+    ],
+    "mustPatterns": [
+      "sin2x=2sinx cosx。",
+      "cos2x=cos²x-sin²x。",
+      "cos2x=2cos²x-1。",
+      "cos2x=1-2sin²x。"
+    ],
+    "basicExplain": [
+      "二倍角公式可把2x的三角函数化为x的函数。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：sin2x=2sinx cosx。；cos2x=cos²x-sin²x。；cos2x=2cos²x-1。；cos2x=1-2sin²x。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sin2x=（[[2sinx cosx]]）。",
+      "2. cos2x=（[[cos²x-sin²x]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“二倍角公式”最核心的结论是什么？",
+        "a": "sin2x=2sinx cosx。；cos2x=cos²x-sin²x。；cos2x=2cos²x-1。；cos2x=1-2sin²x。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image77.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "二倍角公式可把2x的三角函数化为x的函数。",
+      "core": [
+        "sin2x=2sinx cosx。",
+        "cos2x=cos²x-sin²x。",
+        "cos2x=2cos²x-1。",
+        "cos2x=1-2sin²x。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "sin2x=2sinx cosx。；cos2x=cos²x-sin²x。；cos2x=2cos²x-1。；cos2x=1-2sin²x。",
+      "mnemonic": "正弦二倍两倍积，余弦二倍三种式",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-011",
+    "order": 163,
+    "title": "降幂公式",
+    "oneLine": "降幂公式用cos2x表示sin²x和cos²x。",
+    "keywords": [
+      "降幂公式",
+      "sin²x=(1-cos2x)/2",
+      "cos²x=(1+cos2x)/2"
+    ],
+    "mustPatterns": [
+      "sin²x=(1-cos2x)/2。",
+      "cos²x=(1+cos2x)/2。"
+    ],
+    "basicExplain": [
+      "降幂公式用cos2x表示sin²x和cos²x。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：sin²x=(1-cos2x)/2。；cos²x=(1+cos2x)/2。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sin²x=（[[(1-cos2x)/2]]）。",
+      "2. cos²x=（[[(1+cos2x)/2]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“降幂公式”最核心的结论是什么？",
+        "a": "sin²x=(1-cos2x)/2。；cos²x=(1+cos2x)/2。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image78.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "降幂公式用cos2x表示sin²x和cos²x。",
+      "core": [
+        "sin²x=(1-cos2x)/2。",
+        "cos²x=(1+cos2x)/2。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "sin²x=(1-cos2x)/2。；cos²x=(1+cos2x)/2。",
+      "mnemonic": "正弦减，余弦加，统统除以2",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第6天 · 7.20",
+    "batch": "第6天持续导入｜2026年7月20日",
+    "importBatchId": "date-2026-07-20",
+    "importDay": 6,
+    "importDate": "2026-07-20",
+    "importLabel": "第6天 · 7.20",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026年7月20日上传的20页Word资料及原始截图人工整理并核对。",
+    "id": "D06-MATH-012",
+    "order": 164,
+    "title": "特殊角三角函数值",
+    "oneLine": "0、π/6、π/4、π/3、π/2等特殊角的三角函数值应熟记。",
+    "keywords": [
+      "特殊角三角函数值",
+      "sin0=0",
+      "sin(π/6)=1/2",
+      "sin(π/4)=cos(π/4)=√2/2",
+      "sin(π/3)=√3/2",
+      "sin(π/2)=1"
+    ],
+    "mustPatterns": [
+      "sin0=0，cos0=1。",
+      "sin(π/6)=1/2，cos(π/6)=√3/2。",
+      "sin(π/4)=cos(π/4)=√2/2。",
+      "sin(π/3)=√3/2，cos(π/3)=1/2。",
+      "sin(π/2)=1，cos(π/2)=0。"
+    ],
+    "basicExplain": [
+      "0、π/6、π/4、π/3、π/2等特殊角的三角函数值应熟记。"
+    ],
+    "examRefine": [
+      "本卡重点记忆：sin0=0，cos0=1。；sin(π/6)=1/2，cos(π/6)=√3/2。；sin(π/4)=cos(π/4)=√2/2。；sin(π/3)=√3/2，cos(π/3)=1/2。；sin(π/2)=1，cos(π/2)=0。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sin(π/6)=（[[1/2]]），cos(π/6)=（[[√3/2]]）。",
+      "2. sin(π/4)=cos(π/4)=（[[√2/2]]）。",
+      "3. sin(π/3)=（[[√3/2]]），cos(π/3)=（[[1/2]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“特殊角三角函数值”最核心的结论是什么？",
+        "a": "sin0=0，cos0=1。；sin(π/6)=1/2，cos(π/6)=√3/2。；sin(π/4)=cos(π/4)=√2/2。；sin(π/3)=√3/2，cos(π/3)=1/2。；sin(π/2)=1，cos(π/2)=0。"
+      }
+    ],
+    "images": [
+      "./imports/day-06/cards/image79.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-20 用户上传Word：ddc0142d-1b37-4901-bf60-4a6e640d891b.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-20",
+        "day": 6,
+        "date": "2026-07-20",
+        "label": "第6天 · 7.20",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "0、π/6、π/4、π/3、π/2等特殊角的三角函数值应熟记。",
+      "core": [
+        "sin0=0，cos0=1。",
+        "sin(π/6)=1/2，cos(π/6)=√3/2。",
+        "sin(π/4)=cos(π/4)=√2/2。",
+        "sin(π/3)=√3/2，cos(π/3)=1/2。",
+        "sin(π/2)=1，cos(π/2)=0。"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "sin0=0，cos0=1。；sin(π/6)=1/2，cos(π/6)=√3/2。；sin(π/4)=cos(π/4)=√2/2。；sin(π/3)=√3/2，cos(π/3)=1/2。；sin(π/2)=1，cos(π/2)=0。",
+      "mnemonic": "正弦01234开根除2，余弦反过来",
+      "sourceLabel": "第6天 · 7.20 · 知识点背诵"
+    }
   }
 ];
 
 window.KNOWLEDGE_META = {
-  "version": "v43 日期纠正与第5天持续导入版",
-  "name": "全新题库｜7.15第1天、7.16第2天、7.17第3天、7.18第4天、7.19第5天｜分科分区持续导入",
-  "totalCards": 94,
+  "version": "v46 日期筛选性能修复版",
+  "lightweight": true,
+  "lightweightNote": "已移除项目内重复保存的Word源文件，并将原图转换为高质量WebP；知识点、卡片、PDF、学习记录与功能保持不变。",
+  "name": "全新题库｜7.15第1天至7.20第6天｜计算机、英语、数学分科持续导入",
+  "totalCards": 164,
   "notes": [
     "本版本从v25空题库建立，不包含旧题库知识点。",
     "2026年7月15日固定为第1天；同一自然日期无论导入多少次，仍属于第1天。",
@@ -9555,7 +14793,9 @@ window.KNOWLEDGE_META = {
     "所有新增卡均已配置“笔记本总结”；两份计算机PDF作为独立PDF资料整理卡保存。",
     "日期纠正：v42新增的8张卡应归入2026年7月18日第4天，已修正日期、导入记录和图片目录；卡片ID保持不变。",
     "2026年7月19日记录为第5天，本次7页Word共26张截图，合并连续页后整理为21张新卡：英语10、数学5、计算机6。",
-    "全部新卡均配置填空、自测、理解说明、易错点、原始截图和笔记本总结。"
+    "全部新卡均配置填空、自测、理解说明、易错点、原始截图和笔记本总结。",
+    "2026年7月20日为第6天，本次20页Word共79张原始截图，合并连续与重复截图后整理为70张独立知识点卡。",
+    "本次新增：计算机54张、英语4张、数学12张；全部保留原图，并生成填空、自测、理解说明和笔记本总结。"
   ],
   "chapters": {
     "全部": [
@@ -9568,24 +14808,32 @@ window.KNOWLEDGE_META = {
       "数学｜第一章 函数｜1.3 函数的性质",
       "英语｜第一章 基础语法｜代词与不定代词",
       "数学｜第一章 函数｜1.2 基本初等函数图像",
-      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成"
+      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+      "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+      "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+      "英语｜第一章 基础语法｜冠词",
+      "数学｜第一章 函数｜1.4 基础公式与三角函数"
     ],
     "计算机": [
       "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
-      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成"
+      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+      "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
+      "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示"
     ],
     "英语": [
       "英语｜第一章 基础语法｜名词",
       "英语｜第一章 基础语法｜句子结构",
       "英语｜第一章 基础语法｜代词",
-      "英语｜第一章 基础语法｜代词与不定代词"
+      "英语｜第一章 基础语法｜代词与不定代词",
+      "英语｜第一章 基础语法｜冠词"
     ],
     "考点必背": [],
     "数学": [
       "数学｜第一章 函数｜1.1 函数概念与定义域",
       "数学｜第一章 函数｜1.2 反函数",
       "数学｜第一章 函数｜1.3 函数的性质",
-      "数学｜第一章 函数｜1.2 基本初等函数图像"
+      "数学｜第一章 函数｜1.2 基本初等函数图像",
+      "数学｜第一章 函数｜1.4 基础公式与三角函数"
     ]
   },
   "recordTypes": [
@@ -9608,10 +14856,10 @@ window.KNOWLEDGE_META = {
       "category": "三类资料分开记录",
       "description": "7月15日当天所有内容仍归入第1天；知识点背诵、PDF资料整理和图片知识点分别保存。",
       "images": [
-        "./imports/day-01/directory-overview.png",
-        "./imports/day-01/people-list.png",
-        "./imports/day-01/alan-turing-mindmap.png",
-        "./imports/day-01/alan-turing-keypoints.png"
+        "./imports/day-01/directory-overview.webp",
+        "./imports/day-01/people-list.webp",
+        "./imports/day-01/alan-turing-mindmap.webp",
+        "./imports/day-01/alan-turing-keypoints.webp"
       ],
       "records": [
         {
@@ -9654,43 +14902,43 @@ window.KNOWLEDGE_META = {
       "category": "知识点、笔记、PDF、图片与题目分开记录",
       "description": "7月16日仍为第2天；计算机、英语与数学资料继续按知识点、笔记、PDF、图片和题目分开保存。本次补充导入5张计算机历史事件知识点卡。",
       "images": [
-        "./imports/day-02/von-neumann-mindmap.png",
-        "./imports/day-02/von-neumann-keypoints.jpg",
-        "./imports/day-02/english-double-genitive.png",
-        "./imports/day-02/english-of-genitive.png",
-        "./imports/day-02/english-s-genitive.png",
-        "./imports/day-02/english-notes/image1.png",
-        "./imports/day-02/english-notes/image4.png",
-        "./imports/day-02/english-notes/image5.png",
-        "./imports/day-02/english-notes/image8.png",
-        "./imports/day-02/english-notes/image11.png",
-        "./imports/day-02/english-notes/image14.png",
-        "./imports/day-02/english-notes/image18.png",
-        "./imports/day-02/english-notes-pdf/sentence-components/page-1.png",
-        "./imports/day-02/english-notes-pdf/sentence-components/page-5.png",
-        "./imports/day-02/english-notes-pdf/sentence-types/page-1.png",
-        "./imports/day-02/english-notes-pdf/sentence-types/page-5.png",
-        "./imports/day-02/math-function-notes/image1.png",
-        "./imports/day-02/math-function-notes/image4.png",
-        "./imports/day-02/math-function-notes/image6.png",
-        "./imports/day-02/math-function-notes/image8.png",
-        "./imports/day-02/math-function-notes/image9.png",
-        "./imports/day-02/math-function-domain-part2/image1.png",
-        "./imports/day-02/math-function-domain-part2/image2.png",
-        "./imports/day-02/math-function-domain-part2/image3.png",
-        "./imports/day-02/math-function-domain-part2/image4.png",
-        "./imports/day-02/math-function-domain-part2/image5.png",
-        "./imports/day-02/math-function-domain-part2/image6.png",
-        "./imports/day-02/math-function-domain-part2/image7.png",
-        "./imports/day-02/math-function-domain-part2/image8.png",
-        "./imports/day-02/math-function-domain-part2/image9.png",
-        "./imports/day-02/math-function-domain-part2/image10.png",
-        "./imports/day-02/math-common-function-domains/common-function-domains.png",
-        "./imports/day-02/computer-history-events/computer-generations.png",
-        "./imports/day-02/computer-history-events/eniac.png",
-        "./imports/day-02/computer-history-events/sunway-taihulight.png",
-        "./imports/day-02/computer-history-events/univac.png",
-        "./imports/day-02/computer-history-events/edvac.png"
+        "./imports/day-02/von-neumann-mindmap.webp",
+        "./imports/day-02/von-neumann-keypoints.webp",
+        "./imports/day-02/english-double-genitive.webp",
+        "./imports/day-02/english-of-genitive.webp",
+        "./imports/day-02/english-s-genitive.webp",
+        "./imports/day-02/english-notes/image1.webp",
+        "./imports/day-02/english-notes/image4.webp",
+        "./imports/day-02/english-notes/image5.webp",
+        "./imports/day-02/english-notes/image8.webp",
+        "./imports/day-02/english-notes/image11.webp",
+        "./imports/day-02/english-notes/image14.webp",
+        "./imports/day-02/english-notes/image18.webp",
+        "./imports/day-02/english-notes-pdf/sentence-components/page-1.webp",
+        "./imports/day-02/english-notes-pdf/sentence-components/page-5.webp",
+        "./imports/day-02/english-notes-pdf/sentence-types/page-1.webp",
+        "./imports/day-02/english-notes-pdf/sentence-types/page-5.webp",
+        "./imports/day-02/math-function-notes/image1.webp",
+        "./imports/day-02/math-function-notes/image4.webp",
+        "./imports/day-02/math-function-notes/image6.webp",
+        "./imports/day-02/math-function-notes/image8.webp",
+        "./imports/day-02/math-function-notes/image9.webp",
+        "./imports/day-02/math-function-domain-part2/image1.webp",
+        "./imports/day-02/math-function-domain-part2/image2.webp",
+        "./imports/day-02/math-function-domain-part2/image3.webp",
+        "./imports/day-02/math-function-domain-part2/image4.webp",
+        "./imports/day-02/math-function-domain-part2/image5.webp",
+        "./imports/day-02/math-function-domain-part2/image6.webp",
+        "./imports/day-02/math-function-domain-part2/image7.webp",
+        "./imports/day-02/math-function-domain-part2/image8.webp",
+        "./imports/day-02/math-function-domain-part2/image9.webp",
+        "./imports/day-02/math-function-domain-part2/image10.webp",
+        "./imports/day-02/math-common-function-domains/common-function-domains.webp",
+        "./imports/day-02/computer-history-events/computer-generations.webp",
+        "./imports/day-02/computer-history-events/eniac.webp",
+        "./imports/day-02/computer-history-events/sunway-taihulight.webp",
+        "./imports/day-02/computer-history-events/univac.webp",
+        "./imports/day-02/computer-history-events/edvac.webp"
       ],
       "records": [
         {
@@ -9788,25 +15036,25 @@ window.KNOWLEDGE_META = {
       "category": "知识点、笔记与PDF资料分开记录",
       "description": "7月17日为第3天，共导入19张：计算机发展/PDF专题、英语名词知识点与笔记、数学反函数笔记。",
       "images": [
-        "./imports/day-03/computer-trends/hardware-development.png",
-        "./imports/day-03/computer-trends/four-trends.png",
-        "./imports/day-03/english-nouns/determiners-both.png",
-        "./imports/day-03/english-nouns/determiners-countable.png",
-        "./imports/day-03/english-nouns/determiners-uncountable.png",
-        "./imports/day-03/english-nouns/irregular-plural-1.png",
-        "./imports/day-03/english-nouns/irregular-plural-2.png",
-        "./imports/day-03/english-nouns/regular-plural-1.png",
-        "./imports/day-03/english-nouns/regular-plural-2.png",
-        "./imports/day-03/english-nouns/plural-meaning-change.png",
-        "./imports/day-03/english-nouns/uncountable-group-1.png",
-        "./imports/day-03/english-nouns/uncountable-group-2.png",
-        "./imports/day-03/english-nouns/uncountable-group-3.png",
-        "./imports/day-03/english-nouns/uncountable-group-4.png",
-        "./imports/day-03/english-nouns/countable-uncountable.png",
-        "./imports/day-03/english-nouns/abstract-concretization.png",
-        "./imports/day-03/math-inverse-function/inverse-function-steps.png",
-        "./imports/day-03/computer-pdf/computer-basic-03-page-1.png",
-        "./imports/day-03/computer-pdf/computer-basic-04-page-1.png"
+        "./imports/day-03/computer-trends/hardware-development.webp",
+        "./imports/day-03/computer-trends/four-trends.webp",
+        "./imports/day-03/english-nouns/determiners-both.webp",
+        "./imports/day-03/english-nouns/determiners-countable.webp",
+        "./imports/day-03/english-nouns/determiners-uncountable.webp",
+        "./imports/day-03/english-nouns/irregular-plural-1.webp",
+        "./imports/day-03/english-nouns/irregular-plural-2.webp",
+        "./imports/day-03/english-nouns/regular-plural-1.webp",
+        "./imports/day-03/english-nouns/regular-plural-2.webp",
+        "./imports/day-03/english-nouns/plural-meaning-change.webp",
+        "./imports/day-03/english-nouns/uncountable-group-1.webp",
+        "./imports/day-03/english-nouns/uncountable-group-2.webp",
+        "./imports/day-03/english-nouns/uncountable-group-3.webp",
+        "./imports/day-03/english-nouns/uncountable-group-4.webp",
+        "./imports/day-03/english-nouns/countable-uncountable.webp",
+        "./imports/day-03/english-nouns/abstract-concretization.webp",
+        "./imports/day-03/math-inverse-function/inverse-function-steps.webp",
+        "./imports/day-03/computer-pdf/computer-basic-03-page-1.webp",
+        "./imports/day-03/computer-pdf/computer-basic-04-page-1.webp"
       ],
       "records": [
         {
@@ -9869,15 +15117,15 @@ window.KNOWLEDGE_META = {
       "category": "知识点背诵",
       "description": "原v42新增的8张卡已纠正为7月18日第4天，卡片ID保持不变以保留学习记录。",
       "images": [
-        "./imports/day-04/computer-classification/by-performance.png",
-        "./imports/day-04/computer-classification/by-principle.png",
-        "./imports/day-04/computer-classification/by-purpose.png",
-        "./imports/day-04/english-pronouns/reflexive-pronouns-1.png",
-        "./imports/day-04/english-pronouns/reflexive-pronouns-2.png",
-        "./imports/day-04/math-function-properties/parity-definition.png",
-        "./imports/day-04/math-function-properties/common-odd-functions.png",
-        "./imports/day-04/math-function-properties/common-even-functions.png",
-        "./imports/day-04/math-function-properties/common-bounded-functions.png"
+        "./imports/day-04/computer-classification/by-performance.webp",
+        "./imports/day-04/computer-classification/by-principle.webp",
+        "./imports/day-04/computer-classification/by-purpose.webp",
+        "./imports/day-04/english-pronouns/reflexive-pronouns-1.webp",
+        "./imports/day-04/english-pronouns/reflexive-pronouns-2.webp",
+        "./imports/day-04/math-function-properties/parity-definition.webp",
+        "./imports/day-04/math-function-properties/common-odd-functions.webp",
+        "./imports/day-04/math-function-properties/common-even-functions.webp",
+        "./imports/day-04/math-function-properties/common-bounded-functions.webp"
       ],
       "records": [
         {
@@ -9908,32 +15156,32 @@ window.KNOWLEDGE_META = {
       "category": "知识点背诵与原图整理",
       "description": "7月19日为第5天。本次将7页Word中的26张截图合并整理为21张独立卡：英语10张、数学5张、计算机6张。",
       "images": [
-        "./imports/day-05/english-pronouns/image1.png",
-        "./imports/day-05/english-pronouns/image2.png",
-        "./imports/day-05/english-pronouns/image3.png",
-        "./imports/day-05/english-pronouns/image4.png",
-        "./imports/day-05/english-pronouns/image5.png",
-        "./imports/day-05/english-pronouns/image6.png",
-        "./imports/day-05/english-pronouns/image7.png",
-        "./imports/day-05/english-pronouns/image8.png",
-        "./imports/day-05/english-pronouns/image9.png",
-        "./imports/day-05/english-pronouns/image10.png",
-        "./imports/day-05/english-pronouns/image11.png",
-        "./imports/day-05/english-pronouns/image12.png",
-        "./imports/day-05/math-function-graphs/image13.png",
-        "./imports/day-05/math-function-graphs/image15.png",
-        "./imports/day-05/math-function-graphs/image14.png",
-        "./imports/day-05/math-function-graphs/image16.png",
-        "./imports/day-05/math-function-graphs/image17.png",
-        "./imports/day-05/math-function-graphs/image18.png",
-        "./imports/day-05/math-function-graphs/image19.png",
-        "./imports/day-05/math-function-graphs/image20.png",
-        "./imports/day-05/computer-software/image21.png",
-        "./imports/day-05/computer-software/image22.png",
-        "./imports/day-05/computer-software/image23.png",
-        "./imports/day-05/computer-software/image24.png",
-        "./imports/day-05/computer-software/image25.png",
-        "./imports/day-05/computer-software/image26.png"
+        "./imports/day-05/english-pronouns/image1.webp",
+        "./imports/day-05/english-pronouns/image2.webp",
+        "./imports/day-05/english-pronouns/image3.webp",
+        "./imports/day-05/english-pronouns/image4.webp",
+        "./imports/day-05/english-pronouns/image5.webp",
+        "./imports/day-05/english-pronouns/image6.webp",
+        "./imports/day-05/english-pronouns/image7.webp",
+        "./imports/day-05/english-pronouns/image8.webp",
+        "./imports/day-05/english-pronouns/image9.webp",
+        "./imports/day-05/english-pronouns/image10.webp",
+        "./imports/day-05/english-pronouns/image11.webp",
+        "./imports/day-05/english-pronouns/image12.webp",
+        "./imports/day-05/math-function-graphs/image13.webp",
+        "./imports/day-05/math-function-graphs/image15.webp",
+        "./imports/day-05/math-function-graphs/image14.webp",
+        "./imports/day-05/math-function-graphs/image16.webp",
+        "./imports/day-05/math-function-graphs/image17.webp",
+        "./imports/day-05/math-function-graphs/image18.webp",
+        "./imports/day-05/math-function-graphs/image19.webp",
+        "./imports/day-05/math-function-graphs/image20.webp",
+        "./imports/day-05/computer-software/image21.webp",
+        "./imports/day-05/computer-software/image22.webp",
+        "./imports/day-05/computer-software/image23.webp",
+        "./imports/day-05/computer-software/image24.webp",
+        "./imports/day-05/computer-software/image25.webp",
+        "./imports/day-05/computer-software/image26.webp"
       ],
       "records": [
         {
@@ -9976,6 +15224,191 @@ window.KNOWLEDGE_META = {
             "编译程序",
             "系统软件的概念",
             "解释程序"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "date-2026-07-20",
+      "day": 6,
+      "date": "2026-07-20",
+      "label": "第6天 · 7.20",
+      "title": "第6天｜计算机数制编码、英语冠词与数学公式",
+      "subject": "计算机、英语、数学",
+      "count": 70,
+      "category": "知识点背诵与笔记本总结",
+      "description": "7月20日为第6天。Word共20页、79张截图；连续和重复截图合并后整理为70张独立卡。",
+      "images": [
+        "./imports/day-06/cards/image1.webp",
+        "./imports/day-06/cards/image2.webp",
+        "./imports/day-06/cards/image3.webp",
+        "./imports/day-06/cards/image4.webp",
+        "./imports/day-06/cards/image5.webp",
+        "./imports/day-06/cards/image6.webp",
+        "./imports/day-06/cards/image7.webp",
+        "./imports/day-06/cards/image8.webp",
+        "./imports/day-06/cards/image9.webp",
+        "./imports/day-06/cards/image10.webp",
+        "./imports/day-06/cards/image11.webp",
+        "./imports/day-06/cards/image12.webp",
+        "./imports/day-06/cards/image13.webp",
+        "./imports/day-06/cards/image14.webp",
+        "./imports/day-06/cards/image15.webp",
+        "./imports/day-06/cards/image16.webp",
+        "./imports/day-06/cards/image17.webp",
+        "./imports/day-06/cards/image18.webp",
+        "./imports/day-06/cards/image19.webp",
+        "./imports/day-06/cards/image20.webp",
+        "./imports/day-06/cards/image21.webp",
+        "./imports/day-06/cards/image22.webp",
+        "./imports/day-06/cards/image23.webp",
+        "./imports/day-06/cards/image24.webp",
+        "./imports/day-06/cards/image25.webp",
+        "./imports/day-06/cards/image26.webp",
+        "./imports/day-06/cards/image27.webp",
+        "./imports/day-06/cards/image28.webp",
+        "./imports/day-06/cards/image29.webp",
+        "./imports/day-06/cards/image30.webp",
+        "./imports/day-06/cards/image31.webp",
+        "./imports/day-06/cards/image32.webp",
+        "./imports/day-06/cards/image33.webp",
+        "./imports/day-06/cards/image34.webp",
+        "./imports/day-06/cards/image35.webp",
+        "./imports/day-06/cards/image36.webp",
+        "./imports/day-06/cards/image37.webp",
+        "./imports/day-06/cards/image38.webp",
+        "./imports/day-06/cards/image39.webp",
+        "./imports/day-06/cards/image40.webp",
+        "./imports/day-06/cards/image41.webp",
+        "./imports/day-06/cards/image42.webp",
+        "./imports/day-06/cards/image43.webp",
+        "./imports/day-06/cards/image44.webp",
+        "./imports/day-06/cards/image45.webp",
+        "./imports/day-06/cards/image46.webp",
+        "./imports/day-06/cards/image47.webp",
+        "./imports/day-06/cards/image48.webp",
+        "./imports/day-06/cards/image49.webp",
+        "./imports/day-06/cards/image50.webp",
+        "./imports/day-06/cards/image51.webp",
+        "./imports/day-06/cards/image52.webp",
+        "./imports/day-06/cards/image53.webp",
+        "./imports/day-06/cards/image54.webp",
+        "./imports/day-06/cards/image55.webp",
+        "./imports/day-06/cards/image56.webp",
+        "./imports/day-06/cards/image57.webp",
+        "./imports/day-06/cards/image58.webp",
+        "./imports/day-06/cards/image59.webp",
+        "./imports/day-06/cards/image60.webp",
+        "./imports/day-06/cards/image61.webp",
+        "./imports/day-06/cards/image62.webp",
+        "./imports/day-06/cards/image63.webp",
+        "./imports/day-06/cards/image64.webp",
+        "./imports/day-06/cards/image65.webp",
+        "./imports/day-06/cards/image66.webp",
+        "./imports/day-06/cards/image67.webp",
+        "./imports/day-06/cards/image68.webp",
+        "./imports/day-06/cards/image69.webp",
+        "./imports/day-06/cards/image70.webp",
+        "./imports/day-06/cards/image71.webp",
+        "./imports/day-06/cards/image72.webp",
+        "./imports/day-06/cards/image73.webp",
+        "./imports/day-06/cards/image74.webp",
+        "./imports/day-06/cards/image75.webp",
+        "./imports/day-06/cards/image76.webp",
+        "./imports/day-06/cards/image77.webp",
+        "./imports/day-06/cards/image78.webp",
+        "./imports/day-06/cards/image79.webp"
+      ],
+      "records": [
+        {
+          "recordType": "知识点背诵",
+          "count": 54,
+          "action": "计算机新增54张",
+          "titles": [
+            "字长",
+            "主频",
+            "内存容量",
+            "可靠性",
+            "运算速度",
+            "机器字",
+            "计算机的特点",
+            "自动控制",
+            "数据处理",
+            "科学计算",
+            "计算机辅助工程缩写",
+            "数制基本概念：基数、数位、权位、数码",
+            "进制的表示方法",
+            "计算机采用二进制的原因",
+            "二进制加法运算",
+            "二进制减法运算",
+            "与运算",
+            "或运算",
+            "异或运算",
+            "非运算",
+            "补0法的原则",
+            "十六进制转二进制",
+            "八进制转二进制",
+            "八进制与十六进制相互转换",
+            "移位运算",
+            "二进制奇偶判断",
+            "R进制转十进制",
+            "十进制转R进制",
+            "存储单位换算",
+            "位（bit）",
+            "已知补码求原码",
+            "数符",
+            "求移码",
+            "尾数和阶码",
+            "二进制最多状态数",
+            "无符号数",
+            "有符号数",
+            "Unicode",
+            "标准ASCII",
+            "ASCII码值大小比较",
+            "常见ASCII码值及计算",
+            "UTF-8",
+            "扩充ASCII",
+            "点阵式输出码的计算",
+            "点阵图和矢量图的区别",
+            "常见汉字字符集",
+            "机内码",
+            "区位码",
+            "国标码",
+            "区位码、国标码与机内码的计算",
+            "字形码",
+            "区位码、国标码与机内码的范围",
+            "产生乱码的原因",
+            "输入码"
+          ]
+        },
+        {
+          "recordType": "知识点背诵",
+          "count": 4,
+          "action": "英语新增4张",
+          "titles": [
+            "定冠词the：特指",
+            "不定冠词a/an：泛指",
+            "零冠词：不用冠词",
+            "定冠词与零冠词固定短语"
+          ]
+        },
+        {
+          "recordType": "知识点背诵",
+          "count": 12,
+          "action": "数学新增12张",
+          "titles": [
+            "幂函数运算规律",
+            "平方与立方公式",
+            "一元二次方程求根公式",
+            "一元二次方程与复数",
+            "指数运算规律",
+            "对数运算性质",
+            "三角函数定义",
+            "三角函数倒数关系",
+            "三角函数平方关系",
+            "二倍角公式",
+            "降幂公式",
+            "特殊角三角函数值"
           ]
         }
       ]
@@ -10027,5 +15460,5 @@ window.KNOWLEDGE_META = {
     "录屏2": 0
   },
   "removedOldExamCards": 0,
-  "note": "当前共94张卡：计算机26张、英语36张、数学32张。7.18的8张日期已纠正；7.19新增21张。"
+  "note": "当前共164张卡：计算机80张、英语40张、数学44张。"
 };

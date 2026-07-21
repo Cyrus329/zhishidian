@@ -1,5 +1,8 @@
 
 const ITEMS = window.KNOWLEDGE_ITEMS || [];
+const SORTED_ITEMS = [...ITEMS].sort((a,b)=>(a.order||0)-(b.order||0));
+const ITEM_BY_ID = new Map(ITEMS.map(i=>[i.id,i]));
+const SEARCH_CACHE = new WeakMap();
 const SUBJECT_MARK = {"计算机":"计","英语":"英","数学":"数","考点必背":"必"};
 const META = window.KNOWLEDGE_META || {};
 const STORE = 'zsb-knowledge-v26-day1'; // 延续全新题库存储，保留v26以来的学习记录
@@ -21,34 +24,47 @@ function rawItemImportRecords(i){
   if(baseId&&!records.some(x=>x.id===baseId))records.push({id:baseId,day:Number(i?.importDay||0),date:i?.importDate||'',label:i?.importLabel||'',title:i?.batch||'',subject:i?.subject||'',category:i?.category||'',action:'首次建立'});
   return records.filter(x=>x&&x.id);
 }
-function allImportDates(){
+function buildImportIndex(){
   const dates=new Set();
-  (META.importBatches||[]).forEach(x=>{if(x?.date)dates.add(x.date)});
-  ITEMS.forEach(i=>rawItemImportRecords(i).forEach(x=>{if(x?.date)dates.add(x.date)}));
-  return [...dates].sort((a,b)=>String(a).localeCompare(String(b)));
-}
-function importDayForDate(date){const idx=allImportDates().indexOf(String(date||''));return idx>=0?idx+1:0}
-function itemImportRecords(i){
-  const byDate=new Map();
-  rawItemImportRecords(i).forEach(r=>{
-    const date=r.date||i?.importDate||'';
-    const key=date||r.id;
-    const prev=byDate.get(key);
-    if(!prev)byDate.set(key,{...r,id:date?`date-${date}`:r.id,date,day:importDayForDate(date)||Number(r.day||i?.importDay||0),label:date?`第${importDayForDate(date)||Number(r.day||1)}天 · ${shortImportDate(date)}`:(r.label||'')});
-    else{
-      prev.action=[prev.action,r.action].filter(Boolean).filter((x,j,a)=>a.indexOf(x)===j).join('；');
-      prev.note=[prev.note,r.note].filter(Boolean).filter((x,j,a)=>a.indexOf(x)===j).join('；');
-    }
+  (META.importBatches||[]).forEach(b=>{if(b?.date)dates.add(String(b.date))});
+  const rawById=new Map();
+  ITEMS.forEach(i=>{
+    const raw=rawItemImportRecords(i);
+    rawById.set(i.id,raw);
+    raw.forEach(r=>{if(r?.date)dates.add(String(r.date))});
+    if(i?.importDate)dates.add(String(i.importDate));
   });
-  return [...byDate.values()].sort((a,b)=>String(a.date||'').localeCompare(String(b.date||'')));
-}
-function latestImportRecord(i){const r=itemImportRecords(i);return r[r.length-1]||{day:i?.importDay,date:i?.importDate,label:i?.importLabel,id:i?.importBatchId}}
-function itemHasImportDate(i,date){return itemImportRecords(i).some(x=>x.date===date)}
-function importBatches(){
+  const sortedDates=[...dates].sort((a,b)=>a.localeCompare(b));
+  const dayByDate=new Map(sortedDates.map((d,idx)=>[d,idx+1]));
+  const recordsById=new Map(), itemDates=new Map(), itemsByDate=new Map();
+  ITEMS.forEach(i=>{
+    const byDate=new Map();
+    (rawById.get(i.id)||[]).forEach(r=>{
+      const date=String(r.date||i?.importDate||'');
+      const key=date||r.id;
+      const prev=byDate.get(key);
+      const day=dayByDate.get(date)||Number(r.day||i?.importDay||0);
+      const normalized={...r,id:date?`date-${date}`:r.id,date,day,label:date?`第${day||1}天 · ${shortImportDate(date)}`:(r.label||'')};
+      if(!prev)byDate.set(key,normalized);
+      else{
+        prev.action=[prev.action,normalized.action].filter(Boolean).filter((x,j,a)=>a.indexOf(x)===j).join('；');
+        prev.note=[prev.note,normalized.note].filter(Boolean).filter((x,j,a)=>a.indexOf(x)===j).join('；');
+      }
+    });
+    const records=[...byDate.values()].sort((a,b)=>String(a.date||'').localeCompare(String(b.date||'')));
+    recordsById.set(i.id,records);
+    const dateSet=new Set(records.map(r=>r.date).filter(Boolean));
+    itemDates.set(i.id,dateSet);
+    dateSet.forEach(date=>{
+      const arr=itemsByDate.get(date)||[];
+      arr.push(i);itemsByDate.set(date,arr);
+    });
+  });
   const grouped=new Map();
-  const add=(b,source='meta')=>{
-    const date=b?.date||''; if(!date)return;
-    const cur=grouped.get(date)||{id:`date-${date}`,date,day:importDayForDate(date),label:`第${importDayForDate(date)}天 · ${shortImportDate(date)}`,title:'',subject:'',category:'',description:'',images:[],entries:[]};
+  const add=b=>{
+    const date=String(b?.date||'');if(!date)return;
+    const day=dayByDate.get(date)||Number(b?.day||0);
+    const cur=grouped.get(date)||{id:`date-${date}`,date,day,label:`第${day||'?'}天 · ${shortImportDate(date)}`,title:'',subject:'',category:'',description:'',images:[],entries:[]};
     cur.title=cur.title||b.title||'知识点导入';
     cur.subject=cur.subject||b.subject||'';
     cur.category=cur.category||b.category||'';
@@ -57,21 +73,34 @@ function importBatches(){
     cur.entries=[...(cur.entries||[]),...(b.entries||[])];
     grouped.set(date,cur);
   };
-  (META.importBatches||[]).forEach(b=>add(b,'meta'));
-  ITEMS.forEach(i=>itemImportRecords(i).forEach(r=>add({...r,title:r.title||i.batch,subject:r.subject||i.subject,category:r.category||i.category},'item')));
-  return [...grouped.values()].map(b=>{
-    const dayItems=ITEMS.filter(i=>itemHasImportDate(i,b.date));
+  (META.importBatches||[]).forEach(add);
+  ITEMS.forEach(i=>(recordsById.get(i.id)||[]).forEach(r=>add({...r,title:r.title||i.batch,subject:r.subject||i.subject,category:r.category||i.category})));
+  const metaByDate=new Map((META.importBatches||[]).filter(b=>b?.date).map(b=>[String(b.date),b]));
+  const batches=[...grouped.values()].map(b=>{
+    const dayItems=itemsByDate.get(b.date)||[];
     const recordMap=new Map();
     dayItems.forEach(i=>{
-      const type=i.recordType||'知识点背诵',cur=recordMap.get(type)||{recordType:type,count:0,titles:[]};
+      const type=i.recordType||'知识点背诵';
+      const cur=recordMap.get(type)||{recordType:type,count:0,titles:[]};
       cur.count++;cur.titles.push(i.title);recordMap.set(type,cur);
     });
-    const metaRecords=Array.isArray((META.importBatches||[]).find(x=>x.date===b.date)?.records)?(META.importBatches||[]).find(x=>x.date===b.date).records:[];
+    const metaRecords=Array.isArray(metaByDate.get(b.date)?.records)?metaByDate.get(b.date).records:[];
     const records=[...recordMap.values()].map(r=>({...r,...(metaRecords.find(x=>x.recordType===r.recordType)||{}),count:r.count,titles:r.titles}));
     return {...b,count:dayItems.length,records};
-  }).sort((a,b)=>String(a.date).localeCompare(String(b.date)));
+  }).sort((a,b)=>a.date.localeCompare(b.date));
+  const batchById=new Map();
+  batches.forEach(b=>batchById.set(b.id,b));
+  (META.importBatches||[]).forEach(b=>{if(b?.id&&b?.date){const normalized=batchById.get(`date-${b.date}`);if(normalized)batchById.set(b.id,normalized)}});
+  return {dates:sortedDates,dayByDate,recordsById,itemDates,itemsByDate,batches,batchById};
 }
-function itemHasImportBatch(i,id){const b=importBatches().find(x=>x.id===id);return b?itemHasImportDate(i,b.date):itemImportRecords(i).some(x=>x.id===id)}
+const IMPORT_INDEX=buildImportIndex();
+function allImportDates(){return IMPORT_INDEX.dates}
+function importDayForDate(date){return IMPORT_INDEX.dayByDate.get(String(date||''))||0}
+function itemImportRecords(i){return IMPORT_INDEX.recordsById.get(i?.id)||[]}
+function latestImportRecord(i){const r=itemImportRecords(i);return r[r.length-1]||{day:i?.importDay,date:i?.importDate,label:i?.importLabel,id:i?.importBatchId}}
+function itemHasImportDate(i,date){return IMPORT_INDEX.itemDates.get(i?.id)?.has(String(date||''))||false}
+function importBatches(){return IMPORT_INDEX.batches}
+function itemHasImportBatch(i,id){const b=IMPORT_INDEX.batchById.get(id);return b?itemHasImportDate(i,b.date):itemImportRecords(i).some(x=>x.id===id)}
 function shortImportDate(date){const m=String(date||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);return m?`${Number(m[2])}.${Number(m[3])}`:String(date||'未记日期')}
 function fullImportDate(date){const m=String(date||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);return m?`${m[1]}年${Number(m[2])}月${Number(m[3])}日`:String(date||'未记录日期')}
 function importTag(i){const r=latestImportRecord(i);return r?.date?`第${importDayForDate(r.date)||r.day||1}天 · ${shortImportDate(r.date)}`:(r?.label||i?.importLabel||'未记录日期')}
@@ -89,7 +118,9 @@ function load(){
   base.settings = {autoNext:true,...(base.settings||{})};
   return base;
 }
-function save(){localStorage.setItem(STORE,JSON.stringify(data))}
+let saveTimer=null;
+function save(){if(saveTimer){clearTimeout(saveTimer);saveTimer=null}localStorage.setItem(STORE,JSON.stringify(data))}
+function scheduleSave(delay=220){if(saveTimer)clearTimeout(saveTimer);saveTimer=setTimeout(()=>{saveTimer=null;localStorage.setItem(STORE,JSON.stringify(data))},delay)}
 function compat(study){
   const out={...study};
   ITEMS.forEach(i=>{
@@ -106,10 +137,10 @@ function st(id){return data.study[id]||{read:false,starred:false,mastered:false,
 function isQuestionCard(i){return i?.studyMode==='question'||String(i?.recordType||'').includes('题目')}
 function isNoteCard(i){return !isQuestionCard(i)&&(i?.studyMode==='note'||String(i?.recordType||'').includes('笔记'))}
 function recordTypeClass(type){return type==='PDF资料整理'?'pdf':(type==='图片知识点'?'image':(String(type||'').includes('题目')?'question':(String(type||'').includes('笔记')?'note':'')))}
-function setst(id, patch){data.study[id]={...st(id),...patch,updatedAt:new Date().toISOString()}; save(); render()}
-function txt(i){return [i.id,i.title,i.subject,i.chapter,i.category,i.range,i.batch,i.recordType,i.importLabel,i.importDate,JSON.stringify(i.importHistory||[]),i.oneLine,JSON.stringify(i.memoBlocks||[]),JSON.stringify(i.phraseGroups||[]),JSON.stringify(i.tables||[]),JSON.stringify(i.clozeLines||[]),JSON.stringify(i.pdfTextLines||[]),JSON.stringify(i.pdfClozeLines||[]),i.problem,i.answer,JSON.stringify(i.choices||[]),JSON.stringify(i.solutionSteps||[]),JSON.stringify(i.principle||{}),...(i.topics||[]),...(i.keywords||[])].join(' ').toLowerCase()}
+function setst(id, patch){data.study[id]={...st(id),...patch,updatedAt:new Date().toISOString()};save();renderStudyUpdate()}
+function txt(i){if(SEARCH_CACHE.has(i))return SEARCH_CACHE.get(i);const value=[i.id,i.title,i.subject,i.chapter,i.category,i.range,i.batch,i.recordType,i.importLabel,i.importDate,JSON.stringify(i.importHistory||[]),i.oneLine,JSON.stringify(i.memoBlocks||[]),JSON.stringify(i.phraseGroups||[]),JSON.stringify(i.tables||[]),JSON.stringify(i.clozeLines||[]),JSON.stringify(i.pdfTextLines||[]),JSON.stringify(i.pdfClozeLines||[]),i.problem,i.answer,JSON.stringify(i.choices||[]),JSON.stringify(i.solutionSteps||[]),JSON.stringify(i.principle||{}),...(i.topics||[]),...(i.keywords||[])].join(' ').toLowerCase();SEARCH_CACHE.set(i,value);return value}
 function matches(i){const s=st(i.id); if(state.importBatch && !itemHasImportBatch(i,state.importBatch)) return false; if(state.recordType && (i.recordType||'知识点背诵')!==state.recordType) return false; if(state.contentMode==='knowledge'&&(isNoteCard(i)||isQuestionCard(i)))return false; if(state.contentMode==='notes'&&!isNoteCard(i))return false; if(state.contentMode==='questions'&&!isQuestionCard(i))return false; if(state.auditOnly && !(AUDIT_BY_ID[i.id]?.issues?.length)) return false; if(state.subject && i.subject!==state.subject) return false; if(state.chapter && i.chapter!==state.chapter) return false; if(state.status==='unread' && s.read) return false; if(state.status==='read' && !s.read) return false; if(state.status==='starred' && !s.starred) return false; if(state.status==='wrong' && !s.wrong) return false; if(state.status==='mastered' && !s.mastered) return false; if(state.hideMastered && s.mastered) return false; return !state.q || txt(i).includes(state.q.toLowerCase())}
-function filtered(){return ITEMS.filter(matches).sort((a,b)=>(a.order||0)-(b.order||0))}
+function filtered(){return SORTED_ITEMS.filter(matches)}
 function pct(arr){const mem=(arr||[]).filter(i=>!isNoteCard(i));if(!mem.length)return 0;return Math.round(mem.filter(i=>st(i.id).mastered).length/mem.length*100)}
 function fmt(sec){sec=Math.floor(sec||0); if(sec<60)return sec+'s'; let m=Math.floor(sec/60); if(m<60)return m+'m'; return (m/60).toFixed(1)+'h'}
 function chapters(){return [...new Set(ITEMS.filter(i=>!state.subject||i.subject===state.subject).map(i=>i.chapter))].sort((a,b)=>a.localeCompare(b,'zh-CN'))}
@@ -120,7 +151,7 @@ function renderStats(){
   const cp=pct(comp), ep=pct(eng), mp=pct(math); $('#compPct').textContent=cp+'%'; $('#engPct').textContent=ep+'%'; if($('#mathPct'))$('#mathPct').textContent=mp+'%'; $('#compBar').style.width=cp+'%'; $('#engBar').style.width=ep+'%'; if($('#mathBar'))$('#mathBar').style.width=mp+'%';
   $('#timeTotal').textContent=fmt(data.stats.totalSeconds); $('#timeToday').textContent=fmt(data.stats.days[today()]||0); $('#streak').textContent=calcStreak()+' 天'; if($('#focusCount')) $('#focusCount').textContent=data.stats.focusSessions||0; if($('#reviewDue')) $('#reviewDue').textContent=dueReviews().length+' 张';
   if($('#answerTraceCount')) $('#answerTraceCount').textContent=Object.keys(data.answers||{}).length+' 张有作答记录';
-  if($('#resetScopeInfo')){const current=ITEMS.find(x=>x.id===state.selected); $('#resetScopeInfo').textContent=current?`当前章节：${current.chapter}；当前题型：${questionType(current)}`:'先选择一张卡片，再重置本章或当前题型。'}
+  if($('#resetScopeInfo')){const current=ITEM_BY_ID.get(state.selected); $('#resetScopeInfo').textContent=current?`当前章节：${current.chapter}；当前题型：${questionType(current)}`:'先选择一张卡片，再重置本章或当前题型。'}
   const redo=$('#redoMode'); if(redo) redo.checked=state.redoMode;
   $$('#subjectTabs button').forEach(b=>b.classList.toggle('active',(b.dataset.subject||'')===state.subject));
   $$('#contentTabs button').forEach(b=>b.classList.toggle('active',(b.dataset.contentMode||'')===state.contentMode));
@@ -136,18 +167,42 @@ function renderTasks(){
   const tasks=[...pick('计算机',3),...pick('英语',3),...pick('数学',3),...pick('考点必背',2)];
   $('#todayTasks').innerHTML=tasks.map(i=>`<button class="task" data-task="${esc(i.id)}">${SUBJECT_MARK[i.subject]||'学'} · ${esc(i.title.replace(/^.*?｜/,''))}</button>`).join('') || `<span class="muted">${ITEMS.length?'今天没有未掌握卡，开始复盘重点。':'当前题库为空，加入题目后这里会自动生成今日任务。'}</span>`;
 }
-function renderImportHistory(){
-  const box=$('#importHistoryList'); if(!box)return;
+function importTitlesPreview(titles,limit=6){
+  const arr=(titles||[]).filter(Boolean);
+  const shown=arr.slice(0,limit).join('、');
+  return arr.length>limit?`${shown} 等${arr.length}张`:shown;
+}
+function renderImportHistory(force=false){
+  const box=$('#importHistoryList');if(!box)return;
+  if(box.dataset.rendered==='1'&&!force){syncImportHistoryActive();return}
   const batches=importBatches();
   box.innerHTML=batches.map(b=>{
     const active=state.importBatch===b.id;
-    const imgs=(b.images||[]).map((src,idx)=>`<figure><img class="zoom" loading="lazy" src="${esc(src)}" alt="${esc(b.label||b.title)}导入来源${idx+1}"><figcaption>导入来源 ${idx+1}</figcaption></figure>`).join('');
-    const records=(b.records||[]).map(r=>`<div class="import-record-row"><span class="record-type-badge ${recordTypeClass(r.recordType)}">${esc(r.recordType)}</span><b>${Number(r.count||0)}张</b><em>${esc(r.action||'独立记录')}</em><small>${esc((r.titles||[]).join('、'))}</small></div>`).join('');
-    return `<article class="import-batch-card ${active?'active':''}"><button class="import-batch-main" data-import-batch="${esc(b.id)}"><span class="import-day">第${b.day||'?'}天</span><span class="import-date">${esc(shortImportDate(b.date))}</span><span class="import-count">${b.count}张</span><b>${esc(b.title||'知识点导入')}</b><em>${esc(b.subject||'')} · ${esc(b.category||'')} · ${esc(fullImportDate(b.date))}</em><small>${esc(b.description||'按导入日期归档')}</small></button>${records?`<div class="import-record-groups">${records}</div>`:''}${imgs?`<details class="import-source-images"><summary>查看当天导入原图</summary><div>${imgs}</div></details>`:''}</article>`;
+    const records=(b.records||[]).map(r=>`<button class="import-record-row" data-import-record="${esc(b.id)}" data-record-type="${esc(r.recordType)}"><span class="record-type-badge ${recordTypeClass(r.recordType)}">${esc(r.recordType)}</span><b>${Number(r.count||0)}张</b><em>${esc(r.action||'只看这一类')}</em><small>${esc(importTitlesPreview(r.titles))}</small></button>`).join('');
+    const imageCount=(b.images||[]).length;
+    const images=imageCount?`<details class="import-source-images" data-import-images="${esc(b.id)}"><summary>查看当天导入原图（${imageCount}张，展开后加载）</summary><div class="import-image-placeholder">原图尚未加载</div></details>`:'';
+    return `<article class="import-batch-card ${active?'active':''}" data-import-card="${esc(b.id)}"><button class="import-batch-main" data-import-batch="${esc(b.id)}"><span class="import-day">第${b.day||'?'}天</span><span class="import-date">${esc(shortImportDate(b.date))}</span><span class="import-count">${b.count}张</span><b>${esc(b.title||'知识点导入')}</b><em>${esc(b.subject||'')} · ${esc(b.category||'')} · ${esc(fullImportDate(b.date))}</em><small>${esc(b.description||'点击后只看当天内容')}</small></button>${records?`<div class="import-record-groups">${records}</div>`:''}${images}</article>`;
   }).join('')||'<p class="muted">还没有导入记录。</p>';
+  box.dataset.rendered='1';
   const outline=$('#sourceOutline');
   if(outline){const o=META.sourceOutline;if(!o){outline.innerHTML='';return}const imported=(o.categories||[]).reduce((n,c)=>n+Number(c.imported||0),0);outline.innerHTML=`<details class="source-outline"><summary>${esc(o.title||'来源目录')}：已导入 ${imported}/${Number(o.total||imported)}</summary><div class="source-outline-grid">${(o.categories||[]).map(c=>`<div class="${c.imported>=c.expected?'done':''}"><b>${esc(c.name)}</b><span>${Number(c.imported||0)}/${Number(c.expected||0)}</span></div>`).join('')}</div><p>目录截图显示共 ${Number(o.total||0)} 个知识点；没有正文截图的内容不会凭空生成。</p></details>`}
 }
+function syncImportHistoryActive(){
+  $$('#importHistoryList [data-import-card]').forEach(card=>card.classList.toggle('active',card.dataset.importCard===state.importBatch));
+}
+function ensureImportImages(details,more=false){
+  if(!details)return;
+  const batch=IMPORT_INDEX.batchById.get(details.dataset.importImages);
+  const host=details.querySelector(':scope > div');if(!host||!batch)return;
+  const all=batch.images||[];
+  const current=Number(details.dataset.loadedCount||0);
+  const target=Math.min(all.length,more?current+12:Math.max(current,12));
+  if(target<=current)return;
+  const images=all.slice(0,target).map((src,idx)=>`<figure><img class="zoom" loading="lazy" decoding="async" src="${esc(src)}" alt="${esc(batch.label||batch.title)}导入来源${idx+1}"><figcaption>导入来源 ${idx+1}</figcaption></figure>`).join('');
+  const moreButton=target<all.length?`<button class="import-load-more" data-load-more-images="${esc(batch.id)}">继续加载（剩余${all.length-target}张）</button>`:'';
+  host.className='import-images-grid';host.innerHTML=images+moreButton;details.dataset.loadedCount=String(target);
+}
+
 function quick(i){return i.oneLine || ((i.clozeLines||[])[0]||'').replace(/\[\[(.*?)\]\]/g,'$1') || ((i.memoBlocks||[])[0]?.mnemonic||[])[0] || ((i.memoBlocks||[])[0]?.mustKnow||[])[0] || (i.outline||[])[0] || ''}
 function renderList(){const arr=filtered(); if(!arr.length){$('#itemList').innerHTML=ITEMS.length?'<div class="nores">没有匹配结果</div>':'<div class="nores"><b>当前题库为空</b><span>所有学习功能均已保留，加入题目后会自动显示在这里。</span></div>'; return} if(!state.selected||!arr.some(i=>i.id===state.selected)){state.selected=arr[0].id;state.panel=defaultPanelFor(arr[0]);} $('#itemList').innerHTML=arr.map(i=>{const s=st(i.id),a=AUDIT_BY_ID[i.id]; const audit=a?.issues?.length?`<i class="audit-dot ${a.confidence}" title="${esc(a.issues.join('；'))}"></i>`:''; return `<button class="row ${i.id===state.selected?'active':''}" data-id="${esc(i.id)}" data-subject="${esc(i.subject)}"><span class="num">${String(i.order||'').padStart(3,'0')}</span><span class="rmain"><span class="row-tags"><span class="row-import-tag">${esc(importTag(i))}</span><span class="record-type-badge ${recordTypeClass(i.recordType||'知识点背诵')}">${esc(i.recordType||'知识点背诵')}</span></span><b>${esc(i.title)}</b><em>${esc(i.subject)} · ${esc(i.category||i.chapter)} · ${esc(i.range||'')}</em><small>${esc(quick(i)).slice(0,62)}</small></span><span class="marks">${audit}${s.wrong?'错':''}${s.starred?'★':''}${s.mastered?'✓':''}</span></button>`}).join('')}
 function sec(title, html, open=false){if(!String(html||'').trim())return '';return `<details class="sec" ${open?'open':''}><summary>${esc(title)}</summary><div class="inside">${html}</div></details>`}
@@ -183,14 +238,14 @@ function mediaHTML(i){
 
 function addDays(dateStr,n){let d;if(/^\d{4}-\d{2}-\d{2}$/.test(String(dateStr||''))){const [y,m,day]=dateStr.split('-').map(Number);d=new Date(y,m-1,day)}else d=new Date();d.setDate(d.getDate()+n);return dateKey(d)}
 function isDue(r){return r && (!r.due || r.due<=today())}
-function dueReviews(){return Object.entries(data.reviews||{}).filter(([id,r])=>ITEMS.some(i=>i.id===id&&!isNoteCard(i))&&isDue(r)).map(([id,r])=>({item:ITEMS.find(i=>i.id===id),review:r}))}
-function allReviews(){return Object.entries(data.reviews||{}).filter(([id,r])=>ITEMS.some(i=>i.id===id&&!isNoteCard(i))).map(([id,r])=>({item:ITEMS.find(i=>i.id===id),review:r}))}
-function ensureReview(id){const item=ITEMS.find(i=>i.id===id);if(isNoteCard(item))return null;const now=today(); if(!data.reviews) data.reviews={}; if(!data.reviews[id]) data.reviews[id]={stage:0,due:now,last:'',count:0}; save(); return data.reviews[id]}
+function dueReviews(){return Object.entries(data.reviews||{}).map(([id,r])=>({item:ITEM_BY_ID.get(id),review:r})).filter(x=>x.item&&!isNoteCard(x.item)&&isDue(x.review))}
+function allReviews(){return Object.entries(data.reviews||{}).map(([id,r])=>({item:ITEM_BY_ID.get(id),review:r})).filter(x=>x.item&&!isNoteCard(x.item))}
+function ensureReview(id){const item=ITEM_BY_ID.get(id);if(isNoteCard(item))return null;const now=today(); if(!data.reviews) data.reviews={}; if(!data.reviews[id]) data.reviews[id]={stage:0,due:now,last:'',count:0}; save(); return data.reviews[id]}
 function scheduleReview(id, remembered=true){
   const r=ensureReview(id); if(!r)return; const now=today();
   if(remembered){r.stage=Math.min((r.stage||0)+1, REVIEW_INTERVALS.length); const days=REVIEW_INTERVALS[Math.max(0,r.stage-1)]||30; r.due=addDays(now,days);}
   else{r.stage=0; r.due=addDays(now,1);}
-  r.last=now; r.count=(r.count||0)+1; data.reviews[id]=r; save(); render();
+  r.last=now;r.count=(r.count||0)+1;data.reviews[id]=r;save();renderStudyUpdate();
 }
 function reviewBadge(id){const r=data.reviews?.[id]; if(!r)return '未加入'; return isDue(r)?'今日复习':'下次 '+r.due}
 function renderReview(){
@@ -209,7 +264,7 @@ function addFocusTime(seconds){
   data.stats.days[today()]=(data.stats.days[today()]||0)+seconds;
   data.stats.focusSessions=(data.stats.focusSessions||0)+1;
   if(state.selected){
-    const i=ITEMS.find(x=>x.id===state.selected);
+    const i=ITEM_BY_ID.get(state.selected);
     if(i){data.stats.subjectSeconds[i.subject]=(data.stats.subjectSeconds[i.subject]||0)+seconds; data.stats.itemSeconds[i.id]=(data.stats.itemSeconds[i.id]||0)+seconds;}
   }
   save(); renderStats();
@@ -350,7 +405,7 @@ function renderAudit(){
   if($('#auditMismatchCount'))$('#auditMismatchCount').textContent=AUDIT_SUMMARY.mismatch;
   const btn=$('#auditOnlyBtn'); if(btn){btn.textContent=state.auditOnly?'取消问题筛选':'只看有问题';btn.classList.toggle('on',state.auditOnly)}
   const list=$('#auditList'); if(list){
-    const rows=AUDIT_RESULTS.filter(x=>x.issues.length).slice(0,12).map(a=>{const i=ITEMS.find(x=>x.id===a.id);return `<button data-audit-open="${esc(a.id)}"><b>${esc(i?.title||a.id)}</b><span>${esc(a.issues.join('；'))}</span></button>`}).join('');
+    const rows=AUDIT_RESULTS.filter(x=>x.issues.length).slice(0,12).map(a=>{const i=ITEM_BY_ID.get(a.id);return `<button data-audit-open="${esc(a.id)}"><b>${esc(i?.title||a.id)}</b><span>${esc(a.issues.join('；'))}</span></button>`}).join('');
     list.innerHTML=rows||'<p class="muted">未发现结构性问题。</p>';
   }
 }
@@ -362,11 +417,11 @@ function answerBucket(id,create=false){
 }
 function persistAnswer(id){
   const rec=answerBucket(id,false); if(rec)rec.updatedAt=new Date().toISOString();
-  if(!state.redoMode)save();
+  if(!state.redoMode)scheduleSave();
 }
 function clearAnswerIds(ids){
   (ids||[]).forEach(id=>{delete data.answers[id];delete state.redoAnswers[id]});
-  save(); render();
+  save();renderFilteredContent();
 }
 function clozeModeState(id,total){
   const m=state.clozeModes[id]||(state.clozeModes[id]={mode:'all',singleIndex:0,randomIndices:[],wrongIndices:[]});
@@ -552,7 +607,7 @@ async function copyPlainText(text){
 }
 function blocksHTML(i){const bs=i.memoBlocks||[]; if(!bs.length)return ''; return bs.map(b=>`<details class="sec" open><summary>${esc(b.title||'背诵整理')}</summary><div class="inside">${list(b.understanding)}${list(b.mustKnow)}</div></details>`).join('')}
 function renderDetail(){
-  const i=ITEMS.find(x=>x.id===state.selected); const pane=$('#detailPane'); if(!i){pane.innerHTML=ITEMS.length?'<div class="empty">点一个知识点、笔记或题目开始。</div>':'<div class="empty"><b>0 道题</b><p>这是无题目的功能模板。后续添加题库后，背诵、填空、检查、答案、清空、错空重练、抗遗忘和统计功能会继续使用。</p></div>';return}
+  const i=ITEM_BY_ID.get(state.selected); const pane=$('#detailPane'); if(!i){pane.innerHTML=ITEMS.length?'<div class="empty">点一个知识点、笔记或题目开始。</div>':'<div class="empty"><b>0 道题</b><p>这是无题目的功能模板。后续添加题库后，背诵、填空、检查、答案、清空、错空重练、抗遗忘和统计功能会继续使用。</p></div>';return}
   const s=st(i.id),questionMode=isQuestionCard(i),noteMode=isNoteCard(i); document.body.classList.add('detail-mode'); document.body.classList.toggle('detail-on', state.detailMode);
   const tab = (name,label)=>`<button data-panel="${name}" class="${activePanel===name?'active':''}">${label}</button>`;
   const panel = (name,html)=>`<section class="panel ${activePanel===name?'active':''}" data-panel-box="${name}">${html}</section>`;
@@ -586,19 +641,24 @@ function renderDetail(){
   pane.innerHTML=`<button class="back" id="backBtn">← 返回列表</button><div class="dhead slim-head"><div><p>${esc(i.subject)} · ${esc(i.chapter)} · ${esc(i.category||i.range||'')}</p><h2>${esc(i.title)}</h2><div class="detail-import-tag">${esc(importTag(i))} · ${esc(fullImportDate(latestImportDate(i)))} <span class="record-type-badge ${recordTypeClass(type)}">${esc(type)}</span></div></div><span>${String(i.order||'').padStart(3,'0')}</span></div>${ops}<div class="tabs slim-tabs">${noteMode?noteTabs:studyTabs}</div>${noteMode?notePanels:studyPanels}`;
   requestAnimationFrame(()=>$$('#detailPane [data-cloze-input]').forEach(resizeClozeInput));
 }
+function renderFilteredContent({filters=false,tree=false}={}){if(filters)renderFilters();if(tree)renderTree();renderStats();renderList();renderDetail();syncImportHistoryActive()}
+function renderStudyUpdate(){renderStats();renderTree();renderTasks();renderReview();renderList();renderDetail();syncImportHistoryActive()}
 function render(){renderStats();renderFilters();renderTree();renderTasks();renderImportHistory();renderReview();renderAudit();renderList();renderDetail();renderTimer()}
 document.addEventListener('click',async e=>{
-  const subj=e.target.closest('[data-subject]'); if(subj && subj.parentElement?.id==='subjectTabs'){state.subject=subj.dataset.subject||'';state.chapter='';state.selected='';render();return}
-  const content=e.target.closest('[data-content-mode]'); if(content && content.parentElement?.id==='contentTabs'){state.contentMode=content.dataset.contentMode||'';state.selected='';render();return}
-  const tree=e.target.closest('[data-chapter]'); if(tree){state.chapter=tree.dataset.chapter;state.selected='';render();return}
-  const ib=e.target.closest('[data-import-batch]'); if(ib){state.importBatch=state.importBatch===ib.dataset.importBatch?'':ib.dataset.importBatch;state.selected='';render();return}
-  const task=e.target.closest('[data-task]'); if(task){state.selected=task.dataset.task;const it=ITEMS.find(x=>x.id===state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);render();return}
-  const row=e.target.closest('.row'); if(row){state.selected=row.dataset.id;const it=ITEMS.find(x=>x.id===state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderList();renderDetail();return}
-  const act=e.target.closest('[data-act]')?.dataset.act; if(act&&state.selected){const s=st(state.selected); if(act==='read')setst(state.selected,{read:!s.read}); if(act==='star')setst(state.selected,{starred:!s.starred}); if(act==='wrong')setst(state.selected,{wrong:!s.wrong,read:true}); if(act==='master'){setst(state.selected,{mastered:!s.mastered,read:true}); if(!s.mastered) ensureReview(state.selected);} if(act==='forget'){ensureReview(state.selected); render();} return}
+  const subj=e.target.closest('[data-subject]'); if(subj && subj.parentElement?.id==='subjectTabs'){state.subject=subj.dataset.subject||'';state.chapter='';state.selected='';renderFilteredContent({filters:true,tree:true});return}
+  const content=e.target.closest('[data-content-mode]'); if(content && content.parentElement?.id==='contentTabs'){state.contentMode=content.dataset.contentMode||'';state.selected='';renderFilteredContent();return}
+  const tree=e.target.closest('[data-chapter]'); if(tree){state.chapter=tree.dataset.chapter;state.selected='';renderFilteredContent({filters:true,tree:true});return}
+  const ib=e.target.closest('[data-import-batch]'); if(ib){state.importBatch=state.importBatch===ib.dataset.importBatch?'':ib.dataset.importBatch;state.recordType='';state.selected='';const filter=$('#importBatchFilter');if(filter)filter.value=state.importBatch;const rt=$('#recordTypeFilter');if(rt)rt.value='';renderFilteredContent();document.querySelector('.layout')?.scrollIntoView({behavior:'auto',block:'start'});return}
+  const ir=e.target.closest('[data-import-record]'); if(ir){state.importBatch=ir.dataset.importRecord||'';state.recordType=ir.dataset.recordType||'';state.selected='';const filter=$('#importBatchFilter');if(filter)filter.value=state.importBatch;const rt=$('#recordTypeFilter');if(rt)rt.value=state.recordType;renderFilteredContent();document.querySelector('.layout')?.scrollIntoView({behavior:'auto',block:'start'});return}
+  const imgSummary=e.target.closest('.import-source-images > summary');if(imgSummary){ensureImportImages(imgSummary.parentElement);return}
+  const loadMoreImages=e.target.closest('[data-load-more-images]');if(loadMoreImages){ensureImportImages(loadMoreImages.closest('.import-source-images'),true);return}
+  const task=e.target.closest('[data-task]'); if(task){state.selected=task.dataset.task;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderFilteredContent();return}
+  const row=e.target.closest('.row'); if(row){state.selected=row.dataset.id;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderList();renderDetail();return}
+  const act=e.target.closest('[data-act]')?.dataset.act; if(act&&state.selected){const s=st(state.selected); if(act==='read')setst(state.selected,{read:!s.read}); if(act==='star')setst(state.selected,{starred:!s.starred}); if(act==='wrong')setst(state.selected,{wrong:!s.wrong,read:true}); if(act==='master'){setst(state.selected,{mastered:!s.mastered,read:true});if(!s.mastered){ensureReview(state.selected);renderReview();renderStats();}} if(act==='forget'){ensureReview(state.selected);renderStudyUpdate();} return}
   const panel=e.target.closest('[data-panel]'); if(panel){const name=panel.dataset.panel;state.panel=name; $$('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.panel===name)); $$('.panel').forEach(p=>p.classList.toggle('active',p.dataset.panelBox===name)); return}
   
-  const ro=e.target.closest('[data-review-open]'); if(ro){state.selected=ro.dataset.reviewOpen;const it=ITEMS.find(x=>x.id===state.selected);state.panel=defaultPanelFor(it); markRead(state.selected); render(); return}
-  const ra=e.target.closest('[data-review-add]'); if(ra){ensureReview(ra.dataset.reviewAdd); render(); return}
+  const ro=e.target.closest('[data-review-open]'); if(ro){state.selected=ro.dataset.reviewOpen;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderFilteredContent();return}
+  const ra=e.target.closest('[data-review-add]'); if(ra){ensureReview(ra.dataset.reviewAdd);renderStudyUpdate();return}
   const rk=e.target.closest('[data-review-ok]'); if(rk){scheduleReview(rk.dataset.reviewOk,true); return}
   const rn=e.target.closest('[data-review-no]'); if(rn){scheduleReview(rn.dataset.reviewNo,false); return}
   if(e.target.id==='reviewTodayBtn'){state.reviewMode='today'; renderReview(); return}
@@ -609,7 +669,7 @@ document.addEventListener('click',async e=>{
 
 
 
-  const related=e.target.closest('[data-related-open]'); if(related){state.selected=related.dataset.relatedOpen;state.panel=defaultPanelFor(ITEMS.find(x=>x.id===state.selected));markRead(state.selected);render();return}
+  const related=e.target.closest('[data-related-open]'); if(related){state.selected=related.dataset.relatedOpen;state.panel=defaultPanelFor(ITEMS.find(x=>x.id===state.selected));markRead(state.selected);renderFilteredContent();return}
   const qReveal=e.target.closest('[data-question-reveal]'); if(qReveal){const box=qReveal.closest('[data-question-id]'),id=box?.dataset.questionId,rec=questionBucket(id,true);rec.questionRevealed=!rec.questionRevealed;persistAnswer(id);renderDetail();return}
   const qClear=e.target.closest('[data-question-clear]'); if(qClear){const box=qClear.closest('[data-question-id]'),id=box?.dataset.questionId,rec=questionBucket(id,true);rec.questionText='';rec.questionRevealed=false;persistAnswer(id);renderDetail();return}
   const qSave=e.target.closest('[data-question-save]'); if(qSave){const box=qSave.closest('[data-question-id]'),id=box?.dataset.questionId,ta=box?.querySelector('[data-question-input]'),rec=questionBucket(id,true);rec.questionText=ta?.value||'';persistAnswer(id);setst(id,{read:true});return}
@@ -637,12 +697,12 @@ document.addEventListener('click',async e=>{
   const refillAll=e.target.closest('[data-cloze-refill-all]'); if(refillAll){const box=refillAll.closest('.cloze-box'),id=box?.dataset.itemId,rec=answerBucket(id,true);[...(box?.querySelectorAll('[data-cloze-input]')||[])].forEach(inp=>{const idx=Number(inp.dataset.blankIndex);rec.values[idx]='';delete rec.statuses[idx];delete rec.feedbacks[idx];delete rec.hints[idx]});rec.revealed=false;persistAnswer(id);state.panel='cloze';renderDetail();requestAnimationFrame(()=>$('#detailPane [data-cloze-input]')?.focus());return}
   const cc=e.target.closest('[data-cloze-clear]'); if(cc){const box=cc.closest('.cloze-box'),id=box?.dataset.itemId;delete answerRoot()[id];persistAnswer(id);state.panel='cloze';renderDetail();return}
 
-  const auditOpen=e.target.closest('[data-audit-open]'); if(auditOpen){state.selected=auditOpen.dataset.auditOpen;const it=ITEMS.find(x=>x.id===state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);render();return}
-  if(e.target.id==='auditOnlyBtn'){state.auditOnly=!state.auditOnly;state.selected='';render();return}
+  const auditOpen=e.target.closest('[data-audit-open]'); if(auditOpen){state.selected=auditOpen.dataset.auditOpen;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderFilteredContent();return}
+  if(e.target.id==='auditOnlyBtn'){state.auditOnly=!state.auditOnly;state.selected='';renderAudit();renderFilteredContent();return}
   if(e.target.id==='resetAllAnswers'){const ids=[...new Set([...Object.keys(data.answers||{}),...Object.keys(state.redoAnswers||{})])];if(confirm('重置全部作答痕迹？收藏、笔记、已掌握状态和学习时长都会保留。'))clearAnswerIds(ids);return}
   if(e.target.id==='resetChapterAnswers'){const current=ITEMS.find(x=>x.id===state.selected),chapter=state.chapter||current?.chapter;if(!chapter){alert('请先选择一张卡片或章节。');return}const ids=ITEMS.filter(x=>x.chapter===chapter).map(x=>x.id);if(confirm(`重置“${chapter}”的作答痕迹？`))clearAnswerIds(ids);return}
-  if(e.target.id==='resetTypeAnswers'){const current=ITEMS.find(x=>x.id===state.selected);if(!current){alert('请先选择一张卡片。');return}const type=questionType(current),ids=ITEMS.filter(x=>questionType(x)===type).map(x=>x.id);if(confirm(`重置全部“${type}”作答痕迹？`))clearAnswerIds(ids);return}
-  const copySummary=e.target.closest('[data-copy-summary]'); if(copySummary){const it=ITEMS.find(x=>x.id===copySummary.dataset.copySummary);if(!it)return;const ok=await copyPlainText(notebookSummaryText(it));copySummary.textContent=ok?'已复制 ✓':'复制失败';setTimeout(()=>{copySummary.textContent='复制全文'},1200);return}
+  if(e.target.id==='resetTypeAnswers'){const current=ITEM_BY_ID.get(state.selected);if(!current){alert('请先选择一张卡片。');return}const type=questionType(current),ids=ITEMS.filter(x=>questionType(x)===type).map(x=>x.id);if(confirm(`重置全部“${type}”作答痕迹？`))clearAnswerIds(ids);return}
+  const copySummary=e.target.closest('[data-copy-summary]'); if(copySummary){const it=ITEM_BY_ID.get(copySummary.dataset.copySummary);if(!it)return;const ok=await copyPlainText(notebookSummaryText(it));copySummary.textContent=ok?'已复制 ✓':'复制失败';setTimeout(()=>{copySummary.textContent='复制全文'},1200);return}
   const copied=e.target.closest('[data-notebook-copied]'); if(copied){const id=copied.dataset.notebookCopied;data.study[id]={...st(id),notebookCopied:!st(id).notebookCopied,updatedAt:new Date().toISOString()};save();state.panel='summary';renderDetail();renderList();return}
   const phrase=e.target.closest('.phrase'); if(phrase){phrase.classList.toggle('show'); return}
   if(e.target.id==='showPhraseAnswers'){$('#phraseGrid')?.classList.toggle('show-answers'); return}
@@ -652,25 +712,26 @@ document.addEventListener('click',async e=>{
   const img=e.target.closest('.zoom'); if(img){$('#dialogImage').src=img.src; $('#imageDialog').showModal()}
 });
 function markRead(id){if(!st(id).read){data.study[id]={...st(id),read:true,updatedAt:new Date().toISOString()}; save()}}
+let searchRenderTimer=null;
 document.addEventListener('input',e=>{
   const ci=e.target.closest('[data-cloze-input]'); if(ci){const box=ci.closest('.cloze-box'),id=box?.dataset.itemId,idx=Number(ci.dataset.blankIndex),rec=answerBucket(id,true);rec.values[idx]=ci.value;delete rec.statuses[idx];delete rec.feedbacks[idx];persistAnswer(id);resizeClozeInput(ci);ci.classList.remove('ok','near','bad','empty');const wrap=ci.closest('.cloze-blank');wrap?.classList.remove('ok','near','bad','empty');const fb=wrap?.querySelector('.cloze-feedback');if(fb&&!Number(rec.hints[idx]||0))fb.textContent='';return}
-  if(e.target.id==='searchInput'){state.q=e.target.value;state.selected='';renderList();renderDetail()}
-  if(e.target.id==='hideMastered'){state.hideMastered=e.target.checked;state.selected='';render()}
+  if(e.target.id==='searchInput'){state.q=e.target.value;state.selected='';if(searchRenderTimer)clearTimeout(searchRenderTimer);searchRenderTimer=setTimeout(()=>{searchRenderTimer=null;renderFilteredContent()},120)}
+  if(e.target.id==='hideMastered'){state.hideMastered=e.target.checked;state.selected='';renderFilteredContent()}
   if(e.target.id==='detailMode'){state.detailMode=e.target.checked;document.body.classList.toggle('detail-on',state.detailMode)}
-  if(e.target.id==='redoMode'){state.redoMode=e.target.checked;state.redoAnswers={};state.panel='cloze';render()}
+  if(e.target.id==='redoMode'){state.redoMode=e.target.checked;state.redoAnswers={};state.panel='cloze';renderFilteredContent()}
   if(e.target.matches('[data-auto-next]')){data.settings.autoNext=e.target.checked;save()}
-  if(e.target.dataset.note){data.study[e.target.dataset.note]={...st(e.target.dataset.note),note:e.target.value,updatedAt:new Date().toISOString()};save()}
+  if(e.target.dataset.note){data.study[e.target.dataset.note]={...st(e.target.dataset.note),note:e.target.value,updatedAt:new Date().toISOString()};scheduleSave()}
   if(e.target.dataset.questionInput){const rec=questionBucket(e.target.dataset.questionInput,true);rec.questionText=e.target.value;persistAnswer(e.target.dataset.questionInput)}
 });
-$('#chapterFilter').addEventListener('change',e=>{state.chapter=e.target.value;state.selected='';render()});
-$('#statusFilter').addEventListener('change',e=>{state.status=e.target.value;state.selected='';render()});
-$('#importBatchFilter')?.addEventListener('change',e=>{state.importBatch=e.target.value;state.selected='';render()});
-$('#recordTypeFilter')?.addEventListener('change',e=>{state.recordType=e.target.value;state.selected='';render()});
+$('#chapterFilter').addEventListener('change',e=>{state.chapter=e.target.value;state.selected='';renderFilteredContent({tree:true})});
+$('#statusFilter').addEventListener('change',e=>{state.status=e.target.value;state.selected='';renderFilteredContent()});
+$('#importBatchFilter')?.addEventListener('change',e=>{state.importBatch=e.target.value;state.selected='';renderFilteredContent()});
+$('#recordTypeFilter')?.addEventListener('change',e=>{state.recordType=e.target.value;state.selected='';renderFilteredContent()});
 $('#closeDialog').addEventListener('click',()=>$('#imageDialog').close());
-$('#exportNotebookBtn')?.addEventListener('click',()=>{const blob=new Blob([allNotebookSummaryText()],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='专升本笔记本总结_v43_全部卡片.txt';a.click();URL.revokeObjectURL(a.href)});
-$('#exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:43,knowledgeVersion:META.version,importDates:META.importBatches||[],exportedAt:new Date().toISOString(),study:data.study,stats:data.stats,reviews:data.reviews,answers:data.answers,settings:data.settings},null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='专升本知识点学习记录_v43_第5天持续导入.json'; a.click(); URL.revokeObjectURL(a.href)});
+$('#exportNotebookBtn')?.addEventListener('click',()=>{const blob=new Blob([allNotebookSummaryText()],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='专升本笔记本总结_v46_性能修复版.txt';a.click();URL.revokeObjectURL(a.href)});
+$('#exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:46,knowledgeVersion:META.version,importDates:META.importBatches||[],exportedAt:new Date().toISOString(),study:data.study,stats:data.stats,reviews:data.reviews,answers:data.answers,settings:data.settings},null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='专升本知识点学习记录_v46_性能修复版.json'; a.click(); URL.revokeObjectURL(a.href)});
 $('#importInput').addEventListener('change',async e=>{const f=e.target.files?.[0]; if(!f)return; try{const x=JSON.parse(await f.text()); data.study=compat(x.study||x||{}); data.stats=x.stats||data.stats; data.reviews=x.reviews||data.reviews||{};data.answers=x.answers||data.answers||{};data.settings={...data.settings,...(x.settings||{})}; save(); render(); alert('导入完成')}catch{alert('导入失败，请选择正确 JSON')}});
-setInterval(()=>{if(document.hidden||!state.selected)return; const i=ITEMS.find(x=>x.id===state.selected); if(!i)return; data.stats.totalSeconds=(data.stats.totalSeconds||0)+15; data.stats.days[today()]=(data.stats.days[today()]||0)+15; data.stats.subjectSeconds[i.subject]=(data.stats.subjectSeconds[i.subject]||0)+15; data.stats.itemSeconds[i.id]=(data.stats.itemSeconds[i.id]||0)+15; save(); renderStats();},15000);
+setInterval(()=>{if(document.hidden||!state.selected)return; const i=ITEM_BY_ID.get(state.selected); if(!i)return; data.stats.totalSeconds=(data.stats.totalSeconds||0)+15; data.stats.days[today()]=(data.stats.days[today()]||0)+15; data.stats.subjectSeconds[i.subject]=(data.stats.subjectSeconds[i.subject]||0)+15; data.stats.itemSeconds[i.id]=(data.stats.itemSeconds[i.id]||0)+15; save(); renderStats();},15000);
 
 document.addEventListener('compositionstart',e=>{const inp=e.target.closest?.('[data-cloze-input]');if(inp)inp.dataset.composing='1'});
 document.addEventListener('compositionend',e=>{const inp=e.target.closest?.('[data-cloze-input]');if(inp){delete inp.dataset.composing;resizeClozeInput(inp)}});
@@ -682,6 +743,7 @@ document.addEventListener('keydown',e=>{
   if(next){next.focus();next.select()}else inp.blur();
 });
 window.addEventListener('resize',()=>$$('#detailPane [data-cloze-input]').forEach(resizeClozeInput));
+window.addEventListener('pagehide',()=>{if(saveTimer)save()});
 
 if(localStorage.getItem('zsb-theme')==='dark') document.body.classList.add('dark');
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('#installBtn').classList.remove('hidden')});

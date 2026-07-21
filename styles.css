@@ -721,3 +721,15 @@ body.dark .principle-transfer,body.dark .principle-empty{background:#422006;colo
   .notebook-summary-head h3{font-size:22px}
   .notebook-overview p{font-size:16px}
 }
+
+/* v46 性能修复：日期卡与列表采用独立渲染，降低长页面重排 */
+.import-record-row{width:100%;text-align:left;color:var(--text);font:inherit;cursor:pointer}
+.import-record-row:hover,.import-batch-main:hover{border-color:#93c5fd;background:#f8fbff}
+body.dark .import-record-row:hover,body.dark .import-batch-main:hover{background:#172033}
+.import-image-placeholder{display:block!important;color:var(--muted);font-size:12px;padding:8px 0}
+.row,.import-batch-card{content-visibility:auto;contain-intrinsic-size:120px}
+#itemList{contain:layout style}
+.import-history-list{contain:layout style}
+.filter-loading{opacity:.65;pointer-events:none}
+.import-source-images>.import-images-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin-top:8px}
+.import-load-more{grid-column:1/-1;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font-weight:800;cursor:pointer}

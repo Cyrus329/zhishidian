@@ -1,6 +1,6 @@
 {
-  "name": "专升本知识点速记本 · 笔记本总结版",
-  "short_name": "专升本总结本",
+  "name": "专升本知识点速记本 · 每章轻量思维导图版",
+  "short_name": "章节导图",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f7f6",

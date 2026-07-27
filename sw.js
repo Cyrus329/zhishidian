@@ -1,10 +1,10 @@
-const CACHE_NAME = 'zsb-knowledge-v46-performance';
+const CACHE_NAME = 'zsb-knowledge-v50-dual-source';
 const CORE_ASSETS = [
   './',
   './index.html',
-  './styles.css?v=46',
-  './app.js?v=46',
-  './knowledge-data.js?v=46',
+  './styles.css?v=50',
+  './app.js?v=50',
+  './knowledge-data.js?v=50',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png'

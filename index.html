@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>专升本知识点速记本 · v46日期筛选性能修复版</title>
+  <title>专升本知识点速记本 · v50双机构来源分章导入版</title>
   <meta name="theme-color" content="#2563eb" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon-192.png" />
-  <link rel="stylesheet" href="./styles.css?v=46" />
+  <link rel="stylesheet" href="./styles.css?v=50" />
 </head>
 <body>
 <header class="topbar">
@@ -15,7 +15,7 @@
     <span class="logo">升</span>
     <div>
       <p>全新题库 · 按自然日期归档 · 计算机、英语、数学分科保存</p>
-      <h1>专升本知识点速记本 · 每卡笔记本总结</h1>
+      <h1>专升本知识点速记本 · 每章轻量思维导图</h1>
     </div>
   </div>
   <div class="top-actions">
@@ -31,7 +31,7 @@
     <section class="import-history-panel">
       <div class="import-history-intro">
         <div><b>从今天开始建立全新题库</b><p>2026年7月15日固定为第1天，7月16日为第2天；同一天继续导入仍归同一天。计算机、英语、数学分科保存，笔记、知识点和题目互不覆盖。</p></div>
-        <span class="day-one-badge">当前第6天 · 7.20</span>
+        <span class="day-one-badge">当前第12天 · 7.26</span>
       </div>
       <div id="importHistoryList" class="import-history-list"></div>
       <div id="sourceOutline"></div>
@@ -57,6 +57,36 @@
         </div>
       </div>
       <div class="stat-card"><span>抗遗忘复习</span><b id="reviewDue">0 张</b><em>按 1/2/4/7/15/30 天复习</em></div>
+    </section>
+  </details>
+
+  <details class="home-section block-stats-zone" id="blockStatsZone" open>
+    <summary><span>知识块总体统计</span><em>每一块自动统计完成度、掌握、错题、时长与首次完结日期</em></summary>
+    <section class="block-stats-panel">
+      <div id="blockStatsOverview" class="block-stats-overview"></div>
+      <div id="activeBlockBanner" class="active-block-banner hidden"></div>
+      <div id="blockStatsList" class="block-stats-list"></div>
+      <p class="block-rule-note">完结标准：知识点和题目需标记“掌握”，笔记需标记“已看”。达到100%后自动记录首次完结日期。</p>
+    </section>
+  </details>
+
+
+  <details class="home-section chapter-mindmap-zone" id="chapterMindmapZone" open>
+    <summary><span>每章轻量思维导图</span><em>按章汇总章节、小节、知识块和卡片；默认只渲染当前一章，避免卡顿</em></summary>
+    <section class="chapter-mindmap-panel">
+      <div class="mindmap-toolbar">
+        <label><span>选择章节</span><select id="mindmapChapterSelect"></select></label>
+        <div class="mindmap-toolbar-actions">
+          <button id="mindmapFilterChapterBtn">只看本章</button>
+          <button id="mindmapExpandBtn" class="ghost">展开全部</button>
+          <button id="mindmapCollapseBtn" class="ghost">收起全部</button>
+          <button id="mindmapCopyBtn" class="ghost">复制导图</button>
+        </div>
+      </div>
+      <div id="mindmapActiveBanner" class="active-block-banner hidden"></div>
+      <div id="mindmapOverview" class="mindmap-overview"></div>
+      <div id="chapterMindmapList" class="chapter-mindmap-list"></div>
+      <p class="block-rule-note">结构：章 → 小节 → 知识块 → 卡片。点击卡片可直接进入学习；章节完成度沿用“知识点/题目需掌握，笔记需已看”的规则。</p>
     </section>
   </details>
 
@@ -132,6 +162,7 @@
     </details>
     <select id="importBatchFilter"><option value="">全部导入日期</option></select>
     <select id="recordTypeFilter"><option value="">全部记录类型</option></select>
+    <select id="sourceOrgFilter"><option value="">全部机构来源</option></select>
     <select id="chapterFilter"><option value="">全部章节</option></select>
     <select id="statusFilter"><option value="">全部状态</option><option value="unread">未看</option><option value="read">已看</option><option value="starred">重点/收藏</option><option value="wrong">错题</option><option value="mastered">已掌握</option></select>
     <nav class="tree" id="treeNav"></nav>
@@ -144,13 +175,13 @@
 
   <main class="main">
     <section class="list" id="itemList"></section>
-    <section class="detail" id="detailPane"><div class="empty"><b>164 张独立卡片</b><p>按7.15—7.20自然日期归档；点击日期后只加载当天列表，原图按需展开。</p></div></section>
+    <section class="detail" id="detailPane"><div class="empty"><b>235 张独立卡片</b><p>按7.15—7.26自然日期归档；蓝色森林与全方位来源分开标注，同一知识体系统一章节。</p></div></section>
   </main>
 </div>
 
 <dialog id="imageDialog"><button id="closeDialog">×</button><img id="dialogImage" alt="页面预览"></dialog>
 
-<script src="./knowledge-data.js?v=46"></script>
-<script src="./app.js?v=46"></script>
+<script src="./knowledge-data.js?v=50"></script>
+<script src="./app.js?v=50"></script>
 </body>
 </html>

@@ -2499,7 +2499,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -2603,7 +2603,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -2704,7 +2704,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -2799,7 +2799,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -2888,7 +2888,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -2992,7 +2992,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3095,7 +3095,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3203,7 +3203,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-notes",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3311,7 +3311,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3421,7 +3421,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3518,7 +3518,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3624,7 +3624,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3729,7 +3729,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3839,7 +3839,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -3944,7 +3944,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4049,7 +4049,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4154,7 +4154,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4256,7 +4256,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4361,7 +4361,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4466,7 +4466,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4571,7 +4571,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-function-domain-part2",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -4676,7 +4676,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.1 函数概念与定义域",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
     "importBatchId": "day-02-2026-07-16-math-common-function-domains",
     "importDay": 2,
     "importDate": "2026-07-16",
@@ -6625,7 +6625,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.2 反函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
     "category": "反函数",
     "range": "反函数 · 第3天 · 7.17",
     "batch": "第3天持续导入｜2026年7月17日",
@@ -7293,7 +7293,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
     "category": "函数的性质",
     "range": "函数的性质 · 第4天 · 7.18",
     "id": "D03-MATH-PROP-001",
@@ -7391,7 +7391,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
     "category": "函数的性质",
     "range": "函数的性质 · 第4天 · 7.18",
     "id": "D03-MATH-PROP-002",
@@ -7480,7 +7480,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
     "category": "函数的性质",
     "range": "函数的性质 · 第4天 · 7.18",
     "id": "D03-MATH-PROP-003",
@@ -7567,7 +7567,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.3 函数的性质",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
     "category": "函数的性质",
     "range": "函数的性质 · 第4天 · 7.18",
     "id": "D03-MATH-PROP-004",
@@ -8574,7 +8574,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
     "category": "函数图像",
     "range": "函数图像 · 第5天 · 7.19",
     "id": "D05-MATH-GRAPH-001",
@@ -8659,7 +8659,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
     "category": "函数图像",
     "range": "函数图像 · 第5天 · 7.19",
     "id": "D05-MATH-GRAPH-002",
@@ -8746,7 +8746,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
     "category": "函数图像",
     "range": "函数图像 · 第5天 · 7.19",
     "id": "D05-MATH-GRAPH-003",
@@ -8833,7 +8833,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
     "category": "函数图像",
     "range": "函数图像 · 第5天 · 7.19",
     "id": "D05-MATH-GRAPH-004",
@@ -8925,7 +8925,7 @@ window.KNOWLEDGE_ITEMS = [
       }
     ],
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.2 基本初等函数图像",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
     "category": "函数图像",
     "range": "函数图像 · 第5天 · 7.19",
     "id": "D05-MATH-GRAPH-005",
@@ -13802,7 +13802,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "幂与指数",
     "range": "幂与指数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -13884,7 +13884,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "代数公式",
     "range": "代数公式 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -13965,7 +13965,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "一元二次方程",
     "range": "一元二次方程 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14043,7 +14043,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "复数",
     "range": "复数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14118,7 +14118,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "指数运算",
     "range": "指数运算 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14196,7 +14196,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "对数运算",
     "range": "对数运算 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14281,7 +14281,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "三角函数",
     "range": "三角函数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14366,7 +14366,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "三角函数",
     "range": "三角函数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14442,7 +14442,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "三角函数",
     "range": "三角函数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14518,7 +14518,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "三角函数",
     "range": "三角函数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14596,7 +14596,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "三角函数",
     "range": "三角函数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14668,7 +14668,7 @@ window.KNOWLEDGE_ITEMS = [
   },
   {
     "subject": "数学",
-    "chapter": "数学｜第一章 函数｜1.4 基础公式与三角函数",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
     "category": "三角函数",
     "range": "三角函数 · 第6天 · 7.20",
     "batch": "第6天持续导入｜2026年7月20日",
@@ -14747,15 +14747,6549 @@ window.KNOWLEDGE_ITEMS = [
       "mnemonic": "正弦01234开根除2，余弦反过来",
       "sourceLabel": "第6天 · 7.20 · 知识点背诵"
     }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词分类",
+    "range": "名词分类 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-001",
+    "order": 165,
+    "title": "名词分类体系总览",
+    "oneLine": "名词分普通名词和专有名词；普通名词又分可数名词与不可数名词，可数包括个体、集合，不可数包括物质、抽象。",
+    "keywords": [
+      "蓝色森林",
+      "名词分类",
+      "普通名词",
+      "专有名词",
+      "个体名词",
+      "集合名词",
+      "物质名词",
+      "抽象名词"
+    ],
+    "mustPatterns": [
+      "名词分为普通名词和专有名词。",
+      "普通名词中的可数名词包括个体名词和集合名词。",
+      "普通名词中的不可数名词包括物质名词和抽象名词。",
+      "people、police、cattle通常按复数处理；furniture、equipment、luggage、clothing通常不可数。"
+    ],
+    "basicExplain": [
+      "分类时先判断是否专有，再判断普通名词在语境中能否直接计数。",
+      "集合名词有时强调整体用单数，有时强调成员用复数；people、police、cattle通常直接接复数谓语。"
+    ],
+    "examRefine": [
+      "water、air、milk属于物质名词；success、failure、peace属于抽象名词。",
+      "information、advice、knowledge、progress、homework等通常不可数。"
+    ],
+    "confusions": [
+      [
+        "集合名词",
+        "总是复数",
+        "family、team、class等可按整体或成员决定单复数；people、police、cattle通常用复数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 名词分为（[[普通名词]]）和（[[专有名词]]）。",
+      "2. 可数名词包括（[[个体名词]]）和（[[集合名词]]）。",
+      "3. 不可数名词包括（[[物质名词]]）和（[[抽象名词]]）。",
+      "4. people、police、cattle通常按（[[复数]]）处理。",
+      "5. furniture、equipment、luggage、clothing通常是（[[不可数名词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "普通名词如何继续分类？",
+        "a": "分可数和不可数；可数包括个体、集合，不可数包括物质、抽象。"
+      },
+      {
+        "q": "police作主语时谓语通常用什么数？",
+        "a": "复数。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image1.webp",
+      "./imports/day-11/blue-forest-english/image2.webp",
+      "./imports/day-11/blue-forest-english/image3.webp",
+      "./imports/day-11/blue-forest-english/image4.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "名词分普通名词和专有名词；普通名词又分可数名词与不可数名词，可数包括个体、集合，不可数包括物质、抽象。",
+      "core": [
+        "名词分为普通名词和专有名词。",
+        "普通名词中的可数名词包括个体名词和集合名词。",
+        "普通名词中的不可数名词包括物质名词和抽象名词。",
+        "people、police、cattle通常按复数处理；furniture、equipment、luggage、clothing通常不可数。"
+      ],
+      "method": [
+        "分类时先判断是否专有，再判断普通名词在语境中能否直接计数。",
+        "集合名词有时强调整体用单数，有时强调成员用复数；people、police、cattle通常直接接复数谓语。",
+        "water、air、milk属于物质名词；success、failure、peace属于抽象名词。",
+        "information、advice、knowledge、progress、homework等通常不可数。"
+      ],
+      "mistakes": [
+        "family、team、class等可按整体或成员决定单复数；people、police、cattle通常用复数。"
+      ],
+      "conclusion": "名词分为普通名词和专有名词。",
+      "mnemonic": "先专有普通，再可数不可数；个集可数，物抽不可数",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词的数",
+    "range": "名词的数 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-002",
+    "order": 166,
+    "title": "可数名词复数变化总表",
+    "oneLine": "名词复数要掌握规则变化、不规则变化、单复数同形、只用复数、国籍名词和合成名词的特殊规则。",
+    "keywords": [
+      "蓝色森林",
+      "名词复数",
+      "-s",
+      "-es",
+      "f/fe→ves",
+      "y→ies",
+      "不规则复数",
+      "合成名词"
+    ],
+    "mustPatterns": [
+      "一般名词加-s；以s、x、ch、sh结尾加-es。",
+      "辅音字母+y结尾变y为i加-es，元音字母+y结尾直接加-s。",
+      "部分f或fe结尾变为ves，但chief、proof、roof等直接加-s。",
+      "man-men、woman-women、foot-feet等属于不规则变化；sheep、deer、fish、series、species、means常单复数同形。",
+      "合成名词通常将主体名词变复数；woman/man作定语时常两部分都变复数。"
+    ],
+    "basicExplain": [
+      "先看词尾规则，再检查是否属于例外或不规则词。",
+      "合成名词先找中心词，如sons-in-law；无明显中心词时通常最后一部分变复数。"
+    ],
+    "examRefine": [
+      "hero/potato/tomato常加-es，piano/photo/auto/kilo常加-s；zero、volcano两种形式均可。",
+      "people、police、cattle为复数意义；trousers、clothes、thanks、goods、glasses常只用复数。"
+    ],
+    "confusions": [
+      [
+        "woman teacher",
+        "women teachers",
+        "woman/man作定语且中心名词变复数时，前后通常都变复数。"
+      ],
+      [
+        "roof",
+        "rooves",
+        "roof的复数是roofs。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 一般名词复数加（[[-s]]），s/x/ch/sh结尾加（[[-es]]）。",
+      "2. 辅音字母+y结尾，变（[[y]]）为（[[i]]）再加-es。",
+      "3. 部分f/fe结尾变为（[[ves]]），但roof的复数是（[[roofs]]）。",
+      "4. man、woman、foot的复数分别是（[[men]]）、（[[women]]）、（[[feet]]）。",
+      "5. woman singer的复数是（[[women singers]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "family与boy如何变复数？",
+        "a": "families；boys。"
+      },
+      {
+        "q": "son-in-law与woman doctor如何变复数？",
+        "a": "sons-in-law；women doctors。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image5.webp",
+      "./imports/day-11/blue-forest-english/image6.webp",
+      "./imports/day-11/blue-forest-english/image7.webp",
+      "./imports/day-11/blue-forest-english/image8.webp",
+      "./imports/day-11/blue-forest-english/image9.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "名词复数要掌握规则变化、不规则变化、单复数同形、只用复数、国籍名词和合成名词的特殊规则。",
+      "core": [
+        "一般名词加-s；以s、x、ch、sh结尾加-es。",
+        "辅音字母+y结尾变y为i加-es，元音字母+y结尾直接加-s。",
+        "部分f或fe结尾变为ves，但chief、proof、roof等直接加-s。",
+        "man-men、woman-women、foot-feet等属于不规则变化；sheep、deer、fish、series、species、means常单复数同形。",
+        "合成名词通常将主体名词变复数；woman/man作定语时常两部分都变复数。"
+      ],
+      "method": [
+        "先看词尾规则，再检查是否属于例外或不规则词。",
+        "合成名词先找中心词，如sons-in-law；无明显中心词时通常最后一部分变复数。",
+        "hero/potato/tomato常加-es，piano/photo/auto/kilo常加-s；zero、volcano两种形式均可。",
+        "people、police、cattle为复数意义；trousers、clothes、thanks、goods、glasses常只用复数。"
+      ],
+      "mistakes": [
+        "woman/man作定语且中心名词变复数时，前后通常都变复数。",
+        "roof的复数是roofs。"
+      ],
+      "conclusion": "一般名词加-s；以s、x、ch、sh结尾加-es。",
+      "mnemonic": "普s，嘶叉吃诗es；辅y变ies；f/fe有例外；合成找中心",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词词义转换",
+    "range": "名词词义转换 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-003",
+    "order": 167,
+    "title": "抽象名词具体化与专有名词普通化",
+    "oneLine": "抽象名词在表示一次具体的人、事、经历或类别时可数；专有名词在表示同名者或具有其特征的人时也可普通化。",
+    "keywords": [
+      "蓝色森林",
+      "抽象名词具体化",
+      "专有名词普通化",
+      "a pleasure",
+      "an honor",
+      "three Nanas"
+    ],
+    "mustPatterns": [
+      "抽象名词表示抽象概念时通常不可数，表示一次具体经历、具体事物或类别时可以可数。",
+      "It is a pleasure和It is an honor中的pleasure、honor表示一件具体的事，可用不定冠词。",
+      "专有名词可普通名词化，表示同名者或具有某人物特征的人，并可出现复数。"
+    ],
+    "basicExplain": [
+      "判断可数性要看句中意义，而不是机械记忆某个词永远可数或不可数。",
+      "专有名词普通化后，首字母通常仍可保留大写并能受a/an或数词修饰。"
+    ],
+    "examRefine": [
+      "There is a Nana looking for you表示“有一位叫Nana的人”；three Nanas表示三位同名者。"
+    ],
+    "confusions": [
+      [
+        "pleasure（乐趣）",
+        "a pleasure（一件令人愉快的事）",
+        "抽象概念不可数，具体化后可数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 抽象名词在表示（[[一次具体经历或具体事物]]）时，可以转化为可数名词。",
+      "2. “很荣幸来到这里”可写作It is（[[an honor]]）to be here。",
+      "3. 专有名词表示（[[同名者或具有其特征的人]]）时，可以普通名词化。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么It is a pleasure中pleasure前能用a？",
+        "a": "此处表示一件具体令人愉快的事，抽象名词具体化。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image10.webp",
+      "./imports/day-11/blue-forest-english/image11.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "抽象名词在表示一次具体的人、事、经历或类别时可数；专有名词在表示同名者或具有其特征的人时也可普通化。",
+      "core": [
+        "抽象名词表示抽象概念时通常不可数，表示一次具体经历、具体事物或类别时可以可数。",
+        "It is a pleasure和It is an honor中的pleasure、honor表示一件具体的事，可用不定冠词。",
+        "专有名词可普通名词化，表示同名者或具有某人物特征的人，并可出现复数。"
+      ],
+      "method": [
+        "判断可数性要看句中意义，而不是机械记忆某个词永远可数或不可数。",
+        "专有名词普通化后，首字母通常仍可保留大写并能受a/an或数词修饰。",
+        "There is a Nana looking for you表示“有一位叫Nana的人”；three Nanas表示三位同名者。"
+      ],
+      "mistakes": [
+        "抽象概念不可数，具体化后可数。"
+      ],
+      "conclusion": "抽象名词表示抽象概念时通常不可数，表示一次具体经历、具体事物或类别时可以可数。",
+      "mnemonic": "抽象落到具体可数，专有变同名者可数",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "限定词与一致",
+    "range": "限定词与一致 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-004",
+    "order": 168,
+    "title": "名词数量限定词与主谓一致",
+    "oneLine": "限定词先区分修饰可数还是不可数，再根据a number/amount/quantity等中心结构判断谓语单复数。",
+    "keywords": [
+      "蓝色森林",
+      "many",
+      "much",
+      "few",
+      "little",
+      "a number of",
+      "the number of",
+      "amount",
+      "quantity",
+      "主谓一致"
+    ],
+    "mustPatterns": [
+      "many、few、a few、a number of等修饰可数名词；much、little、a little、a great deal of等修饰不可数名词。",
+      "a lot of、lots of、plenty of、a large quantity of等可修饰可数或不可数名词。",
+      "a number of加复数名词，谓语用复数；the number of加复数名词，谓语用单数。",
+      "many a和more than one后接单数名词，谓语用单数。",
+      "large amounts/quantities of作主语时通常接复数谓语；单数amount/quantity结构需看中心词和教材规则。"
+    ],
+    "basicExplain": [
+      "做题先找限定词修饰的名词类型，再找真正的主语中心词。",
+      "the number of的中心词是number，因此谓语单数；a number of相当于many，因此谓语复数。"
+    ],
+    "examRefine": [
+      "Large quantities of information were collected。",
+      "The number of women teachers is increasing。"
+    ],
+    "confusions": [
+      [
+        "a number of",
+        "the number of",
+        "前者表示“许多”，谓语复数；后者表示“……的数量”，谓语单数。"
+      ],
+      [
+        "few/little",
+        "a few/a little",
+        "无a偏否定“几乎没有”，有a偏肯定“有一点/几个”。"
+      ]
+    ],
+    "clozeLines": [
+      "1. many、few、a few修饰（[[可数名词复数]]）；much、little、a little修饰（[[不可数名词]]）。",
+      "2. a number of后接复数名词，谓语用（[[复数]]）；the number of后谓语用（[[单数]]）。",
+      "3. many a和more than one后接（[[单数名词]]），谓语用（[[单数]]）。",
+      "4. a lot of、lots of、plenty of可修饰（[[可数和不可数名词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "The number of students后接is还是are？",
+        "a": "is。"
+      },
+      {
+        "q": "a number of students后接什么数的谓语？",
+        "a": "复数谓语。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image12.webp",
+      "./imports/day-11/blue-forest-english/image13.webp",
+      "./imports/day-11/blue-forest-english/image14.webp",
+      "./imports/day-11/blue-forest-english/image18.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "限定词先区分修饰可数还是不可数，再根据a number/amount/quantity等中心结构判断谓语单复数。",
+      "core": [
+        "many、few、a few、a number of等修饰可数名词；much、little、a little、a great deal of等修饰不可数名词。",
+        "a lot of、lots of、plenty of、a large quantity of等可修饰可数或不可数名词。",
+        "a number of加复数名词，谓语用复数；the number of加复数名词，谓语用单数。",
+        "many a和more than one后接单数名词，谓语用单数。",
+        "large amounts/quantities of作主语时通常接复数谓语；单数amount/quantity结构需看中心词和教材规则。"
+      ],
+      "method": [
+        "做题先找限定词修饰的名词类型，再找真正的主语中心词。",
+        "the number of的中心词是number，因此谓语单数；a number of相当于many，因此谓语复数。",
+        "Large quantities of information were collected。",
+        "The number of women teachers is increasing。"
+      ],
+      "mistakes": [
+        "前者表示“许多”，谓语复数；后者表示“……的数量”，谓语单数。",
+        "无a偏否定“几乎没有”，有a偏肯定“有一点/几个”。"
+      ],
+      "conclusion": "many、few、a few、a number of等修饰可数名词；much、little、a little、a great deal of等修饰不可数名词。",
+      "mnemonic": "many数，much量；有a偏肯定；a number复，the number单",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "不可数名词计量",
+    "range": "不可数名词计量 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-005",
+    "order": 169,
+    "title": "不可数名词的量化表达",
+    "oneLine": "不可数名词不能直接与数词连用，要借助“数词＋计量名词＋of＋不可数名词”表示数量。",
+    "keywords": [
+      "蓝色森林",
+      "a piece of",
+      "a bottle of",
+      "a cup of",
+      "不可数名词量化",
+      "计量名词"
+    ],
+    "mustPatterns": [
+      "不可数名词表示具体数量时，要使用计量结构，而不是直接加复数。",
+      "基本结构是“数词＋可数计量名词＋of＋不可数名词”。",
+      "常见搭配有a piece of advice/news/information/baggage、a bottle of water、a loaf of bread等。",
+      "数量大于1时，变化的是计量名词，如two bottles of water。"
+    ],
+    "basicExplain": [
+      "of后的不可数名词保持原形，前面的piece、bottle、cup等负责计数。",
+      "选择计量名词要符合搭配习惯，如bread常用piece/loaf，news常用piece/item。"
+    ],
+    "examRefine": [
+      "不能说two waters表达“两瓶水”，应说two bottles of water。",
+      "a piece of news中news不加-s。"
+    ],
+    "confusions": [
+      [
+        "two news",
+        "two pieces of news",
+        "news不可数，必须通过piece等计量。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 不可数名词量化的基本结构是“数词＋（[[计量名词]]）＋of＋不可数名词”。",
+      "2. “两瓶水”应写作（[[two bottles of water]]）。",
+      "3. “一条新闻”应写作（[[a piece of news]]）。",
+      "4. 数量变化时，变复数的是（[[计量名词]]），不可数名词保持原形。"
+    ],
+    "selfTests": [
+      {
+        "q": "一条建议如何表达？",
+        "a": "a piece of advice。"
+      },
+      {
+        "q": "三片面包如何表达？",
+        "a": "three pieces of bread。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image15.webp",
+      "./imports/day-11/blue-forest-english/image16.webp",
+      "./imports/day-11/blue-forest-english/image17.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "不可数名词不能直接与数词连用，要借助“数词＋计量名词＋of＋不可数名词”表示数量。",
+      "core": [
+        "不可数名词表示具体数量时，要使用计量结构，而不是直接加复数。",
+        "基本结构是“数词＋可数计量名词＋of＋不可数名词”。",
+        "常见搭配有a piece of advice/news/information/baggage、a bottle of water、a loaf of bread等。",
+        "数量大于1时，变化的是计量名词，如two bottles of water。"
+      ],
+      "method": [
+        "of后的不可数名词保持原形，前面的piece、bottle、cup等负责计数。",
+        "选择计量名词要符合搭配习惯，如bread常用piece/loaf，news常用piece/item。",
+        "不能说two waters表达“两瓶水”，应说two bottles of water。",
+        "a piece of news中news不加-s。"
+      ],
+      "mistakes": [
+        "news不可数，必须通过piece等计量。"
+      ],
+      "conclusion": "不可数名词表示具体数量时，要使用计量结构，而不是直接加复数。",
+      "mnemonic": "数词只数计量词，of后不可数不变",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词的所有格",
+    "range": "名词的所有格 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-006",
+    "order": 170,
+    "title": "名词的格与三种所有格总表",
+    "oneLine": "名词所有关系主要用's所有格、of所有格和双重所有格；各自所有、共同所有及照片含义是高频辨析点。",
+    "keywords": [
+      "蓝色森林",
+      "名词的格",
+      "'s所有格",
+      "of所有格",
+      "双重所有格",
+      "共同所有",
+      "各自所有"
+    ],
+    "mustPatterns": [
+      "有生命的人或动物常用's所有格，无生命事物常用of所有格，但时间、地点、国家、机构等也常用's。",
+      "规则复数名词只加撇号，不规则复数名词加's。",
+      "共同所有只在最后一个名词后加's；各自所有则每个名词后都加's。",
+      "双重所有格结构为of＋名词所有格或名词性物主代词。",
+      "a photo of Nana's表示Nana拥有的照片之一；a photo of Nana表示照片内容是Nana。"
+    ],
+    "basicExplain": [
+      "所有格选择核心看关系和表达习惯，不要机械认为无生命绝不能用's。",
+      "双重所有格通常有“若干中的一个”或部分关系。"
+    ],
+    "examRefine": [
+      "Teachers' Day与Children's Day分别体现规则复数和不规则复数所有格。",
+      "today's news、China's development、the building's quality均可用's。"
+    ],
+    "confusions": [
+      [
+        "Nana and Okk's room",
+        "Nana's and Okk's rooms",
+        "前者共同拥有一个房间；后者各自拥有房间。"
+      ],
+      [
+        "a photo of Nana's",
+        "a photo of Nana",
+        "前者是Nana拥有的照片，后者是Nana本人的照片。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 共同所有只在（[[最后一个名词]]）后加's；各自所有则（[[每个名词]]）后都加's。",
+      "2. 规则复数名词所有格一般只加（[[']]），不规则复数加（[['s]]）。",
+      "3. 双重所有格结构为of＋（[[名词所有格或名词性物主代词]]）。",
+      "4. a photo of Nana's表示（[[Nana拥有的照片之一]]）；a photo of Nana表示（[[照片中的人是Nana]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "Jane and Mary's mother与Jane's and Mary's mothers有何区别？",
+        "a": "前者为两人共同的母亲，后者为各自的母亲。"
+      },
+      {
+        "q": "无生命名词通常用哪种所有格？",
+        "a": "of所有格。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image19.webp",
+      "./imports/day-11/blue-forest-english/image20.webp",
+      "./imports/day-11/blue-forest-english/image21.webp",
+      "./imports/day-11/blue-forest-english/image22.webp",
+      "./imports/day-11/blue-forest-english/image23.webp",
+      "./imports/day-11/blue-forest-english/image24.webp",
+      "./imports/day-11/blue-forest-english/image25.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "名词所有关系主要用's所有格、of所有格和双重所有格；各自所有、共同所有及照片含义是高频辨析点。",
+      "core": [
+        "有生命的人或动物常用's所有格，无生命事物常用of所有格，但时间、地点、国家、机构等也常用's。",
+        "规则复数名词只加撇号，不规则复数名词加's。",
+        "共同所有只在最后一个名词后加's；各自所有则每个名词后都加's。",
+        "双重所有格结构为of＋名词所有格或名词性物主代词。",
+        "a photo of Nana's表示Nana拥有的照片之一；a photo of Nana表示照片内容是Nana。"
+      ],
+      "method": [
+        "所有格选择核心看关系和表达习惯，不要机械认为无生命绝不能用's。",
+        "双重所有格通常有“若干中的一个”或部分关系。",
+        "Teachers' Day与Children's Day分别体现规则复数和不规则复数所有格。",
+        "today's news、China's development、the building's quality均可用's。"
+      ],
+      "mistakes": [
+        "前者共同拥有一个房间；后者各自拥有房间。",
+        "前者是Nana拥有的照片，后者是Nana本人的照片。"
+      ],
+      "conclusion": "有生命的人或动物常用's所有格，无生命事物常用of所有格，但时间、地点、国家、机构等也常用's。",
+      "mnemonic": "人动常's，无生命常of；共同最后加，各自分别加；双重of加所有格",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词句法功能",
+    "range": "名词句法功能 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-NOUN-007",
+    "order": 171,
+    "title": "名词的句法功能与名词作定语",
+    "oneLine": "名词可在句中作主语、宾语、表语、同位语和定语；名词作定语通常用单数，但woman/man等有特殊复数变化。",
+    "keywords": [
+      "蓝色森林",
+      "名词作主语",
+      "名词作宾语",
+      "名词作表语",
+      "同位语",
+      "名词作定语"
+    ],
+    "mustPatterns": [
+      "名词的格和位置反映其在句中的语法功能。",
+      "名词可以作主语、宾语、表语、同位语和定语。",
+      "名词作定语时通常用单数，如sports meeting、school gates、sales manager。",
+      "woman/man作定语时，若中心名词为复数，通常二者都变为复数。"
+    ],
+    "basicExplain": [
+      "判断句法成分要看名词与谓语、介词和被修饰词之间的关系。",
+      "同位语用于解释前面的名词，如Dr. Lee, a leading expert, ...。"
+    ],
+    "examRefine": [
+      "The protection of cultural relics作主语；opportunities作宾语；a respected diplomat作表语；a leading expert作同位语。"
+    ],
+    "confusions": [
+      [
+        "woman scientist",
+        "women scientists",
+        "woman/man作定语时随中心名词一起变复数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 名词可作（[[主语]]）、宾语、表语、同位语和定语。",
+      "2. 名词作定语时一般用（[[单数]]）。",
+      "3. “女科学家们”应写作（[[women scientists]]）。",
+      "4. Dr. Lee, a leading expert中的a leading expert作（[[同位语]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "sports meeting中的sports作什么成分？",
+        "a": "名词作定语。"
+      },
+      {
+        "q": "women doctors为什么woman也变复数？",
+        "a": "woman/man作定语时，中心名词变复数通常两部分一起变复数。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image26.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "名词可在句中作主语、宾语、表语、同位语和定语；名词作定语通常用单数，但woman/man等有特殊复数变化。",
+      "core": [
+        "名词的格和位置反映其在句中的语法功能。",
+        "名词可以作主语、宾语、表语、同位语和定语。",
+        "名词作定语时通常用单数，如sports meeting、school gates、sales manager。",
+        "woman/man作定语时，若中心名词为复数，通常二者都变为复数。"
+      ],
+      "method": [
+        "判断句法成分要看名词与谓语、介词和被修饰词之间的关系。",
+        "同位语用于解释前面的名词，如Dr. Lee, a leading expert, ...。",
+        "The protection of cultural relics作主语；opportunities作宾语；a respected diplomat作表语；a leading expert作同位语。"
+      ],
+      "mistakes": [
+        "woman/man作定语时随中心名词一起变复数。"
+      ],
+      "conclusion": "名词的格和位置反映其在句中的语法功能。",
+      "mnemonic": "名词五功能：主宾表同定；定语通常单，男女定语一起变",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "人称代词",
+    "range": "人称代词 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-PRON-001",
+    "order": 172,
+    "title": "代词分类与人称代词",
+    "oneLine": "代词按功能分人称、物主、反身、相互、指示、不定、疑问、连接和关系代词；人称代词需区分主格与宾格。",
+    "keywords": [
+      "蓝色森林",
+      "代词分类",
+      "人称代词",
+      "主格",
+      "宾格",
+      "I me",
+      "he him"
+    ],
+    "mustPatterns": [
+      "代词主要包括人称、物主、反身、相互、指示、不定、疑问、连接和关系代词。",
+      "人称代词主格通常作主语，宾格通常作动词或介词的宾语。",
+      "第一、二、三人称均有单复数形式，第三人称单数还区分性别。"
+    ],
+    "basicExplain": [
+      "选主格还是宾格，先看代词在句中的位置和功能。",
+      "动词前作主语通常用主格，动词或介词后作宾语通常用宾格。"
+    ],
+    "examRefine": [
+      "I love her中I为主格、her为宾格；She loves him中She为主格、him为宾格。"
+    ],
+    "confusions": [
+      [
+        "he/him",
+        "主格/宾格",
+        "he作主语，him作宾语。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 人称代词分为（[[主格]]）和（[[宾格]]）。",
+      "2. 主格通常作（[[主语]]），宾格通常作动词或介词的（[[宾语]]）。",
+      "3. “我爱她”应写作（[[I love her]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "介词后的人称代词用主格还是宾格？",
+        "a": "宾格。"
+      },
+      {
+        "q": "She loves him中him是什么格？",
+        "a": "宾格。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image27.webp",
+      "./imports/day-11/blue-forest-english/image28.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "代词按功能分人称、物主、反身、相互、指示、不定、疑问、连接和关系代词；人称代词需区分主格与宾格。",
+      "core": [
+        "代词主要包括人称、物主、反身、相互、指示、不定、疑问、连接和关系代词。",
+        "人称代词主格通常作主语，宾格通常作动词或介词的宾语。",
+        "第一、二、三人称均有单复数形式，第三人称单数还区分性别。"
+      ],
+      "method": [
+        "选主格还是宾格，先看代词在句中的位置和功能。",
+        "动词前作主语通常用主格，动词或介词后作宾语通常用宾格。",
+        "I love her中I为主格、her为宾格；She loves him中She为主格、him为宾格。"
+      ],
+      "mistakes": [
+        "he作主语，him作宾语。"
+      ],
+      "conclusion": "代词主要包括人称、物主、反身、相互、指示、不定、疑问、连接和关系代词。",
+      "mnemonic": "主格站主位，宾格跟动介",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "物主与反身相互代词",
+    "range": "物主与反身相互代词 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-PRON-002",
+    "order": 173,
+    "title": "物主代词、反身代词与相互代词",
+    "oneLine": "形容词性物主代词后必须接名词，名词性物主代词独立使用；反身代词强调“某人自己”，相互代词表示彼此关系。",
+    "keywords": [
+      "蓝色森林",
+      "形容词性物主代词",
+      "名词性物主代词",
+      "反身代词",
+      "each other",
+      "one another"
+    ],
+    "mustPatterns": [
+      "形容词性物主代词后接名词，如my cat；名词性物主代词可独立使用，如The cat is mine。",
+      "反身代词由物主/宾格形式加-self或-selves构成，表示“某人自己”或强调。",
+      "each other通常表示两者之间，one another通常表示三者及以上之间；现代英语中二者有时可互换。"
+    ],
+    "basicExplain": [
+      "判断物主代词形式时，看后面是否还有名词：有名词用形容词性，无名词用名词性。",
+      "反身代词必须与所指主语在人称和数上保持一致。"
+    ],
+    "examRefine": [
+      "This is my cat = The cat is mine。",
+      "We should be proud of ourselves。"
+    ],
+    "confusions": [
+      [
+        "my/mine",
+        "形容词性/名词性",
+        "my后接名词，mine独立使用。"
+      ],
+      [
+        "ourselves/ourself",
+        "复数反身代词",
+        "we对应ourselves。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 形容词性物主代词后要接（[[名词]]），名词性物主代词可以（[[独立使用]]）。",
+      "2. This is my cat可改写为The cat is（[[mine]]）。",
+      "3. we对应的反身代词是（[[ourselves]]）。",
+      "4. 两者之间常用（[[each other]]），三者及以上常用（[[one another]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "This book is my还是mine？",
+        "a": "mine。"
+      },
+      {
+        "q": "We should help each other中each other表示什么？",
+        "a": "相互、彼此。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image29.webp",
+      "./imports/day-11/blue-forest-english/image30.webp",
+      "./imports/day-11/blue-forest-english/image31.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "形容词性物主代词后必须接名词，名词性物主代词独立使用；反身代词强调“某人自己”，相互代词表示彼此关系。",
+      "core": [
+        "形容词性物主代词后接名词，如my cat；名词性物主代词可独立使用，如The cat is mine。",
+        "反身代词由物主/宾格形式加-self或-selves构成，表示“某人自己”或强调。",
+        "each other通常表示两者之间，one another通常表示三者及以上之间；现代英语中二者有时可互换。"
+      ],
+      "method": [
+        "判断物主代词形式时，看后面是否还有名词：有名词用形容词性，无名词用名词性。",
+        "反身代词必须与所指主语在人称和数上保持一致。",
+        "This is my cat = The cat is mine。",
+        "We should be proud of ourselves。"
+      ],
+      "mistakes": [
+        "my后接名词，mine独立使用。",
+        "we对应ourselves。"
+      ],
+      "conclusion": "形容词性物主代词后接名词，如my cat；名词性物主代词可独立使用，如The cat is mine。",
+      "mnemonic": "物主有名用形容，无名用名词；反身自己；each两，another多",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "指示与不定代词",
+    "range": "指示与不定代词 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-PRON-003",
+    "order": 174,
+    "title": "指示代词与数量不定代词综合",
+    "oneLine": "this/these指近、that/those指远；many/few用于可数，much/little用于不可数，some/any、each/every及all等要结合句型与范围辨析。",
+    "keywords": [
+      "蓝色森林",
+      "this that these those",
+      "many much",
+      "few little",
+      "some any",
+      "each every",
+      "all none both either neither"
+    ],
+    "mustPatterns": [
+      "this/these表示近指，that/those表示远指；this/that为单数，these/those为复数。",
+      "many、few、a few用于可数名词复数；much、little、a little用于不可数名词。",
+      "some常用于肯定句和希望得到肯定回答的疑问句；any常用于否定句、疑问句及表示“任何”的语境。",
+      "each强调个体，可指两者及以上并可接of；every强调整体中的每一个，通常指三者及以上。",
+      "all/none用于三者及以上；both/either/neither用于两者。"
+    ],
+    "basicExplain": [
+      "数量不定代词考查三条线：可数/不可数、肯定/否定、两者/三者以上。",
+      "few/little不带a偏否定，a few/a little偏肯定。"
+    ],
+    "examRefine": [
+      "Would you like some coffee?中some表示期待肯定回答。",
+      "not each表示“不全都”，not every也表示部分否定。"
+    ],
+    "confusions": [
+      [
+        "few/a few",
+        "几乎没有/有几个",
+        "不带a否定，有a肯定。"
+      ],
+      [
+        "each/every",
+        "个体/整体",
+        "each可两者以上并可接of，every通常三者以上且不可直接接of。"
+      ]
+    ],
+    "clozeLines": [
+      "1. this/these表示（[[近指]]），that/those表示（[[远指]]）。",
+      "2. many与few修饰（[[可数名词复数]]），much与little修饰（[[不可数名词]]）。",
+      "3. some常用于（[[肯定句]]），any常用于否定句和（[[疑问句]]）。",
+      "4. each强调（[[个体]]），every强调（[[整体中的每一个]]）。",
+      "5. both/either/neither用于（[[两者]]），all/none常用于（[[三者及以上]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "Would you like some coffee为什么用some？",
+        "a": "表示请求/邀请并期待肯定回答。"
+      },
+      {
+        "q": "两者都不选用哪个词？",
+        "a": "neither。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image32.webp",
+      "./imports/day-11/blue-forest-english/image33.webp",
+      "./imports/day-11/blue-forest-english/image34.webp",
+      "./imports/day-11/blue-forest-english/image35.webp",
+      "./imports/day-11/blue-forest-english/image36.webp",
+      "./imports/day-11/blue-forest-english/image37.webp",
+      "./imports/day-11/blue-forest-english/image38.webp",
+      "./imports/day-11/blue-forest-english/image39.webp",
+      "./imports/day-11/blue-forest-english/image40.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "this/these指近、that/those指远；many/few用于可数，much/little用于不可数，some/any、each/every及all等要结合句型与范围辨析。",
+      "core": [
+        "this/these表示近指，that/those表示远指；this/that为单数，these/those为复数。",
+        "many、few、a few用于可数名词复数；much、little、a little用于不可数名词。",
+        "some常用于肯定句和希望得到肯定回答的疑问句；any常用于否定句、疑问句及表示“任何”的语境。",
+        "each强调个体，可指两者及以上并可接of；every强调整体中的每一个，通常指三者及以上。",
+        "all/none用于三者及以上；both/either/neither用于两者。"
+      ],
+      "method": [
+        "数量不定代词考查三条线：可数/不可数、肯定/否定、两者/三者以上。",
+        "few/little不带a偏否定，a few/a little偏肯定。",
+        "Would you like some coffee?中some表示期待肯定回答。",
+        "not each表示“不全都”，not every也表示部分否定。"
+      ],
+      "mistakes": [
+        "不带a否定，有a肯定。",
+        "each可两者以上并可接of，every通常三者以上且不可直接接of。"
+      ],
+      "conclusion": "this/these表示近指，that/those表示远指；this/that为单数，these/those为复数。",
+      "mnemonic": "指示近this这些these，远that那些those；数/量、肯/疑、二/三三线辨析",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "不定代词",
+    "range": "不定代词 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-PRON-004",
+    "order": 175,
+    "title": "other系列与复合不定代词",
+    "oneLine": "other系列按特指、泛指、单复数和是否后接名词辨析；复合不定代词作主语谓语单数，形容词后置。",
+    "keywords": [
+      "蓝色森林",
+      "other",
+      "the other",
+      "others",
+      "the others",
+      "another",
+      "复合不定代词",
+      "形容词后置"
+    ],
+    "mustPatterns": [
+      "other通常作限定词修饰复数名词；the other表示两者中的另一个或其余特指对象。",
+      "others相当于other＋复数名词，表示泛指“其他人/物”；the others表示特指“其余全部”。",
+      "another表示三者或以上中的另一个，后接单数名词。",
+      "复合不定代词被形容词修饰时，形容词后置；作主语时谓语用单数。"
+    ],
+    "basicExplain": [
+      "other系列先判断范围是否特指，再判断是否需要名词。",
+      "复合不定代词本身是中心词，所以形容词放后面。"
+    ],
+    "examRefine": [
+      "Some students are reading; the other students are writing。",
+      "I have something important to tell you；Something is wrong。"
+    ],
+    "confusions": [
+      [
+        "others/other students",
+        "代词/限定词＋名词",
+        "others后不能再接名词。"
+      ],
+      [
+        "the others/the other",
+        "复数其余全部/两者中另一个",
+        "注意单复数和范围。"
+      ]
+    ],
+    "clozeLines": [
+      "1. others相当于（[[other＋复数名词]]），后面不能再接名词。",
+      "2. the others表示（[[特指的其余全部]]）。",
+      "3. another表示三者或以上中的（[[另一个]]），后接单数名词。",
+      "4. 形容词修饰复合不定代词时要（[[后置]]），其作主语时谓语用（[[单数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "“其他学生”可写others students吗？",
+        "a": "不可以，应写other students或直接用others。"
+      },
+      {
+        "q": "something important中形容词为什么后置？",
+        "a": "复合不定代词的修饰语必须后置。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image41.webp",
+      "./imports/day-11/blue-forest-english/image42.webp",
+      "./imports/day-11/blue-forest-english/image43.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "other系列按特指、泛指、单复数和是否后接名词辨析；复合不定代词作主语谓语单数，形容词后置。",
+      "core": [
+        "other通常作限定词修饰复数名词；the other表示两者中的另一个或其余特指对象。",
+        "others相当于other＋复数名词，表示泛指“其他人/物”；the others表示特指“其余全部”。",
+        "another表示三者或以上中的另一个，后接单数名词。",
+        "复合不定代词被形容词修饰时，形容词后置；作主语时谓语用单数。"
+      ],
+      "method": [
+        "other系列先判断范围是否特指，再判断是否需要名词。",
+        "复合不定代词本身是中心词，所以形容词放后面。",
+        "Some students are reading; the other students are writing。",
+        "I have something important to tell you；Something is wrong。"
+      ],
+      "mistakes": [
+        "others后不能再接名词。",
+        "注意单复数和范围。"
+      ],
+      "conclusion": "other通常作限定词修饰复数名词；the other表示两者中的另一个或其余特指对象。",
+      "mnemonic": "other后名词，others自己站；有the特指；another另一个；复合修饰后置谓语单",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "替代词辨析",
+    "range": "替代词辨析 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-PRON-005",
+    "order": 176,
+    "title": "替代词it、one、that、those",
+    "oneLine": "it指同一事物；one指同类中的一个可数名词；that替代单数可数或不可数名词；those替代复数可数名词。",
+    "keywords": [
+      "蓝色森林",
+      "it",
+      "one",
+      "that",
+      "those",
+      "同一事物",
+      "同类替代"
+    ],
+    "mustPatterns": [
+      "it指代前文出现的同一个具体事物。",
+      "one指代同类中的一个泛指可数名词单数。",
+      "that替代同类的单数可数名词或不可数名词，常用于比较结构。",
+      "those替代同类的复数可数名词，常用于比较结构。"
+    ],
+    "basicExplain": [
+      "先问“是不是同一个”：是则it；不是同一个但同类，再按单复数和可数性选one/that/those。",
+      "比较句中that/those用于避免重复名词。"
+    ],
+    "examRefine": [
+      "I bought a watch. It is cheap中it指原来那块表；Lily wants to buy one中one指同类的一块表。",
+      "The air in the countryside is fresher than that in the city；cars...than those made in Germany。"
+    ],
+    "confusions": [
+      [
+        "it/one",
+        "同一个/同类一个",
+        "it是原物，one是同类替代。"
+      ],
+      [
+        "that/those",
+        "单数或不可数/复数可数",
+        "根据被替代名词的数和可数性选择。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 指代前文同一个事物用（[[it]]）。",
+      "2. 泛指同类中的一个可数名词用（[[one]]）。",
+      "3. 比较中替代单数可数或不可数名词用（[[that]]）。",
+      "4. 比较中替代复数可数名词用（[[those]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "I lost my key. Peter is holding ___ over there，应填什么？",
+        "a": "one，表示同类中的一把钥匙，不是原来那把。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image44.webp",
+      "./imports/day-11/blue-forest-english/image45.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "it指同一事物；one指同类中的一个可数名词；that替代单数可数或不可数名词；those替代复数可数名词。",
+      "core": [
+        "it指代前文出现的同一个具体事物。",
+        "one指代同类中的一个泛指可数名词单数。",
+        "that替代同类的单数可数名词或不可数名词，常用于比较结构。",
+        "those替代同类的复数可数名词，常用于比较结构。"
+      ],
+      "method": [
+        "先问“是不是同一个”：是则it；不是同一个但同类，再按单复数和可数性选one/that/those。",
+        "比较句中that/those用于避免重复名词。",
+        "I bought a watch. It is cheap中it指原来那块表；Lily wants to buy one中one指同类的一块表。",
+        "The air in the countryside is fresher than that in the city；cars...than those made in Germany。"
+      ],
+      "mistakes": [
+        "it是原物，one是同类替代。",
+        "根据被替代名词的数和可数性选择。"
+      ],
+      "conclusion": "it指代前文出现的同一个具体事物。",
+      "mnemonic": "同一it，同类一个one；比较单/不可数that，比较复数those",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜代词",
+    "category": "疑问连接关系代词",
+    "range": "疑问连接关系代词 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据用户在2026-07-25上传的蓝色森林课程原始截图人工整理、合并重复内容并逐空核对。",
+    "id": "D11-ENG-PRON-006",
+    "order": 177,
+    "title": "疑问代词、连接代词与关系代词",
+    "oneLine": "who/whom/whose/what/which可作疑问代词；同形词可引导名词性从句作连接代词，who/whose/whom/that/which/as可引导定语从句。",
+    "keywords": [
+      "蓝色森林",
+      "疑问代词",
+      "连接代词",
+      "关系代词",
+      "who whom whose what which",
+      "定语从句"
+    ],
+    "mustPatterns": [
+      "疑问代词who、whom、whose、what、which用于构成特殊疑问句。",
+      "who通常作主语，whom通常作宾语，whose表示所属关系。",
+      "连接代词who/whom/whose/what/which及-ever形式可引导主语、宾语、表语或同位语从句。",
+      "关系代词who、whose、whom、that、which、as引导定语从句，并在从句中充当成分。"
+    ],
+    "basicExplain": [
+      "判断连接代词还是关系代词，看从句前是否有被修饰的先行词：有先行词通常是定语从句。",
+      "疑问代词用于提问，连接代词引导名词性从句且不表达疑问语气。"
+    ],
+    "examRefine": [
+      "Who sent you?中who作主语；Whom did you send?中whom作宾语。",
+      "I do not know what I should do中what引导宾语从句；What she said作主语从句。"
+    ],
+    "confusions": [
+      [
+        "what/that（定语从句）",
+        "无先行词/有先行词",
+        "what本身含“所……的”，不能再有先行词；that关系代词前有先行词。"
+      ]
+    ],
+    "clozeLines": [
+      "1. who通常作（[[主语]]），whom通常作（[[宾语]]），whose表示（[[所属关系]]）。",
+      "2. 连接代词可引导（[[名词性从句]]）。",
+      "3. 关系代词引导（[[定语从句]]），并在从句中充当成分。",
+      "4. I do not know what I should do中的what是（[[连接代词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "如何快速区分连接代词和关系代词？",
+        "a": "看前面是否有先行词；有先行词通常是关系代词引导定语从句。"
+      }
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image46.webp",
+      "./imports/day-11/blue-forest-english/image47.webp",
+      "./imports/day-11/blue-forest-english/image48.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "recordType": "知识点背诵",
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "新增蓝色森林英语知识点卡",
+        "recordType": "知识点背诵",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "who/whom/whose/what/which可作疑问代词；同形词可引导名词性从句作连接代词，who/whose/whom/that/which/as可引导定语从句。",
+      "core": [
+        "疑问代词who、whom、whose、what、which用于构成特殊疑问句。",
+        "who通常作主语，whom通常作宾语，whose表示所属关系。",
+        "连接代词who/whom/whose/what/which及-ever形式可引导主语、宾语、表语或同位语从句。",
+        "关系代词who、whose、whom、that、which、as引导定语从句，并在从句中充当成分。"
+      ],
+      "method": [
+        "判断连接代词还是关系代词，看从句前是否有被修饰的先行词：有先行词通常是定语从句。",
+        "疑问代词用于提问，连接代词引导名词性从句且不表达疑问语气。",
+        "Who sent you?中who作主语；Whom did you send?中whom作宾语。",
+        "I do not know what I should do中what引导宾语从句；What she said作主语从句。"
+      ],
+      "mistakes": [
+        "what本身含“所……的”，不能再有先行词；that关系代词前有先行词。"
+      ],
+      "conclusion": "疑问代词who、whom、whose、what、which用于构成特殊疑问句。",
+      "mnemonic": "疑问来提问，连接撑名词从句，关系跟先行词修饰",
+      "sourceLabel": "第11天 · 7.25 · 知识点背诵"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词与代词综合",
+    "category": "名词复数与名词作定语",
+    "range": "题目区域 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "id": "D11-ENG-Q-001",
+    "order": 178,
+    "title": "名词复数练习｜woman scientist",
+    "recordType": "英语题目",
+    "studyMode": "question",
+    "oneLine": "蓝色森林课堂练习：Some ______ will attend the international conference next month. 正确答案为B。",
+    "keywords": [
+      "名词复数与名词作定语",
+      "蓝色森林",
+      "英语题目",
+      "woman/man作定语的复数变化",
+      "中心名词复数"
+    ],
+    "problem": "Some ______ will attend the international conference next month.",
+    "choices": [
+      "A. woman scientist",
+      "B. women scientists",
+      "C. woman scientist（原题重复项）",
+      "D. woman scientists"
+    ],
+    "answer": "B",
+    "solutionSteps": [
+      "句中Some表示若干人，中心名词scientist应使用复数scientists。",
+      "woman作名词定语修饰表示人的复数名词时，woman本身也变为women。",
+      "因此应选women scientists。"
+    ],
+    "keyPoints": [
+      "woman/man作定语的复数变化",
+      "中心名词复数"
+    ],
+    "relatedNoteIds": [
+      "D11-ENG-NOUN-002",
+      "D11-ENG-NOUN-007"
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image49.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "从蓝色森林课堂练习拆分到题目区域",
+        "recordType": "英语题目",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "principle": {
+      "title": "woman/man作定语时的复数原则",
+      "summary": "woman或man修饰表示人的名词时，若中心名词变复数，定语和中心名词通常都变复数。",
+      "coreRules": [
+        "woman scientist→women scientists。",
+        "man doctor→men doctors。"
+      ],
+      "flow": [
+        "先由some判断中心名词必须复数。",
+        "再同步改变woman/man。"
+      ],
+      "mistakes": [
+        "只把scientist变复数，写成woman scientists。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：Some ______ will attend the international conference next month. 正确答案为B。",
+      "core": [
+        "woman scientist→women scientists。",
+        "man doctor→men doctors。",
+        "woman/man作定语的复数变化",
+        "中心名词复数"
+      ],
+      "method": [
+        "先由some判断中心名词必须复数。",
+        "再同步改变woman/man。",
+        "句中Some表示若干人，中心名词scientist应使用复数scientists。",
+        "woman作名词定语修饰表示人的复数名词时，woman本身也变为women。"
+      ],
+      "mistakes": [
+        "只把scientist变复数，写成woman scientists。"
+      ],
+      "conclusion": "B",
+      "mnemonic": "woman/man作定语的复数变化 → 中心名词复数",
+      "sourceLabel": "第11天 · 7.25 · 英语题目"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词与代词综合",
+    "category": "both/either/neither辨析",
+    "range": "题目区域 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "id": "D11-ENG-Q-002",
+    "order": 179,
+    "title": "不定代词练习｜two libraries",
+    "recordType": "英语题目",
+    "studyMode": "question",
+    "oneLine": "蓝色森林课堂练习：I visited two libraries for the book, but ______ had a copy available. 正确答案为C。",
+    "keywords": [
+      "both/either/neither辨析",
+      "蓝色森林",
+      "英语题目",
+      "两者都不neither",
+      "三者以上都不none"
+    ],
+    "problem": "I visited two libraries for the book, but ______ had a copy available.",
+    "choices": [
+      "A. none",
+      "B. either",
+      "C. neither",
+      "D. both"
+    ],
+    "answer": "C",
+    "solutionSteps": [
+      "题干明确范围是two libraries，应用两者范围词。",
+      "but表示转折，后面语义为“两家都没有”。",
+      "两者都不使用neither。"
+    ],
+    "keyPoints": [
+      "两者都不neither",
+      "三者以上都不none"
+    ],
+    "relatedNoteIds": [
+      "D11-ENG-PRON-003"
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image49.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "从蓝色森林课堂练习拆分到题目区域",
+        "recordType": "英语题目",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "principle": {
+      "title": "按范围和肯否定选择不定代词",
+      "summary": "先看范围是两者还是三者以上，再看含义是都、任一还是都不。",
+      "coreRules": [
+        "两者都不：neither。",
+        "三者及以上都不：none。",
+        "两者任一：either；两者都：both。"
+      ],
+      "flow": [
+        "锁定two为两者。",
+        "根据but和had a copy判断否定含义。",
+        "选择neither。"
+      ],
+      "mistakes": [
+        "看到否定就误选none，忽略范围只有两者。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：I visited two libraries for the book, but ______ had a copy available. 正确答案为C。",
+      "core": [
+        "两者都不：neither。",
+        "三者及以上都不：none。",
+        "两者任一：either；两者都：both。",
+        "两者都不neither",
+        "三者以上都不none"
+      ],
+      "method": [
+        "锁定two为两者。",
+        "根据but和had a copy判断否定含义。",
+        "选择neither。",
+        "题干明确范围是two libraries，应用两者范围词。",
+        "but表示转折，后面语义为“两家都没有”。"
+      ],
+      "mistakes": [
+        "看到否定就误选none，忽略范围只有两者。"
+      ],
+      "conclusion": "C",
+      "mnemonic": "两者都不neither → 三者以上都不none",
+      "sourceLabel": "第11天 · 7.25 · 英语题目"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词与代词综合",
+    "category": "复合不定代词",
+    "range": "题目区域 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "id": "D11-ENG-Q-003",
+    "order": 180,
+    "title": "复合不定代词练习｜nothing wrong",
+    "recordType": "英语题目",
+    "studyMode": "question",
+    "oneLine": "蓝色森林课堂练习：Don't be nervous. There is ______ wrong with your test result. 正确答案为D。",
+    "keywords": [
+      "复合不定代词",
+      "蓝色森林",
+      "英语题目",
+      "nothing含否定意义",
+      "形容词wrong后置"
+    ],
+    "problem": "Don't be nervous. There is ______ wrong with your test result.",
+    "choices": [
+      "A. something",
+      "B. everything",
+      "C. anything",
+      "D. nothing"
+    ],
+    "answer": "D",
+    "solutionSteps": [
+      "Don't be nervous说明结果没有问题，句意应为“你的测试结果没有任何问题”。",
+      "句子本身是肯定结构，需要用含否定意义的nothing。",
+      "There is nothing wrong with...是固定常用表达。"
+    ],
+    "keyPoints": [
+      "nothing含否定意义",
+      "形容词wrong后置"
+    ],
+    "relatedNoteIds": [
+      "D11-ENG-PRON-004"
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image50.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "从蓝色森林课堂练习拆分到题目区域",
+        "recordType": "英语题目",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "principle": {
+      "title": "肯定句式中用否定复合不定代词",
+      "summary": "句法形式是肯定句时，可用nothing表达完整否定；形容词修饰复合不定代词时后置。",
+      "coreRules": [
+        "nothing＝没有任何东西/事情。",
+        "nothing wrong，不说wrong nothing。"
+      ],
+      "flow": [
+        "根据语境判断含义为“没有问题”。",
+        "选择自带否定意义的nothing。"
+      ],
+      "mistakes": [
+        "因句子没有not而误选anything。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：Don't be nervous. There is ______ wrong with your test result. 正确答案为D。",
+      "core": [
+        "nothing＝没有任何东西/事情。",
+        "nothing wrong，不说wrong nothing。",
+        "nothing含否定意义",
+        "形容词wrong后置"
+      ],
+      "method": [
+        "根据语境判断含义为“没有问题”。",
+        "选择自带否定意义的nothing。",
+        "Don't be nervous说明结果没有问题，句意应为“你的测试结果没有任何问题”。",
+        "句子本身是肯定结构，需要用含否定意义的nothing。"
+      ],
+      "mistakes": [
+        "因句子没有not而误选anything。"
+      ],
+      "conclusion": "D",
+      "mnemonic": "nothing含否定意义 → 形容词wrong后置",
+      "sourceLabel": "第11天 · 7.25 · 英语题目"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词与代词综合",
+    "category": "it/one/that/those辨析",
+    "range": "题目区域 · 第11天 · 7.25",
+    "batch": "第11天蓝色森林英语知识点｜2026年7月25日",
+    "importBatchId": "date-2026-07-25",
+    "importDay": 11,
+    "importDate": "2026-07-25",
+    "importLabel": "第11天 · 7.25",
+    "id": "D11-ENG-Q-004",
+    "order": 181,
+    "title": "替代词练习｜it还是one",
+    "recordType": "英语题目",
+    "studyMode": "question",
+    "oneLine": "蓝色森林课堂练习：I lost my key. Peter is holding ______ over there. You can check. 正确答案为C。",
+    "keywords": [
+      "it/one/that/those辨析",
+      "蓝色森林",
+      "英语题目",
+      "同一事物用it",
+      "同类泛指单数用one"
+    ],
+    "problem": "I lost my key. Peter is holding ______ over there. You can check.",
+    "choices": [
+      "A. it",
+      "B. that",
+      "C. one",
+      "D. them"
+    ],
+    "answer": "C",
+    "solutionSteps": [
+      "原来的钥匙已经丢失，Peter手里拿的不是已确认的同一把。",
+      "此处表示同类可数名词单数“另一把钥匙”，应用one。",
+      "it表示前文同一个具体事物，不符合语义。"
+    ],
+    "keyPoints": [
+      "同一事物用it",
+      "同类泛指单数用one"
+    ],
+    "relatedNoteIds": [
+      "D11-ENG-PRON-005"
+    ],
+    "images": [
+      "./imports/day-11/blue-forest-english/image50.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-25 用户上传蓝色森林英语课程Word：7b7af0fc-0331-4d97-aaf5-fd74a9428817.docx"
+    ],
+    "importHistory": [
+      {
+        "id": "date-2026-07-25",
+        "day": 11,
+        "date": "2026-07-25",
+        "label": "第11天 · 7.25",
+        "action": "从蓝色森林课堂练习拆分到题目区域",
+        "recordType": "英语题目",
+        "note": "原始Word未重复放入项目，50张课程截图已压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "principle": {
+      "title": "同一替代与同类替代",
+      "summary": "it指同一事物，one指同类中的一个可数名词单数。",
+      "coreRules": [
+        "同一个具体对象：it。",
+        "同类中的一个：one。"
+      ],
+      "flow": [
+        "判断是否为原来丢失的那把钥匙。",
+        "不是同一个，只是同类单数。",
+        "选择one。"
+      ],
+      "mistakes": [
+        "见到前文key就机械使用it。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：I lost my key. Peter is holding ______ over there. You can check. 正确答案为C。",
+      "core": [
+        "同一个具体对象：it。",
+        "同类中的一个：one。",
+        "同一事物用it",
+        "同类泛指单数用one"
+      ],
+      "method": [
+        "判断是否为原来丢失的那把钥匙。",
+        "不是同一个，只是同类单数。",
+        "选择one。",
+        "原来的钥匙已经丢失，Peter手里拿的不是已确认的同一把。",
+        "此处表示同类可数名词单数“另一把钥匙”，应用one。"
+      ],
+      "mistakes": [
+        "见到前文key就机械使用it。"
+      ],
+      "conclusion": "C",
+      "mnemonic": "同一事物用it → 同类泛指单数用one",
+      "sourceLabel": "第11天 · 7.25 · 英语题目"
+    },
+    "sourceOrg": "蓝色森林"
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "全方位原讲义",
+    "range": "全方位原讲义 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-PDF-001",
+    "order": 182,
+    "title": "函数的性质（全方位PDF专题）",
+    "oneLine": "包含换元求解析式、奇偶性定义与典型判断题的全方位一页综合讲义。",
+    "keywords": [
+      "全方位",
+      "换元法",
+      "奇偶性",
+      "函数性质"
+    ],
+    "mustPatterns": [
+      "求函数解析式可使用换元法。",
+      "判断奇偶性前先检查定义域是否关于原点对称。"
+    ],
+    "basicExplain": [
+      "原页集中展示换元求函数解析式、分段函数奇偶性、指数式与对数式奇偶性的计算过程。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-math/functions-properties/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《函数的性质.pdf》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "函数的性质",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-math/functions-properties.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原页集中展示换元求函数解析式、分段函数奇偶性、指数式与对数式奇偶性的计算过程。"
+        ],
+        "mustKnow": [
+          "求函数解析式可使用换元法。",
+          "判断奇偶性前先检查定义域是否关于原点对称。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "包含换元求解析式、奇偶性定义与典型判断题的全方位一页综合讲义。",
+      "core": [
+        "求函数解析式可使用换元法。",
+        "判断奇偶性前先检查定义域是否关于原点对称。"
+      ],
+      "method": [
+        "原页集中展示换元求函数解析式、分段函数奇偶性、指数式与对数式奇偶性的计算过程。"
+      ],
+      "mistakes": [],
+      "conclusion": "求函数解析式可使用换元法。",
+      "mnemonic": "全方位 → 换元法 → 奇偶性 → 函数性质",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
+    "category": "全方位原讲义",
+    "range": "全方位原讲义 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-PDF-002",
+    "order": 183,
+    "title": "各大类函数分类与反函数（全方位PDF专题）",
+    "oneLine": "集中整理根式、对数式、分式指数式和三角式求反函数的典型步骤。",
+    "keywords": [
+      "全方位",
+      "反函数",
+      "定义域",
+      "值域"
+    ],
+    "mustPatterns": [
+      "求反函数必须先解出x，再交换x、y，并写出反函数定义域。"
+    ],
+    "basicExplain": [
+      "原页包含四种不同结构的反函数例题，强调反函数定义域等于原函数值域。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-math/function-types-1/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《各大类函数分类.pdf》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "各大类函数分类",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-math/function-types-1.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原页包含四种不同结构的反函数例题，强调反函数定义域等于原函数值域。"
+        ],
+        "mustKnow": [
+          "求反函数必须先解出x，再交换x、y，并写出反函数定义域。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "集中整理根式、对数式、分式指数式和三角式求反函数的典型步骤。",
+      "core": [
+        "求反函数必须先解出x，再交换x、y，并写出反函数定义域。"
+      ],
+      "method": [
+        "原页包含四种不同结构的反函数例题，强调反函数定义域等于原函数值域。"
+      ],
+      "mistakes": [],
+      "conclusion": "求反函数必须先解出x，再交换x、y，并写出反函数定义域。",
+      "mnemonic": "全方位 → 反函数 → 定义域 → 值域",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.5 极限的概念",
+    "category": "全方位原讲义",
+    "range": "全方位原讲义 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-PDF-003",
+    "order": 184,
+    "title": "反三角函数、函数分类与极限概念（全方位PDF专题）",
+    "oneLine": "整理反三角函数性质、函数类型判断、数列极限及x趋于无穷时函数极限。",
+    "keywords": [
+      "全方位",
+      "反三角函数",
+      "函数分类",
+      "数列极限",
+      "函数极限"
+    ],
+    "mustPatterns": [
+      "数列极限研究n→∞时数列项的变化。",
+      "函数极限研究x趋近某点或无穷时函数值的变化。"
+    ],
+    "basicExplain": [
+      "原页同时包含arcsin、arccos、arctan、arccot的定义域值域和单调性，以及极限入门例题。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-math/function-types-2-limit/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《各大类函数分类2+极限的概念.pdf》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "各大类函数分类2＋极限的概念",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-math/function-types-2-limit.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原页同时包含arcsin、arccos、arctan、arccot的定义域值域和单调性，以及极限入门例题。"
+        ],
+        "mustKnow": [
+          "数列极限研究n→∞时数列项的变化。",
+          "函数极限研究x趋近某点或无穷时函数值的变化。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "整理反三角函数性质、函数类型判断、数列极限及x趋于无穷时函数极限。",
+      "core": [
+        "数列极限研究n→∞时数列项的变化。",
+        "函数极限研究x趋近某点或无穷时函数值的变化。"
+      ],
+      "method": [
+        "原页同时包含arcsin、arccos、arctan、arccot的定义域值域和单调性，以及极限入门例题。"
+      ],
+      "mistakes": [],
+      "conclusion": "数列极限研究n→∞时数列项的变化。",
+      "mnemonic": "全方位 → 反三角函数 → 函数分类 → 数列极限 → 函数极限",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "全方位扫描讲义",
+    "range": "全方位扫描讲义 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-PDF-001",
+    "order": 185,
+    "title": "名词（上）全方位扫描讲义",
+    "oneLine": "系统归档名词分类、集合名词一致、物质/抽象名词、可数名词规则与不规则复数。",
+    "keywords": [
+      "全方位",
+      "名词分类",
+      "名词复数",
+      "集合名词"
+    ],
+    "mustPatterns": [
+      "名词分专有名词和普通名词。",
+      "普通名词包括个体、集合、物质和抽象名词。"
+    ],
+    "basicExplain": [
+      "共6页，保留完整表格、例词和复数变化规则。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-1.webp",
+      "./imports/day-12/allround-english/noun-up/page-2.webp",
+      "./imports/day-12/allround-english/noun-up/page-3.webp",
+      "./imports/day-12/allround-english/noun-up/page-4.webp",
+      "./imports/day-12/allround-english/noun-up/page-5.webp",
+      "./imports/day-12/allround-english/noun-up/page-6.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《大学英语基础课程—名词（上）》扫描版6页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "大学英语基础课程·名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "共6页，保留完整表格、例词和复数变化规则。"
+        ],
+        "mustKnow": [
+          "名词分专有名词和普通名词。",
+          "普通名词包括个体、集合、物质和抽象名词。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "系统归档名词分类、集合名词一致、物质/抽象名词、可数名词规则与不规则复数。",
+      "core": [
+        "名词分专有名词和普通名词。",
+        "普通名词包括个体、集合、物质和抽象名词。"
+      ],
+      "method": [
+        "共6页，保留完整表格、例词和复数变化规则。"
+      ],
+      "mistakes": [],
+      "conclusion": "名词分专有名词和普通名词。",
+      "mnemonic": "全方位 → 名词分类 → 名词复数 → 集合名词",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "全方位扫描讲义",
+    "range": "全方位扫描讲义 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-PDF-002",
+    "order": 186,
+    "title": "名词（下）全方位扫描讲义",
+    "oneLine": "系统归档不可数名词量化、s所有格、of所有格与双重所有格。",
+    "keywords": [
+      "全方位",
+      "不可数名词",
+      "名词所有格",
+      "双重所有格"
+    ],
+    "mustPatterns": [
+      "不可数名词用“数词＋量词＋of＋名词”量化。",
+      "所有格包括s所有格、of所有格和双重所有格。"
+    ],
+    "basicExplain": [
+      "共3页，包含共同/分别所有格及地点省略用法。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-english/noun-down/page-1.webp",
+      "./imports/day-12/allround-english/noun-down/page-2.webp",
+      "./imports/day-12/allround-english/noun-down/page-3.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《大学英语基础课程—名词（下）》扫描版3页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "大学英语基础课程·名词（下）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-down.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "共3页，包含共同/分别所有格及地点省略用法。"
+        ],
+        "mustKnow": [
+          "不可数名词用“数词＋量词＋of＋名词”量化。",
+          "所有格包括s所有格、of所有格和双重所有格。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "系统归档不可数名词量化、s所有格、of所有格与双重所有格。",
+      "core": [
+        "不可数名词用“数词＋量词＋of＋名词”量化。",
+        "所有格包括s所有格、of所有格和双重所有格。"
+      ],
+      "method": [
+        "共3页，包含共同/分别所有格及地点省略用法。"
+      ],
+      "mistakes": [],
+      "conclusion": "不可数名词用“数词＋量词＋of＋名词”量化。",
+      "mnemonic": "全方位 → 不可数名词 → 名词所有格 → 双重所有格",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "全方位扫描讲义",
+    "range": "全方位扫描讲义 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-PDF-003",
+    "order": 187,
+    "title": "冠词全方位扫描讲义",
+    "oneLine": "系统归档a/an、the、零冠词及有the/无the意义差异。",
+    "keywords": [
+      "全方位",
+      "a/an",
+      "the",
+      "零冠词"
+    ],
+    "mustPatterns": [
+      "a/an表示泛指，the表示特指，零冠词表示名词前不使用冠词。"
+    ],
+    "basicExplain": [
+      "共5页，包含a/an发音判断、the常见用法、零冠词场景和固定短语辨析。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-english/article/page-1.webp",
+      "./imports/day-12/allround-english/article/page-2.webp",
+      "./imports/day-12/allround-english/article/page-3.webp",
+      "./imports/day-12/allround-english/article/page-4.webp",
+      "./imports/day-12/allround-english/article/page-5.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《大学英语基础课程—冠词》扫描版5页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "大学英语基础课程·冠词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/article.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "共5页，包含a/an发音判断、the常见用法、零冠词场景和固定短语辨析。"
+        ],
+        "mustKnow": [
+          "a/an表示泛指，the表示特指，零冠词表示名词前不使用冠词。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "系统归档a/an、the、零冠词及有the/无the意义差异。",
+      "core": [
+        "a/an表示泛指，the表示特指，零冠词表示名词前不使用冠词。"
+      ],
+      "method": [
+        "共5页，包含a/an发音判断、the常见用法、零冠词场景和固定短语辨析。"
+      ],
+      "mistakes": [],
+      "conclusion": "a/an表示泛指，the表示特指，零冠词表示名词前不使用冠词。",
+      "mnemonic": "全方位 → a/an → the → 零冠词",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "全方位PDF资料",
+    "range": "全方位PDF资料 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-PDF-001",
+    "order": 188,
+    "title": "计算机的特点（全方位PDF专题）",
+    "oneLine": "整理计算机概念及速度、精度、存储、逻辑判断、自动运行和人机交互六类特点。",
+    "keywords": [
+      "全方位",
+      "计算机特点",
+      "存储程序控制"
+    ],
+    "mustPatterns": [
+      "自动运行和自动控制源于存储程序控制原理。"
+    ],
+    "basicExplain": [
+      "原图含教材页码、真题号、考点和完整思维导图。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-computer/comp-05-characteristics/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《第1章计算机基础（05）》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "第1章计算机基础（05）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-05-characteristics.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原图含教材页码、真题号、考点和完整思维导图。"
+        ],
+        "mustKnow": [
+          "自动运行和自动控制源于存储程序控制原理。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "整理计算机概念及速度、精度、存储、逻辑判断、自动运行和人机交互六类特点。",
+      "core": [
+        "自动运行和自动控制源于存储程序控制原理。"
+      ],
+      "method": [
+        "原图含教材页码、真题号、考点和完整思维导图。"
+      ],
+      "mistakes": [],
+      "conclusion": "自动运行和自动控制源于存储程序控制原理。",
+      "mnemonic": "全方位 → 计算机特点 → 存储程序控制",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "全方位PDF资料",
+    "range": "全方位PDF资料 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-PDF-002",
+    "order": 189,
+    "title": "计算机的分类（全方位PDF专题）",
+    "oneLine": "整理按用途、按性能分类，并详细说明服务器、工作站、微型机和嵌入式计算机。",
+    "keywords": [
+      "全方位",
+      "计算机分类",
+      "服务器",
+      "嵌入式计算机"
+    ],
+    "mustPatterns": [
+      "按用途分通用机和专用机；按性能分高性能计算机、服务器、工作站、微型计算机和嵌入式计算机。"
+    ],
+    "basicExplain": [
+      "原图含单片机组成、嵌入式特点和2011年真题考点。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-computer/comp-06-classification/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《第1章计算机基础（06）》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "第1章计算机基础（06）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-06-classification.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原图含单片机组成、嵌入式特点和2011年真题考点。"
+        ],
+        "mustKnow": [
+          "按用途分通用机和专用机；按性能分高性能计算机、服务器、工作站、微型计算机和嵌入式计算机。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "整理按用途、按性能分类，并详细说明服务器、工作站、微型机和嵌入式计算机。",
+      "core": [
+        "按用途分通用机和专用机；按性能分高性能计算机、服务器、工作站、微型计算机和嵌入式计算机。"
+      ],
+      "method": [
+        "原图含单片机组成、嵌入式特点和2011年真题考点。"
+      ],
+      "mistakes": [],
+      "conclusion": "按用途分通用机和专用机；按性能分高性能计算机、服务器、工作站、微型计算机和嵌入式计算机。",
+      "mnemonic": "全方位 → 计算机分类 → 服务器 → 嵌入式计算机",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "全方位PDF资料",
+    "range": "全方位PDF资料 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-PDF-003",
+    "order": 190,
+    "title": "计算机的应用（全方位PDF专题）",
+    "oneLine": "整理科学计算、数据处理、过程控制、辅助工程、多媒体、网络和人工智能。",
+    "keywords": [
+      "全方位",
+      "科学计算",
+      "数据处理",
+      "过程控制",
+      "人工智能"
+    ],
+    "mustPatterns": [
+      "科学计算数据量小但计算复杂；数据处理数据量大但计算相对简单。"
+    ],
+    "basicExplain": [
+      "原图含CAD/CAI/CAM等缩写、物联网定义和人工智能标志事件。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-computer/comp-07-applications/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《第1章计算机基础（07）》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "第1章计算机基础（07）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-07-applications.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原图含CAD/CAI/CAM等缩写、物联网定义和人工智能标志事件。"
+        ],
+        "mustKnow": [
+          "科学计算数据量小但计算复杂；数据处理数据量大但计算相对简单。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "整理科学计算、数据处理、过程控制、辅助工程、多媒体、网络和人工智能。",
+      "core": [
+        "科学计算数据量小但计算复杂；数据处理数据量大但计算相对简单。"
+      ],
+      "method": [
+        "原图含CAD/CAI/CAM等缩写、物联网定义和人工智能标志事件。"
+      ],
+      "mistakes": [],
+      "conclusion": "科学计算数据量小但计算复杂；数据处理数据量大但计算相对简单。",
+      "mnemonic": "全方位 → 科学计算 → 数据处理 → 过程控制 → 人工智能",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "全方位PDF资料",
+    "range": "全方位PDF资料 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-PDF-004",
+    "order": 191,
+    "title": "计算机的未来（全方位PDF专题）",
+    "oneLine": "整理未来发展方向、光子/生物/量子计算机以及量子计算原理与代表成就。",
+    "keywords": [
+      "全方位",
+      "计算机未来",
+      "量子计算机",
+      "九章"
+    ],
+    "mustPatterns": [
+      "未来计算机朝巨型化、微型化、网络化和智能化发展。"
+    ],
+    "basicExplain": [
+      "原图含量子比特、态叠加、Hilbert空间、量子纠缠、量子并行和九章成就。"
+    ],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/allround-computer/comp-08-future/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位：《第1章计算机基础（08）》1页"
+    ],
+    "recordType": "PDF资料整理",
+    "sourceOrg": "全方位",
+    "sourceCourse": "第1章计算机基础（08）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增独立PDF资料卡",
+        "recordType": "PDF资料整理",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-08-future.pdf",
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "资料定位",
+        "understanding": [
+          "原图含量子比特、态叠加、Hilbert空间、量子纠缠、量子并行和九章成就。"
+        ],
+        "mustKnow": [
+          "未来计算机朝巨型化、微型化、网络化和智能化发展。"
+        ]
+      }
+    ],
+    "notebookSummary": {
+      "overview": "整理未来发展方向、光子/生物/量子计算机以及量子计算原理与代表成就。",
+      "core": [
+        "未来计算机朝巨型化、微型化、网络化和智能化发展。"
+      ],
+      "method": [
+        "原图含量子比特、态叠加、Hilbert空间、量子纠缠、量子并行和九章成就。"
+      ],
+      "mistakes": [],
+      "conclusion": "未来计算机朝巨型化、微型化、网络化和智能化发展。",
+      "mnemonic": "全方位 → 计算机未来 → 量子计算机 → 九章",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · PDF资料整理"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机的特点",
+    "range": "计算机的特点 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-001",
+    "order": 192,
+    "title": "计算机六大特点（全方位）",
+    "oneLine": "速度快、精度高、能存储、能逻辑判断、能自动运行与控制、具有人机交互能力。",
+    "keywords": [
+      "速度快",
+      "精度高",
+      "存储",
+      "逻辑判断",
+      "自动运行",
+      "人机交互"
+    ],
+    "mustPatterns": [
+      "计算机运算速度快、精度高。",
+      "计算机具备存储和逻辑判断能力。",
+      "存储程序控制原理使计算机能够自动运行与自动控制。",
+      "用户界面实现人机交互。"
+    ],
+    "basicExplain": [
+      "布尔代数和门电路构成计算机逻辑判断的基础。",
+      "自动运行是计算机区别于一般计算工具的本质特征。"
+    ],
+    "examRefine": [
+      "“区别于其他计算工具的本质”通常答存储程序控制原理。"
+    ],
+    "confusions": [
+      [
+        "运算快",
+        "唯一特点",
+        "计算机还必须能存储、判断并按程序自动运行。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 计算机具有运算速度（[[快]]）、精度（[[高]]）的特点。",
+      "2. 计算机区别于其他计算工具的本质是（[[存储程序控制原理]]）。",
+      "3. 计算机的逻辑基础是（[[布尔代数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "计算机区别于一般计算工具的本质是什么？",
+        "a": "存储程序控制原理。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-05-characteristics/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（05）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（05）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-05-characteristics.pdf",
+    "notebookSummary": {
+      "overview": "速度快、精度高、能存储、能逻辑判断、能自动运行与控制、具有人机交互能力。",
+      "core": [
+        "计算机运算速度快、精度高。",
+        "计算机具备存储和逻辑判断能力。",
+        "存储程序控制原理使计算机能够自动运行与自动控制。",
+        "用户界面实现人机交互。"
+      ],
+      "method": [
+        "布尔代数和门电路构成计算机逻辑判断的基础。",
+        "自动运行是计算机区别于一般计算工具的本质特征。",
+        "“区别于其他计算工具的本质”通常答存储程序控制原理。"
+      ],
+      "mistakes": [
+        "计算机还必须能存储、判断并按程序自动运行。"
+      ],
+      "conclusion": "计算机运算速度快、精度高。",
+      "mnemonic": "速度快 → 精度高 → 存储 → 逻辑判断 → 自动运行 → 人机交互",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机的分类",
+    "range": "计算机的分类 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-002",
+    "order": 193,
+    "title": "按用途和性能分类（全方位）",
+    "oneLine": "按用途分通用机、专用机；按性能分高性能计算机、服务器、工作站、微型机和嵌入式计算机。",
+    "keywords": [
+      "通用机",
+      "专用机",
+      "服务器",
+      "工作站",
+      "微型机",
+      "嵌入式"
+    ],
+    "mustPatterns": [
+      "按用途分为通用机和专用机。",
+      "按性能分为高性能计算机、服务器、工作站、微型计算机和嵌入式计算机。"
+    ],
+    "basicExplain": [
+      "通用机综合处理能力强；专用机围绕特定任务配置软硬件。",
+      "服务器面向网络提供服务；工作站是高端通用微型计算机。"
+    ],
+    "examRefine": [
+      "生活中数量最多、应用最广的是嵌入式计算机。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 计算机按用途分为（[[通用机]]）和（[[专用机]]）。",
+      "2. 网络环境中对外提供服务的高性能计算机叫（[[服务器]]）。",
+      "3. 图形处理和任务并行能力较强的高端微型机叫（[[工作站]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "服务器与工作站的核心区别是什么？",
+        "a": "服务器面向网络用户提供服务；工作站面向单个专业用户提供高性能计算。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-06-classification/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（06）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（06）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-06-classification.pdf",
+    "notebookSummary": {
+      "overview": "按用途分通用机、专用机；按性能分高性能计算机、服务器、工作站、微型机和嵌入式计算机。",
+      "core": [
+        "按用途分为通用机和专用机。",
+        "按性能分为高性能计算机、服务器、工作站、微型计算机和嵌入式计算机。"
+      ],
+      "method": [
+        "通用机综合处理能力强；专用机围绕特定任务配置软硬件。",
+        "服务器面向网络提供服务；工作站是高端通用微型计算机。",
+        "生活中数量最多、应用最广的是嵌入式计算机。"
+      ],
+      "mistakes": [],
+      "conclusion": "按用途分为通用机和专用机。",
+      "mnemonic": "通用机 → 专用机 → 服务器 → 工作站 → 微型机 → 嵌入式",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "嵌入式计算机",
+    "range": "嵌入式计算机 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-003",
+    "order": 194,
+    "title": "嵌入式计算机与单片机（全方位）",
+    "oneLine": "嵌入式计算机作为信息处理部件嵌入应用系统，单片机是其常见硬件基础。",
+    "keywords": [
+      "嵌入式计算机",
+      "单片机",
+      "ROM",
+      "软硬件一体化"
+    ],
+    "mustPatterns": [
+      "嵌入式计算机是嵌入应用系统的信息处理部件。",
+      "单片机把运算器、控制器、存储器、输入输出设备及固化软件集成在一个芯片上。",
+      "嵌入式系统特点是软硬件一体化、应用广、数量多。"
+    ],
+    "basicExplain": [
+      "传统设备嵌入单片机后可获得计算和智能控制能力。"
+    ],
+    "examRefine": [
+      "“应用最广、数量超过PC”通常指嵌入式计算机。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 嵌入式计算机作为一个（[[信息处理部件]]）嵌入应用系统。",
+      "2. 单片机通常把软件固化在（[[ROM]]）芯片中。",
+      "3. 嵌入式系统的重要特点是（[[软硬件一体化]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "单片机为什么是嵌入式系统的基础？",
+        "a": "它在一个芯片上集成主要计算部件和固化软件。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-06-classification/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（06）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（06）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-06-classification.pdf",
+    "notebookSummary": {
+      "overview": "嵌入式计算机作为信息处理部件嵌入应用系统，单片机是其常见硬件基础。",
+      "core": [
+        "嵌入式计算机是嵌入应用系统的信息处理部件。",
+        "单片机把运算器、控制器、存储器、输入输出设备及固化软件集成在一个芯片上。",
+        "嵌入式系统特点是软硬件一体化、应用广、数量多。"
+      ],
+      "method": [
+        "传统设备嵌入单片机后可获得计算和智能控制能力。",
+        "“应用最广、数量超过PC”通常指嵌入式计算机。"
+      ],
+      "mistakes": [],
+      "conclusion": "嵌入式计算机是嵌入应用系统的信息处理部件。",
+      "mnemonic": "嵌入式计算机 → 单片机 → ROM → 软硬件一体化",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机应用",
+    "range": "计算机应用 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-004",
+    "order": 195,
+    "title": "科学计算、数据处理与过程控制（全方位）",
+    "oneLine": "科学计算重复杂数值运算，数据处理重大量事务数据，过程控制重实时采集和控制。",
+    "keywords": [
+      "科学计算",
+      "数值计算",
+      "数据处理",
+      "非数值计算",
+      "过程控制",
+      "实时"
+    ],
+    "mustPatterns": [
+      "科学计算又称数值计算，数据量小但计算复杂。",
+      "数据处理又称非数值计算或事务处理，数据量大但计算较简单。",
+      "过程控制采集压力、液位、流量、温度等参数，强调实时性。"
+    ],
+    "basicExplain": [
+      "科学计算最早用于科研和军事；数据处理广泛用于商业和管理系统；过程控制主要用于工业生产。"
+    ],
+    "examRefine": [
+      "题干出现“统计、合并、分类大量数据”选数据处理；出现“温度、压力实时采集”选过程控制。"
+    ],
+    "confusions": [
+      [
+        "科学计算",
+        "数据量大",
+        "其典型特点是数据量相对小、计算复杂、数值范围大。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 科学计算又称（[[数值计算]]）。",
+      "2. 数据处理又称（[[非数值计算]]）或事务处理。",
+      "3. 过程控制通常采用（[[实时操作系统]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "科学计算和数据处理如何区分？",
+        "a": "前者数据量小但计算复杂，后者数据量大但计算相对简单。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-07-applications/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（07）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（07）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-07-applications.pdf",
+    "notebookSummary": {
+      "overview": "科学计算重复杂数值运算，数据处理重大量事务数据，过程控制重实时采集和控制。",
+      "core": [
+        "科学计算又称数值计算，数据量小但计算复杂。",
+        "数据处理又称非数值计算或事务处理，数据量大但计算较简单。",
+        "过程控制采集压力、液位、流量、温度等参数，强调实时性。"
+      ],
+      "method": [
+        "科学计算最早用于科研和军事；数据处理广泛用于商业和管理系统；过程控制主要用于工业生产。",
+        "题干出现“统计、合并、分类大量数据”选数据处理；出现“温度、压力实时采集”选过程控制。"
+      ],
+      "mistakes": [
+        "其典型特点是数据量相对小、计算复杂、数值范围大。"
+      ],
+      "conclusion": "科学计算又称数值计算，数据量小但计算复杂。",
+      "mnemonic": "科学计算 → 数值计算 → 数据处理 → 非数值计算 → 过程控制 → 实时",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机辅助工程",
+    "range": "计算机辅助工程 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-005",
+    "order": 196,
+    "title": "计算机辅助工程缩写总表（全方位）",
+    "oneLine": "CAD设计、CAI教学、CAM制造、CIMS集成制造、CAE工程、CAT测试等。",
+    "keywords": [
+      "CAD",
+      "CAI",
+      "CAM",
+      "CIMS",
+      "CAE",
+      "CAT",
+      "CAPP",
+      "EDA"
+    ],
+    "mustPatterns": [
+      "CAD是计算机辅助设计。",
+      "CAI是计算机辅助教学。",
+      "CAM是计算机辅助制造。",
+      "CIMS是计算机集成制造系统。",
+      "CAE是计算机辅助工程。"
+    ],
+    "basicExplain": [
+      "Computer Aided/Assisted表示“计算机辅助”，Computer Based表示“基于计算机/计算机化”。"
+    ],
+    "examRefine": [
+      "缩写题先抓最后一个字母：D设计、I教学、M制造、E工程、T测试。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. CAD是（[[计算机辅助设计]]）。",
+      "2. CAM是（[[计算机辅助制造]]）。",
+      "3. CIMS是（[[计算机集成制造系统]]）。",
+      "4. EDA是（[[电子设计自动化]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "CAI与CBE有什么区别？",
+        "a": "CAI强调计算机辅助教学；CBE强调计算机化教育或基于计算机的教育。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-07-applications/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（07）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（07）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-07-applications.pdf",
+    "notebookSummary": {
+      "overview": "CAD设计、CAI教学、CAM制造、CIMS集成制造、CAE工程、CAT测试等。",
+      "core": [
+        "CAD是计算机辅助设计。",
+        "CAI是计算机辅助教学。",
+        "CAM是计算机辅助制造。",
+        "CIMS是计算机集成制造系统。",
+        "CAE是计算机辅助工程。"
+      ],
+      "method": [
+        "Computer Aided/Assisted表示“计算机辅助”，Computer Based表示“基于计算机/计算机化”。",
+        "缩写题先抓最后一个字母：D设计、I教学、M制造、E工程、T测试。"
+      ],
+      "mistakes": [],
+      "conclusion": "CAD是计算机辅助设计。",
+      "mnemonic": "CAD → CAI → CAM → CIMS → CAE → CAT",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "网络、多媒体与人工智能",
+    "range": "网络、多媒体与人工智能 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-006",
+    "order": 197,
+    "title": "多媒体、物联网与人工智能（全方位）",
+    "oneLine": "多媒体融合文本音视频动画；IoT实现万物互联；AI用计算机模拟人类智能，机器学习是根本途径。",
+    "keywords": [
+      "多媒体",
+      "Internet",
+      "IoT",
+      "AI",
+      "机器学习",
+      "AlphaGO",
+      "ChatGPT"
+    ],
+    "mustPatterns": [
+      "多媒体技术以计算机技术为核心，融合现代声像与通信技术。",
+      "物联网IoT实现物与物、物与人、人与人的万物互联。",
+      "人工智能AI是用计算机模拟人类智能，实现人工智能的根本途径是机器学习。"
+    ],
+    "basicExplain": [
+      "典型AI应用包括语音助手、人脸识别、推荐系统、智能家居、无人驾驶和机器人。"
+    ],
+    "examRefine": [
+      "1997深蓝、2016 AlphaGO、2022 ChatGPT常作标志事件考查。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 物联网英文缩写为（[[IoT]]）。",
+      "2. 人工智能英文缩写为（[[AI]]）。",
+      "3. 实现人工智能的根本途径是（[[机器学习]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "物联网的核心含义是什么？",
+        "a": "实现物与物、物与人、人与人之间的万物互联。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-07-applications/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（07）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（07）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-07-applications.pdf",
+    "notebookSummary": {
+      "overview": "多媒体融合文本音视频动画；IoT实现万物互联；AI用计算机模拟人类智能，机器学习是根本途径。",
+      "core": [
+        "多媒体技术以计算机技术为核心，融合现代声像与通信技术。",
+        "物联网IoT实现物与物、物与人、人与人的万物互联。",
+        "人工智能AI是用计算机模拟人类智能，实现人工智能的根本途径是机器学习。"
+      ],
+      "method": [
+        "典型AI应用包括语音助手、人脸识别、推荐系统、智能家居、无人驾驶和机器人。",
+        "1997深蓝、2016 AlphaGO、2022 ChatGPT常作标志事件考查。"
+      ],
+      "mistakes": [],
+      "conclusion": "多媒体技术以计算机技术为核心，融合现代声像与通信技术。",
+      "mnemonic": "多媒体 → Internet → IoT → AI → 机器学习 → AlphaGO",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "计算机的未来",
+    "range": "计算机的未来 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-007",
+    "order": 198,
+    "title": "未来方向与新型计算机（全方位）",
+    "oneLine": "未来总体朝巨型化、微型化、网络化、智能化发展，并出现光子、生物和量子计算机。",
+    "keywords": [
+      "巨型化",
+      "微型化",
+      "网络化",
+      "智能化",
+      "光子计算机",
+      "生物计算机"
+    ],
+    "mustPatterns": [
+      "未来计算机朝巨型化、微型化、网络化和智能化方向发展。",
+      "光子计算机用光子代替电子计算和存储。",
+      "生物计算机又称分子计算机，使用蛋白质分子构成生物芯片。"
+    ],
+    "basicExplain": [
+      "部分资料还列多核化、多媒体化，属于扩展趋势；考试主干仍优先记“四个化”。"
+    ],
+    "examRefine": [
+      "“六个化”与“四个化”并不矛盾，答题按题干或教材口径。"
+    ],
+    "confusions": [
+      [
+        "生物计算机",
+        "使用生物大脑",
+        "它使用蛋白质分子构成的生物芯片。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 未来计算机发展的“四个化”是巨型化、微型化、（[[网络化]]）和（[[智能化]]）。",
+      "2. 光子计算机用（[[光子]]）代替电子。",
+      "3. 生物计算机又叫（[[分子计算机]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "未来计算机最常考的四个发展方向是什么？",
+        "a": "巨型化、微型化、网络化、智能化。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-08-future/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（08）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（08）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-08-future.pdf",
+    "notebookSummary": {
+      "overview": "未来总体朝巨型化、微型化、网络化、智能化发展，并出现光子、生物和量子计算机。",
+      "core": [
+        "未来计算机朝巨型化、微型化、网络化和智能化方向发展。",
+        "光子计算机用光子代替电子计算和存储。",
+        "生物计算机又称分子计算机，使用蛋白质分子构成生物芯片。"
+      ],
+      "method": [
+        "部分资料还列多核化、多媒体化，属于扩展趋势；考试主干仍优先记“四个化”。",
+        "“六个化”与“四个化”并不矛盾，答题按题干或教材口径。"
+      ],
+      "mistakes": [
+        "它使用蛋白质分子构成的生物芯片。"
+      ],
+      "conclusion": "未来计算机朝巨型化、微型化、网络化和智能化方向发展。",
+      "mnemonic": "巨型化 → 微型化 → 网络化 → 智能化 → 光子计算机 → 生物计算机",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "计算机",
+    "chapter": "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
+    "category": "量子计算机",
+    "range": "量子计算机 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-COMP-K-008",
+    "order": 199,
+    "title": "量子计算核心原理与代表成就（全方位）",
+    "oneLine": "量子计算利用量子比特、态叠加、Hilbert空间、量子纠缠和量子并行进行可逆计算。",
+    "keywords": [
+      "Qubit",
+      "态叠加",
+      "Hilbert空间",
+      "量子纠缠",
+      "量子并行",
+      "九章"
+    ],
+    "mustPatterns": [
+      "量子比特可处于0和1的叠加态。",
+      "态叠加原理是现代量子计算机模型的核心技术。",
+      "Hilbert空间用于表达量子系统。",
+      "量子纠缠中一个粒子的状态会影响另一个粒子且与距离无关。",
+      "量子并行使量子计算机能同时处理大量状态。"
+    ],
+    "basicExplain": [
+      "1982费曼提出量子通用计算设想；1985杜斯提出量子图灵机；1993姚期智证明量子图灵机与量子线路等价。"
+    ],
+    "examRefine": [
+      "2017我国构建世界第一台光量子计算机；2020构建76光子原型“九章”。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 量子比特英文为（[[Qubit]]）。",
+      "2. 表达量子系统的数学空间是（[[Hilbert空间]]）。",
+      "3. 2020年我国成功构建76光子量子计算机原型（[[九章]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "量子计算机模型的核心技术是什么？",
+        "a": "态叠加原理。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-computer/comp-08-future/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位计算机基础（08）"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "计算机基础（08）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-computer/comp-08-future.pdf",
+    "notebookSummary": {
+      "overview": "量子计算利用量子比特、态叠加、Hilbert空间、量子纠缠和量子并行进行可逆计算。",
+      "core": [
+        "量子比特可处于0和1的叠加态。",
+        "态叠加原理是现代量子计算机模型的核心技术。",
+        "Hilbert空间用于表达量子系统。",
+        "量子纠缠中一个粒子的状态会影响另一个粒子且与距离无关。",
+        "量子并行使量子计算机能同时处理大量状态。"
+      ],
+      "method": [
+        "1982费曼提出量子通用计算设想；1985杜斯提出量子图灵机；1993姚期智证明量子图灵机与量子线路等价。",
+        "2017我国构建世界第一台光量子计算机；2020构建76光子原型“九章”。"
+      ],
+      "mistakes": [],
+      "conclusion": "量子比特可处于0和1的叠加态。",
+      "mnemonic": "Qubit → 态叠加 → Hilbert空间 → 量子纠缠 → 量子并行 → 九章",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜语法总览",
+    "category": "词性与语法体系",
+    "range": "词性与语法体系 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-001",
+    "order": 200,
+    "title": "英语词性与语法体系（全方位）",
+    "oneLine": "基础语法围绕词性、句子成分和基本句型展开；实词可独立充当成分，虚词主要连接或限定。",
+    "keywords": [
+      "词性",
+      "句子成分",
+      "基本句型",
+      "实词",
+      "虚词"
+    ],
+    "mustPatterns": [
+      "实词包括名词、动词、形容词、副词、代词和数词。",
+      "虚词包括冠词、连词和介词。",
+      "词性决定单词在句中的作用。"
+    ],
+    "basicExplain": [
+      "学习名词和冠词时要放回句子结构中判断，而不是只背中文意思。"
+    ],
+    "examRefine": [
+      "985可理解为9大词性、8大句子成分、5大基本句型。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 常见实词包括名词、动词、形容词、副词、代词和（[[数词]]）。",
+      "2. 冠词、连词、介词属于（[[虚词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么学习词性必须结合句子？",
+        "a": "因为词性决定单词能充当什么句子成分。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（上）第1页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "notebookSummary": {
+      "overview": "基础语法围绕词性、句子成分和基本句型展开；实词可独立充当成分，虚词主要连接或限定。",
+      "core": [
+        "实词包括名词、动词、形容词、副词、代词和数词。",
+        "虚词包括冠词、连词和介词。",
+        "词性决定单词在句中的作用。"
+      ],
+      "method": [
+        "学习名词和冠词时要放回句子结构中判断，而不是只背中文意思。",
+        "985可理解为9大词性、8大句子成分、5大基本句型。"
+      ],
+      "mistakes": [],
+      "conclusion": "实词包括名词、动词、形容词、副词、代词和数词。",
+      "mnemonic": "词性 → 句子成分 → 基本句型 → 实词 → 虚词",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词分类",
+    "range": "名词分类 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-002",
+    "order": 201,
+    "title": "专有名词与普通名词（全方位）",
+    "oneLine": "专有名词表示特定人、地、时间、组织和书刊等；普通名词分个体、集合、物质、抽象。",
+    "keywords": [
+      "专有名词",
+      "普通名词",
+      "首字母大写",
+      "书刊名"
+    ],
+    "mustPatterns": [
+      "专有名词首字母通常大写。",
+      "专有名词包括人名、地名、月份、星期、组织、节日和书报名称。",
+      "普通名词分个体、集合、物质和抽象名词。"
+    ],
+    "basicExplain": [
+      "the Great Wall中的the通常不大写，但书刊名中的实词首字母大写。"
+    ],
+    "examRefine": [
+      "China、Monday、Christmas、The Times均为专有名词。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 专有名词的首字母通常要（[[大写]]）。",
+      "2. 普通名词分个体、集合、物质和（[[抽象名词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "月份和星期是否属于专有名词？",
+        "a": "属于，首字母要大写。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-2.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（上）第2页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "notebookSummary": {
+      "overview": "专有名词表示特定人、地、时间、组织和书刊等；普通名词分个体、集合、物质、抽象。",
+      "core": [
+        "专有名词首字母通常大写。",
+        "专有名词包括人名、地名、月份、星期、组织、节日和书报名称。",
+        "普通名词分个体、集合、物质和抽象名词。"
+      ],
+      "method": [
+        "the Great Wall中的the通常不大写，但书刊名中的实词首字母大写。",
+        "China、Monday、Christmas、The Times均为专有名词。"
+      ],
+      "mistakes": [],
+      "conclusion": "专有名词首字母通常大写。",
+      "mnemonic": "专有名词 → 普通名词 → 首字母大写 → 书刊名",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "集合名词与一致",
+    "range": "集合名词与一致 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-003",
+    "order": 202,
+    "title": "集合名词的主谓一致（全方位）",
+    "oneLine": "family、class、team、committee等强调整体用单数，强调成员用复数。",
+    "keywords": [
+      "family",
+      "class",
+      "team",
+      "committee",
+      "主谓一致"
+    ],
+    "mustPatterns": [
+      "集合名词强调整体时谓语用单数。",
+      "集合名词强调成员时谓语用复数。",
+      "个体名词和集合名词通常属于可数名词。"
+    ],
+    "basicExplain": [
+      "My family is a big family强调一个整体；My family are watching TV强调家庭成员。"
+    ],
+    "examRefine": [
+      "先看语义，再决定谓语单复数，不能只看名词形式。"
+    ],
+    "confusions": [
+      [
+        "family",
+        "固定单数",
+        "family可按整体或成员决定谓语数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. The committee（[[is]]）made up of 10 people.",
+      "2. The committee（[[are]]）holding talks now."
+    ],
+    "selfTests": [
+      {
+        "q": "集合名词判断谓语单复数的关键是什么？",
+        "a": "看语境强调一个整体还是多个成员。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-2.webp",
+      "./imports/day-12/allround-english/noun-up/page-3.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（上）第2-3页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "notebookSummary": {
+      "overview": "family、class、team、committee等强调整体用单数，强调成员用复数。",
+      "core": [
+        "集合名词强调整体时谓语用单数。",
+        "集合名词强调成员时谓语用复数。",
+        "个体名词和集合名词通常属于可数名词。"
+      ],
+      "method": [
+        "My family is a big family强调一个整体；My family are watching TV强调家庭成员。",
+        "先看语义，再决定谓语单复数，不能只看名词形式。"
+      ],
+      "mistakes": [
+        "family可按整体或成员决定谓语数。"
+      ],
+      "conclusion": "集合名词强调整体时谓语用单数。",
+      "mnemonic": "family → class → team → committee → 主谓一致",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "物质与抽象名词",
+    "range": "物质与抽象名词 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-004",
+    "order": 203,
+    "title": "物质、抽象名词及复数词义变化（全方位）",
+    "oneLine": "物质和抽象名词通常不可数，但部分变复数后表示种类、范围、作品或具体事物。",
+    "keywords": [
+      "物质名词",
+      "抽象名词",
+      "waters",
+      "woods",
+      "glasses",
+      "papers"
+    ],
+    "mustPatterns": [
+      "物质名词和抽象名词通常不可数。",
+      "waters可表示水域，woods表示树林，glasses表示眼镜，papers表示论文或文件。"
+    ],
+    "basicExplain": [
+      "不可数名词出现复数形式时，通常不再表示原来的抽象或物质总称。"
+    ],
+    "examRefine": [
+      "先判断词义是否发生变化，再判断可数性。"
+    ],
+    "confusions": [
+      [
+        "paper",
+        "永远不可数",
+        "表示纸时不可数，表示论文/文件时可数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. water表示水时通常不可数，waters可表示（[[水域]]）。",
+      "2. glass表示玻璃时不可数，glasses可表示（[[眼镜]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么papers可以用复数？",
+        "a": "当paper表示论文、文件等可数意义时可以。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-3.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（上）第3页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "notebookSummary": {
+      "overview": "物质和抽象名词通常不可数，但部分变复数后表示种类、范围、作品或具体事物。",
+      "core": [
+        "物质名词和抽象名词通常不可数。",
+        "waters可表示水域，woods表示树林，glasses表示眼镜，papers表示论文或文件。"
+      ],
+      "method": [
+        "不可数名词出现复数形式时，通常不再表示原来的抽象或物质总称。",
+        "先判断词义是否发生变化，再判断可数性。"
+      ],
+      "mistakes": [
+        "表示纸时不可数，表示论文/文件时可数。"
+      ],
+      "conclusion": "物质名词和抽象名词通常不可数。",
+      "mnemonic": "物质名词 → 抽象名词 → waters → woods → glasses → papers",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词的数",
+    "range": "名词的数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-005",
+    "order": 204,
+    "title": "规则复数变化（全方位）",
+    "oneLine": "一般加-s；s/x/ch/sh结尾加-es；辅音+y变y为i加-es；部分o结尾加-es；f/fe常变ves。",
+    "keywords": [
+      "名词复数",
+      "-s",
+      "-es",
+      "辅音+y",
+      "o结尾",
+      "f/fe"
+    ],
+    "mustPatterns": [
+      "一般名词词尾加-s。",
+      "以s、x、ch、sh结尾加-es。",
+      "辅音字母+y结尾变y为i加-es；元音字母+y只加-s。",
+      "hero、potato、tomato常加-es；piano、photo、radio常加-s。",
+      "部分f/fe结尾变为ves。"
+    ],
+    "basicExplain": [
+      "复数规则按词尾字母和读音分类，例外需单独记忆。"
+    ],
+    "examRefine": [
+      "stomach→stomachs；roof、proof、chief通常直接加-s。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. class的复数是（[[classes]]）。",
+      "2. city的复数是（[[cities]]）。",
+      "3. hero的复数是（[[heroes]]）。",
+      "4. knife的复数是（[[knives]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "boy为什么不是boies？",
+        "a": "因为y前是元音字母o，只加-s，变为boys。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-4.webp",
+      "./imports/day-12/allround-english/noun-up/page-5.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（上）第4-5页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "notebookSummary": {
+      "overview": "一般加-s；s/x/ch/sh结尾加-es；辅音+y变y为i加-es；部分o结尾加-es；f/fe常变ves。",
+      "core": [
+        "一般名词词尾加-s。",
+        "以s、x、ch、sh结尾加-es。",
+        "辅音字母+y结尾变y为i加-es；元音字母+y只加-s。",
+        "hero、potato、tomato常加-es；piano、photo、radio常加-s。",
+        "部分f/fe结尾变为ves。"
+      ],
+      "method": [
+        "复数规则按词尾字母和读音分类，例外需单独记忆。",
+        "stomach→stomachs；roof、proof、chief通常直接加-s。"
+      ],
+      "mistakes": [],
+      "conclusion": "一般名词词尾加-s。",
+      "mnemonic": "名词复数 → -s → -es → 辅音+y → o结尾 → f/fe",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词的数",
+    "range": "名词的数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-006",
+    "order": 205,
+    "title": "不规则复数与复合名词（全方位）",
+    "oneLine": "不规则复数包括单复数同形、元音变化、-en/-ren及复合名词主体变化。",
+    "keywords": [
+      "单复数同形",
+      "man-men",
+      "child-children",
+      "compound nouns"
+    ],
+    "mustPatterns": [
+      "deer、fish、sheep、Chinese、Japanese等常单复数同形。",
+      "man→men、woman→women、foot→feet、tooth→teeth、mouse→mice。",
+      "ox→oxen，child→children。",
+      "man/woman作表示人的定语时，中心名词变复数，前后通常都变。",
+      "复合名词有主体名词时主体变复数；无主体时最后一部分变复数。"
+    ],
+    "basicExplain": [
+      "Englishman→Englishmen，但German→Germans。",
+      "mother-in-law→mothers-in-law；grown-up→grown-ups。"
+    ],
+    "examRefine": [
+      "woman doctor→women doctors；man teacher→men teachers。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. child的复数是（[[children]]）。",
+      "2. woman doctor的复数是（[[women doctors]]）。",
+      "3. mother-in-law的复数是（[[mothers-in-law]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么grown-up变grown-ups？",
+        "a": "该复合词没有明确主体名词，最后一部分变复数。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-up/page-5.webp",
+      "./imports/day-12/allround-english/noun-up/page-6.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（上）第5-6页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（上）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-up.pdf",
+    "notebookSummary": {
+      "overview": "不规则复数包括单复数同形、元音变化、-en/-ren及复合名词主体变化。",
+      "core": [
+        "deer、fish、sheep、Chinese、Japanese等常单复数同形。",
+        "man→men、woman→women、foot→feet、tooth→teeth、mouse→mice。",
+        "ox→oxen，child→children。",
+        "man/woman作表示人的定语时，中心名词变复数，前后通常都变。",
+        "复合名词有主体名词时主体变复数；无主体时最后一部分变复数。"
+      ],
+      "method": [
+        "Englishman→Englishmen，但German→Germans。",
+        "mother-in-law→mothers-in-law；grown-up→grown-ups。",
+        "woman doctor→women doctors；man teacher→men teachers。"
+      ],
+      "mistakes": [],
+      "conclusion": "deer、fish、sheep、Chinese、Japanese等常单复数同形。",
+      "mnemonic": "单复数同形 → man-men → child-children → compound nouns",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "不可数名词计量",
+    "range": "不可数名词计量 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-007",
+    "order": 206,
+    "title": "不可数名词量化与advice辨析（全方位）",
+    "oneLine": "不可数名词没有普通复数，不能直接用a/an；用数词＋量词＋of＋名词量化。",
+    "keywords": [
+      "不可数名词",
+      "a piece of",
+      "advice",
+      "suggestion"
+    ],
+    "mustPatterns": [
+      "不可数名词不能直接加-s，前面不能直接用a/an。",
+      "量化结构为数词＋量词＋of＋不可数名词。",
+      "advice不可数，suggestion可数；advise和suggest是动词。"
+    ],
+    "basicExplain": [
+      "a piece of advice，two pieces of advice；a cup of water，two bottles of water。"
+    ],
+    "examRefine": [
+      "some后既可接不可数名词，也可接可数名词复数。"
+    ],
+    "confusions": [
+      [
+        "an advice",
+        "正确",
+        "advice不可数，应说a piece of advice。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 一条建议是（[[a piece of advice]]）。",
+      "2. advice是不可数名词，suggestion是（[[可数名词]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "two advices为什么错误？",
+        "a": "advice不可数，应说two pieces of advice。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-down/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（下）第1页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（下）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-down.pdf",
+    "notebookSummary": {
+      "overview": "不可数名词没有普通复数，不能直接用a/an；用数词＋量词＋of＋名词量化。",
+      "core": [
+        "不可数名词不能直接加-s，前面不能直接用a/an。",
+        "量化结构为数词＋量词＋of＋不可数名词。",
+        "advice不可数，suggestion可数；advise和suggest是动词。"
+      ],
+      "method": [
+        "a piece of advice，two pieces of advice；a cup of water，two bottles of water。",
+        "some后既可接不可数名词，也可接可数名词复数。"
+      ],
+      "mistakes": [
+        "advice不可数，应说a piece of advice。"
+      ],
+      "conclusion": "不可数名词不能直接加-s，前面不能直接用a/an。",
+      "mnemonic": "不可数名词 → a piece of → advice → suggestion",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词的所有格",
+    "range": "名词的所有格 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-008",
+    "order": 207,
+    "title": "s所有格及共同/分别所有格（全方位）",
+    "oneLine": "s所有格主要用于有生命名词，也用于时间、距离、国家、城市和机构；共同所有格只在最后一个名词加s。",
+    "keywords": [
+      "'s所有格",
+      "共同所有格",
+      "个别所有格",
+      "时间距离"
+    ],
+    "mustPatterns": [
+      "单数名词和不以s结尾的复数名词通常加’s；以s结尾的复数名词只加撇号。",
+      "分别拥有时各名词都加’s；共同拥有时只在最后一个名词加’s。",
+      "时间、距离等可用s所有格，并可改成复合形容词结构。"
+    ],
+    "basicExplain": [
+      "Lily’s and Lucy’s fathers表示各自的父亲；Lily and Lucy’s father表示共同的父亲。",
+      "five days’ holiday可写成five-day holiday。"
+    ],
+    "examRefine": [
+      "students’ playground；Children’s Day；Teachers’ Day。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 学生们的操场是（[[students’ playground]]）。",
+      "2. Lily and Lucy’s father表示（[[共同所有格]]）。",
+      "3. five days’ holiday可改写为（[[five-day holiday]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "共同所有格与分别所有格如何区分？",
+        "a": "共同拥有只在最后一个名词加’s；分别拥有每个名词都加’s。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-down/page-1.webp",
+      "./imports/day-12/allround-english/noun-down/page-2.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（下）第1-2页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（下）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-down.pdf",
+    "notebookSummary": {
+      "overview": "s所有格主要用于有生命名词，也用于时间、距离、国家、城市和机构；共同所有格只在最后一个名词加s。",
+      "core": [
+        "单数名词和不以s结尾的复数名词通常加’s；以s结尾的复数名词只加撇号。",
+        "分别拥有时各名词都加’s；共同拥有时只在最后一个名词加’s。",
+        "时间、距离等可用s所有格，并可改成复合形容词结构。"
+      ],
+      "method": [
+        "Lily’s and Lucy’s fathers表示各自的父亲；Lily and Lucy’s father表示共同的父亲。",
+        "five days’ holiday可写成five-day holiday。",
+        "students’ playground；Children’s Day；Teachers’ Day。"
+      ],
+      "mistakes": [],
+      "conclusion": "单数名词和不以s结尾的复数名词通常加’s；以s结尾的复数名词只加撇号。",
+      "mnemonic": "'s所有格 → 共同所有格 → 个别所有格 → 时间距离",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜名词",
+    "category": "名词的所有格",
+    "range": "名词的所有格 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-009",
+    "order": 208,
+    "title": "of所有格与双重所有格（全方位）",
+    "oneLine": "of所有格多用于无生命名词，结构为A of B，译为B的A；双重所有格强调所属物中的一个。",
+    "keywords": [
+      "of所有格",
+      "A of B",
+      "双重所有格",
+      "a friend of mine"
+    ],
+    "mustPatterns": [
+      "of所有格结构为A of B，常译为B的A。",
+      "of所有格主要用于无生命名词。",
+      "双重所有格结构为of＋名词s所有格或名词性物主代词。"
+    ],
+    "basicExplain": [
+      "the windows of the classroom；the answer to the question中的to表示对应或指向。",
+      "a friend of my mother’s表示我妈妈朋友中的一个。"
+    ],
+    "examRefine": [
+      "China’s development可等于the development of China。"
+    ],
+    "confusions": [
+      [
+        "the key of the door",
+        "常规搭配",
+        "表示“门的钥匙”通常说the key to the door。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 教室的窗户是（[[the windows of the classroom]]）。",
+      "2. 我妈妈的一个朋友是（[[a friend of my mother’s]]）。",
+      "3. 问题的答案常说the answer（[[to]]）the question。"
+    ],
+    "selfTests": [
+      {
+        "q": "双重所有格为什么叫“双重”？",
+        "a": "结构中同时出现of和s所有格/名词性物主代词。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/noun-down/page-2.webp",
+      "./imports/day-12/allround-english/noun-down/page-3.webp"
+    ],
+    "sourceFiles": [
+      "全方位名词（下）第2-3页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "名词（下）",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/noun-down.pdf",
+    "notebookSummary": {
+      "overview": "of所有格多用于无生命名词，结构为A of B，译为B的A；双重所有格强调所属物中的一个。",
+      "core": [
+        "of所有格结构为A of B，常译为B的A。",
+        "of所有格主要用于无生命名词。",
+        "双重所有格结构为of＋名词s所有格或名词性物主代词。"
+      ],
+      "method": [
+        "the windows of the classroom；the answer to the question中的to表示对应或指向。",
+        "a friend of my mother’s表示我妈妈朋友中的一个。",
+        "China’s development可等于the development of China。"
+      ],
+      "mistakes": [
+        "表示“门的钥匙”通常说the key to the door。"
+      ],
+      "conclusion": "of所有格结构为A of B，常译为B的A。",
+      "mnemonic": "of所有格 → A of B → 双重所有格 → a friend of mine",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "不定冠词",
+    "range": "不定冠词 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-010",
+    "order": 209,
+    "title": "冠词总览与a/an（全方位）",
+    "oneLine": "冠词分不定冠词、定冠词和零冠词；a/an按后面单词开头音素判断。",
+    "keywords": [
+      "冠词",
+      "a/an",
+      "泛指",
+      "音素"
+    ],
+    "mustPatterns": [
+      "a/an表示泛指，the表示特指，零冠词表示不使用冠词。",
+      "a用于辅音音素开头的词前，an用于元音音素开头的词前。",
+      "a/an可表示数量一、泛指一类中的一个、类指或把抽象名词具体化。"
+    ],
+    "basicExplain": [
+      "a university中的u发/juː/，用a；an hour中的h不发音，用an。"
+    ],
+    "examRefine": [
+      "a/an＋序数词可表示“又一、再一”，如a second car。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. university前用（[[a]]），hour前用（[[an]]）。",
+      "2. a/an＋序数词可表示（[[又一、再一]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "a/an看字母还是读音？",
+        "a": "看后面单词开头的音素。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/article/page-1.webp",
+      "./imports/day-12/allround-english/article/page-2.webp"
+    ],
+    "sourceFiles": [
+      "全方位冠词第1-2页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "冠词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/article.pdf",
+    "notebookSummary": {
+      "overview": "冠词分不定冠词、定冠词和零冠词；a/an按后面单词开头音素判断。",
+      "core": [
+        "a/an表示泛指，the表示特指，零冠词表示不使用冠词。",
+        "a用于辅音音素开头的词前，an用于元音音素开头的词前。",
+        "a/an可表示数量一、泛指一类中的一个、类指或把抽象名词具体化。"
+      ],
+      "method": [
+        "a university中的u发/juː/，用a；an hour中的h不发音，用an。",
+        "a/an＋序数词可表示“又一、再一”，如a second car。"
+      ],
+      "mistakes": [],
+      "conclusion": "a/an表示泛指，the表示特指，零冠词表示不使用冠词。",
+      "mnemonic": "冠词 → a/an → 泛指 → 音素",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "定冠词",
+    "range": "定冠词 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-011",
+    "order": 210,
+    "title": "the的常见用法（全方位）",
+    "oneLine": "the用于特指、再次提及、序数词最高级、独一无二事物、类指、姓氏复数和部分专名。",
+    "keywords": [
+      "the",
+      "特指",
+      "最高级",
+      "the+形容词",
+      "姓氏复数"
+    ],
+    "mustPatterns": [
+      "the用于特定的人或物、再次提及或双方熟悉的人物。",
+      "序数词和最高级前通常用the。",
+      "the＋形容词表示一类人；the＋姓氏复数表示一家人或夫妇。",
+      "传统节日、西洋乐器、江河湖海山脉、方位前常用the。"
+    ],
+    "basicExplain": [
+      "the old表示老年人；the Smiths表示史密斯一家。",
+      "play the piano但play basketball。"
+    ],
+    "examRefine": [
+      "由普通名词构成的国家或组织名称前常用the，如the United States。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 最高级前通常用（[[the]]）。",
+      "2. the rich表示（[[富人]]）。",
+      "3. 弹钢琴是play（[[the]]）piano。"
+    ],
+    "selfTests": [
+      {
+        "q": "the+形容词通常表示什么？",
+        "a": "表示一类人，谓语常用复数。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/article/page-2.webp",
+      "./imports/day-12/allround-english/article/page-3.webp"
+    ],
+    "sourceFiles": [
+      "全方位冠词第2-3页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "冠词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/article.pdf",
+    "notebookSummary": {
+      "overview": "the用于特指、再次提及、序数词最高级、独一无二事物、类指、姓氏复数和部分专名。",
+      "core": [
+        "the用于特定的人或物、再次提及或双方熟悉的人物。",
+        "序数词和最高级前通常用the。",
+        "the＋形容词表示一类人；the＋姓氏复数表示一家人或夫妇。",
+        "传统节日、西洋乐器、江河湖海山脉、方位前常用the。"
+      ],
+      "method": [
+        "the old表示老年人；the Smiths表示史密斯一家。",
+        "play the piano但play basketball。",
+        "由普通名词构成的国家或组织名称前常用the，如the United States。"
+      ],
+      "mistakes": [],
+      "conclusion": "the用于特定的人或物、再次提及或双方熟悉的人物。",
+      "mnemonic": "the → 特指 → 最高级 → the+形容词 → 姓氏复数",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "零冠词与固定短语",
+    "range": "零冠词与固定短语 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-ENG-K-012",
+    "order": 211,
+    "title": "零冠词及有the/无the辨析（全方位）",
+    "oneLine": "专有名词、月份季节年份、物质抽象名词泛指、复数类指、学科三餐球类语言等常用零冠词。",
+    "keywords": [
+      "零冠词",
+      "go to school",
+      "go to the school",
+      "in hospital",
+      "in the hospital"
+    ],
+    "mustPatterns": [
+      "多数专有名词前不用冠词。",
+      "物质名词和抽象名词泛指时通常不用冠词。",
+      "复数名词类指可用零冠词。",
+      "学科、三餐、球类、棋类和语言前常不用冠词。",
+      "go to school表示去上学，go to the school表示去学校这一地点。"
+    ],
+    "basicExplain": [
+      "in hospital表示住院；in the hospital表示在医院里。",
+      "in charge of表示负责管理；in the charge of表示由……管理。"
+    ],
+    "examRefine": [
+      "可数名词单数不能裸用，前面必须有冠词或其他限定词。"
+    ],
+    "confusions": [
+      [
+        "This is pen.",
+        "正确",
+        "可数名词单数pen前必须有a或其他限定词。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 去上学是go to（[[school]]），去学校地点是go to（[[the school]]）。",
+      "2. 住院是in（[[hospital]]），在医院里是in（[[the hospital]]）。",
+      "3. 可数名词单数通常不能（[[裸用]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么Dogs are loyal animals不用the？",
+        "a": "复数名词Dogs在这里表示类指，可用零冠词。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-english/article/page-4.webp",
+      "./imports/day-12/allround-english/article/page-5.webp"
+    ],
+    "sourceFiles": [
+      "全方位冠词第4-5页"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "冠词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-english/article.pdf",
+    "notebookSummary": {
+      "overview": "专有名词、月份季节年份、物质抽象名词泛指、复数类指、学科三餐球类语言等常用零冠词。",
+      "core": [
+        "多数专有名词前不用冠词。",
+        "物质名词和抽象名词泛指时通常不用冠词。",
+        "复数名词类指可用零冠词。",
+        "学科、三餐、球类、棋类和语言前常不用冠词。",
+        "go to school表示去上学，go to the school表示去学校这一地点。"
+      ],
+      "method": [
+        "in hospital表示住院；in the hospital表示在医院里。",
+        "in charge of表示负责管理；in the charge of表示由……管理。",
+        "可数名词单数不能裸用，前面必须有冠词或其他限定词。"
+      ],
+      "mistakes": [
+        "可数名词单数pen前必须有a或其他限定词。"
+      ],
+      "conclusion": "多数专有名词前不用冠词。",
+      "mnemonic": "零冠词 → go to school → go to the school → in hospital → in the hospital",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
+    "category": "抽象函数定义域",
+    "range": "抽象函数定义域 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-001",
+    "order": 212,
+    "title": "抽象函数定义域同位置法（蓝色森林）",
+    "oneLine": "同一个函数符号f的括号内整体取值范围相同；先把已知内层范围写出，再反求新内层对应的x。",
+    "keywords": [
+      "蓝色森林",
+      "抽象函数定义域",
+      "同位置法",
+      "范围相同"
+    ],
+    "mustPatterns": [
+      "若f(A)与f(B)中的函数符号相同，则A和B的取值范围相同。",
+      "先求已知括号内整体的范围，再令新括号内整体落入该范围。"
+    ],
+    "basicExplain": [
+      "已知f(x)定义域为[a,b]，求f(g(x))定义域时解a≤g(x)≤b。",
+      "已知f(g(x))定义域时，要先由x范围求g(x)的值域，再作为f自变量范围。"
+    ],
+    "examRefine": [
+      "不要把“外层x的定义域”直接等同于“内层表达式的范围”。"
+    ],
+    "confusions": [
+      [
+        "定义域",
+        "括号内范围",
+        "已知f(g(x))的x范围时，需要先求g(x)值域。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 同一函数符号f的括号内整体应具有相同的（[[取值范围]]）。",
+      "2. 已知f(x)定义域[a,b]，求f(g(x))时解（[[a≤g(x)≤b]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "抽象函数定义域题第一步做什么？",
+        "a": "确定已知函数括号内整体的取值范围。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image1.webp",
+      "./imports/day-12/blue-forest-math/image2.webp",
+      "./imports/day-12/blue-forest-math/image3.webp",
+      "./imports/day-12/blue-forest-math/image4.webp",
+      "./imports/day-12/blue-forest-math/image5.webp",
+      "./imports/day-12/blue-forest-math/image6.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第1-2页：抽象函数定义域"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "同一个函数符号f的括号内整体取值范围相同；先把已知内层范围写出，再反求新内层对应的x。",
+      "core": [
+        "若f(A)与f(B)中的函数符号相同，则A和B的取值范围相同。",
+        "先求已知括号内整体的范围，再令新括号内整体落入该范围。"
+      ],
+      "method": [
+        "已知f(x)定义域为[a,b]，求f(g(x))定义域时解a≤g(x)≤b。",
+        "已知f(g(x))定义域时，要先由x范围求g(x)的值域，再作为f自变量范围。",
+        "不要把“外层x的定义域”直接等同于“内层表达式的范围”。"
+      ],
+      "mistakes": [
+        "已知f(g(x))的x范围时，需要先求g(x)值域。"
+      ],
+      "conclusion": "若f(A)与f(B)中的函数符号相同，则A和B的取值范围相同。",
+      "mnemonic": "蓝色森林 → 抽象函数定义域 → 同位置法 → 范围相同",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+    "category": "函数解析式",
+    "range": "函数解析式 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-002",
+    "order": 213,
+    "title": "求函数解析式——代入法（蓝色森林）",
+    "oneLine": "已知f(x)直接代入可求f(φ(x))；已知f(φ(x))等于表达式时，可识别外层f并代入内层。",
+    "keywords": [
+      "蓝色森林",
+      "代入法",
+      "复合函数",
+      "f(f(x))"
+    ],
+    "mustPatterns": [
+      "已知f(x)解析式，求f(φ(x))时把解析式中的x整体替换为φ(x)。",
+      "多重复合按从里到外逐层代入。"
+    ],
+    "basicExplain": [
+      "例如f(x)=1/(1-x)，先求f(f(x))，再继续代入可求f(f(f(x)))。"
+    ],
+    "examRefine": [
+      "代入时必须加括号，防止平方、负号和分母范围出错。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 求f(φ(x))时，将f(x)解析式中的x（[[整体替换]]）为φ(x)。",
+      "2. 复合函数代入顺序是从（[[里]]）到外。"
+    ],
+    "selfTests": [
+      {
+        "q": "代入法最常见的错误是什么？",
+        "a": "替换时不加括号，导致符号或幂次错误。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image4.webp",
+      "./imports/day-12/blue-forest-math/image5.webp",
+      "./imports/day-12/blue-forest-math/image6.webp",
+      "./imports/day-12/blue-forest-math/image7.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第2-3页：函数解析式代入法"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "已知f(x)直接代入可求f(φ(x))；已知f(φ(x))等于表达式时，可识别外层f并代入内层。",
+      "core": [
+        "已知f(x)解析式，求f(φ(x))时把解析式中的x整体替换为φ(x)。",
+        "多重复合按从里到外逐层代入。"
+      ],
+      "method": [
+        "例如f(x)=1/(1-x)，先求f(f(x))，再继续代入可求f(f(f(x)))。",
+        "代入时必须加括号，防止平方、负号和分母范围出错。"
+      ],
+      "mistakes": [],
+      "conclusion": "已知f(x)解析式，求f(φ(x))时把解析式中的x整体替换为φ(x)。",
+      "mnemonic": "蓝色森林 → 代入法 → 复合函数 → f(f(x))",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+    "category": "函数解析式",
+    "range": "函数解析式 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-003",
+    "order": 214,
+    "title": "求函数解析式——换元与配凑法（蓝色森林）",
+    "oneLine": "令括号内整体为t，通过反解或配凑把右侧全部写成t，再得到f(t)，最后改写为f(x)。",
+    "keywords": [
+      "蓝色森林",
+      "换元法",
+      "配凑法",
+      "整体代换"
+    ],
+    "mustPatterns": [
+      "令φ(x)=t，并把右侧表达式全部改写成t。",
+      "若能反解x，用x关于t的表达式代回；不能直接反解时可利用恒等式配凑。"
+    ],
+    "basicExplain": [
+      "已知f(x+1)=x²+2，令t=x+1；已知f(x-1/x)=(x+1/x)²，可用平方差恒等式配凑。"
+    ],
+    "examRefine": [
+      "换元后最终应把自变量t改写回通用的x。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 换元法先令括号内整体（[[φ(x)=t]]）。",
+      "2. 右侧必须全部改写为（[[t]]）的表达式。"
+    ],
+    "selfTests": [
+      {
+        "q": "换元法结束时为什么要把t改回x？",
+        "a": "函数解析式中的自变量字母只是占位符，通常写成标准形式f(x)。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image8.webp",
+      "./imports/day-12/blue-forest-math/image9.webp",
+      "./imports/day-12/blue-forest-math/image10.webp",
+      "./imports/day-12/blue-forest-math/image11.webp",
+      "./imports/day-12/blue-forest-math/image12.webp",
+      "./imports/day-12/blue-forest-math/image13.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第3-5页：换元与配凑法"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "令括号内整体为t，通过反解或配凑把右侧全部写成t，再得到f(t)，最后改写为f(x)。",
+      "core": [
+        "令φ(x)=t，并把右侧表达式全部改写成t。",
+        "若能反解x，用x关于t的表达式代回；不能直接反解时可利用恒等式配凑。"
+      ],
+      "method": [
+        "已知f(x+1)=x²+2，令t=x+1；已知f(x-1/x)=(x+1/x)²，可用平方差恒等式配凑。",
+        "换元后最终应把自变量t改写回通用的x。"
+      ],
+      "mistakes": [],
+      "conclusion": "令φ(x)=t，并把右侧表达式全部改写成t。",
+      "mnemonic": "蓝色森林 → 换元法 → 配凑法 → 整体代换",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
+    "category": "反函数",
+    "range": "反函数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-004",
+    "order": 215,
+    "title": "反函数定义、存在条件与求解步骤（蓝色森林）",
+    "oneLine": "原函数必须一一对应才存在反函数；反解x、交换x与y、写出定义域。",
+    "keywords": [
+      "蓝色森林",
+      "反函数",
+      "一一对应",
+      "反解",
+      "交换变量"
+    ],
+    "mustPatterns": [
+      "函数在给定定义域上必须一一对应才有反函数。",
+      "求反函数：由y=f(x)反解x；交换x、y；写出反函数定义域。",
+      "反函数定义域等于原函数值域，反函数值域等于原函数定义域。"
+    ],
+    "basicExplain": [
+      "单调函数在其定义区间上通常具有反函数。"
+    ],
+    "examRefine": [
+      "反函数记作f⁻¹(x)，不等于1/f(x)。"
+    ],
+    "confusions": [
+      [
+        "f⁻¹(x)",
+        "1/f(x)",
+        "f⁻¹表示反函数，不表示倒数。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 函数存在反函数的核心条件是（[[一一对应]]）。",
+      "2. 反函数定义域等于原函数的（[[值域]]）。",
+      "3. f⁻¹(x)不等于（[[1/f(x)]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "求反函数的三步是什么？",
+        "a": "反解x、交换x和y、写反函数定义域。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image14.webp",
+      "./imports/day-12/blue-forest-math/image15.webp",
+      "./imports/day-12/blue-forest-math/image16.webp",
+      "./imports/day-12/blue-forest-math/image17.webp",
+      "./imports/day-12/blue-forest-math/image18.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第5-6页：反函数概念与步骤"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "原函数必须一一对应才存在反函数；反解x、交换x与y、写出定义域。",
+      "core": [
+        "函数在给定定义域上必须一一对应才有反函数。",
+        "求反函数：由y=f(x)反解x；交换x、y；写出反函数定义域。",
+        "反函数定义域等于原函数值域，反函数值域等于原函数定义域。"
+      ],
+      "method": [
+        "单调函数在其定义区间上通常具有反函数。",
+        "反函数记作f⁻¹(x)，不等于1/f(x)。"
+      ],
+      "mistakes": [
+        "f⁻¹表示反函数，不表示倒数。"
+      ],
+      "conclusion": "函数在给定定义域上必须一一对应才有反函数。",
+      "mnemonic": "蓝色森林 → 反函数 → 一一对应 → 反解 → 交换变量",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
+    "category": "反函数",
+    "range": "反函数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-005",
+    "order": 216,
+    "title": "反函数性质与常见互反函数（蓝色森林）",
+    "oneLine": "原函数与反函数单调性相同，定义域和值域互换，图像关于y=x对称。",
+    "keywords": [
+      "蓝色森林",
+      "反函数性质",
+      "y=x对称",
+      "指数对数互反",
+      "三角反三角"
+    ],
+    "mustPatterns": [
+      "原函数与反函数单调性相同。",
+      "原函数定义域与反函数值域互换，原函数值域与反函数定义域互换。",
+      "两者图像关于直线y=x对称。",
+      "指数函数与对数函数互为反函数；限定区间上的三角函数与反三角函数互为反函数。"
+    ],
+    "basicExplain": [
+      "a^x与logₐx互反；sin x在[-π/2,π/2]上与arcsin x互反。"
+    ],
+    "examRefine": [
+      "三角函数必须先限制为单调区间，才能定义反函数。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 原函数与反函数的图像关于（[[y=x]]）对称。",
+      "2. 指数函数与（[[对数函数]]）互为反函数。",
+      "3. 原函数与反函数的单调性（[[相同]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么sin x在整个实数范围没有反函数？",
+        "a": "它不是一一对应，需要限制到单调区间。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image16.webp",
+      "./imports/day-12/blue-forest-math/image17.webp",
+      "./imports/day-12/blue-forest-math/image18.webp",
+      "./imports/day-12/blue-forest-math/image19.webp",
+      "./imports/day-12/blue-forest-math/image20.webp",
+      "./imports/day-12/blue-forest-math/image21.webp",
+      "./imports/day-12/blue-forest-math/image22.webp",
+      "./imports/day-12/blue-forest-math/image23.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第6-8页：反函数性质与例题"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "原函数与反函数单调性相同，定义域和值域互换，图像关于y=x对称。",
+      "core": [
+        "原函数与反函数单调性相同。",
+        "原函数定义域与反函数值域互换，原函数值域与反函数定义域互换。",
+        "两者图像关于直线y=x对称。",
+        "指数函数与对数函数互为反函数；限定区间上的三角函数与反三角函数互为反函数。"
+      ],
+      "method": [
+        "a^x与logₐx互反；sin x在[-π/2,π/2]上与arcsin x互反。",
+        "三角函数必须先限制为单调区间，才能定义反函数。"
+      ],
+      "mistakes": [],
+      "conclusion": "原函数与反函数单调性相同。",
+      "mnemonic": "蓝色森林 → 反函数性质 → y=x对称 → 指数对数互反 → 三角反三角",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "奇偶性",
+    "range": "奇偶性 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-006",
+    "order": 217,
+    "title": "奇偶性定义与判断前提（蓝色森林）",
+    "oneLine": "先检查定义域关于原点对称；f(-x)=f(x)为偶函数，f(-x)=-f(x)为奇函数。",
+    "keywords": [
+      "蓝色森林",
+      "奇函数",
+      "偶函数",
+      "定义域对称",
+      "原点",
+      "y轴"
+    ],
+    "mustPatterns": [
+      "判断奇偶性前，定义域必须关于原点对称。",
+      "f(-x)=f(x)是偶函数，图像关于y轴对称。",
+      "f(-x)=-f(x)是奇函数，图像关于原点对称。",
+      "若奇函数在x=0处有定义，则f(0)=0。"
+    ],
+    "basicExplain": [
+      "定义域不关于原点对称时，直接判为非奇非偶。"
+    ],
+    "examRefine": [
+      "“经过原点”是有条件结论：奇函数必须在0处有定义。"
+    ],
+    "confusions": [
+      [
+        "奇函数",
+        "一定经过原点",
+        "定义域不含0时不谈经过原点。"
+      ]
+    ],
+    "clozeLines": [
+      "1. 判断奇偶性的前提是定义域关于（[[原点]]）对称。",
+      "2. f(-x)=f(x)为（[[偶函数]]）。",
+      "3. 奇函数图像关于（[[原点]]）对称。"
+    ],
+    "selfTests": [
+      {
+        "q": "定义域为(0,+∞)的函数能是奇函数吗？",
+        "a": "不能，因为定义域不关于原点对称。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image24.webp",
+      "./imports/day-12/blue-forest-math/image25.webp",
+      "./imports/day-12/blue-forest-math/image26.webp",
+      "./imports/day-12/blue-forest-math/image27.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第8-9页：奇偶性"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "先检查定义域关于原点对称；f(-x)=f(x)为偶函数，f(-x)=-f(x)为奇函数。",
+      "core": [
+        "判断奇偶性前，定义域必须关于原点对称。",
+        "f(-x)=f(x)是偶函数，图像关于y轴对称。",
+        "f(-x)=-f(x)是奇函数，图像关于原点对称。",
+        "若奇函数在x=0处有定义，则f(0)=0。"
+      ],
+      "method": [
+        "定义域不关于原点对称时，直接判为非奇非偶。",
+        "“经过原点”是有条件结论：奇函数必须在0处有定义。"
+      ],
+      "mistakes": [
+        "定义域不含0时不谈经过原点。"
+      ],
+      "conclusion": "判断奇偶性前，定义域必须关于原点对称。",
+      "mnemonic": "蓝色森林 → 奇函数 → 偶函数 → 定义域对称 → 原点 → y轴",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "奇偶性",
+    "range": "奇偶性 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-007",
+    "order": 218,
+    "title": "常见奇偶函数与运算规律（蓝色森林）",
+    "oneLine": "sin、tan、cot、arcsin、arctan、奇次幂常为奇函数；cos、|x|、偶次幂和常数常为偶函数。",
+    "keywords": [
+      "常见奇函数",
+      "常见偶函数",
+      "奇偶运算"
+    ],
+    "mustPatterns": [
+      "常见奇函数：sin x、tan x、cot x、arcsin x、arctan x、x^(2n+1)。",
+      "常见偶函数：cos x、|x|、x^(2n)、常数函数。",
+      "奇±奇仍为奇，偶±偶仍为偶；奇×奇为偶，偶×偶为偶，奇×偶为奇。"
+    ],
+    "basicExplain": [
+      "运算规律成立前仍需检查各函数共同定义域关于原点对称。"
+    ],
+    "examRefine": [
+      "绝对值常将符号对称部分变成偶性。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sin x通常是（[[奇函数]]），cos x通常是（[[偶函数]]）。",
+      "2. 奇函数×奇函数得到（[[偶函数]]）。",
+      "3. 奇函数×偶函数得到（[[奇函数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "x sin x是什么奇偶性？",
+        "a": "x和sin x都是奇函数，乘积为偶函数。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image25.webp",
+      "./imports/day-12/blue-forest-math/image26.webp",
+      "./imports/day-12/blue-forest-math/image27.webp",
+      "./imports/day-12/blue-forest-math/image28.webp",
+      "./imports/day-12/blue-forest-math/image29.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第9-10页：常见奇偶函数与题型"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "sin、tan、cot、arcsin、arctan、奇次幂常为奇函数；cos、|x|、偶次幂和常数常为偶函数。",
+      "core": [
+        "常见奇函数：sin x、tan x、cot x、arcsin x、arctan x、x^(2n+1)。",
+        "常见偶函数：cos x、|x|、x^(2n)、常数函数。",
+        "奇±奇仍为奇，偶±偶仍为偶；奇×奇为偶，偶×偶为偶，奇×偶为奇。"
+      ],
+      "method": [
+        "运算规律成立前仍需检查各函数共同定义域关于原点对称。",
+        "绝对值常将符号对称部分变成偶性。"
+      ],
+      "mistakes": [],
+      "conclusion": "常见奇函数：sin x、tan x、cot x、arcsin x、arctan x、x^(2n+1)。",
+      "mnemonic": "常见奇函数 → 常见偶函数 → 奇偶运算",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "单调性与周期性",
+    "range": "单调性与周期性 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-008",
+    "order": 219,
+    "title": "单调性与周期性（蓝色森林）",
+    "oneLine": "单调性比较x₁<x₂时函数值次序；周期性满足f(x+T)=f(x)，最小正T为最小正周期。",
+    "keywords": [
+      "单调递增",
+      "单调递减",
+      "周期函数",
+      "最小正周期"
+    ],
+    "mustPatterns": [
+      "若x₁<x₂时f(x₁)<f(x₂)，函数在区间上单调递增。",
+      "若x₁<x₂时f(x₁)>f(x₂)，函数在区间上单调递减。",
+      "若存在非零常数T使f(x+T)=f(x)，则T是周期；最小正T称最小正周期。"
+    ],
+    "basicExplain": [
+      "单调性必须在指定区间内讨论；周期函数通常有无数个周期。"
+    ],
+    "examRefine": [
+      "sin、cos最小正周期2π；tan、cot最小正周期π。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. x₁<x₂且f(x₁)<f(x₂)表示函数（[[单调递增]]）。",
+      "2. 满足f(x+T)=f(x)的非零常数T叫（[[周期]]）。",
+      "3. tan x的最小正周期是（[[π]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "周期函数的周期是否唯一？",
+        "a": "不唯一，最小正周期才是常用特征。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image30.webp",
+      "./imports/day-12/blue-forest-math/image31.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第10-11页：单调性与周期性"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "单调性比较x₁<x₂时函数值次序；周期性满足f(x+T)=f(x)，最小正T为最小正周期。",
+      "core": [
+        "若x₁<x₂时f(x₁)<f(x₂)，函数在区间上单调递增。",
+        "若x₁<x₂时f(x₁)>f(x₂)，函数在区间上单调递减。",
+        "若存在非零常数T使f(x+T)=f(x)，则T是周期；最小正T称最小正周期。"
+      ],
+      "method": [
+        "单调性必须在指定区间内讨论；周期函数通常有无数个周期。",
+        "sin、cos最小正周期2π；tan、cot最小正周期π。"
+      ],
+      "mistakes": [],
+      "conclusion": "若x₁<x₂时f(x₁)<f(x₂)，函数在区间上单调递增。",
+      "mnemonic": "单调递增 → 单调递减 → 周期函数 → 最小正周期",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "有界性",
+    "range": "有界性 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-009",
+    "order": 220,
+    "title": "函数有界性的判定（蓝色森林）",
+    "oneLine": "若存在M>0使定义域内|f(x)|≤M，则函数有界；只在限定区间有界不代表全定义域有界。",
+    "keywords": [
+      "有界函数",
+      "上界",
+      "下界",
+      "|f(x)|≤M"
+    ],
+    "mustPatterns": [
+      "存在正数M使对所有x∈D有|f(x)|≤M，则函数在D上有界。",
+      "有界等价于同时存在上界和下界。",
+      "sin、cos及反三角函数在各自定义域上有界；arctan、arccot也有界。"
+    ],
+    "basicExplain": [
+      "“在规定区间上有界”与“在整个定义域上有界”必须区分。"
+    ],
+    "examRefine": [
+      "多项式在有限闭区间上有界，但在R上通常无界。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 若存在M>0使|f(x)|≤M，则f在D上（[[有界]]）。",
+      "2. 有界要求同时具有（[[上界]]）和（[[下界]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "tan x在定义域上有界吗？",
+        "a": "无界。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image34.webp",
+      "./imports/day-12/blue-forest-math/image35.webp",
+      "./imports/day-12/blue-forest-math/image36.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第12页：有界性"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "若存在M>0使定义域内|f(x)|≤M，则函数有界；只在限定区间有界不代表全定义域有界。",
+      "core": [
+        "存在正数M使对所有x∈D有|f(x)|≤M，则函数在D上有界。",
+        "有界等价于同时存在上界和下界。",
+        "sin、cos及反三角函数在各自定义域上有界；arctan、arccot也有界。"
+      ],
+      "method": [
+        "“在规定区间上有界”与“在整个定义域上有界”必须区分。",
+        "多项式在有限闭区间上有界，但在R上通常无界。"
+      ],
+      "mistakes": [],
+      "conclusion": "存在正数M使对所有x∈D有|f(x)|≤M，则函数在D上有界。",
+      "mnemonic": "有界函数 → 上界 → 下界 → |f(x)|≤M",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基本初等函数",
+    "category": "幂指数对数函数",
+    "range": "幂指数对数函数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-010",
+    "order": 221,
+    "title": "幂、指数、对数函数性质（蓝色森林）",
+    "oneLine": "幂函数关注指数类型；指数函数a^x过(0,1)；对数函数logₐx过(1,0)，两者互为反函数。",
+    "keywords": [
+      "幂函数",
+      "指数函数",
+      "对数函数",
+      "单调性",
+      "互为反函数"
+    ],
+    "mustPatterns": [
+      "指数函数y=a^x满足a>0且a≠1，定义域R，值域(0,+∞)，过(0,1)。",
+      "对数函数y=logₐx满足a>0且a≠1，定义域(0,+∞)，值域R，过(1,0)。",
+      "a>1时指数和对数函数递增，0<a<1时递减。",
+      "指数函数与对数函数图像关于y=x对称。"
+    ],
+    "basicExplain": [
+      "幂函数的定义域、奇偶性和单调性随指数而变化。"
+    ],
+    "examRefine": [
+      "底数范围a>0且a≠1是指数、对数函数共同前提。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 指数函数a^x恒过点（[[(0,1)]]）。",
+      "2. 对数函数logₐx恒过点（[[(1,0)]]）。",
+      "3. 指数与对数函数互为（[[反函数]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "0<a<1时指数函数单调性如何？",
+        "a": "单调递减。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image32.webp",
+      "./imports/day-12/blue-forest-math/image33.webp",
+      "./imports/day-12/blue-forest-math/image34.webp",
+      "./imports/day-12/blue-forest-math/image35.webp",
+      "./imports/day-12/blue-forest-math/image37.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第11-13页：幂指数对数函数"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "幂函数关注指数类型；指数函数a^x过(0,1)；对数函数logₐx过(1,0)，两者互为反函数。",
+      "core": [
+        "指数函数y=a^x满足a>0且a≠1，定义域R，值域(0,+∞)，过(0,1)。",
+        "对数函数y=logₐx满足a>0且a≠1，定义域(0,+∞)，值域R，过(1,0)。",
+        "a>1时指数和对数函数递增，0<a<1时递减。",
+        "指数函数与对数函数图像关于y=x对称。"
+      ],
+      "method": [
+        "幂函数的定义域、奇偶性和单调性随指数而变化。",
+        "底数范围a>0且a≠1是指数、对数函数共同前提。"
+      ],
+      "mistakes": [],
+      "conclusion": "指数函数y=a^x满足a>0且a≠1，定义域R，值域(0,+∞)，过(0,1)。",
+      "mnemonic": "幂函数 → 指数函数 → 对数函数 → 单调性 → 互为反函数",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基本初等函数",
+    "category": "三角函数",
+    "range": "三角函数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-011",
+    "order": 222,
+    "title": "三角函数图像性质与常用公式（蓝色森林）",
+    "oneLine": "sin、cos周期2π；tan、cot周期π，并掌握倒数、平方、二倍角和降幂公式。",
+    "keywords": [
+      "sin",
+      "cos",
+      "tan",
+      "cot",
+      "周期",
+      "二倍角",
+      "降幂"
+    ],
+    "mustPatterns": [
+      "sin x是奇函数，cos x是偶函数，二者周期2π且有界。",
+      "tan x和cot x是奇函数，周期π，在各自定义区间单调。",
+      "sin²x+cos²x=1。",
+      "sin2x=2sinx cosx，cos2x=cos²x-sin²x。"
+    ],
+    "basicExplain": [
+      "tan与cot在竖直渐近线处分段单调，不可跨越间断点讨论。"
+    ],
+    "examRefine": [
+      "cot²x=(1+cos2x)/2，sin²x=(1-cos2x)/2是常用降幂形式。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. sin x和cos x的周期是（[[2π]]）。",
+      "2. tan x和cot x的周期是（[[π]]）。",
+      "3. sin²x+cos²x=（[[1]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "tan x为什么不能在整个定义域说单调递增？",
+        "a": "定义域被间断点分成多个区间，只能在每个连续区间内讨论。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image38.webp",
+      "./imports/day-12/blue-forest-math/image39.webp",
+      "./imports/day-12/blue-forest-math/image40.webp",
+      "./imports/day-12/blue-forest-math/image41.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第13-14页：三角函数"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "sin、cos周期2π；tan、cot周期π，并掌握倒数、平方、二倍角和降幂公式。",
+      "core": [
+        "sin x是奇函数，cos x是偶函数，二者周期2π且有界。",
+        "tan x和cot x是奇函数，周期π，在各自定义区间单调。",
+        "sin²x+cos²x=1。",
+        "sin2x=2sinx cosx，cos2x=cos²x-sin²x。"
+      ],
+      "method": [
+        "tan与cot在竖直渐近线处分段单调，不可跨越间断点讨论。",
+        "cot²x=(1+cos2x)/2，sin²x=(1-cos2x)/2是常用降幂形式。"
+      ],
+      "mistakes": [],
+      "conclusion": "sin x是奇函数，cos x是偶函数，二者周期2π且有界。",
+      "mnemonic": "sin → cos → tan → cot → 周期 → 二倍角",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.4 基本初等函数",
+    "category": "反三角函数",
+    "range": "反三角函数 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-012",
+    "order": 223,
+    "title": "反三角函数图像与性质（蓝色森林）",
+    "oneLine": "arcsin、arccos定义域[-1,1]；arctan、arccot定义域R；分别具有确定值域、单调性和有界性。",
+    "keywords": [
+      "arcsin",
+      "arccos",
+      "arctan",
+      "arccot",
+      "定义域",
+      "值域"
+    ],
+    "mustPatterns": [
+      "arcsin x定义域[-1,1]，值域[-π/2,π/2]，递增且为奇函数。",
+      "arccos x定义域[-1,1]，值域[0,π]，递减且非奇非偶。",
+      "arctan x定义域R，值域(-π/2,π/2)，递增且为奇函数。",
+      "arccot x定义域R，值域(0,π)，递减且非奇非偶。"
+    ],
+    "basicExplain": [
+      "反三角函数都有界；图像与相应限制区间上的三角函数关于y=x对称。"
+    ],
+    "examRefine": [
+      "arccos和arccot的值域不关于0对称，因此通常非奇非偶。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. arcsin x的定义域是（[[-1,1]]）。",
+      "2. arctan x的值域是（[[(-π/2,π/2)]]）。",
+      "3. arccos x是（[[单调递减]]）函数。"
+    ],
+    "selfTests": [
+      {
+        "q": "arccos x是不是偶函数？",
+        "a": "不是，通常非奇非偶。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image42.webp",
+      "./imports/day-12/blue-forest-math/image43.webp",
+      "./imports/day-12/blue-forest-math/image44.webp",
+      "./imports/day-12/blue-forest-math/image45.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第15-16页：反三角函数"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "arcsin、arccos定义域[-1,1]；arctan、arccot定义域R；分别具有确定值域、单调性和有界性。",
+      "core": [
+        "arcsin x定义域[-1,1]，值域[-π/2,π/2]，递增且为奇函数。",
+        "arccos x定义域[-1,1]，值域[0,π]，递减且非奇非偶。",
+        "arctan x定义域R，值域(-π/2,π/2)，递增且为奇函数。",
+        "arccot x定义域R，值域(0,π)，递减且非奇非偶。"
+      ],
+      "method": [
+        "反三角函数都有界；图像与相应限制区间上的三角函数关于y=x对称。",
+        "arccos和arccot的值域不关于0对称，因此通常非奇非偶。"
+      ],
+      "mistakes": [],
+      "conclusion": "arcsin x定义域[-1,1]，值域[-π/2,π/2]，递增且为奇函数。",
+      "mnemonic": "arcsin → arccos → arctan → arccot → 定义域 → 值域",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数分类",
+    "category": "函数分类",
+    "range": "函数分类 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-BF-013",
+    "order": 224,
+    "title": "复合、基本初等、初等与分段函数（蓝色森林）",
+    "oneLine": "复合函数由内外函数逐层构成；基本初等函数经有限次四则和复合形成初等函数；分段函数按区间给出不同法则。",
+    "keywords": [
+      "复合函数",
+      "基本初等函数",
+      "初等函数",
+      "分段函数"
+    ],
+    "mustPatterns": [
+      "y=f(φ(x))中φ是内函数，f是外函数。",
+      "复合函数分解遵循从外向内逐层拆分。",
+      "基本初等函数经有限次四则运算或有限次复合形成初等函数。",
+      "分段函数在不同定义域区间采用不同对应法则。"
+    ],
+    "basicExplain": [
+      "分段函数是一个函数，不是多个互不相关的函数。"
+    ],
+    "examRefine": [
+      "计算分段函数值时，先判断自变量落在哪一段，再代入该段法则。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 复合函数分解通常从（[[外]]）向内。",
+      "2. 初等函数由基本初等函数经过有限次四则或（[[复合运算]]）得到。",
+      "3. 分段函数计算先判断（[[自变量所在区间]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "分段函数是不是多个函数？",
+        "a": "不是，它是按不同区间定义不同法则的一个函数。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/blue-forest-math/image46.webp",
+      "./imports/day-12/blue-forest-math/image47.webp",
+      "./imports/day-12/blue-forest-math/image48.webp",
+      "./imports/day-12/blue-forest-math/image49.webp",
+      "./imports/day-12/blue-forest-math/image50.webp",
+      "./imports/day-12/blue-forest-math/image51.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第16-18页：函数分类与分段函数"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增蓝色森林知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "notebookSummary": {
+      "overview": "复合函数由内外函数逐层构成；基本初等函数经有限次四则和复合形成初等函数；分段函数按区间给出不同法则。",
+      "core": [
+        "y=f(φ(x))中φ是内函数，f是外函数。",
+        "复合函数分解遵循从外向内逐层拆分。",
+        "基本初等函数经有限次四则运算或有限次复合形成初等函数。",
+        "分段函数在不同定义域区间采用不同对应法则。"
+      ],
+      "method": [
+        "分段函数是一个函数，不是多个互不相关的函数。",
+        "计算分段函数值时，先判断自变量落在哪一段，再代入该段法则。"
+      ],
+      "mistakes": [],
+      "conclusion": "y=f(φ(x))中φ是内函数，f是外函数。",
+      "mnemonic": "复合函数 → 基本初等函数 → 初等函数 → 分段函数",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "全方位方法补充",
+    "range": "全方位方法补充 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-QFW-001",
+    "order": 225,
+    "title": "换元与奇偶性综合方法（全方位）",
+    "oneLine": "全方位资料补充换元法、分段函数奇偶性、指数分式和对数根式奇偶性的典型计算。",
+    "keywords": [
+      "全方位",
+      "换元法",
+      "分段函数",
+      "奇偶性"
+    ],
+    "mustPatterns": [
+      "判断奇偶性必须同时检查定义域对称和f(-x)关系。",
+      "分段函数求f(-x)时要根据-x落入的区间选择对应表达式。"
+    ],
+    "basicExplain": [
+      "指数式常通过e^{-x}=1/e^x配凑；对数式常利用ln(a/b)=-ln(b/a)。"
+    ],
+    "examRefine": [
+      "证明奇偶性时不能只看图像或“看起来对称”，应写代数过程。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 分段函数判断奇偶性时，要分别处理（[[x>0]]）和（[[x<0]]）等区间。",
+      "2. ln(a/b)=（[[-ln(b/a)]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "全方位资料中的奇偶性题最重要的代数工具是什么？",
+        "a": "把f(-x)化简到±f(x)，同时核对定义域。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-math/functions-properties/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位函数的性质PDF"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "函数的性质",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-math/functions-properties.pdf",
+    "notebookSummary": {
+      "overview": "全方位资料补充换元法、分段函数奇偶性、指数分式和对数根式奇偶性的典型计算。",
+      "core": [
+        "判断奇偶性必须同时检查定义域对称和f(-x)关系。",
+        "分段函数求f(-x)时要根据-x落入的区间选择对应表达式。"
+      ],
+      "method": [
+        "指数式常通过e^{-x}=1/e^x配凑；对数式常利用ln(a/b)=-ln(b/a)。",
+        "证明奇偶性时不能只看图像或“看起来对称”，应写代数过程。"
+      ],
+      "mistakes": [],
+      "conclusion": "判断奇偶性必须同时检查定义域对称和f(-x)关系。",
+      "mnemonic": "全方位 → 换元法 → 分段函数 → 奇偶性",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
+    "category": "全方位方法补充",
+    "range": "全方位方法补充 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-QFW-002",
+    "order": 226,
+    "title": "反函数典型结构与定义域回填（全方位）",
+    "oneLine": "根式、对数、分式指数和三角函数求反函数时，解出x后必须把原函数值域作为新定义域。",
+    "keywords": [
+      "全方位",
+      "根式反函数",
+      "对数反函数",
+      "分式指数",
+      "三角反函数"
+    ],
+    "mustPatterns": [
+      "求反函数不仅要交换x、y，还要确定原函数值域。",
+      "根式函数反解后要保留非负限制。",
+      "分式指数函数可先令t=a^x，再解有理方程。",
+      "三角函数必须在指定单调区间上反解。"
+    ],
+    "basicExplain": [
+      "反函数定义域写错通常源于没有先求原函数值域。"
+    ],
+    "examRefine": [
+      "最后用“定义域—值域互换”复核答案。"
+    ],
+    "confusions": [],
+    "clozeLines": [
+      "1. 反函数定义域等于原函数（[[值域]]）。",
+      "2. 三角函数求反函数前必须限定（[[单调区间]]）。"
+    ],
+    "selfTests": [
+      {
+        "q": "为什么反函数答案不能只写解析式？",
+        "a": "还必须给出其定义域，否则不能完整确定函数。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-math/function-types-1/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位各大类函数分类PDF"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "各大类函数分类",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-math/function-types-1.pdf",
+    "notebookSummary": {
+      "overview": "根式、对数、分式指数和三角函数求反函数时，解出x后必须把原函数值域作为新定义域。",
+      "core": [
+        "求反函数不仅要交换x、y，还要确定原函数值域。",
+        "根式函数反解后要保留非负限制。",
+        "分式指数函数可先令t=a^x，再解有理方程。",
+        "三角函数必须在指定单调区间上反解。"
+      ],
+      "method": [
+        "反函数定义域写错通常源于没有先求原函数值域。",
+        "最后用“定义域—值域互换”复核答案。"
+      ],
+      "mistakes": [],
+      "conclusion": "求反函数不仅要交换x、y，还要确定原函数值域。",
+      "mnemonic": "全方位 → 根式反函数 → 对数反函数 → 分式指数 → 三角反函数",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.5 极限的概念",
+    "category": "极限概念",
+    "range": "极限概念 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的全方位原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-QFW-003",
+    "order": 227,
+    "title": "数列极限与函数极限入门（全方位）",
+    "oneLine": "数列极限研究n趋于无穷时aₙ的变化；函数极限研究x趋近某点或趋于无穷时f(x)的变化。",
+    "keywords": [
+      "数列极限",
+      "函数极限",
+      "n→∞",
+      "x→∞",
+      "无穷小",
+      "无穷大"
+    ],
+    "mustPatterns": [
+      "数列1/n在n→∞时极限为0。",
+      "数列2^n在n→∞时趋于+∞。",
+      "sin n一般无极限，因为持续振荡。",
+      "求x→∞函数极限要分析主导项或函数图像的水平趋势。"
+    ],
+    "basicExplain": [
+      "趋于无穷不是一个普通数值；“极限不存在”可能来自左右不一致、振荡或无界增长。"
+    ],
+    "examRefine": [
+      "arctan x在x→+∞时趋于π/2，在x→-∞时趋于-π/2。"
+    ],
+    "confusions": [
+      [
+        "∞",
+        "一个实数",
+        "∞表示无界趋势，不能按普通实数随意代数运算。"
+      ]
+    ],
+    "clozeLines": [
+      "1. lim(n→∞)1/n=（[[0]]）。",
+      "2. lim(x→+∞)arctan x=（[[π/2]]）。",
+      "3. sin n因持续（[[振荡]]）通常没有极限。"
+    ],
+    "selfTests": [
+      {
+        "q": "数列sin n为什么通常不存在极限？",
+        "a": "它不趋近某个固定值，而是持续振荡。"
+      }
+    ],
+    "images": [
+      "./imports/day-12/allround-math/function-types-2-limit/page-1.webp"
+    ],
+    "sourceFiles": [
+      "全方位函数分类2＋极限概念PDF"
+    ],
+    "recordType": "知识点背诵",
+    "sourceOrg": "全方位",
+    "sourceCourse": "函数分类2＋极限概念",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "新增全方位知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "pdf": "./imports/day-12/allround-math/function-types-2-limit.pdf",
+    "notebookSummary": {
+      "overview": "数列极限研究n趋于无穷时aₙ的变化；函数极限研究x趋近某点或趋于无穷时f(x)的变化。",
+      "core": [
+        "数列1/n在n→∞时极限为0。",
+        "数列2^n在n→∞时趋于+∞。",
+        "sin n一般无极限，因为持续振荡。",
+        "求x→∞函数极限要分析主导项或函数图像的水平趋势。"
+      ],
+      "method": [
+        "趋于无穷不是一个普通数值；“极限不存在”可能来自左右不一致、振荡或无界增长。",
+        "arctan x在x→+∞时趋于π/2，在x→-∞时趋于-π/2。"
+      ],
+      "mistakes": [
+        "∞表示无界趋势，不能按普通实数随意代数运算。"
+      ],
+      "conclusion": "数列1/n在n→∞时极限为0。",
+      "mnemonic": "数列极限 → 函数极限 → n→∞ → x→∞ → 无穷小 → 无穷大",
+      "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+    "category": "函数解析式题目",
+    "range": "函数解析式题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-001",
+    "order": 228,
+    "title": "换元题｜已知f(x+1)=x²+2求f(cos x)",
+    "oneLine": "令t=x+1，先求通式f(t)=t²-2t+3，再代入t=cos x。",
+    "keywords": [
+      "换元法",
+      "函数解析式",
+      "cos x"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image10.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第4页第1题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "已知f(x+1)=x²+2，求f(cos x)。",
+    "choices": [],
+    "answer": "f(cos x)=cos²x-2cos x+3",
+    "solutionSteps": [
+      "令t=x+1，则x=t-1。",
+      "f(t)=(t-1)²+2=t²-2t+3。",
+      "把t替换为cos x，得到f(cos x)=cos²x-2cos x+3。"
+    ],
+    "keyPoints": [
+      "整体换元",
+      "先求f的一般解析式",
+      "再代入目标自变量"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "整体换元原则",
+      "summary": "已知f(某个整体)时，把该整体设为新变量，先还原f的通式。",
+      "coreRules": [
+        "令t=x+1并反解x=t-1。",
+        "右侧全部改写为t。"
+      ],
+      "flow": [
+        "设元",
+        "反解",
+        "代回",
+        "得到f(t)",
+        "代入cos x"
+      ],
+      "mistakes": [
+        "直接把cos x代到原式中的x位置。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "令t=x+1，先求通式f(t)=t²-2t+3，再代入t=cos x。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "令t=x+1，先求通式f(t)=t²-2t+3，再代入t=cos x。",
+      "mnemonic": "换元法 → 函数解析式 → cos x",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+    "category": "函数解析式题目",
+    "range": "函数解析式题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-002",
+    "order": 229,
+    "title": "配凑题｜已知f(sin²x)求f(x)",
+    "oneLine": "利用tan²x=sin²x/(1-sin²x)、cos2x=1-2sin²x，把右侧全部改写成t=sin²x。",
+    "keywords": [
+      "配凑法",
+      "三角恒等式",
+      "函数解析式"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image12.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第4页第2题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "已知f(sin²x)=tan²x+cos2x，求f(x)的表达式。",
+    "choices": [],
+    "answer": "f(x)=x/(1-x)+1-2x",
+    "solutionSteps": [
+      "令t=sin²x。",
+      "tan²x=sin²x/cos²x=t/(1-t)。",
+      "cos2x=1-2sin²x=1-2t。",
+      "所以f(t)=t/(1-t)+1-2t，将t改写为x。"
+    ],
+    "keyPoints": [
+      "整体代换",
+      "三角恒等式配凑"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "不能反解时用恒等式配凑",
+      "summary": "当括号内整体难以反解原变量时，把右侧利用恒等式全部改写成该整体。",
+      "coreRules": [
+        "tan²x=sin²x/(1-sin²x)。",
+        "cos2x=1-2sin²x。"
+      ],
+      "flow": [
+        "设t=sin²x",
+        "右侧化为t",
+        "写f(t)",
+        "改成f(x)"
+      ],
+      "mistakes": [
+        "仍保留cos x或tan x，导致右侧没有完全变成t。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "利用tan²x=sin²x/(1-sin²x)、cos2x=1-2sin²x，把右侧全部改写成t=sin²x。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "利用tan²x=sin²x/(1-sin²x)、cos2x=1-2sin²x，把右侧全部改写成t=sin²x。",
+      "mnemonic": "配凑法 → 三角恒等式 → 函数解析式",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+    "category": "函数解析式题目",
+    "range": "函数解析式题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-003",
+    "order": 230,
+    "title": "恒等变形题｜x−1/x与x＋1/x",
+    "oneLine": "利用(x+1/x)²=(x-1/x)²+4，把右侧改写成括号内整体的函数。",
+    "keywords": [
+      "平方恒等式",
+      "配凑法",
+      "函数解析式"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image13.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第5页例题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "已知f(x−1/x)=(x+1/x)²，求f(x)。",
+    "choices": [],
+    "answer": "f(x)=x²+4",
+    "solutionSteps": [
+      "令t=x−1/x。",
+      "(x+1/x)²=x²+2+1/x²。",
+      "(x−1/x)²=x²−2+1/x²，因此(x+1/x)²=t²+4。",
+      "所以f(t)=t²+4，即f(x)=x²+4。"
+    ],
+    "keyPoints": [
+      "平方差配凑",
+      "整体代换"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "同构整体配凑",
+      "summary": "寻找右侧表达式与已知括号内整体之间的恒等关系。",
+      "coreRules": [
+        "(a+b)²=(a-b)²+4ab。",
+        "这里a=x,b=1/x，ab=1。"
+      ],
+      "flow": [
+        "设整体t",
+        "用恒等式化右侧",
+        "得到f(t)"
+      ],
+      "mistakes": [
+        "错误地认为x+1/x可以由x-1/x直接线性表示。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "利用(x+1/x)²=(x-1/x)²+4，把右侧改写成括号内整体的函数。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "利用(x+1/x)²=(x-1/x)²+4，把右侧改写成括号内整体的函数。",
+      "mnemonic": "平方恒等式 → 配凑法 → 函数解析式",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
+    "category": "反函数题目",
+    "range": "反函数题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-004",
+    "order": 231,
+    "title": "反函数题｜y=1+ln(x+2)",
+    "oneLine": "交换x、y并指数化，得到f⁻¹(x)=e^(x−1)−2，定义域R。",
+    "keywords": [
+      "反函数",
+      "对数函数",
+      "定义域值域互换"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image21.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第7页反函数例题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "求函数y=1+ln(x+2)的反函数。",
+    "choices": [],
+    "answer": "f⁻¹(x)=e^(x−1)−2，x∈R",
+    "solutionSteps": [
+      "由y=1+ln(x+2)，得y−1=ln(x+2)。",
+      "指数化：x+2=e^(y−1)，所以x=e^(y−1)−2。",
+      "交换x、y：y=e^(x−1)−2。",
+      "原函数值域为R，所以反函数定义域为R。"
+    ],
+    "keyPoints": [
+      "反解x",
+      "交换变量",
+      "定义域回填"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "对数函数求反函数",
+      "summary": "把对数等式指数化，反函数定义域取原函数值域。",
+      "coreRules": [
+        "ln u=v等价于u=e^v。"
+      ],
+      "flow": [
+        "反解x",
+        "交换x、y",
+        "写定义域"
+      ],
+      "mistakes": [
+        "把反函数定义域写成(-2,+∞)，那是原函数定义域。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "交换x、y并指数化，得到f⁻¹(x)=e^(x−1)−2，定义域R。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "交换x、y并指数化，得到f⁻¹(x)=e^(x−1)−2，定义域R。",
+      "mnemonic": "反函数 → 对数函数 → 定义域值域互换",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.2 反函数",
+    "category": "反函数题目",
+    "range": "反函数题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-005",
+    "order": 232,
+    "title": "反函数题｜y=2ˣ/(2ˣ+1)",
+    "oneLine": "先解出2ˣ=y/(1−y)，得到反函数log₂[x/(1−x)]，定义域(0,1)。",
+    "keywords": [
+      "反函数",
+      "分式指数",
+      "值域(0,1)"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image22.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第8页反函数例题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "求函数y=2ˣ/(2ˣ+1)的反函数。",
+    "choices": [],
+    "answer": "f⁻¹(x)=log₂[x/(1−x)]，x∈(0,1)",
+    "solutionSteps": [
+      "y(2ˣ+1)=2ˣ。",
+      "整理得y=2ˣ(1−y)，所以2ˣ=y/(1−y)。",
+      "x=log₂[y/(1−y)]。",
+      "交换变量得到f⁻¹(x)=log₂[x/(1−x)]。",
+      "原函数值域为(0,1)，故反函数定义域为(0,1)。"
+    ],
+    "keyPoints": [
+      "解分式方程",
+      "指数对数互换",
+      "值域"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "分式指数反函数",
+      "summary": "把a^x看作整体，先从有理式中解出该整体，再取对数。",
+      "coreRules": [
+        "令t=2^x>0。",
+        "原函数值域由0<t/(t+1)<1得到。"
+      ],
+      "flow": [
+        "解2^x",
+        "取log₂",
+        "交换变量",
+        "写(0,1)"
+      ],
+      "mistakes": [
+        "漏写0<x<1。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "先解出2ˣ=y/(1−y)，得到反函数log₂[x/(1−x)]，定义域(0,1)。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "先解出2ˣ=y/(1−y)，得到反函数log₂[x/(1−x)]，定义域(0,1)。",
+      "mnemonic": "反函数 → 分式指数 → 值域(0,1)",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "奇偶性题目",
+    "range": "奇偶性题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-006",
+    "order": 233,
+    "title": "奇偶性选择题｜任意函数f(x)",
+    "oneLine": "对任意定义在R上的f，f(x)+f(-x)恒为偶函数，f(x)-f(-x)恒为奇函数。",
+    "keywords": [
+      "奇偶分解",
+      "f(x)+f(-x)",
+      "f(x)-f(-x)"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image28.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第10页选择题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "该题截图答案与代数检验冲突，已明确标记待复核，不擅自确定唯一错误项。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "设f(x)是R上的任意函数，下列说法错误的是哪一项？",
+    "choices": [
+      "A. f(x)f(-x)是偶函数",
+      "B. |f(x)-f(-x)|是偶函数",
+      "C. f(x)-f(-x)是奇函数",
+      "D. f(x)+f(-x)是偶函数"
+    ],
+    "answer": "题图标注C，但按通常代数定义C也正确；应结合原题完整选项重新复核。",
+    "solutionSteps": [
+      "令F(x)=f(x)-f(-x)，则F(-x)=f(-x)-f(x)=-F(x)，所以F为奇函数。",
+      "令G(x)=f(x)+f(-x)，则G(-x)=G(x)，所以G为偶函数。",
+      "f(x)f(-x)交换x与-x后不变，也是偶函数。",
+      "|f(x)-f(-x)|取绝对值后为偶函数。",
+      "因此截图中答案标记与四个选项的通常含义存在冲突，本卡保留“需复核”提示，不自行猜改。"
+    ],
+    "keyPoints": [
+      "奇偶分解",
+      "原题答案复核"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "任意函数的奇偶分解",
+      "summary": "任意函数可拆为偶部[f(x)+f(-x)]/2和奇部[f(x)-f(-x)]/2。",
+      "coreRules": [
+        "f(x)+f(-x)为偶。",
+        "f(x)-f(-x)为奇。"
+      ],
+      "flow": [
+        "分别代入-x",
+        "比较F(-x)与F(x)"
+      ],
+      "mistakes": [
+        "盲从截图标注而不做代数验证。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "对任意定义在R上的f，f(x)+f(-x)恒为偶函数，f(x)-f(-x)恒为奇函数。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "对任意定义在R上的f，f(x)+f(-x)恒为偶函数，f(x)-f(-x)恒为奇函数。",
+      "mnemonic": "奇偶分解 → f(x)+f(-x) → f(x)-f(-x)",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+    "category": "奇偶性题目",
+    "range": "奇偶性题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-007",
+    "order": 234,
+    "title": "奇偶性题｜y=xsinx",
+    "oneLine": "x和sin x均为奇函数，乘积为偶函数。",
+    "keywords": [
+      "x sin x",
+      "奇×奇=偶"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image29.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第10页练习"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "函数y=x sin x在(-∞,+∞)上的奇偶性是什么？",
+    "choices": [
+      "A. 奇函数",
+      "B. 偶函数",
+      "C. 有界函数",
+      "D. 周期函数"
+    ],
+    "answer": "B. 偶函数",
+    "solutionSteps": [
+      "定义域R关于原点对称。",
+      "f(-x)=(-x)sin(-x)=(-x)(-sinx)=xsinx=f(x)。",
+      "因此为偶函数。"
+    ],
+    "keyPoints": [
+      "定义域对称",
+      "奇函数乘积"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "奇偶函数乘法规律",
+      "summary": "奇函数×奇函数=偶函数。",
+      "coreRules": [
+        "x是奇函数。",
+        "sin x是奇函数。"
+      ],
+      "flow": [
+        "查定义域",
+        "求f(-x)",
+        "化简比较"
+      ],
+      "mistakes": [
+        "只看到sin x是奇函数就直接判奇。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "x和sin x均为奇函数，乘积为偶函数。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "x和sin x均为奇函数，乘积为偶函数。",
+      "mnemonic": "x sin x → 奇×奇=偶",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
+  },
+  {
+    "subject": "数学",
+    "chapter": "数学｜第一章 函数、极限与连续｜1.1 函数分类",
+    "category": "分段函数题目",
+    "range": "分段函数题目 · 第12天 · 7.26",
+    "batch": "第12天双机构资料导入｜2026年7月26日",
+    "importBatchId": "date-2026-07-26",
+    "importDay": 12,
+    "importDate": "2026-07-26",
+    "importLabel": "第12天 · 7.26",
+    "clozeVerified": true,
+    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "id": "D12-MATH-Q-008",
+    "order": 235,
+    "title": "分段递归题｜求f(5)",
+    "oneLine": "先按x≤10使用f(x)=f(x+5)，递推到f(15)，再使用x>10段得到18。",
+    "keywords": [
+      "分段函数",
+      "递归定义",
+      "区间判断"
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "images": [
+      "./imports/day-12/blue-forest-math/image51.webp"
+    ],
+    "sourceFiles": [
+      "蓝色森林Word第18页分段函数题"
+    ],
+    "recordType": "数学题目",
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "函数基础课程",
+    "importHistory": [
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "从蓝色森林课堂资料拆分到题目区域",
+        "recordType": "数学题目",
+        "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "已知f(x)={x+3，x>10；f(x+5)，x≤10}，求f(5)。",
+    "choices": [
+      "A.16",
+      "B.18",
+      "C.21",
+      "D.24"
+    ],
+    "answer": "B. 18",
+    "solutionSteps": [
+      "5≤10，所以f(5)=f(10)。",
+      "10≤10，所以f(10)=f(15)。",
+      "15>10，使用第一段：f(15)=15+3=18。"
+    ],
+    "keyPoints": [
+      "逐步判断所在区间",
+      "递归终止"
+    ],
+    "relatedNoteIds": [],
+    "principle": {
+      "title": "递归型分段函数",
+      "summary": "每次使用当前自变量所属的分段；若表达式仍含f，则继续递推直到进入可直接计算的分段。",
+      "coreRules": [
+        "先看5所在分段。",
+        "递推后重新判断10、15所在分段。"
+      ],
+      "flow": [
+        "f(5)→f(10)→f(15)→18"
+      ],
+      "mistakes": [
+        "把x≤10段误读为直接加5，而不是函数值等于f(x+5)。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "先按x≤10使用f(x)=f(x+5)，递推到f(15)，再使用x>10段得到18。",
+      "core": [],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "先按x≤10使用f(x)=f(x+5)，递推到f(15)，再使用x>10段得到18。",
+      "mnemonic": "分段函数 → 递归定义 → 区间判断",
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
+    }
   }
 ];
 
 window.KNOWLEDGE_META = {
-  "version": "v46 日期筛选性能修复版",
+  "version": "v50 双机构来源分章导入版",
   "lightweight": true,
-  "lightweightNote": "已移除项目内重复保存的Word源文件，并将原图转换为高质量WebP；知识点、卡片、PDF、学习记录与功能保持不变。",
-  "name": "全新题库｜7.15第1天至7.20第6天｜计算机、英语、数学分科持续导入",
-  "totalCards": 164,
+  "lightweightNote": "继续沿用v46轻量与日期筛选优化；本次50张原始课程截图压缩为约3MB WebP，不在项目中重复保存42MB Word源文件。",
+  "name": "全新题库｜蓝色森林与全方位来源分开标注｜同一知识体系统一章节｜第12天持续导入",
+  "totalCards": 235,
   "notes": [
     "本版本从v25空题库建立，不包含旧题库知识点。",
     "2026年7月15日固定为第1天；同一自然日期无论导入多少次，仍属于第1天。",
@@ -14795,46 +21329,66 @@ window.KNOWLEDGE_META = {
     "2026年7月19日记录为第5天，本次7页Word共26张截图，合并连续页后整理为21张新卡：英语10、数学5、计算机6。",
     "全部新卡均配置填空、自测、理解说明、易错点、原始截图和笔记本总结。",
     "2026年7月20日为第6天，本次20页Word共79张原始截图，合并连续与重复截图后整理为70张独立知识点卡。",
-    "本次新增：计算机54张、英语4张、数学12张；全部保留原图，并生成填空、自测、理解说明和笔记本总结。"
+    "本次新增：计算机54张、英语4张、数学12张；全部保留原图，并生成填空、自测、理解说明和笔记本总结。",
+    "2026年7月25日记录为第11天；7月21日至7月24日没有导入记录，但自然日期天数继续顺延。",
+    "本次17页Word共50张蓝色森林英语课程截图，按连续内容合并为13张知识点卡和4道英语题目；全部原图均已关联。",
+    "与旧卡重复的知识点未逐页制造重复卡，而是合并成系统总表；新增重点包括不可数名词量化、名词句法功能、人称/物主/相互/疑问/连接/关系代词。",
+    "新增每章轻量思维导图：按章、小节、知识块、卡片四级自动汇总，默认仅渲染当前一章，避免长页面卡顿。",
+    "思维导图支持章节完成度、展开/收起、复制纯文字导图、只看本章、只看知识块和点击卡片直接学习。",
+    "2026年7月26日为第12天；本次同时导入蓝色森林数学Word与全方位数学、英语、计算机PDF。",
+    "同一知识体系按标准章节合并到同一章，机构来源使用sourceOrg单独标注；内容完全相同才去重，讲解角度或例题不同则保留。",
+    "数学第一章统一命名为“函数、极限与连续”，原卡ID不变，学习记录继续沿用。"
   ],
   "chapters": {
     "全部": [
       "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
-      "英语｜第一章 基础语法｜名词",
-      "英语｜第一章 基础语法｜句子结构",
-      "数学｜第一章 函数｜1.1 函数概念与定义域",
-      "数学｜第一章 函数｜1.2 反函数",
-      "英语｜第一章 基础语法｜代词",
-      "数学｜第一章 函数｜1.3 函数的性质",
-      "英语｜第一章 基础语法｜代词与不定代词",
-      "数学｜第一章 函数｜1.2 基本初等函数图像",
-      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
       "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
       "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
+      "数学｜第一章 函数、极限与连续｜1.1 函数分类",
+      "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
+      "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+      "数学｜第一章 函数、极限与连续｜1.2 反函数",
+      "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
+      "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+      "数学｜第一章 函数、极限与连续｜1.4 基本初等函数",
+      "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
+      "数学｜第一章 函数、极限与连续｜1.5 极限的概念",
+      "英语｜第一章 基础语法｜代词",
+      "英语｜第一章 基础语法｜代词与不定代词",
       "英语｜第一章 基础语法｜冠词",
-      "数学｜第一章 函数｜1.4 基础公式与三角函数"
+      "英语｜第一章 基础语法｜句子结构",
+      "英语｜第一章 基础语法｜名词",
+      "英语｜第一章 基础语法｜名词与代词综合",
+      "英语｜第一章 基础语法｜语法总览"
     ],
     "计算机": [
       "计算机｜第一章 计算机基础知识｜1.1 计算机文化基础",
-      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成",
       "计算机｜第一章 计算机基础知识｜1.2 数制与运算",
-      "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示"
+      "计算机｜第一章 计算机基础知识｜1.3 信息编码与表示",
+      "计算机｜第一章 计算机基础知识｜1.4 计算机系统组成"
     ],
     "英语": [
-      "英语｜第一章 基础语法｜名词",
-      "英语｜第一章 基础语法｜句子结构",
       "英语｜第一章 基础语法｜代词",
       "英语｜第一章 基础语法｜代词与不定代词",
-      "英语｜第一章 基础语法｜冠词"
+      "英语｜第一章 基础语法｜冠词",
+      "英语｜第一章 基础语法｜句子结构",
+      "英语｜第一章 基础语法｜名词",
+      "英语｜第一章 基础语法｜名词与代词综合",
+      "英语｜第一章 基础语法｜语法总览"
     ],
-    "考点必背": [],
     "数学": [
-      "数学｜第一章 函数｜1.1 函数概念与定义域",
-      "数学｜第一章 函数｜1.2 反函数",
-      "数学｜第一章 函数｜1.3 函数的性质",
-      "数学｜第一章 函数｜1.2 基本初等函数图像",
-      "数学｜第一章 函数｜1.4 基础公式与三角函数"
-    ]
+      "数学｜第一章 函数、极限与连续｜1.1 函数分类",
+      "数学｜第一章 函数、极限与连续｜1.1 函数概念与定义域",
+      "数学｜第一章 函数、极限与连续｜1.1 函数解析式",
+      "数学｜第一章 函数、极限与连续｜1.2 反函数",
+      "数学｜第一章 函数、极限与连续｜1.2 基本初等函数图像",
+      "数学｜第一章 函数、极限与连续｜1.3 函数的性质",
+      "数学｜第一章 函数、极限与连续｜1.4 基本初等函数",
+      "数学｜第一章 函数、极限与连续｜1.4 基础公式与三角函数",
+      "数学｜第一章 函数、极限与连续｜1.5 极限的概念"
+    ],
+    "考点必背": []
   },
   "recordTypes": [
     "知识点背诵",
@@ -14842,7 +21396,8 @@ window.KNOWLEDGE_META = {
     "图片知识点",
     "英语笔记",
     "数学笔记",
-    "数学题目"
+    "数学题目",
+    "英语题目"
   ],
   "importBatches": [
     {
@@ -15412,6 +21967,264 @@ window.KNOWLEDGE_META = {
           ]
         }
       ]
+    },
+    {
+      "id": "date-2026-07-25",
+      "day": 11,
+      "date": "2026-07-25",
+      "label": "第11天 · 7.25",
+      "title": "第11天｜蓝色森林英语名词与代词系统知识",
+      "subject": "英语",
+      "count": 17,
+      "category": "知识点背诵与英语题目",
+      "description": "7月25日为第11天。17页Word共50张课程截图；连续内容与重复讲解合并为13张系统知识点卡，并将末页4道练习拆分到英语题目区。",
+      "images": [
+        "./imports/day-11/blue-forest-english/image1.webp",
+        "./imports/day-11/blue-forest-english/image2.webp",
+        "./imports/day-11/blue-forest-english/image3.webp",
+        "./imports/day-11/blue-forest-english/image4.webp",
+        "./imports/day-11/blue-forest-english/image5.webp",
+        "./imports/day-11/blue-forest-english/image6.webp",
+        "./imports/day-11/blue-forest-english/image7.webp",
+        "./imports/day-11/blue-forest-english/image8.webp",
+        "./imports/day-11/blue-forest-english/image9.webp",
+        "./imports/day-11/blue-forest-english/image10.webp",
+        "./imports/day-11/blue-forest-english/image11.webp",
+        "./imports/day-11/blue-forest-english/image12.webp",
+        "./imports/day-11/blue-forest-english/image13.webp",
+        "./imports/day-11/blue-forest-english/image14.webp",
+        "./imports/day-11/blue-forest-english/image15.webp",
+        "./imports/day-11/blue-forest-english/image16.webp",
+        "./imports/day-11/blue-forest-english/image17.webp",
+        "./imports/day-11/blue-forest-english/image18.webp",
+        "./imports/day-11/blue-forest-english/image19.webp",
+        "./imports/day-11/blue-forest-english/image20.webp",
+        "./imports/day-11/blue-forest-english/image21.webp",
+        "./imports/day-11/blue-forest-english/image22.webp",
+        "./imports/day-11/blue-forest-english/image23.webp",
+        "./imports/day-11/blue-forest-english/image24.webp",
+        "./imports/day-11/blue-forest-english/image25.webp",
+        "./imports/day-11/blue-forest-english/image26.webp",
+        "./imports/day-11/blue-forest-english/image27.webp",
+        "./imports/day-11/blue-forest-english/image28.webp",
+        "./imports/day-11/blue-forest-english/image29.webp",
+        "./imports/day-11/blue-forest-english/image30.webp",
+        "./imports/day-11/blue-forest-english/image31.webp",
+        "./imports/day-11/blue-forest-english/image32.webp",
+        "./imports/day-11/blue-forest-english/image33.webp",
+        "./imports/day-11/blue-forest-english/image34.webp",
+        "./imports/day-11/blue-forest-english/image35.webp",
+        "./imports/day-11/blue-forest-english/image36.webp",
+        "./imports/day-11/blue-forest-english/image37.webp",
+        "./imports/day-11/blue-forest-english/image38.webp",
+        "./imports/day-11/blue-forest-english/image39.webp",
+        "./imports/day-11/blue-forest-english/image40.webp",
+        "./imports/day-11/blue-forest-english/image41.webp",
+        "./imports/day-11/blue-forest-english/image42.webp",
+        "./imports/day-11/blue-forest-english/image43.webp",
+        "./imports/day-11/blue-forest-english/image44.webp",
+        "./imports/day-11/blue-forest-english/image45.webp",
+        "./imports/day-11/blue-forest-english/image46.webp",
+        "./imports/day-11/blue-forest-english/image47.webp",
+        "./imports/day-11/blue-forest-english/image48.webp",
+        "./imports/day-11/blue-forest-english/image49.webp",
+        "./imports/day-11/blue-forest-english/image50.webp"
+      ],
+      "records": [
+        {
+          "recordType": "知识点背诵",
+          "count": 13,
+          "action": "英语新增13张系统知识点",
+          "titles": [
+            "名词分类体系总览",
+            "可数名词复数变化总表",
+            "抽象名词具体化与专有名词普通化",
+            "名词数量限定词与主谓一致",
+            "不可数名词的量化表达",
+            "名词的格与三种所有格总表",
+            "名词的句法功能与名词作定语",
+            "代词分类与人称代词",
+            "物主代词、反身代词与相互代词",
+            "指示代词与数量不定代词综合",
+            "other系列与复合不定代词",
+            "替代词it、one、that、those",
+            "疑问代词、连接代词与关系代词"
+          ]
+        },
+        {
+          "recordType": "英语题目",
+          "count": 4,
+          "action": "课堂练习拆分4道",
+          "titles": [
+            "名词复数练习｜woman scientist",
+            "不定代词练习｜two libraries",
+            "复合不定代词练习｜nothing wrong",
+            "替代词练习｜it还是one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "date-2026-07-26",
+      "day": 12,
+      "date": "2026-07-26",
+      "label": "第12天 · 7.26",
+      "title": "第12天｜双机构数学、英语、计算机资料统一分章导入",
+      "subject": "数学、英语、计算机",
+      "count": 54,
+      "category": "双机构来源标注＋标准章节归类",
+      "description": "7月26日为第12天。本次导入蓝色森林数学Word 18页/51张独立截图，以及全方位10份PDF；整理为54张卡。机构来源分别保留，相同知识体系统一进入同一标准章节。",
+      "images": [
+        "./imports/day-12/blue-forest-math/image1.webp",
+        "./imports/day-12/blue-forest-math/image2.webp",
+        "./imports/day-12/blue-forest-math/image3.webp",
+        "./imports/day-12/blue-forest-math/image4.webp",
+        "./imports/day-12/blue-forest-math/image5.webp",
+        "./imports/day-12/blue-forest-math/image6.webp",
+        "./imports/day-12/blue-forest-math/image7.webp",
+        "./imports/day-12/blue-forest-math/image8.webp",
+        "./imports/day-12/blue-forest-math/image9.webp",
+        "./imports/day-12/blue-forest-math/image10.webp",
+        "./imports/day-12/blue-forest-math/image11.webp",
+        "./imports/day-12/blue-forest-math/image12.webp",
+        "./imports/day-12/blue-forest-math/image13.webp",
+        "./imports/day-12/blue-forest-math/image14.webp",
+        "./imports/day-12/blue-forest-math/image15.webp",
+        "./imports/day-12/blue-forest-math/image16.webp",
+        "./imports/day-12/blue-forest-math/image17.webp",
+        "./imports/day-12/blue-forest-math/image18.webp",
+        "./imports/day-12/blue-forest-math/image19.webp",
+        "./imports/day-12/blue-forest-math/image20.webp",
+        "./imports/day-12/blue-forest-math/image21.webp",
+        "./imports/day-12/blue-forest-math/image22.webp",
+        "./imports/day-12/blue-forest-math/image23.webp",
+        "./imports/day-12/blue-forest-math/image24.webp",
+        "./imports/day-12/blue-forest-math/image25.webp",
+        "./imports/day-12/blue-forest-math/image26.webp",
+        "./imports/day-12/blue-forest-math/image27.webp",
+        "./imports/day-12/blue-forest-math/image28.webp",
+        "./imports/day-12/blue-forest-math/image29.webp",
+        "./imports/day-12/blue-forest-math/image30.webp",
+        "./imports/day-12/blue-forest-math/image31.webp",
+        "./imports/day-12/blue-forest-math/image32.webp",
+        "./imports/day-12/blue-forest-math/image33.webp",
+        "./imports/day-12/blue-forest-math/image34.webp",
+        "./imports/day-12/blue-forest-math/image35.webp",
+        "./imports/day-12/blue-forest-math/image36.webp",
+        "./imports/day-12/blue-forest-math/image37.webp",
+        "./imports/day-12/blue-forest-math/image38.webp",
+        "./imports/day-12/blue-forest-math/image39.webp",
+        "./imports/day-12/blue-forest-math/image40.webp",
+        "./imports/day-12/blue-forest-math/image41.webp",
+        "./imports/day-12/blue-forest-math/image42.webp",
+        "./imports/day-12/blue-forest-math/image43.webp",
+        "./imports/day-12/blue-forest-math/image44.webp",
+        "./imports/day-12/blue-forest-math/image45.webp",
+        "./imports/day-12/blue-forest-math/image46.webp",
+        "./imports/day-12/blue-forest-math/image47.webp",
+        "./imports/day-12/blue-forest-math/image48.webp",
+        "./imports/day-12/blue-forest-math/image49.webp",
+        "./imports/day-12/blue-forest-math/image50.webp",
+        "./imports/day-12/blue-forest-math/image51.webp",
+        "./imports/day-12/allround-math/functions-properties/page-1.webp",
+        "./imports/day-12/allround-math/function-types-1/page-1.webp",
+        "./imports/day-12/allround-math/function-types-2-limit/page-1.webp",
+        "./imports/day-12/allround-english/noun-up/page-1.webp",
+        "./imports/day-12/allround-english/noun-up/page-2.webp",
+        "./imports/day-12/allround-english/noun-up/page-3.webp",
+        "./imports/day-12/allround-english/noun-up/page-4.webp",
+        "./imports/day-12/allround-english/noun-up/page-5.webp",
+        "./imports/day-12/allround-english/noun-up/page-6.webp",
+        "./imports/day-12/allround-english/noun-down/page-1.webp",
+        "./imports/day-12/allround-english/noun-down/page-2.webp",
+        "./imports/day-12/allround-english/noun-down/page-3.webp",
+        "./imports/day-12/allround-english/article/page-1.webp",
+        "./imports/day-12/allround-english/article/page-2.webp",
+        "./imports/day-12/allround-english/article/page-3.webp",
+        "./imports/day-12/allround-english/article/page-4.webp",
+        "./imports/day-12/allround-english/article/page-5.webp",
+        "./imports/day-12/allround-computer/comp-05-characteristics/page-1.webp",
+        "./imports/day-12/allround-computer/comp-06-classification/page-1.webp",
+        "./imports/day-12/allround-computer/comp-07-applications/page-1.webp",
+        "./imports/day-12/allround-computer/comp-08-future/page-1.webp"
+      ],
+      "records": [
+        {
+          "recordType": "PDF资料整理",
+          "count": 10,
+          "action": "10份PDF独立归档",
+          "titles": [
+            "函数的性质（全方位PDF专题）",
+            "各大类函数分类与反函数（全方位PDF专题）",
+            "反三角函数、函数分类与极限概念（全方位PDF专题）",
+            "名词（上）全方位扫描讲义",
+            "名词（下）全方位扫描讲义",
+            "冠词全方位扫描讲义",
+            "计算机的特点（全方位PDF专题）",
+            "计算机的分类（全方位PDF专题）",
+            "计算机的应用（全方位PDF专题）",
+            "计算机的未来（全方位PDF专题）"
+          ]
+        },
+        {
+          "recordType": "知识点背诵",
+          "count": 36,
+          "action": "计算机、英语、数学新增系统知识点",
+          "titles": [
+            "计算机六大特点（全方位）",
+            "按用途和性能分类（全方位）",
+            "嵌入式计算机与单片机（全方位）",
+            "科学计算、数据处理与过程控制（全方位）",
+            "计算机辅助工程缩写总表（全方位）",
+            "多媒体、物联网与人工智能（全方位）",
+            "未来方向与新型计算机（全方位）",
+            "量子计算核心原理与代表成就（全方位）",
+            "英语词性与语法体系（全方位）",
+            "专有名词与普通名词（全方位）",
+            "集合名词的主谓一致（全方位）",
+            "物质、抽象名词及复数词义变化（全方位）",
+            "规则复数变化（全方位）",
+            "不规则复数与复合名词（全方位）",
+            "不可数名词量化与advice辨析（全方位）",
+            "s所有格及共同/分别所有格（全方位）",
+            "of所有格与双重所有格（全方位）",
+            "冠词总览与a/an（全方位）",
+            "the的常见用法（全方位）",
+            "零冠词及有the/无the辨析（全方位）",
+            "抽象函数定义域同位置法（蓝色森林）",
+            "求函数解析式——代入法（蓝色森林）",
+            "求函数解析式——换元与配凑法（蓝色森林）",
+            "反函数定义、存在条件与求解步骤（蓝色森林）",
+            "反函数性质与常见互反函数（蓝色森林）",
+            "奇偶性定义与判断前提（蓝色森林）",
+            "常见奇偶函数与运算规律（蓝色森林）",
+            "单调性与周期性（蓝色森林）",
+            "函数有界性的判定（蓝色森林）",
+            "幂、指数、对数函数性质（蓝色森林）",
+            "三角函数图像性质与常用公式（蓝色森林）",
+            "反三角函数图像与性质（蓝色森林）",
+            "复合、基本初等、初等与分段函数（蓝色森林）",
+            "换元与奇偶性综合方法（全方位）",
+            "反函数典型结构与定义域回填（全方位）",
+            "数列极限与函数极限入门（全方位）"
+          ]
+        },
+        {
+          "recordType": "数学题目",
+          "count": 8,
+          "action": "蓝色森林课堂例题拆分到题目区域",
+          "titles": [
+            "换元题｜已知f(x+1)=x²+2求f(cos x)",
+            "配凑题｜已知f(sin²x)求f(x)",
+            "恒等变形题｜x−1/x与x＋1/x",
+            "反函数题｜y=1+ln(x+2)",
+            "反函数题｜y=2ˣ/(2ˣ+1)",
+            "奇偶性选择题｜任意函数f(x)",
+            "奇偶性题｜y=xsinx",
+            "分段递归题｜求f(5)"
+          ]
+        }
+      ]
     }
   ],
   "sourceOutline": {
@@ -15460,5 +22273,10 @@ window.KNOWLEDGE_META = {
     "录屏2": 0
   },
   "removedOldExamCards": 0,
-  "note": "当前共164张卡：计算机80张、英语40张、数学44张。"
+  "note": "当前共235张卡；新增54张第12天卡片，并增加机构来源筛选。",
+  "sourceOrganizations": [
+    "蓝色森林",
+    "全方位",
+    "未标注"
+  ]
 };

@@ -2,6 +2,8 @@
 const ITEMS = window.KNOWLEDGE_ITEMS || [];
 const SORTED_ITEMS = [...ITEMS].sort((a,b)=>(a.order||0)-(b.order||0));
 const ITEM_BY_ID = new Map(ITEMS.map(i=>[i.id,i]));
+const MERGE_ENGINE = window.KNOWLEDGE_MERGE_ENGINE || null;
+const MERGE_INDEX = MERGE_ENGINE ? MERGE_ENGINE.buildMergeIndex(ITEMS) : null;
 const SEARCH_CACHE = new WeakMap();
 const SUBJECT_MARK = {"计算机":"计","英语":"英","数学":"数","考点必背":"必"};
 const META = window.KNOWLEDGE_META || {};
@@ -709,6 +711,8 @@ function questionPrincipleHTML(i){
 }
 
 function notebookSummaryData(i){
+  const merged = MERGE_ENGINE && MERGE_INDEX ? MERGE_ENGINE.summaryFor(i,MERGE_INDEX) : null;
+  if(merged)return merged;
   const n=i.notebookSummary||{};
   const uniq=(arr,limit=8)=>{const out=[],seen=new Set();for(const v of (arr||[])){const x=String(v||'').replace(/\[\[(.*?)\]\]/g,'$1').trim();if(!x||seen.has(x))continue;seen.add(x);out.push(x);if(out.length>=limit)break}return out};
   if(n.overview||n.core?.length)return {...n,core:uniq(n.core,6),method:uniq(n.method,5),mistakes:uniq(n.mistakes,4)};
@@ -738,8 +742,10 @@ function notebookSummaryText(i){
 }
 function notebookSummaryHTML(i){
   const n=notebookSummaryData(i),s=st(i.id),block=(title,arr,cls='')=>arr?.length?`<section class="notebook-block ${cls}"><h3>${esc(title)}</h3><ol>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></section>`:'';
+  const mergedBanner=n.mergedCount?`<div class="notebook-merged-banner"><b>同主题合并版</b><span>已合并 ${n.mergedCount} 张：${esc((n.sourceTitles||[]).join('、'))}</span></div>`:'';
   return `<div class="notebook-summary-card" data-notebook-id="${esc(i.id)}">
     <div class="notebook-summary-head"><div><span>可直接抄到笔记本</span><h3>${esc(i.title)}</h3><p>${esc(n.sourceLabel||importTag(i))}</p></div><div class="notebook-summary-actions"><button data-copy-summary="${esc(i.id)}">复制全文</button><button class="ghost ${s.notebookCopied?'done':''}" data-notebook-copied="${esc(i.id)}">${s.notebookCopied?'已抄写 ✓':'标记已抄写'}</button></div></div>
+    ${mergedBanner}
     ${n.overview?`<div class="notebook-overview"><b>一句话总览</b><p>${esc(n.overview)}</p></div>`:''}
     ${block('一、笔记本必写',n.core,'core')}
     ${block(isQuestionCard(i)?'二、解题原理与顺序':'二、理解与复习方法',n.method,'method')}
@@ -749,14 +755,27 @@ function notebookSummaryHTML(i){
   </div>`;
 }
 function allNotebookSummaryText(){
-  const groups={};ITEMS.forEach(i=>{const key=`${i.subject}｜${i.importLabel||''}`;(groups[key]||(groups[key]=[])).push(i)});
-  const lines=[`专升本笔记本总结`, `生成时间：${new Date().toLocaleString('zh-CN')}`, `共 ${ITEMS.length} 张卡片`, ''];
+  const notebookItems=MERGE_ENGINE&&MERGE_INDEX?MERGE_ENGINE.exportItems(ITEMS,MERGE_INDEX):ITEMS;
+  const groups={};notebookItems.forEach(i=>{const key=`${i.subject}｜${i.importLabel||''}`;(groups[key]||(groups[key]=[])).push(i)});
+  const lines=[`专升本笔记本总结`, `生成时间：${new Date().toLocaleString('zh-CN')}`, `共 ${notebookItems.length} 个抄写主题`, ''];
   Object.entries(groups).forEach(([key,arr])=>{lines.push('='.repeat(36),key,'='.repeat(36),'');arr.sort((a,b)=>(a.order||0)-(b.order||0)).forEach(i=>{lines.push(notebookSummaryText(i),'','-'.repeat(32),'')})});
   return lines.join('\n');
 }
 async function copyPlainText(text){
   try{await navigator.clipboard.writeText(text);return true}catch{}
   const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch{}ta.remove();return ok;
+}
+function mergedLearnHTML(i){
+  const n=MERGE_ENGINE&&MERGE_INDEX?MERGE_ENGINE.summaryFor(i,MERGE_INDEX):null;
+  if(!n)return '';
+  const sourceList=(n.sourceTitles||[]).map(title=>`<li>${esc(title)}</li>`).join('');
+  return `<section class="merged-topic-card" data-merge-group="${esc(n.mergeGroupId)}">
+    <div class="merged-topic-head"><div><span>同主题合并版 · 已自动去重</span><h3>${esc(n.mergedTitle||i.title)}</h3></div><b>${n.mergedCount} 张合 1</b></div>
+    <p class="merged-topic-overview">${esc(n.overview||'')}</p>
+    ${sec('直接抄这份',list(n.core||[]),true)}
+    ${n.method?.length?sec('理解补充',list(n.method),true):''}
+    <details class="merged-topic-sources"><summary>查看原始来源（${n.mergedCount}张）</summary><ul>${sourceList}</ul></details>
+  </section>`;
 }
 function blocksHTML(i){const bs=i.memoBlocks||[]; if(!bs.length)return ''; return bs.map(b=>`<details class="sec" open><summary>${esc(b.title||'背诵整理')}</summary><div class="inside">${list(b.understanding)}${list(b.mustKnow)}</div></details>`).join('')}
 function renderDetail(){
@@ -783,7 +802,7 @@ function renderDetail(){
     ? `<div class="note-reading-tip"><b>阅读笔记</b><span>本卡不参与填空背诵、掌握率和抗遗忘，只用于理解、复习与查阅。</span></div>${sec('快速概览',list([i.oneLine]),true)}${blocksHTML(i)}`
     : (i.pageCloze
       ? '<p class="muted slim-tip">这类卡来自录屏黄色重点，直接用“填空背诵”和“PDF原图/干净整理”即可。</p>'
-      : `${sec('先背这里', list(i.mustPatterns||[]), true)}${sec('详细解释版', list(i.basicExplain||[]), true)}${blocksHTML(i)}`);
+      : (mergedLearnHTML(i)||`${sec('先背这里', list(i.mustPatterns||[]), true)}${sec('详细解释版', list(i.basicExplain||[]), true)}${blocksHTML(i)}`));
   const ops=noteMode
     ? `<div class="ops slim-ops"><button data-act="read" class="${s.read?'on':''}">${s.read?'已看':'标已看'}</button><button data-act="star" class="star ${s.starred?'on':''}">重点</button><span class="note-mode-tag">只读笔记</span></div>`
     : `<div class="ops slim-ops"><button data-act="read" class="${s.read?'on':''}">${s.read?'已看':'标已看'}</button><button data-act="star" class="star ${s.starred?'on':''}">重点</button><button data-act="master" class="master ${s.mastered?'on':''}">${s.mastered?'已掌握':'掌握'}</button><button data-act="forget" class="memory-on">抗遗忘</button></div>`;

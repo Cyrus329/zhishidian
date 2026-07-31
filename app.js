@@ -287,6 +287,28 @@ function renderStats(){
   $$('#subjectTabs button').forEach(b=>b.classList.toggle('active',(b.dataset.subject||'')===state.subject));
   $$('#contentTabs button').forEach(b=>b.classList.toggle('active',(b.dataset.contentMode||'')===state.contentMode));
 }
+function renderFocusDesk(){
+  const desk=$('#focusDesk'); if(!desk)return;
+  const learnable=ITEMS.filter(i=>!isNoteCard(i));
+  const mastered=learnable.filter(i=>st(i.id).mastered).length;
+  const progress=learnable.length?Math.round(mastered/learnable.length*100):0;
+  const next=learnable.find(i=>!st(i.id).mastered)||learnable[0];
+  const candidates=learnable.filter(i=>!st(i.id).mastered).slice(0,6);
+  const subjectOrder=['计算机','英语','数学','考点必背'];
+  const subjects=subjectOrder.map(subject=>{const all=learnable.filter(i=>i.subject===subject);return all.length?{subject,all,progress:pct(all)}:null}).filter(Boolean);
+  $('#focusHeroTask').textContent=next?`${next.subject} · ${next.title}`:'今天的学习计划已经完成，去复习巩固一下吧。';
+  $('#focusProgressValue').textContent=progress+'%';
+  $('#focusProgress').style.setProperty('--focus-progress',progress+'%');
+  $('#focusProgressNote').textContent=learnable.length?`已掌握 ${mastered} / ${learnable.length} 个学习卡片`:'导入题库后这里会自动生成学习进度。';
+  $('#focusStartBtn').disabled=!next; $('#focusStartBtn').dataset.task=next?.id||'';
+  $('#focusSubjects').innerHTML=subjects.map(({subject,all,progress:p})=>`<button class="focus-subject" data-subject="${esc(subject)}"><span>${esc(SUBJECT_MARK[subject]||'学')}</span><div><b>${esc(subject)}</b><small>${all.length} 个内容</small></div><em>${p}%</em><i><u style="width:${p}%"></u></i></button>`).join('');
+  $('#focusQueueCount').textContent=candidates.length?`为你安排 ${candidates.length} 项重点内容`:'全部重点内容已完成';
+  $('#focusQueue').innerHTML=candidates.map((i,n)=>`<button class="focus-queue-item" data-task="${esc(i.id)}"><strong>${n+1}</strong><span><b>${esc(i.title)}</b><small>${esc(i.subject)} · ${esc(i.chapter||'学习内容')}</small></span><em>开始学习 →</em></button>`).join('')||'<p class="focus-empty">今天的核心学习任务已完成，去复习清单看看吧。</p>';
+  const reviews=dueReviews().slice(0,4);
+  $('#focusReviewCount').textContent=reviews.length?`${reviews.length} 项待复习`:'暂无到期复习';
+  $('#focusReviewList').innerHTML=reviews.map(({item})=>`<button data-task="${esc(item.id)}"><i></i><span>${esc(item.title)}</span><em>${esc(item.subject)}</em></button>`).join('')||'<p class="focus-empty">复习内容到期后会自动出现在这里。</p>';
+  if($('#focusTimerMirror'))$('#focusTimerMirror').textContent=$('#focusTimer')?.textContent||'25:00';
+}
 function calcStreak(){let d=new Date(), n=0; for(;;){const k=d.toISOString().slice(0,10); if((data.stats.checkins&&data.stats.checkins[k]) || (data.stats.days&&data.stats.days[k]>120)){n++; d.setDate(d.getDate()-1)}else break;} return n}
 function renderFilters(){const chs=chapters(); const cur=state.chapter; $('#chapterFilter').innerHTML='<option value="">全部章节</option>'+chs.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join(''); if(chs.includes(cur)) $('#chapterFilter').value=cur; else {state.chapter=''; $('#chapterFilter').value=''} $('#statusFilter').value=state.status; const ib=$('#importBatchFilter'); if(ib){const bs=importBatches();ib.innerHTML='<option value="">全部导入日期</option>'+bs.map(b=>`<option value="${esc(b.id)}">第${b.day||'?'}天 · ${esc(shortImportDate(b.date))} · ${b.count}个</option>`).join('');if(bs.some(b=>b.id===state.importBatch))ib.value=state.importBatch;else{state.importBatch='';ib.value=''}} const rt=$('#recordTypeFilter');if(rt){const types=[...new Set(ITEMS.map(i=>i.recordType||'知识点背诵'))];rt.innerHTML='<option value="">全部记录类型</option>'+types.map(t=>`<option value="${esc(t)}">${esc(t)} · ${ITEMS.filter(i=>(i.recordType||'知识点背诵')===t).length}张</option>`).join('');if(types.includes(state.recordType))rt.value=state.recordType;else{state.recordType='';rt.value=''}} const so=$('#sourceOrgFilter');if(so){const orgs=['蓝色森林','全方位','未标注'];so.innerHTML='<option value="">全部机构来源</option>'+orgs.map(o=>`<option value="${esc(o)}">${esc(o)} · ${ITEMS.filter(i=>(i.sourceOrg||'未标注')===o).length}张</option>`).join('');so.value=orgs.includes(state.sourceOrg)?state.sourceOrg:'';if(!orgs.includes(state.sourceOrg))state.sourceOrg=''}}
 function renderTree(){
@@ -773,8 +795,8 @@ function renderDetail(){
   requestAnimationFrame(()=>$$('#detailPane [data-cloze-input]').forEach(resizeClozeInput));
 }
 function renderFilteredContent({filters=false,tree=false}={}){if(filters)renderFilters();if(tree)renderTree();renderStats();renderKnowledgeBlockStats();renderChapterMindmap();renderList();renderDetail();syncImportHistoryActive()}
-function renderStudyUpdate(){renderStats();renderKnowledgeBlockStats();renderChapterMindmap();renderTree();renderTasks();renderReview();renderList();renderDetail();syncImportHistoryActive()}
-function render(){renderStats();renderFilters();renderTree();renderTasks();renderImportHistory();renderKnowledgeBlockStats();renderChapterMindmap();renderReview();renderAudit();renderList();renderDetail();renderTimer()}
+function renderStudyUpdate(){renderStats();renderFocusDesk();renderKnowledgeBlockStats();renderChapterMindmap();renderTree();renderTasks();renderReview();renderList();renderDetail();syncImportHistoryActive()}
+function render(){renderStats();renderFocusDesk();renderFilters();renderTree();renderTasks();renderImportHistory();renderKnowledgeBlockStats();renderChapterMindmap();renderReview();renderAudit();renderList();renderDetail();renderTimer()}
 document.addEventListener('click',async e=>{
   const subj=e.target.closest('[data-subject]'); if(subj && subj.parentElement?.id==='subjectTabs'){state.blockKey='';state.chapterRootKey='';state.subject=subj.dataset.subject||'';state.chapter='';state.selected='';renderFilteredContent({filters:true,tree:true});return}
   const content=e.target.closest('[data-content-mode]'); if(content && content.parentElement?.id==='contentTabs'){state.contentMode=content.dataset.contentMode||'';state.selected='';renderFilteredContent();return}
@@ -794,6 +816,7 @@ document.addEventListener('click',async e=>{
   if(e.target.id==='mindmapCollapseBtn'){$$('#chapterMindmapList details').forEach(d=>d.open=false);return}
   if(e.target.id==='mindmapCopyBtn'){const chapter=CHAPTER_MINDMAP_INDEX.byKey.get(state.mindmapChapterKey);if(!chapter)return;const ok=await copyPlainText(chapterMindmapText(chapter));e.target.textContent=ok?'已复制 ✓':'复制失败';setTimeout(()=>{e.target.textContent='复制导图'},1200);return}
   const task=e.target.closest('[data-task]'); if(task){state.selected=task.dataset.task;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderFilteredContent();return}
+  if(e.target.id==='focusTimerStart'){document.querySelector('#timerStart')?.click();return}
   const row=e.target.closest('.row'); if(row){state.selected=row.dataset.id;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderKnowledgeBlockStats();renderChapterMindmap();renderList();renderDetail();return}
   const act=e.target.closest('[data-act]')?.dataset.act; if(act&&state.selected){const s=st(state.selected); if(act==='read')setst(state.selected,{read:!s.read}); if(act==='star')setst(state.selected,{starred:!s.starred}); if(act==='wrong')setst(state.selected,{wrong:!s.wrong,read:true}); if(act==='master'){setst(state.selected,{mastered:!s.mastered,read:true});if(!s.mastered){ensureReview(state.selected);renderReview();renderStats();}} if(act==='forget'){ensureReview(state.selected);renderStudyUpdate();} return}
   const panel=e.target.closest('[data-panel]'); if(panel){const name=panel.dataset.panel;state.panel=name; $$('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.panel===name)); $$('.panel').forEach(p=>p.classList.toggle('active',p.dataset.panelBox===name)); return}

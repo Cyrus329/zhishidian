@@ -1,10 +1,10 @@
 {
-  "name": "专升本知识点速记本 · v53大型思维导图联动版",
-  "short_name": "知识点v53",
+  "name": "专升本知识点速记本 · v54手机适配与原文小标题导图版",
+  "short_name": "知识点v54",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f7f6",
-  "theme_color": "#2563eb",
+  "theme_color": "#7c3aed",
   "icons": [
     {
       "src": "./icon-192.png",
@@ -22,7 +22,12 @@
       "name": "大型思维导图",
       "short_name": "思维导图",
       "url": "./mindmap.html",
-      "icons": [{"src":"./icon-192.png","sizes":"192x192"}]
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

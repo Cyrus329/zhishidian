@@ -1,14 +1,14 @@
-const CACHE_NAME = 'zsb-knowledge-v53-large-mindmap';
+const CACHE_NAME = 'zsb-knowledge-v54-mobile-outline-mindmap';
 const CORE_ASSETS = [
   './',
   './index.html',
   './mindmap.html',
-  './styles.css?v=53',
-  './mindmap.css?v=53',
-  './app.js?v=53',
-  './mindmap.js?v=53',
-  './mindmap-data.js?v=53',
-  './knowledge-data.js?v=53',
+  './styles.css?v=54',
+  './mindmap.css?v=54',
+  './app.js?v=54',
+  './mindmap.js?v=54',
+  './mindmap-data.js?v=54',
+  './knowledge-data.js?v=54',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png'

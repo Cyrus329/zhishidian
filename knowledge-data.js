@@ -19160,11 +19160,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-001",
     "order": 212,
-    "title": "抽象函数定义域同位置法（蓝色森林）",
+    "title": "抽象函数定义域同位置法（蓝色森林·课堂笔记）",
     "oneLine": "同一个函数符号f的括号内整体取值范围相同；先把已知内层范围写出，再反求新内层对应的x。",
     "keywords": [
       "蓝色森林",
@@ -19190,16 +19190,8 @@ window.KNOWLEDGE_ITEMS = [
         "已知f(g(x))的x范围时，需要先求g(x)值域。"
       ]
     ],
-    "clozeLines": [
-      "1. 同一函数符号f的括号内整体应具有相同的（[[取值范围]]）。",
-      "2. 已知f(x)定义域[a,b]，求f(g(x))时解（[[a≤g(x)≤b]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "抽象函数定义域题第一步做什么？",
-        "a": "确定已知函数括号内整体的取值范围。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image1.webp",
       "./imports/day-12/blue-forest-math/image2.webp",
@@ -19211,7 +19203,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第1-2页：抽象函数定义域"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19223,6 +19215,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19241,8 +19242,22 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "若f(A)与f(B)中的函数符号相同，则A和B的取值范围相同。",
       "mnemonic": "蓝色森林 → 抽象函数定义域 → 同位置法 → 范围相同",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "若f(A)与f(B)中的函数符号相同，则A和B的取值范围相同。",
+          "先求已知括号内整体的范围，再令新括号内整体落入该范围。",
+          "已知f(x)定义域为[a,b]，求f(g(x))定义域时解a≤g(x)≤b。",
+          "已知f(g(x))定义域时，要先由x范围求g(x)的值域，再作为f自变量范围。",
+          "不要把“外层x的定义域”直接等同于“内层表达式的范围”。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19254,11 +19269,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-002",
     "order": 213,
-    "title": "求函数解析式——代入法（蓝色森林）",
+    "title": "求函数解析式——代入法（蓝色森林·课堂笔记）",
     "oneLine": "已知f(x)直接代入可求f(φ(x))；已知f(φ(x))等于表达式时，可识别外层f并代入内层。",
     "keywords": [
       "蓝色森林",
@@ -19277,16 +19292,8 @@ window.KNOWLEDGE_ITEMS = [
       "代入时必须加括号，防止平方、负号和分母范围出错。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. 求f(φ(x))时，将f(x)解析式中的x（[[整体替换]]）为φ(x)。",
-      "2. 复合函数代入顺序是从（[[里]]）到外。"
-    ],
-    "selfTests": [
-      {
-        "q": "代入法最常见的错误是什么？",
-        "a": "替换时不加括号，导致符号或幂次错误。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image4.webp",
       "./imports/day-12/blue-forest-math/image5.webp",
@@ -19296,7 +19303,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第2-3页：函数解析式代入法"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19308,6 +19315,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19323,8 +19339,21 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "已知f(x)解析式，求f(φ(x))时把解析式中的x整体替换为φ(x)。",
       "mnemonic": "蓝色森林 → 代入法 → 复合函数 → f(f(x))",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "已知f(x)解析式，求f(φ(x))时把解析式中的x整体替换为φ(x)。",
+          "多重复合按从里到外逐层代入。",
+          "例如f(x)=1/(1-x)，先求f(f(x))，再继续代入可求f(f(f(x)))。",
+          "代入时必须加括号，防止平方、负号和分母范围出错。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19336,11 +19365,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-003",
     "order": 214,
-    "title": "求函数解析式——换元与配凑法（蓝色森林）",
+    "title": "求函数解析式——换元与配凑法（蓝色森林·课堂笔记）",
     "oneLine": "令括号内整体为t，通过反解或配凑把右侧全部写成t，再得到f(t)，最后改写为f(x)。",
     "keywords": [
       "蓝色森林",
@@ -19359,16 +19388,8 @@ window.KNOWLEDGE_ITEMS = [
       "换元后最终应把自变量t改写回通用的x。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. 换元法先令括号内整体（[[φ(x)=t]]）。",
-      "2. 右侧必须全部改写为（[[t]]）的表达式。"
-    ],
-    "selfTests": [
-      {
-        "q": "换元法结束时为什么要把t改回x？",
-        "a": "函数解析式中的自变量字母只是占位符，通常写成标准形式f(x)。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image8.webp",
       "./imports/day-12/blue-forest-math/image9.webp",
@@ -19380,7 +19401,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第3-5页：换元与配凑法"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19392,6 +19413,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19407,8 +19437,21 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "令φ(x)=t，并把右侧表达式全部改写成t。",
       "mnemonic": "蓝色森林 → 换元法 → 配凑法 → 整体代换",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "令φ(x)=t，并把右侧表达式全部改写成t。",
+          "若能反解x，用x关于t的表达式代回；不能直接反解时可利用恒等式配凑。",
+          "已知f(x+1)=x²+2，令t=x+1；已知f(x-1/x)=(x+1/x)²，可用平方差恒等式配凑。",
+          "换元后最终应把自变量t改写回通用的x。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19420,11 +19463,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-004",
     "order": 215,
-    "title": "反函数定义、存在条件与求解步骤（蓝色森林）",
+    "title": "反函数定义、存在条件与求解步骤（蓝色森林·课堂笔记）",
     "oneLine": "原函数必须一一对应才存在反函数；反解x、交换x与y、写出定义域。",
     "keywords": [
       "蓝色森林",
@@ -19451,17 +19494,8 @@ window.KNOWLEDGE_ITEMS = [
         "f⁻¹表示反函数，不表示倒数。"
       ]
     ],
-    "clozeLines": [
-      "1. 函数存在反函数的核心条件是（[[一一对应]]）。",
-      "2. 反函数定义域等于原函数的（[[值域]]）。",
-      "3. f⁻¹(x)不等于（[[1/f(x)]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "求反函数的三步是什么？",
-        "a": "反解x、交换x和y、写反函数定义域。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image14.webp",
       "./imports/day-12/blue-forest-math/image15.webp",
@@ -19472,7 +19506,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第5-6页：反函数概念与步骤"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19484,6 +19518,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19502,8 +19545,22 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "函数在给定定义域上必须一一对应才有反函数。",
       "mnemonic": "蓝色森林 → 反函数 → 一一对应 → 反解 → 交换变量",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "函数在给定定义域上必须一一对应才有反函数。",
+          "求反函数：由y=f(x)反解x；交换x、y；写出反函数定义域。",
+          "反函数定义域等于原函数值域，反函数值域等于原函数定义域。",
+          "单调函数在其定义区间上通常具有反函数。",
+          "反函数记作f⁻¹(x)，不等于1/f(x)。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19515,11 +19572,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-005",
     "order": 216,
-    "title": "反函数性质与常见互反函数（蓝色森林）",
+    "title": "反函数性质与常见互反函数（蓝色森林·课堂笔记）",
     "oneLine": "原函数与反函数单调性相同，定义域和值域互换，图像关于y=x对称。",
     "keywords": [
       "蓝色森林",
@@ -19541,17 +19598,8 @@ window.KNOWLEDGE_ITEMS = [
       "三角函数必须先限制为单调区间，才能定义反函数。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. 原函数与反函数的图像关于（[[y=x]]）对称。",
-      "2. 指数函数与（[[对数函数]]）互为反函数。",
-      "3. 原函数与反函数的单调性（[[相同]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "为什么sin x在整个实数范围没有反函数？",
-        "a": "它不是一一对应，需要限制到单调区间。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image16.webp",
       "./imports/day-12/blue-forest-math/image17.webp",
@@ -19565,7 +19613,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第6-8页：反函数性质与例题"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19577,6 +19625,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19594,8 +19651,23 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "原函数与反函数单调性相同。",
       "mnemonic": "蓝色森林 → 反函数性质 → y=x对称 → 指数对数互反 → 三角反三角",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "原函数与反函数单调性相同。",
+          "原函数定义域与反函数值域互换，原函数值域与反函数定义域互换。",
+          "两者图像关于直线y=x对称。",
+          "指数函数与对数函数互为反函数；限定区间上的三角函数与反三角函数互为反函数。",
+          "a^x与logₐx互反；sin x在[-π/2,π/2]上与arcsin x互反。",
+          "三角函数必须先限制为单调区间，才能定义反函数。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19607,11 +19679,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-006",
     "order": 217,
-    "title": "奇偶性定义与判断前提（蓝色森林）",
+    "title": "奇偶性定义与判断前提（蓝色森林·课堂笔记）",
     "oneLine": "先检查定义域关于原点对称；f(-x)=f(x)为偶函数，f(-x)=-f(x)为奇函数。",
     "keywords": [
       "蓝色森林",
@@ -19640,17 +19712,8 @@ window.KNOWLEDGE_ITEMS = [
         "定义域不含0时不谈经过原点。"
       ]
     ],
-    "clozeLines": [
-      "1. 判断奇偶性的前提是定义域关于（[[原点]]）对称。",
-      "2. f(-x)=f(x)为（[[偶函数]]）。",
-      "3. 奇函数图像关于（[[原点]]）对称。"
-    ],
-    "selfTests": [
-      {
-        "q": "定义域为(0,+∞)的函数能是奇函数吗？",
-        "a": "不能，因为定义域不关于原点对称。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image24.webp",
       "./imports/day-12/blue-forest-math/image25.webp",
@@ -19660,7 +19723,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第8-9页：奇偶性"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19672,6 +19735,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19691,8 +19763,23 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "判断奇偶性前，定义域必须关于原点对称。",
       "mnemonic": "蓝色森林 → 奇函数 → 偶函数 → 定义域对称 → 原点 → y轴",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "判断奇偶性前，定义域必须关于原点对称。",
+          "f(-x)=f(x)是偶函数，图像关于y轴对称。",
+          "f(-x)=-f(x)是奇函数，图像关于原点对称。",
+          "若奇函数在x=0处有定义，则f(0)=0。",
+          "定义域不关于原点对称时，直接判为非奇非偶。",
+          "“经过原点”是有条件结论：奇函数必须在0处有定义。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19704,11 +19791,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-007",
     "order": 218,
-    "title": "常见奇偶函数与运算规律（蓝色森林）",
+    "title": "常见奇偶函数与运算规律（蓝色森林·课堂笔记）",
     "oneLine": "sin、tan、cot、arcsin、arctan、奇次幂常为奇函数；cos、|x|、偶次幂和常数常为偶函数。",
     "keywords": [
       "常见奇函数",
@@ -19727,17 +19814,8 @@ window.KNOWLEDGE_ITEMS = [
       "绝对值常将符号对称部分变成偶性。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. sin x通常是（[[奇函数]]），cos x通常是（[[偶函数]]）。",
-      "2. 奇函数×奇函数得到（[[偶函数]]）。",
-      "3. 奇函数×偶函数得到（[[奇函数]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "x sin x是什么奇偶性？",
-        "a": "x和sin x都是奇函数，乘积为偶函数。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image25.webp",
       "./imports/day-12/blue-forest-math/image26.webp",
@@ -19748,7 +19826,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第9-10页：常见奇偶函数与题型"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19760,6 +19838,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19776,8 +19863,22 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "常见奇函数：sin x、tan x、cot x、arcsin x、arctan x、x^(2n+1)。",
       "mnemonic": "常见奇函数 → 常见偶函数 → 奇偶运算",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "常见奇函数：sin x、tan x、cot x、arcsin x、arctan x、x^(2n+1)。",
+          "常见偶函数：cos x、|x|、x^(2n)、常数函数。",
+          "奇±奇仍为奇，偶±偶仍为偶；奇×奇为偶，偶×偶为偶，奇×偶为奇。",
+          "运算规律成立前仍需检查各函数共同定义域关于原点对称。",
+          "绝对值常将符号对称部分变成偶性。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19789,11 +19890,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-008",
     "order": 219,
-    "title": "单调性与周期性（蓝色森林）",
+    "title": "单调性与周期性（蓝色森林·课堂笔记）",
     "oneLine": "单调性比较x₁<x₂时函数值次序；周期性满足f(x+T)=f(x)，最小正T为最小正周期。",
     "keywords": [
       "单调递增",
@@ -19813,17 +19914,8 @@ window.KNOWLEDGE_ITEMS = [
       "sin、cos最小正周期2π；tan、cot最小正周期π。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. x₁<x₂且f(x₁)<f(x₂)表示函数（[[单调递增]]）。",
-      "2. 满足f(x+T)=f(x)的非零常数T叫（[[周期]]）。",
-      "3. tan x的最小正周期是（[[π]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "周期函数的周期是否唯一？",
-        "a": "不唯一，最小正周期才是常用特征。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image30.webp",
       "./imports/day-12/blue-forest-math/image31.webp"
@@ -19831,7 +19923,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第10-11页：单调性与周期性"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19843,6 +19935,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19859,8 +19960,22 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "若x₁<x₂时f(x₁)<f(x₂)，函数在区间上单调递增。",
       "mnemonic": "单调递增 → 单调递减 → 周期函数 → 最小正周期",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "若x₁<x₂时f(x₁)<f(x₂)，函数在区间上单调递增。",
+          "若x₁<x₂时f(x₁)>f(x₂)，函数在区间上单调递减。",
+          "若存在非零常数T使f(x+T)=f(x)，则T是周期；最小正T称最小正周期。",
+          "单调性必须在指定区间内讨论；周期函数通常有无数个周期。",
+          "sin、cos最小正周期2π；tan、cot最小正周期π。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19872,11 +19987,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-009",
     "order": 220,
-    "title": "函数有界性的判定（蓝色森林）",
+    "title": "函数有界性的判定（蓝色森林·课堂笔记）",
     "oneLine": "若存在M>0使定义域内|f(x)|≤M，则函数有界；只在限定区间有界不代表全定义域有界。",
     "keywords": [
       "有界函数",
@@ -19896,16 +20011,8 @@ window.KNOWLEDGE_ITEMS = [
       "多项式在有限闭区间上有界，但在R上通常无界。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. 若存在M>0使|f(x)|≤M，则f在D上（[[有界]]）。",
-      "2. 有界要求同时具有（[[上界]]）和（[[下界]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "tan x在定义域上有界吗？",
-        "a": "无界。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image34.webp",
       "./imports/day-12/blue-forest-math/image35.webp",
@@ -19914,7 +20021,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第12页：有界性"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -19926,6 +20033,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -19942,8 +20058,22 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "存在正数M使对所有x∈D有|f(x)|≤M，则函数在D上有界。",
       "mnemonic": "有界函数 → 上界 → 下界 → |f(x)|≤M",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "存在正数M使对所有x∈D有|f(x)|≤M，则函数在D上有界。",
+          "有界等价于同时存在上界和下界。",
+          "sin、cos及反三角函数在各自定义域上有界；arctan、arccot也有界。",
+          "“在规定区间上有界”与“在整个定义域上有界”必须区分。",
+          "多项式在有限闭区间上有界，但在R上通常无界。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -19955,11 +20085,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-010",
     "order": 221,
-    "title": "幂、指数、对数函数性质（蓝色森林）",
+    "title": "幂、指数、对数函数性质（蓝色森林·课堂笔记）",
     "oneLine": "幂函数关注指数类型；指数函数a^x过(0,1)；对数函数logₐx过(1,0)，两者互为反函数。",
     "keywords": [
       "幂函数",
@@ -19981,17 +20111,8 @@ window.KNOWLEDGE_ITEMS = [
       "底数范围a>0且a≠1是指数、对数函数共同前提。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. 指数函数a^x恒过点（[[(0,1)]]）。",
-      "2. 对数函数logₐx恒过点（[[(1,0)]]）。",
-      "3. 指数与对数函数互为（[[反函数]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "0<a<1时指数函数单调性如何？",
-        "a": "单调递减。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image32.webp",
       "./imports/day-12/blue-forest-math/image33.webp",
@@ -20002,7 +20123,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第11-13页：幂指数对数函数"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -20014,6 +20135,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -20031,8 +20161,23 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "指数函数y=a^x满足a>0且a≠1，定义域R，值域(0,+∞)，过(0,1)。",
       "mnemonic": "幂函数 → 指数函数 → 对数函数 → 单调性 → 互为反函数",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "指数函数y=a^x满足a>0且a≠1，定义域R，值域(0,+∞)，过(0,1)。",
+          "对数函数y=logₐx满足a>0且a≠1，定义域(0,+∞)，值域R，过(1,0)。",
+          "a>1时指数和对数函数递增，0<a<1时递减。",
+          "指数函数与对数函数图像关于y=x对称。",
+          "幂函数的定义域、奇偶性和单调性随指数而变化。",
+          "底数范围a>0且a≠1是指数、对数函数共同前提。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -20044,11 +20189,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-011",
     "order": 222,
-    "title": "三角函数图像性质与常用公式（蓝色森林）",
+    "title": "三角函数图像性质与常用公式（蓝色森林·课堂笔记）",
     "oneLine": "sin、cos周期2π；tan、cot周期π，并掌握倒数、平方、二倍角和降幂公式。",
     "keywords": [
       "sin",
@@ -20072,17 +20217,8 @@ window.KNOWLEDGE_ITEMS = [
       "cot²x=(1+cos2x)/2，sin²x=(1-cos2x)/2是常用降幂形式。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. sin x和cos x的周期是（[[2π]]）。",
-      "2. tan x和cot x的周期是（[[π]]）。",
-      "3. sin²x+cos²x=（[[1]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "tan x为什么不能在整个定义域说单调递增？",
-        "a": "定义域被间断点分成多个区间，只能在每个连续区间内讨论。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image38.webp",
       "./imports/day-12/blue-forest-math/image39.webp",
@@ -20092,7 +20228,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第13-14页：三角函数"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -20104,6 +20240,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -20121,8 +20266,23 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "sin x是奇函数，cos x是偶函数，二者周期2π且有界。",
       "mnemonic": "sin → cos → tan → cot → 周期 → 二倍角",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "sin x是奇函数，cos x是偶函数，二者周期2π且有界。",
+          "tan x和cot x是奇函数，周期π，在各自定义区间单调。",
+          "sin²x+cos²x=1。",
+          "sin2x=2sinx cosx，cos2x=cos²x-sin²x。",
+          "tan与cot在竖直渐近线处分段单调，不可跨越间断点讨论。",
+          "cot²x=(1+cos2x)/2，sin²x=(1-cos2x)/2是常用降幂形式。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -20134,11 +20294,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-012",
     "order": 223,
-    "title": "反三角函数图像与性质（蓝色森林）",
+    "title": "反三角函数图像与性质（蓝色森林·课堂笔记）",
     "oneLine": "arcsin、arccos定义域[-1,1]；arctan、arccot定义域R；分别具有确定值域、单调性和有界性。",
     "keywords": [
       "arcsin",
@@ -20161,17 +20321,8 @@ window.KNOWLEDGE_ITEMS = [
       "arccos和arccot的值域不关于0对称，因此通常非奇非偶。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. arcsin x的定义域是（[[-1,1]]）。",
-      "2. arctan x的值域是（[[(-π/2,π/2)]]）。",
-      "3. arccos x是（[[单调递减]]）函数。"
-    ],
-    "selfTests": [
-      {
-        "q": "arccos x是不是偶函数？",
-        "a": "不是，通常非奇非偶。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image42.webp",
       "./imports/day-12/blue-forest-math/image43.webp",
@@ -20181,7 +20332,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第15-16页：反三角函数"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -20193,6 +20344,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -20210,8 +20370,23 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "arcsin x定义域[-1,1]，值域[-π/2,π/2]，递增且为奇函数。",
       "mnemonic": "arcsin → arccos → arctan → arccot → 定义域 → 值域",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "arcsin x定义域[-1,1]，值域[-π/2,π/2]，递增且为奇函数。",
+          "arccos x定义域[-1,1]，值域[0,π]，递减且非奇非偶。",
+          "arctan x定义域R，值域(-π/2,π/2)，递增且为奇函数。",
+          "arccot x定义域R，值域(0,π)，递减且非奇非偶。",
+          "反三角函数都有界；图像与相应限制区间上的三角函数关于y=x对称。",
+          "arccos和arccot的值域不关于0对称，因此通常非奇非偶。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -20223,11 +20398,11 @@ window.KNOWLEDGE_ITEMS = [
     "importDay": 12,
     "importDate": "2026-07-26",
     "importLabel": "第12天 · 7.26",
-    "clozeVerified": true,
-    "clozeVerifiedNote": "本卡依据2026年7月26日上传的蓝色森林原始资料人工整理、按标准章节归类并逐项核对。",
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
     "id": "D12-MATH-BF-013",
     "order": 224,
-    "title": "复合、基本初等、初等与分段函数（蓝色森林）",
+    "title": "复合、基本初等、初等与分段函数（蓝色森林·课堂笔记）",
     "oneLine": "复合函数由内外函数逐层构成；基本初等函数经有限次四则和复合形成初等函数；分段函数按区间给出不同法则。",
     "keywords": [
       "复合函数",
@@ -20248,17 +20423,8 @@ window.KNOWLEDGE_ITEMS = [
       "计算分段函数值时，先判断自变量落在哪一段，再代入该段法则。"
     ],
     "confusions": [],
-    "clozeLines": [
-      "1. 复合函数分解通常从（[[外]]）向内。",
-      "2. 初等函数由基本初等函数经过有限次四则或（[[复合运算]]）得到。",
-      "3. 分段函数计算先判断（[[自变量所在区间]]）。"
-    ],
-    "selfTests": [
-      {
-        "q": "分段函数是不是多个函数？",
-        "a": "不是，它是按不同区间定义不同法则的一个函数。"
-      }
-    ],
+    "clozeLines": [],
+    "selfTests": [],
     "images": [
       "./imports/day-12/blue-forest-math/image46.webp",
       "./imports/day-12/blue-forest-math/image47.webp",
@@ -20270,7 +20436,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "蓝色森林Word第16-18页：函数分类与分段函数"
     ],
-    "recordType": "知识点背诵",
+    "recordType": "数学笔记",
     "sourceOrg": "蓝色森林",
     "sourceCourse": "函数基础课程",
     "importHistory": [
@@ -20282,6 +20448,15 @@ window.KNOWLEDGE_ITEMS = [
         "action": "新增蓝色森林知识点背诵卡",
         "recordType": "知识点背诵",
         "note": "同一知识体系按标准章节合并显示，机构来源单独保留。"
+      },
+      {
+        "id": "date-2026-07-26",
+        "day": 12,
+        "date": "2026-07-26",
+        "label": "第12天 · 7.26",
+        "action": "由知识点背诵纠正为数学笔记",
+        "recordType": "数学笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
       }
     ],
     "notebookSummary": {
@@ -20299,8 +20474,23 @@ window.KNOWLEDGE_ITEMS = [
       "mistakes": [],
       "conclusion": "y=f(φ(x))中φ是内函数，f是外函数。",
       "mnemonic": "复合函数 → 基本初等函数 → 初等函数 → 分段函数",
-      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 知识点背诵"
-    }
+      "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "y=f(φ(x))中φ是内函数，f是外函数。",
+          "复合函数分解遵循从外向内逐层拆分。",
+          "基本初等函数经有限次四则运算或有限次复合形成初等函数。",
+          "分段函数在不同定义域区间采用不同对应法则。",
+          "分段函数是一个函数，不是多个互不相关的函数。",
+          "计算分段函数值时，先判断自变量落在哪一段，再代入该段法则。"
+        ],
+        "mustKnow": []
+      }
+    ]
   },
   {
     "subject": "数学",
@@ -20623,7 +20813,9 @@ window.KNOWLEDGE_ITEMS = [
       "先求f的一般解析式",
       "再代入目标自变量"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-003"
+    ],
     "principle": {
       "title": "整体换元原则",
       "summary": "已知f(某个整体)时，把该整体设为新变量，先还原f的通式。",
@@ -20713,7 +20905,9 @@ window.KNOWLEDGE_ITEMS = [
       "整体代换",
       "三角恒等式配凑"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-003"
+    ],
     "principle": {
       "title": "不能反解时用恒等式配凑",
       "summary": "当括号内整体难以反解原变量时，把右侧利用恒等式全部改写成该整体。",
@@ -20802,7 +20996,9 @@ window.KNOWLEDGE_ITEMS = [
       "平方差配凑",
       "整体代换"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-003"
+    ],
     "principle": {
       "title": "同构整体配凑",
       "summary": "寻找右侧表达式与已知括号内整体之间的恒等关系。",
@@ -20891,7 +21087,10 @@ window.KNOWLEDGE_ITEMS = [
       "交换变量",
       "定义域回填"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-004",
+      "D12-MATH-BF-005"
+    ],
     "principle": {
       "title": "对数函数求反函数",
       "summary": "把对数等式指数化，反函数定义域取原函数值域。",
@@ -20980,7 +21179,10 @@ window.KNOWLEDGE_ITEMS = [
       "指数对数互换",
       "值域"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-004",
+      "D12-MATH-BF-005"
+    ],
     "principle": {
       "title": "分式指数反函数",
       "summary": "把a^x看作整体，先从有理式中解出该整体，再取对数。",
@@ -21075,7 +21277,10 @@ window.KNOWLEDGE_ITEMS = [
       "奇偶分解",
       "原题答案复核"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-006",
+      "D12-MATH-BF-007"
+    ],
     "principle": {
       "title": "任意函数的奇偶分解",
       "summary": "任意函数可拆为偶部[f(x)+f(-x)]/2和奇部[f(x)-f(-x)]/2。",
@@ -21165,7 +21370,10 @@ window.KNOWLEDGE_ITEMS = [
       "定义域对称",
       "奇函数乘积"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-006",
+      "D12-MATH-BF-007"
+    ],
     "principle": {
       "title": "奇偶函数乘法规律",
       "summary": "奇函数×奇函数=偶函数。",
@@ -21257,7 +21465,9 @@ window.KNOWLEDGE_ITEMS = [
       "逐步判断所在区间",
       "递归终止"
     ],
-    "relatedNoteIds": [],
+    "relatedNoteIds": [
+      "D12-MATH-BF-013"
+    ],
     "principle": {
       "title": "递归型分段函数",
       "summary": "每次使用当前自变量所属的分段；若表达式仍含f，则继续递推直到进入可直接计算的分段。",
@@ -21281,15 +21491,1800 @@ window.KNOWLEDGE_ITEMS = [
       "mnemonic": "分段函数 → 递归定义 → 区间判断",
       "sourceLabel": "第12天 · 7.26 · 蓝色森林 · 数学题目"
     }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "蓝色森林课堂笔记",
+    "range": "英语课堂笔记 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-NOTE-001",
+    "order": 236,
+    "title": "冠词课堂完整笔记（蓝色森林）",
+    "recordType": "英语笔记",
+    "oneLine": "完整保留a/an、the、零冠词的发音、用法、固定搭配与有the/无the辨析。",
+    "keywords": [
+      "冠词",
+      "a/an",
+      "the",
+      "零冠词",
+      "固定搭配"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image1.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image2.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image3.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image4.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image5.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image6.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image7.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image8.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image9.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image10.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image11.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image12.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image13.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image14.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image15.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image16.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image17.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image18.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image19.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image20.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image21.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image22.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image23.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image24.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image25.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image26.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image27.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增英语笔记卡",
+        "recordType": "英语笔记",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "冠词总览与发音判断",
+        "understanding": [
+          "冠词放在名词前起限定、说明作用，分不定冠词、定冠词和零冠词。",
+          "a/an按首音素判断；the在辅音音素前常读/ðə/，元音音素前常读/ðiː/。"
+        ],
+        "mustKnow": []
+      },
+      {
+        "title": "不定冠词a/an",
+        "understanding": [
+          "泛指不确定的一个、首次提到、表示一类、表示“一/每”、固定表达。"
+        ],
+        "mustKnow": []
+      },
+      {
+        "title": "定冠词the",
+        "understanding": [
+          "用于特指、再次提及、序数词/最高级、独一无二事物、乐器、the+形容词、姓氏复数和固定表达。"
+        ],
+        "mustKnow": []
+      },
+      {
+        "title": "零冠词",
+        "understanding": [
+          "用于专有名词、复数类指、抽象概念、球类/学科/语言、季节日期、by+交通工具和固定表达。"
+        ],
+        "mustKnow": []
+      }
+    ],
+    "examples": [
+      {
+        "en": "There is a river near my home.",
+        "cn": "首次提到，用a。",
+        "note": ""
+      },
+      {
+        "en": "I saw a bird yesterday. The bird can fly.",
+        "cn": "再次提及，用the。",
+        "note": ""
+      },
+      {
+        "en": "Money cannot buy happiness.",
+        "cn": "抽象概念泛指，用零冠词。",
+        "note": ""
+      }
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "完整保留a/an、the、零冠词的发音、用法、固定搭配与有the/无the辨析。",
+      "core": [
+        "冠词总览与发音判断",
+        "不定冠词a/an",
+        "定冠词the",
+        "零冠词"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "冠词总览与发音判断",
+      "mnemonic": "课堂原图 → 规则总表 → 典型例句 → 易错辨析",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜数词",
+    "category": "蓝色森林课堂笔记",
+    "range": "英语课堂笔记 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-NOTE-002",
+    "order": 237,
+    "title": "数词课堂完整笔记（蓝色森林）",
+    "recordType": "英语笔记",
+    "oneLine": "完整保留基数词、序数词、分数、时间、日期、年代、年龄、倍数、长宽高和主谓一致。",
+    "keywords": [
+      "基数词",
+      "序数词",
+      "分数",
+      "时间日期",
+      "主谓一致"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image28.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image29.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image30.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image31.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image32.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image33.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image34.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image35.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image36.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image37.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image38.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image39.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image40.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image41.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image42.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image43.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image44.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image45.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image46.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image47.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增英语笔记卡",
+        "recordType": "英语笔记",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "基数词",
+        "understanding": [
+          "掌握1—19、整十、hundred/thousand/million/billion及确数与概数表达。"
+        ],
+        "mustKnow": []
+      },
+      {
+        "title": "序数词",
+        "understanding": [
+          "掌握1st—19th、整十序数词及the/a/物主代词在序数词前的差异。"
+        ],
+        "mustKnow": []
+      },
+      {
+        "title": "数词应用",
+        "understanding": [
+          "分数、时间、日期、年代、年龄、倍数和长宽高均有固定表达方式。"
+        ],
+        "mustKnow": []
+      },
+      {
+        "title": "主谓一致",
+        "understanding": [
+          "分数/百分数由of后的名词决定；时间、距离、金钱、重量、度量作整体概念时用单数。"
+        ],
+        "mustKnow": []
+      }
+    ],
+    "examples": [
+      {
+        "en": "Three fifths of the water is clean.",
+        "cn": "谓语由water决定，用is。",
+        "note": ""
+      },
+      {
+        "en": "Forty percent of the students are from Chongqing.",
+        "cn": "谓语由students决定，用are。",
+        "note": ""
+      },
+      {
+        "en": "Five hundred yuan is enough.",
+        "cn": "金额作整体概念，用单数。",
+        "note": ""
+      }
+    ],
+    "mustPatterns": [],
+    "basicExplain": [],
+    "examRefine": [],
+    "confusions": [],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "完整保留基数词、序数词、分数、时间、日期、年代、年龄、倍数、长宽高和主谓一致。",
+      "core": [
+        "基数词",
+        "序数词",
+        "数词应用",
+        "主谓一致"
+      ],
+      "method": [],
+      "mistakes": [],
+      "conclusion": "基数词",
+      "mnemonic": "课堂原图 → 规则总表 → 典型例句 → 易错辨析",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词总览",
+    "range": "冠词总览 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-001",
+    "order": 238,
+    "title": "冠词总览与a/an发音判断（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "冠词分a/an、the和零冠词；a/an取决于首音素，不能只看首字母。",
+    "keywords": [
+      "冠词",
+      "a/an",
+      "首音素",
+      "the发音"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image1.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image2.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image3.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image11.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image12.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "冠词分为不定冠词a/an、定冠词the和零冠词。",
+      "a用于辅音音素开头的单词前，an用于元音音素开头的单词前。",
+      "the在辅音音素前通常读/ðə/，在元音音素前通常读/ðiː/。"
+    ],
+    "basicExplain": [
+      "判断a/an必须听首音素：a university，an hour。",
+      "字母u既可能是辅音音素/j/开头，也可能是元音音素开头。"
+    ],
+    "examRefine": [
+      "a cat、a university；an apple、an hour。"
+    ],
+    "confusions": [
+      [
+        "a university",
+        "an university",
+        "university首音素是/j/，属于辅音音素，所以用a。"
+      ],
+      [
+        "an hour",
+        "a hour",
+        "hour的h不发音，首音素是元音，所以用an。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "冠词分a/an、the和零冠词；a/an取决于首音素，不能只看首字母。",
+      "core": [
+        "冠词分为不定冠词a/an、定冠词the和零冠词。",
+        "a用于辅音音素开头的单词前，an用于元音音素开头的单词前。",
+        "the在辅音音素前通常读/ðə/，在元音音素前通常读/ðiː/。"
+      ],
+      "method": [
+        "判断a/an必须听首音素：a university，an hour。",
+        "字母u既可能是辅音音素/j/开头，也可能是元音音素开头。",
+        "a cat、a university；an apple、an hour。"
+      ],
+      "mistakes": [
+        "university首音素是/j/，属于辅音音素，所以用a。",
+        "hour的h不发音，首音素是元音，所以用an。"
+      ],
+      "conclusion": "冠词分为不定冠词a/an、定冠词the和零冠词。",
+      "mnemonic": "三类冠词 → 看音不看字 → a university / an hour",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "冠词分为不定冠词a/an、定冠词the和零冠词。",
+          "a用于辅音音素开头的单词前，an用于元音音素开头的单词前。",
+          "the在辅音音素前通常读/ðə/，在元音音素前通常读/ðiː/。",
+          "判断a/an必须听首音素：a university，an hour。",
+          "字母u既可能是辅音音素/j/开头，也可能是元音音素开头。",
+          "a cat、a university；an apple、an hour。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "不定冠词",
+    "range": "不定冠词 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-002",
+    "order": 239,
+    "title": "不定冠词a/an六类用法（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "a/an常用于泛指一个、首次提及、类指、表示“一/每”、固定搭配及区分一人或两人。",
+    "keywords": [
+      "a/an用法",
+      "泛指",
+      "首次提及",
+      "固定搭配",
+      "主谓一致"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image4.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image5.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image6.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image7.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image8.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image9.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "泛指同类中不确定的一个。",
+      "第一次提到某人或某物。",
+      "单数名词表示一类人或物。",
+      "表示“一个”或“每一”。",
+      "用于固定表达或固定搭配。",
+      "a/an的位置可影响并列名词表示一人还是两人。"
+    ],
+    "basicExplain": [
+      "There is a river near my home. 中river为首次出现的不确定对象。",
+      "A bird can fly. 用单数名词代表鸟这一类。",
+      "a rapper and a dancer表示两个人，谓语用复数；a rapper and dancer表示同一个人兼具两种身份，谓语用单数。"
+    ],
+    "examRefine": [
+      "固定搭配：have a rest，in a hurry，in a word，as a result，in an emergency，at an early age。"
+    ],
+    "confusions": [
+      [
+        "a rapper and a dancer",
+        "a rapper and dancer",
+        "前者通常是两个人，后者通常是同一个人兼具两种身份。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "a/an常用于泛指一个、首次提及、类指、表示“一/每”、固定搭配及区分一人或两人。",
+      "core": [
+        "泛指同类中不确定的一个。",
+        "第一次提到某人或某物。",
+        "单数名词表示一类人或物。",
+        "表示“一个”或“每一”。",
+        "用于固定表达或固定搭配。",
+        "a/an的位置可影响并列名词表示一人还是两人。"
+      ],
+      "method": [
+        "There is a river near my home. 中river为首次出现的不确定对象。",
+        "A bird can fly. 用单数名词代表鸟这一类。",
+        "a rapper and a dancer表示两个人，谓语用复数；a rapper and dancer表示同一个人兼具两种身份，谓语用单数。",
+        "固定搭配：have a rest，in a hurry，in a word，as a result，in an emergency，at an early age。"
+      ],
+      "mistakes": [
+        "前者通常是两个人，后者通常是同一个人兼具两种身份。"
+      ],
+      "conclusion": "泛指同类中不确定的一个。",
+      "mnemonic": "不确定一个 → 首提 → 一类 → 一/每 → 固搭 → 一人两职",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "泛指同类中不确定的一个。",
+          "第一次提到某人或某物。",
+          "单数名词表示一类人或物。",
+          "表示“一个”或“每一”。",
+          "用于固定表达或固定搭配。",
+          "a/an的位置可影响并列名词表示一人还是两人。",
+          "There is a river near my home. 中river为首次出现的不确定对象。",
+          "A bird can fly. 用单数名词代表鸟这一类。",
+          "a rapper and a dancer表示两个人，谓语用复数；a rapper and dancer表示同一个人兼具两种身份，谓语用单数。",
+          "固定搭配：have a rest，in a hurry，in a word，as a result，in an emergency，at an early age。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "定冠词",
+    "range": "定冠词 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-003",
+    "order": 240,
+    "title": "定冠词the八类用法（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "the用于特指、再次提及、序数词/最高级、独一无二事物、乐器、the+形容词、姓氏复数和固定表达。",
+    "keywords": [
+      "the用法",
+      "特指",
+      "最高级",
+      "独一无二",
+      "the+形容词"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image13.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image14.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image15.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image16.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image17.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image18.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image19.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image20.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image21.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "特指某个或某些确定的人或物。",
+      "双方都明白或上文已提到的人或物。",
+      "序数词、最高级以及only、very、same等词前。",
+      "世界上独一无二的事物前。",
+      "乐器名称前。",
+      "the+形容词表示一类人。",
+      "the+姓氏复数表示一家人。",
+      "用于固定表达或固定搭配。"
+    ],
+    "basicExplain": [
+      "The river near my home is polluted. 中介词短语near my home限定river。",
+      "I saw a bird yesterday. The bird can fly. 中第二次出现用the。",
+      "the elderly作主语时谓语通常用复数。"
+    ],
+    "examRefine": [
+      "常见固定表达：by the way，at the same time，all the time，at the beginning。"
+    ],
+    "confusions": [
+      [
+        "play the piano",
+        "play a piano",
+        "表示演奏乐器通常用the；play a piano表示弹某一架钢琴。"
+      ],
+      [
+        "the Greens",
+        "Greens",
+        "the+姓氏复数表示格林一家。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "the用于特指、再次提及、序数词/最高级、独一无二事物、乐器、the+形容词、姓氏复数和固定表达。",
+      "core": [
+        "特指某个或某些确定的人或物。",
+        "双方都明白或上文已提到的人或物。",
+        "序数词、最高级以及only、very、same等词前。",
+        "世界上独一无二的事物前。",
+        "乐器名称前。",
+        "the+形容词表示一类人。",
+        "the+姓氏复数表示一家人。",
+        "用于固定表达或固定搭配。"
+      ],
+      "method": [
+        "The river near my home is polluted. 中介词短语near my home限定river。",
+        "I saw a bird yesterday. The bird can fly. 中第二次出现用the。",
+        "the elderly作主语时谓语通常用复数。",
+        "常见固定表达：by the way，at the same time，all the time，at the beginning。"
+      ],
+      "mistakes": [
+        "表示演奏乐器通常用the；play a piano表示弹某一架钢琴。",
+        "the+姓氏复数表示格林一家。"
+      ],
+      "conclusion": "特指某个或某些确定的人或物。",
+      "mnemonic": "特指 → 再提 → 序高 → 唯一 → 乐器 → 一类人 → 一家人 → 固搭",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "特指某个或某些确定的人或物。",
+          "双方都明白或上文已提到的人或物。",
+          "序数词、最高级以及only、very、same等词前。",
+          "世界上独一无二的事物前。",
+          "乐器名称前。",
+          "the+形容词表示一类人。",
+          "the+姓氏复数表示一家人。",
+          "用于固定表达或固定搭配。",
+          "The river near my home is polluted. 中介词短语near my home限定river。",
+          "I saw a bird yesterday. The bird can fly. 中第二次出现用the。",
+          "the elderly作主语时谓语通常用复数。",
+          "常见固定表达：by the way，at the same time，all the time，at the beginning。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "零冠词",
+    "range": "零冠词 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-004",
+    "order": 241,
+    "title": "零冠词七类用法与有the/无the辨析（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "零冠词常见于专有名词、复数类指、抽象概念、球类学科语言、时间名词、by交通工具和固定表达。",
+    "keywords": [
+      "零冠词",
+      "类指",
+      "抽象名词",
+      "by交通工具",
+      "有the无the"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image19.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image20.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image21.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image22.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image23.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image24.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image25.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image26.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image27.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "多数专有名词前用零冠词。",
+      "复数名词表示一类人或物时用零冠词。",
+      "抽象名词表示一般概念时用零冠词；具体化时可用the或a/an。",
+      "三餐、球类、棋类、学科和语言前通常用零冠词。",
+      "季节、月份、节日、日期和星期前通常用零冠词。",
+      "by+交通工具单数时不用冠词。",
+      "部分固定表达使用零冠词。"
+    ],
+    "basicExplain": [
+      "by bus/by air/by water；但in a car、in the taxi、on the bus、on the plane。",
+      "in bed表示状态“卧床”，in the bed表示具体“在床上”；in hospital表示住院，in the hospital表示在医院里。"
+    ],
+    "examRefine": [
+      "固定表达：in time，on time，face to face，day and night。"
+    ],
+    "confusions": [
+      [
+        "in hospital",
+        "in the hospital",
+        "前者强调住院状态，后者强调地点。"
+      ],
+      [
+        "go to church",
+        "go to the church",
+        "前者强调去做礼拜，后者强调去教堂这个地点。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "零冠词常见于专有名词、复数类指、抽象概念、球类学科语言、时间名词、by交通工具和固定表达。",
+      "core": [
+        "多数专有名词前用零冠词。",
+        "复数名词表示一类人或物时用零冠词。",
+        "抽象名词表示一般概念时用零冠词；具体化时可用the或a/an。",
+        "三餐、球类、棋类、学科和语言前通常用零冠词。",
+        "季节、月份、节日、日期和星期前通常用零冠词。",
+        "by+交通工具单数时不用冠词。",
+        "部分固定表达使用零冠词。"
+      ],
+      "method": [
+        "by bus/by air/by water；但in a car、in the taxi、on the bus、on the plane。",
+        "in bed表示状态“卧床”，in the bed表示具体“在床上”；in hospital表示住院，in the hospital表示在医院里。",
+        "固定表达：in time，on time，face to face，day and night。"
+      ],
+      "mistakes": [
+        "前者强调住院状态，后者强调地点。",
+        "前者强调去做礼拜，后者强调去教堂这个地点。"
+      ],
+      "conclusion": "多数专有名词前用零冠词。",
+      "mnemonic": "专有 → 复数类指 → 抽象 → 球科语 → 时间 → by交通 → 固搭",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "多数专有名词前用零冠词。",
+          "复数名词表示一类人或物时用零冠词。",
+          "抽象名词表示一般概念时用零冠词；具体化时可用the或a/an。",
+          "三餐、球类、棋类、学科和语言前通常用零冠词。",
+          "季节、月份、节日、日期和星期前通常用零冠词。",
+          "by+交通工具单数时不用冠词。",
+          "部分固定表达使用零冠词。",
+          "by bus/by air/by water；但in a car、in the taxi、on the bus、on the plane。",
+          "in bed表示状态“卧床”，in the bed表示具体“在床上”；in hospital表示住院，in the hospital表示在医院里。",
+          "固定表达：in time，on time，face to face，day and night。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜数词",
+    "category": "基数词",
+    "range": "基数词 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-005",
+    "order": 242,
+    "title": "基数词构成与大数读法（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "基数词按1—19、整十和hundred/thousand/million/billion构成；确数不用复数和of，概数用复数＋of。",
+    "keywords": [
+      "基数词",
+      "大数读法",
+      "hundred",
+      "thousand",
+      "million"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image28.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image29.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image30.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image31.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image32.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image33.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image34.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "1—10和11—19需熟记。",
+      "20—90的整十有固定拼写。",
+      "hundred、thousand、million、billion用于大数分级。",
+      "前有具体数字时，数量单位不用复数，也不用of。",
+      "表示概数时用hundreds/thousands/millions/billions of。"
+    ],
+    "basicExplain": [
+      "one hundred students；hundreds of students。",
+      "大数按三位一组从右向左分级朗读。"
+    ],
+    "examRefine": [
+      "注意forty不是fourty，fifty不是fivety，eighty不是eightty。"
+    ],
+    "confusions": [
+      [
+        "two hundred students",
+        "two hundreds of students",
+        "有具体数字two时，hundred不加s且不接of。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "基数词按1—19、整十和hundred/thousand/million/billion构成；确数不用复数和of，概数用复数＋of。",
+      "core": [
+        "1—10和11—19需熟记。",
+        "20—90的整十有固定拼写。",
+        "hundred、thousand、million、billion用于大数分级。",
+        "前有具体数字时，数量单位不用复数，也不用of。",
+        "表示概数时用hundreds/thousands/millions/billions of。"
+      ],
+      "method": [
+        "one hundred students；hundreds of students。",
+        "大数按三位一组从右向左分级朗读。",
+        "注意forty不是fourty，fifty不是fivety，eighty不是eightty。"
+      ],
+      "mistakes": [
+        "有具体数字two时，hundred不加s且不接of。"
+      ],
+      "conclusion": "1—10和11—19需熟记。",
+      "mnemonic": "1—19 → 整十 → 三位分级 → 确数无s/of → 概数s+of",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "1—10和11—19需熟记。",
+          "20—90的整十有固定拼写。",
+          "hundred、thousand、million、billion用于大数分级。",
+          "前有具体数字时，数量单位不用复数，也不用of。",
+          "表示概数时用hundreds/thousands/millions/billions of。",
+          "one hundred students；hundreds of students。",
+          "大数按三位一组从右向左分级朗读。",
+          "注意forty不是fourty，fifty不是fivety，eighty不是eightty。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜数词",
+    "category": "基数词句法功能",
+    "range": "基数词句法功能 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-006",
+    "order": 243,
+    "title": "基数词的句法功能与数量单位（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "基数词可作主语、表语、宾语、定语和同位语；dozen、score等数量单位也区分确数与概数。",
+    "keywords": [
+      "基数词功能",
+      "dozen",
+      "score",
+      "确数概数"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image34.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image35.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "基数词可作主语、表语、宾语、定语或同位语。",
+      "dozen、score、hundred、thousand、million、billion前有具体数字时不用复数和of。",
+      "表示不确定概数时用复数形式＋of。"
+    ],
+    "basicExplain": [
+      "Two plus two is four：two作主语，four作表语。",
+      "It costs me five hours：five作定语。",
+      "We two have signed a contract：two作同位语。"
+    ],
+    "examRefine": [
+      "数量单位不要机械加s；先判断前面是否有具体数字。"
+    ],
+    "confusions": [
+      [
+        "two dozen eggs",
+        "two dozens of eggs",
+        "有具体数字two时dozen不加s，不接of。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "基数词可作主语、表语、宾语、定语和同位语；dozen、score等数量单位也区分确数与概数。",
+      "core": [
+        "基数词可作主语、表语、宾语、定语或同位语。",
+        "dozen、score、hundred、thousand、million、billion前有具体数字时不用复数和of。",
+        "表示不确定概数时用复数形式＋of。"
+      ],
+      "method": [
+        "Two plus two is four：two作主语，four作表语。",
+        "It costs me five hours：five作定语。",
+        "We two have signed a contract：two作同位语。",
+        "数量单位不要机械加s；先判断前面是否有具体数字。"
+      ],
+      "mistakes": [
+        "有具体数字two时dozen不加s，不接of。"
+      ],
+      "conclusion": "基数词可作主语、表语、宾语、定语或同位语。",
+      "mnemonic": "主表宾定同 → 具体数字无s/of → 概数s+of",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "基数词可作主语、表语、宾语、定语或同位语。",
+          "dozen、score、hundred、thousand、million、billion前有具体数字时不用复数和of。",
+          "表示不确定概数时用复数形式＋of。",
+          "Two plus two is four：two作主语，four作表语。",
+          "It costs me five hours：five作定语。",
+          "We two have signed a contract：two作同位语。",
+          "数量单位不要机械加s；先判断前面是否有具体数字。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜数词",
+    "category": "序数词",
+    "range": "序数词 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-007",
+    "order": 244,
+    "title": "序数词构成与冠词使用（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "序数词通常与the连用；作副词、前有物主/其他限定词或表示“又一、再一”时用法不同。",
+    "keywords": [
+      "序数词",
+      "the",
+      "a second",
+      "first"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image36.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image37.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image38.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image39.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "first、second、third需特殊记忆，其余通常在基数词后加-th并发生拼写变化。",
+      "序数词表示顺序时通常前加the。",
+      "序数词作副词时可不加the。",
+      "前面已有物主代词或其他限定词时不再加the。",
+      "a/an＋序数词表示“又一、再一”。"
+    ],
+    "basicExplain": [
+      "He is always the first to arrive at the office. 中the first表示第一位。",
+      "First, you must make a clear plan. 中First作副词，不加the。",
+      "Please give me a second chance. 中a second表示再一次。"
+    ],
+    "examRefine": [
+      "序数词不是见到就一定用the，要先看它是名词性顺序、状语还是前面已有其他限定词。"
+    ],
+    "confusions": [
+      [
+        "the first",
+        "first",
+        "表示顺序名词性用the first；作副词“首先”用first。"
+      ],
+      [
+        "the second chance",
+        "a second chance",
+        "前者是特定的第二次机会，后者是再给一次机会。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "序数词通常与the连用；作副词、前有物主/其他限定词或表示“又一、再一”时用法不同。",
+      "core": [
+        "first、second、third需特殊记忆，其余通常在基数词后加-th并发生拼写变化。",
+        "序数词表示顺序时通常前加the。",
+        "序数词作副词时可不加the。",
+        "前面已有物主代词或其他限定词时不再加the。",
+        "a/an＋序数词表示“又一、再一”。"
+      ],
+      "method": [
+        "He is always the first to arrive at the office. 中the first表示第一位。",
+        "First, you must make a clear plan. 中First作副词，不加the。",
+        "Please give me a second chance. 中a second表示再一次。",
+        "序数词不是见到就一定用the，要先看它是名词性顺序、状语还是前面已有其他限定词。"
+      ],
+      "mistakes": [
+        "表示顺序名词性用the first；作副词“首先”用first。",
+        "前者是特定的第二次机会，后者是再给一次机会。"
+      ],
+      "conclusion": "first、second、third需特殊记忆，其余通常在基数词后加-th并发生拼写变化。",
+      "mnemonic": "顺序用the → 副词零冠词 → 物主词占位 → a second=再一",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "first、second、third需特殊记忆，其余通常在基数词后加-th并发生拼写变化。",
+          "序数词表示顺序时通常前加the。",
+          "序数词作副词时可不加the。",
+          "前面已有物主代词或其他限定词时不再加the。",
+          "a/an＋序数词表示“又一、再一”。",
+          "He is always the first to arrive at the office. 中the first表示第一位。",
+          "First, you must make a clear plan. 中First作副词，不加the。",
+          "Please give me a second chance. 中a second表示再一次。",
+          "序数词不是见到就一定用the，要先看它是名词性顺序、状语还是前面已有其他限定词。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜数词",
+    "category": "数词应用",
+    "range": "数词应用 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-008",
+    "order": 245,
+    "title": "数词应用：分数、时间、日期、年代与年龄（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "分数、时间、日期、年代和年龄均有固定表达；分数分母大于1时通常用复数序数词。",
+    "keywords": [
+      "分数",
+      "时间",
+      "日期",
+      "年代",
+      "年龄"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image39.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image40.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image41.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image42.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image43.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image44.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image45.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "分数：分子用基数词，分母用序数词；分子大于1时分母用复数。",
+      "时间：整点可用基数词＋o’clock；非整点可直接读或用past/to。",
+      "日期：英式“日月年”，美式“月日年”。",
+      "年代：in the＋整十的复数。",
+      "年龄：数字＋years old，at the age of＋数字，in one’s＋整十的复数。"
+    ],
+    "basicExplain": [
+      "1/3 one third，2/3 two thirds，1/4 one fourth/a quarter。",
+      "2026年4月28日：28th April 2026或April 28th, 2026。",
+      "in the 2020s；in one’s thirties。"
+    ],
+    "examRefine": [
+      "分数分子超过1时，分母不要漏复数-s。"
+    ],
+    "confusions": [
+      [
+        "one third",
+        "two thirds",
+        "分子为1时分母单数；分子大于1时分母复数。"
+      ],
+      [
+        "in 2020s",
+        "in the 2020s",
+        "表示年代通常需要the。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "分数、时间、日期、年代和年龄均有固定表达；分数分母大于1时通常用复数序数词。",
+      "core": [
+        "分数：分子用基数词，分母用序数词；分子大于1时分母用复数。",
+        "时间：整点可用基数词＋o’clock；非整点可直接读或用past/to。",
+        "日期：英式“日月年”，美式“月日年”。",
+        "年代：in the＋整十的复数。",
+        "年龄：数字＋years old，at the age of＋数字，in one’s＋整十的复数。"
+      ],
+      "method": [
+        "1/3 one third，2/3 two thirds，1/4 one fourth/a quarter。",
+        "2026年4月28日：28th April 2026或April 28th, 2026。",
+        "in the 2020s；in one’s thirties。",
+        "分数分子超过1时，分母不要漏复数-s。"
+      ],
+      "mistakes": [
+        "分子为1时分母单数；分子大于1时分母复数。",
+        "表示年代通常需要the。"
+      ],
+      "conclusion": "分数：分子用基数词，分母用序数词；分子大于1时分母用复数。",
+      "mnemonic": "分子基数分母序数 → past/to → 日月年/月日年 → the年代s → 年龄三表达",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "分数：分子用基数词，分母用序数词；分子大于1时分母用复数。",
+          "时间：整点可用基数词＋o’clock；非整点可直接读或用past/to。",
+          "日期：英式“日月年”，美式“月日年”。",
+          "年代：in the＋整十的复数。",
+          "年龄：数字＋years old，at the age of＋数字，in one’s＋整十的复数。",
+          "1/3 one third，2/3 two thirds，1/4 one fourth/a quarter。",
+          "2026年4月28日：28th April 2026或April 28th, 2026。",
+          "in the 2020s；in one’s thirties。",
+          "分数分子超过1时，分母不要漏复数-s。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜数词",
+    "category": "数词与主谓一致",
+    "range": "数词与主谓一致 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-K-009",
+    "order": 246,
+    "title": "数词应用：倍数、长宽高与主谓一致（蓝色森林·课堂笔记）",
+    "recordType": "英语笔记",
+    "oneLine": "倍数用half/twice/three times；长宽高可用形容词或名词结构；分数百分数谓语由of后名词决定。",
+    "keywords": [
+      "倍数",
+      "长宽高",
+      "分数百分数",
+      "主谓一致",
+      "整体概念"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image46.webp",
+      "./imports/day-14/blue-forest-english/article-numerals/image47.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增知识点背诵卡",
+        "recordType": "知识点背诵",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      },
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "由知识点背诵纠正为英语笔记",
+        "recordType": "英语笔记",
+        "note": "课堂录屏、老师板书和完整讲解资料默认作为课堂笔记；不显示填空、掌握或抗遗忘，不计入掌握率。"
+      }
+    ],
+    "clozeVerified": false,
+    "clozeVerifiedNote": "课堂录屏/板书资料按用户规则归入只读笔记，不参与填空背诵。",
+    "mustPatterns": [
+      "倍数常用half、twice、three times等表达。",
+      "长宽高可用“数值＋单位＋long/wide/high”或“数值＋单位＋in length/width/height”。",
+      "作定语时用“a＋数值-单位单数-long/wide/high＋名词”。",
+      "分数或百分数作主语时，谓语由of后的名词决定。",
+      "时间、距离、金钱、重量、度量表示整体概念时，谓语通常用单数。"
+    ],
+    "basicExplain": [
+      "The river is 5000 meters long / 5000 meters in length / a 5000-meter-long river。",
+      "Three fifths of the water is clean；Forty percent of the students are from Chongqing。",
+      "Ten years is a long time；Five hundred yuan is enough。"
+    ],
+    "examRefine": [
+      "复合形容词中的单位名词用单数：5000-meter-long，不写5000-meters-long。"
+    ],
+    "confusions": [
+      [
+        "5000 meters long",
+        "a 5000-meter-long river",
+        "表语结构单位可复数；复合形容词中单位用单数。"
+      ],
+      [
+        "Three fifths of the water is",
+        "Three fifths of the water are",
+        "water不可数，谓语用is。"
+      ]
+    ],
+    "clozeLines": [],
+    "selfTests": [],
+    "notebookSummary": {
+      "overview": "倍数用half/twice/three times；长宽高可用形容词或名词结构；分数百分数谓语由of后名词决定。",
+      "core": [
+        "倍数常用half、twice、three times等表达。",
+        "长宽高可用“数值＋单位＋long/wide/high”或“数值＋单位＋in length/width/height”。",
+        "作定语时用“a＋数值-单位单数-long/wide/high＋名词”。",
+        "分数或百分数作主语时，谓语由of后的名词决定。",
+        "时间、距离、金钱、重量、度量表示整体概念时，谓语通常用单数。"
+      ],
+      "method": [
+        "The river is 5000 meters long / 5000 meters in length / a 5000-meter-long river。",
+        "Three fifths of the water is clean；Forty percent of the students are from Chongqing。",
+        "Ten years is a long time；Five hundred yuan is enough。",
+        "复合形容词中的单位名词用单数：5000-meter-long，不写5000-meters-long。"
+      ],
+      "mistakes": [
+        "表语结构单位可复数；复合形容词中单位用单数。",
+        "water不可数，谓语用is。"
+      ],
+      "conclusion": "倍数常用half、twice、three times等表达。",
+      "mnemonic": "倍数 → 长宽高三结构 → of后名词定谓语 → 整体数量用单数",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语笔记"
+    },
+    "studyMode": "note",
+    "memoBlocks": [
+      {
+        "title": "课堂整理",
+        "understanding": [
+          "倍数常用half、twice、three times等表达。",
+          "长宽高可用“数值＋单位＋long/wide/high”或“数值＋单位＋in length/width/height”。",
+          "作定语时用“a＋数值-单位单数-long/wide/high＋名词”。",
+          "分数或百分数作主语时，谓语由of后的名词决定。",
+          "时间、距离、金钱、重量、度量表示整体概念时，谓语通常用单数。",
+          "The river is 5000 meters long / 5000 meters in length / a 5000-meter-long river。",
+          "Three fifths of the water is clean；Forty percent of the students are from Chongqing。",
+          "Ten years is a long time；Five hundred yuan is enough。",
+          "复合形容词中的单位名词用单数：5000-meter-long，不写5000-meters-long。"
+        ],
+        "mustKnow": []
+      }
+    ]
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词选择题",
+    "range": "题目区域 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-Q-001",
+    "order": 247,
+    "title": "冠词练习｜life泛指",
+    "recordType": "英语题目",
+    "oneLine": "蓝色森林课堂练习：We all agree that ______ life is full of challenges, and we should face them with courage. 正确答案为D。",
+    "keywords": [
+      "冠词",
+      "蓝色森林",
+      "英语题目",
+      "抽象名词泛指",
+      "零冠词"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image48.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增英语题目卡",
+        "recordType": "英语题目",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "We all agree that ______ life is full of challenges, and we should face them with courage.",
+    "choices": [
+      "A. a",
+      "B. an",
+      "C. the",
+      "D. /"
+    ],
+    "answer": "D",
+    "solutionSteps": [
+      "life在这里表示“人生/生活”这一抽象概念，属于泛指。",
+      "抽象名词表示一般概念时通常用零冠词。",
+      "因此选择D。"
+    ],
+    "keyPoints": [
+      "抽象名词泛指",
+      "零冠词"
+    ],
+    "relatedNoteIds": [
+      "D14-ENG-K-004"
+    ],
+    "principle": {
+      "title": "冠词life泛指的判断原理",
+      "summary": "抽象名词表示一般概念时通常使用零冠词。",
+      "coreRules": [
+        "life表示一般意义上的“人生/生活”时不用冠词。"
+      ],
+      "flow": [
+        "先判断life不是某种特定生活。",
+        "再按抽象名词泛指使用零冠词。"
+      ],
+      "mistakes": [
+        "看到单数名词就机械加a。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：We all agree that ______ life is full of challenges, and we should face them with courage. 正确答案为D。",
+      "core": [
+        "life表示一般意义上的“人生/生活”时不用冠词。",
+        "抽象名词泛指",
+        "零冠词"
+      ],
+      "method": [
+        "先判断life不是某种特定生活。",
+        "再按抽象名词泛指使用零冠词。",
+        "life在这里表示“人生/生活”这一抽象概念，属于泛指。",
+        "抽象名词表示一般概念时通常用零冠词。"
+      ],
+      "mistakes": [
+        "看到单数名词就机械加a。"
+      ],
+      "conclusion": "D",
+      "mnemonic": "先判泛指/特指/固定搭配，再判是否零冠词",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语题目"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词选择题",
+    "range": "题目区域 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-Q-002",
+    "order": 248,
+    "title": "冠词练习｜最高级best",
+    "recordType": "英语题目",
+    "oneLine": "蓝色森林课堂练习：Many experts think that travelling is ______ best way to broaden one’s horizons. 正确答案为C。",
+    "keywords": [
+      "冠词",
+      "蓝色森林",
+      "英语题目",
+      "最高级前用the",
+      "定冠词"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image48.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增英语题目卡",
+        "recordType": "英语题目",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "Many experts think that travelling is ______ best way to broaden one’s horizons.",
+    "choices": [
+      "A. a",
+      "B. an",
+      "C. the",
+      "D. /"
+    ],
+    "answer": "C",
+    "solutionSteps": [
+      "best是形容词最高级。",
+      "形容词最高级前通常使用定冠词the。",
+      "因此选择C。"
+    ],
+    "keyPoints": [
+      "最高级前用the",
+      "定冠词"
+    ],
+    "relatedNoteIds": [
+      "D14-ENG-K-003"
+    ],
+    "principle": {
+      "title": "冠词最高级best的判断原理",
+      "summary": "形容词最高级前通常使用定冠词the。",
+      "coreRules": [
+        "the best way是固定结构。"
+      ],
+      "flow": [
+        "先识别best为最高级。",
+        "最高级前补the。"
+      ],
+      "mistakes": [
+        "误把best way理解为泛指而选a。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：Many experts think that travelling is ______ best way to broaden one’s horizons. 正确答案为C。",
+      "core": [
+        "the best way是固定结构。",
+        "最高级前用the",
+        "定冠词"
+      ],
+      "method": [
+        "先识别best为最高级。",
+        "最高级前补the。",
+        "best是形容词最高级。",
+        "形容词最高级前通常使用定冠词the。"
+      ],
+      "mistakes": [
+        "误把best way理解为泛指而选a。"
+      ],
+      "conclusion": "C",
+      "mnemonic": "先判泛指/特指/固定搭配，再判是否零冠词",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语题目"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词选择题",
+    "range": "题目区域 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-Q-003",
+    "order": 249,
+    "title": "冠词练习｜keep a balance",
+    "recordType": "英语题目",
+    "oneLine": "蓝色森林课堂练习：We should keep ______ balance between study and rest in our daily life. 正确答案为A。",
+    "keywords": [
+      "冠词",
+      "蓝色森林",
+      "英语题目",
+      "固定搭配",
+      "keep a balance"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image49.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增英语题目卡",
+        "recordType": "英语题目",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "We should keep ______ balance between study and rest in our daily life.",
+    "choices": [
+      "A. a",
+      "B. an",
+      "C. the",
+      "D. /"
+    ],
+    "answer": "A",
+    "solutionSteps": [
+      "keep a balance是常见固定搭配，表示“保持平衡”。",
+      "balance在该搭配中为可数名词单数，前用a。",
+      "因此选择A。"
+    ],
+    "keyPoints": [
+      "固定搭配",
+      "keep a balance"
+    ],
+    "relatedNoteIds": [
+      "D14-ENG-K-002"
+    ],
+    "principle": {
+      "title": "冠词keep a balance的判断原理",
+      "summary": "固定搭配keep a balance中balance前用不定冠词a。",
+      "coreRules": [
+        "keep a balance between A and B：在A和B之间保持平衡。"
+      ],
+      "flow": [
+        "先识别固定搭配keep a balance。",
+        "再确认balance首音素为辅音，用a。"
+      ],
+      "mistakes": [
+        "把balance当抽象名词而误用零冠词。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：We should keep ______ balance between study and rest in our daily life. 正确答案为A。",
+      "core": [
+        "keep a balance between A and B：在A和B之间保持平衡。",
+        "固定搭配",
+        "keep a balance"
+      ],
+      "method": [
+        "先识别固定搭配keep a balance。",
+        "再确认balance首音素为辅音，用a。",
+        "keep a balance是常见固定搭配，表示“保持平衡”。",
+        "balance在该搭配中为可数名词单数，前用a。"
+      ],
+      "mistakes": [
+        "把balance当抽象名词而误用零冠词。"
+      ],
+      "conclusion": "A",
+      "mnemonic": "先判泛指/特指/固定搭配，再判是否零冠词",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语题目"
+    }
+  },
+  {
+    "subject": "英语",
+    "chapter": "英语｜第一章 基础语法｜冠词",
+    "category": "冠词选择题",
+    "range": "题目区域 · 第14天 · 7.28",
+    "batch": "第14天蓝色森林英语冠词与数词｜2026年7月28日",
+    "importBatchId": "date-2026-07-28",
+    "importDay": 14,
+    "importDate": "2026-07-28",
+    "importLabel": "第14天 · 7.28",
+    "id": "D14-ENG-Q-004",
+    "order": 250,
+    "title": "冠词练习｜progress与特指culture",
+    "recordType": "英语题目",
+    "oneLine": "蓝色森林课堂练习：We have made ______ great progress in protecting ______ traditional culture of our country in recent years. 正确答案为A。",
+    "keywords": [
+      "冠词",
+      "蓝色森林",
+      "英语题目",
+      "不可数名词progress",
+      "特指the",
+      "of短语限定"
+    ],
+    "images": [
+      "./imports/day-14/blue-forest-english/article-numerals/image49.webp"
+    ],
+    "sourceFiles": [
+      "2026-07-28 用户上传蓝色森林英语课程Word：f1e2f160-caf4-4b5d-93ad-6e4ebebea343.docx"
+    ],
+    "sourceOrg": "蓝色森林",
+    "sourceCourse": "英语基础课程·冠词与数词",
+    "importHistory": [
+      {
+        "id": "date-2026-07-28",
+        "day": 14,
+        "date": "2026-07-28",
+        "label": "第14天 · 7.28",
+        "action": "新增英语题目卡",
+        "recordType": "英语题目",
+        "note": "原始37MB Word未重复放入项目，49张课堂截图压缩为清晰WebP并按知识点关联。"
+      }
+    ],
+    "studyMode": "question",
+    "problem": "We have made ______ great progress in protecting ______ traditional culture of our country in recent years.",
+    "choices": [
+      "A. /; the",
+      "B. a; /",
+      "C. /; /",
+      "D. a; the"
+    ],
+    "answer": "A",
+    "solutionSteps": [
+      "progress是不可数名词，make great progress中不用冠词。",
+      "traditional culture后有of our country限定，表示我国的传统文化，属于特指，用the。",
+      "因此选择A。"
+    ],
+    "keyPoints": [
+      "不可数名词progress",
+      "特指the",
+      "of短语限定"
+    ],
+    "relatedNoteIds": [
+      "D14-ENG-K-003",
+      "D14-ENG-K-004"
+    ],
+    "principle": {
+      "title": "冠词progress与特指culture的判断原理",
+      "summary": "不可数名词progress用零冠词；被of短语限定的culture表示特指，用the。",
+      "coreRules": [
+        "make great progress中progress前不用a。",
+        "the traditional culture of our country表示特指。"
+      ],
+      "flow": [
+        "先处理第一空：固定搭配make great progress。",
+        "再看第二空：of our country限定culture，使用the。"
+      ],
+      "mistakes": [
+        "把progress误当可数名词写a great progress。"
+      ]
+    },
+    "notebookSummary": {
+      "overview": "蓝色森林课堂练习：We have made ______ great progress in protecting ______ traditional culture of our country in recent years. 正确答案为A。",
+      "core": [
+        "make great progress中progress前不用a。",
+        "the traditional culture of our country表示特指。",
+        "不可数名词progress",
+        "特指the",
+        "of短语限定"
+      ],
+      "method": [
+        "先处理第一空：固定搭配make great progress。",
+        "再看第二空：of our country限定culture，使用the。",
+        "progress是不可数名词，make great progress中不用冠词。",
+        "traditional culture后有of our country限定，表示我国的传统文化，属于特指，用the。"
+      ],
+      "mistakes": [
+        "把progress误当可数名词写a great progress。"
+      ],
+      "conclusion": "A",
+      "mnemonic": "先判泛指/特指/固定搭配，再判是否零冠词",
+      "sourceLabel": "第14天 · 7.28 · 蓝色森林 · 英语题目"
+    }
   }
 ];
 
 window.KNOWLEDGE_META = {
-  "version": "v50 双机构来源分章导入版",
+  "version": "v53 大型思维导图联动版",
   "lightweight": true,
-  "lightweightNote": "继续沿用v46轻量与日期筛选优化；本次50张原始课程截图压缩为约3MB WebP，不在项目中重复保存42MB Word源文件。",
-  "name": "全新题库｜蓝色森林与全方位来源分开标注｜同一知识体系统一章节｜第12天持续导入",
-  "totalCards": 235,
+  "lightweightNote": "保留v52的轻量图片与课堂笔记分类规则；本版仅新增大型导图页面和09、10原PDF提纲，不新增学习卡。",
+  "name": "双机构标准分章｜课堂笔记与知识点分区｜大型导图左右联动",
+  "totalCards": 250,
   "notes": [
     "本版本从v25空题库建立，不包含旧题库知识点。",
     "2026年7月15日固定为第1天；同一自然日期无论导入多少次，仍属于第1天。",
@@ -21337,7 +23332,17 @@ window.KNOWLEDGE_META = {
     "思维导图支持章节完成度、展开/收起、复制纯文字导图、只看本章、只看知识块和点击卡片直接学习。",
     "2026年7月26日为第12天；本次同时导入蓝色森林数学Word与全方位数学、英语、计算机PDF。",
     "同一知识体系按标准章节合并到同一章，机构来源使用sourceOrg单独标注；内容完全相同才去重，讲解角度或例题不同则保留。",
-    "数学第一章统一命名为“函数、极限与连续”，原卡ID不变，学习记录继续沿用。"
+    "数学第一章统一命名为“函数、极限与连续”，原卡ID不变，学习记录继续沿用。",
+    "2026年7月28日记录为第14天；7月27日没有导入记录，但自然日期天数继续顺延。",
+    "本次17页Word共49张蓝色森林英语课堂截图，整理为2张英语笔记、9张必要知识点和4道冠词选择题。",
+    "英语课堂内容仍以笔记为主；只提炼冠词与数词的高频规则，不把整份课堂截图机械转成背诵卡。",
+    "原始37MB Word未重复放入项目，49张截图压缩为清晰WebP并按知识点引用，减少GitHub仓库体积和日期页卡顿。",
+    "分类纠正：蓝色森林18页数学课堂录屏资料与本次再次上传的两份Word完全相同，未重复导入。",
+    "蓝色森林数学课堂录屏拆出的13张卡已由“知识点背诵”改为“数学笔记”；原8道独立练习题继续保留在题目区域。",
+    "同一规则同步应用到第14天蓝色森林冠词与数词课堂录屏：原9张背诵卡改为英语笔记，4道冠词练习仍在题目区域。",
+    "以后课堂录屏、老师板书、完整讲解截图默认归入课堂笔记，不参与填空、掌握率或抗遗忘；只有用户明确要求背诵或资料本身是精炼必背表时才建立知识点背诵卡。",
+    "新增方案B大型思维导图：左侧严格按文档标题组织章节与对应卡片，右侧显示知识点、课堂笔记、题目或PDF预览，并可跳转原卡片或新窗口打开。",
+    "计算机第一章按01阿兰·图灵至10计算机文化建立文档标题结构；09计算思维和10计算机文化当前只保留文档提纲与原PDF入口，未擅自生成背诵卡。"
   ],
   "chapters": {
     "全部": [
@@ -21357,6 +23362,7 @@ window.KNOWLEDGE_META = {
       "英语｜第一章 基础语法｜代词",
       "英语｜第一章 基础语法｜代词与不定代词",
       "英语｜第一章 基础语法｜冠词",
+      "英语｜第一章 基础语法｜数词",
       "英语｜第一章 基础语法｜句子结构",
       "英语｜第一章 基础语法｜名词",
       "英语｜第一章 基础语法｜名词与代词综合",
@@ -21372,6 +23378,7 @@ window.KNOWLEDGE_META = {
       "英语｜第一章 基础语法｜代词",
       "英语｜第一章 基础语法｜代词与不定代词",
       "英语｜第一章 基础语法｜冠词",
+      "英语｜第一章 基础语法｜数词",
       "英语｜第一章 基础语法｜句子结构",
       "英语｜第一章 基础语法｜名词",
       "英语｜第一章 基础语法｜名词与代词综合",
@@ -22072,8 +24079,8 @@ window.KNOWLEDGE_META = {
       "title": "第12天｜双机构数学、英语、计算机资料统一分章导入",
       "subject": "数学、英语、计算机",
       "count": 54,
-      "category": "双机构来源标注＋标准章节归类",
-      "description": "7月26日为第12天。本次导入蓝色森林数学Word 18页/51张独立截图，以及全方位10份PDF；整理为54张卡。机构来源分别保留，相同知识体系统一进入同一标准章节。",
+      "category": "双机构来源标注＋标准章节归类＋课堂笔记分区",
+      "description": "7月26日为第12天。蓝色森林数学Word属于课堂录屏笔记：13张整理卡归数学笔记，8道独立练习归题目区；全方位PDF及其精炼考点保持原分类。两份重复Word未再次导入。",
       "images": [
         "./imports/day-12/blue-forest-math/image1.webp",
         "./imports/day-12/blue-forest-math/image2.webp",
@@ -22168,8 +24175,8 @@ window.KNOWLEDGE_META = {
         },
         {
           "recordType": "知识点背诵",
-          "count": 36,
-          "action": "计算机、英语、数学新增系统知识点",
+          "count": 23,
+          "action": "全方位精炼考点保持背诵卡",
           "titles": [
             "计算机六大特点（全方位）",
             "按用途和性能分类（全方位）",
@@ -22191,22 +24198,29 @@ window.KNOWLEDGE_META = {
             "冠词总览与a/an（全方位）",
             "the的常见用法（全方位）",
             "零冠词及有the/无the辨析（全方位）",
-            "抽象函数定义域同位置法（蓝色森林）",
-            "求函数解析式——代入法（蓝色森林）",
-            "求函数解析式——换元与配凑法（蓝色森林）",
-            "反函数定义、存在条件与求解步骤（蓝色森林）",
-            "反函数性质与常见互反函数（蓝色森林）",
-            "奇偶性定义与判断前提（蓝色森林）",
-            "常见奇偶函数与运算规律（蓝色森林）",
-            "单调性与周期性（蓝色森林）",
-            "函数有界性的判定（蓝色森林）",
-            "幂、指数、对数函数性质（蓝色森林）",
-            "三角函数图像性质与常用公式（蓝色森林）",
-            "反三角函数图像与性质（蓝色森林）",
-            "复合、基本初等、初等与分段函数（蓝色森林）",
             "换元与奇偶性综合方法（全方位）",
             "反函数典型结构与定义域回填（全方位）",
             "数列极限与函数极限入门（全方位）"
+          ]
+        },
+        {
+          "recordType": "数学笔记",
+          "count": 13,
+          "action": "蓝色森林课堂录屏整理为只读笔记",
+          "titles": [
+            "抽象函数定义域同位置法（蓝色森林·课堂笔记）",
+            "求函数解析式——代入法（蓝色森林·课堂笔记）",
+            "求函数解析式——换元与配凑法（蓝色森林·课堂笔记）",
+            "反函数定义、存在条件与求解步骤（蓝色森林·课堂笔记）",
+            "反函数性质与常见互反函数（蓝色森林·课堂笔记）",
+            "奇偶性定义与判断前提（蓝色森林·课堂笔记）",
+            "常见奇偶函数与运算规律（蓝色森林·课堂笔记）",
+            "单调性与周期性（蓝色森林·课堂笔记）",
+            "函数有界性的判定（蓝色森林·课堂笔记）",
+            "幂、指数、对数函数性质（蓝色森林·课堂笔记）",
+            "三角函数图像性质与常用公式（蓝色森林·课堂笔记）",
+            "反三角函数图像与性质（蓝色森林·课堂笔记）",
+            "复合、基本初等、初等与分段函数（蓝色森林·课堂笔记）"
           ]
         },
         {
@@ -22222,6 +24236,99 @@ window.KNOWLEDGE_META = {
             "奇偶性选择题｜任意函数f(x)",
             "奇偶性题｜y=xsinx",
             "分段递归题｜求f(5)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "date-2026-07-28",
+      "day": 14,
+      "date": "2026-07-28",
+      "label": "第14天 · 7.28",
+      "title": "第14天｜蓝色森林英语冠词与数词课堂资料",
+      "subject": "英语",
+      "count": 15,
+      "category": "课堂笔记＋独立题目",
+      "description": "7月28日为第14天。17页蓝色森林英语课堂录屏统一归入英语笔记，不作为背诵任务；4道冠词选择题继续保留在题目区域。",
+      "images": [
+        "./imports/day-14/blue-forest-english/article-numerals/image1.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image2.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image3.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image4.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image5.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image6.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image7.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image8.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image9.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image10.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image11.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image12.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image13.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image14.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image15.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image16.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image17.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image18.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image19.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image20.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image21.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image22.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image23.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image24.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image25.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image26.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image27.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image28.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image29.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image30.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image31.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image32.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image33.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image34.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image35.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image36.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image37.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image38.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image39.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image40.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image41.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image42.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image43.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image44.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image45.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image46.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image47.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image48.webp",
+        "./imports/day-14/blue-forest-english/article-numerals/image49.webp"
+      ],
+      "records": [
+        {
+          "recordType": "英语笔记",
+          "count": 11,
+          "action": "全部课堂录屏整理为只读笔记",
+          "titles": [
+            "冠词课堂完整笔记（蓝色森林）",
+            "数词课堂完整笔记（蓝色森林）",
+            "冠词总览与a/an发音判断（蓝色森林·课堂笔记）",
+            "不定冠词a/an六类用法（蓝色森林·课堂笔记）",
+            "定冠词the八类用法（蓝色森林·课堂笔记）",
+            "零冠词七类用法与有the/无the辨析（蓝色森林·课堂笔记）",
+            "基数词构成与大数读法（蓝色森林·课堂笔记）",
+            "基数词的句法功能与数量单位（蓝色森林·课堂笔记）",
+            "序数词构成与冠词使用（蓝色森林·课堂笔记）",
+            "数词应用：分数、时间、日期、年代与年龄（蓝色森林·课堂笔记）",
+            "数词应用：倍数、长宽高与主谓一致（蓝色森林·课堂笔记）"
+          ]
+        },
+        {
+          "recordType": "英语题目",
+          "count": 4,
+          "action": "课堂练习拆分到题目区域",
+          "titles": [
+            "冠词练习｜life泛指",
+            "冠词练习｜最高级best",
+            "冠词练习｜keep a balance",
+            "冠词练习｜progress与特指culture"
           ]
         }
       ]
@@ -22273,7 +24380,7 @@ window.KNOWLEDGE_META = {
     "录屏2": 0
   },
   "removedOldExamCards": 0,
-  "note": "当前共235张卡；新增54张第12天卡片，并增加机构来源筛选。",
+  "note": "当前共250张卡；新增15张第14天蓝色森林英语冠词与数词卡片。",
   "sourceOrganizations": [
     "蓝色森林",
     "全方位",

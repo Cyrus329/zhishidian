@@ -2,8 +2,6 @@
 const ITEMS = window.KNOWLEDGE_ITEMS || [];
 const SORTED_ITEMS = [...ITEMS].sort((a,b)=>(a.order||0)-(b.order||0));
 const ITEM_BY_ID = new Map(ITEMS.map(i=>[i.id,i]));
-const MERGE_ENGINE = window.KNOWLEDGE_MERGE_ENGINE || null;
-const MERGE_INDEX = MERGE_ENGINE ? MERGE_ENGINE.buildMergeIndex(ITEMS) : null;
 const SEARCH_CACHE = new WeakMap();
 const SUBJECT_MARK = {"计算机":"计","英语":"英","数学":"数","考点必背":"必"};
 const META = window.KNOWLEDGE_META || {};
@@ -288,28 +286,6 @@ function renderStats(){
   const redo=$('#redoMode'); if(redo) redo.checked=state.redoMode;
   $$('#subjectTabs button').forEach(b=>b.classList.toggle('active',(b.dataset.subject||'')===state.subject));
   $$('#contentTabs button').forEach(b=>b.classList.toggle('active',(b.dataset.contentMode||'')===state.contentMode));
-}
-function renderFocusDesk(){
-  const desk=$('#focusDesk'); if(!desk)return;
-  const learnable=ITEMS.filter(i=>!isNoteCard(i));
-  const mastered=learnable.filter(i=>st(i.id).mastered).length;
-  const progress=learnable.length?Math.round(mastered/learnable.length*100):0;
-  const next=learnable.find(i=>!st(i.id).mastered)||learnable[0];
-  const candidates=learnable.filter(i=>!st(i.id).mastered).slice(0,6);
-  const subjectOrder=['计算机','英语','数学','考点必背'];
-  const subjects=subjectOrder.map(subject=>{const all=learnable.filter(i=>i.subject===subject);return all.length?{subject,all,progress:pct(all)}:null}).filter(Boolean);
-  $('#focusHeroTask').textContent=next?`${next.subject} · ${next.title}`:'今天的学习计划已经完成，去复习巩固一下吧。';
-  $('#focusProgressValue').textContent=progress+'%';
-  $('#focusProgress').style.setProperty('--focus-progress',progress+'%');
-  $('#focusProgressNote').textContent=learnable.length?`已掌握 ${mastered} / ${learnable.length} 个学习卡片`:'导入题库后这里会自动生成学习进度。';
-  $('#focusStartBtn').disabled=!next; $('#focusStartBtn').dataset.task=next?.id||'';
-  $('#focusSubjects').innerHTML=subjects.map(({subject,all,progress:p})=>`<button class="focus-subject" data-subject="${esc(subject)}"><span>${esc(SUBJECT_MARK[subject]||'学')}</span><div><b>${esc(subject)}</b><small>${all.length} 个内容</small></div><em>${p}%</em><i><u style="width:${p}%"></u></i></button>`).join('');
-  $('#focusQueueCount').textContent=candidates.length?`为你安排 ${candidates.length} 项重点内容`:'全部重点内容已完成';
-  $('#focusQueue').innerHTML=candidates.map((i,n)=>`<button class="focus-queue-item" data-task="${esc(i.id)}"><strong>${n+1}</strong><span><b>${esc(i.title)}</b><small>${esc(i.subject)} · ${esc(i.chapter||'学习内容')}</small></span><em>开始学习 →</em></button>`).join('')||'<p class="focus-empty">今天的核心学习任务已完成，去复习清单看看吧。</p>';
-  const reviews=dueReviews().slice(0,4);
-  $('#focusReviewCount').textContent=reviews.length?`${reviews.length} 项待复习`:'暂无到期复习';
-  $('#focusReviewList').innerHTML=reviews.map(({item})=>`<button data-task="${esc(item.id)}"><i></i><span>${esc(item.title)}</span><em>${esc(item.subject)}</em></button>`).join('')||'<p class="focus-empty">复习内容到期后会自动出现在这里。</p>';
-  if($('#focusTimerMirror'))$('#focusTimerMirror').textContent=$('#focusTimer')?.textContent||'25:00';
 }
 function calcStreak(){let d=new Date(), n=0; for(;;){const k=d.toISOString().slice(0,10); if((data.stats.checkins&&data.stats.checkins[k]) || (data.stats.days&&data.stats.days[k]>120)){n++; d.setDate(d.getDate()-1)}else break;} return n}
 function renderFilters(){const chs=chapters(); const cur=state.chapter; $('#chapterFilter').innerHTML='<option value="">全部章节</option>'+chs.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join(''); if(chs.includes(cur)) $('#chapterFilter').value=cur; else {state.chapter=''; $('#chapterFilter').value=''} $('#statusFilter').value=state.status; const ib=$('#importBatchFilter'); if(ib){const bs=importBatches();ib.innerHTML='<option value="">全部导入日期</option>'+bs.map(b=>`<option value="${esc(b.id)}">第${b.day||'?'}天 · ${esc(shortImportDate(b.date))} · ${b.count}个</option>`).join('');if(bs.some(b=>b.id===state.importBatch))ib.value=state.importBatch;else{state.importBatch='';ib.value=''}} const rt=$('#recordTypeFilter');if(rt){const types=[...new Set(ITEMS.map(i=>i.recordType||'知识点背诵'))];rt.innerHTML='<option value="">全部记录类型</option>'+types.map(t=>`<option value="${esc(t)}">${esc(t)} · ${ITEMS.filter(i=>(i.recordType||'知识点背诵')===t).length}张</option>`).join('');if(types.includes(state.recordType))rt.value=state.recordType;else{state.recordType='';rt.value=''}} const so=$('#sourceOrgFilter');if(so){const orgs=['蓝色森林','全方位','未标注'];so.innerHTML='<option value="">全部机构来源</option>'+orgs.map(o=>`<option value="${esc(o)}">${esc(o)} · ${ITEMS.filter(i=>(i.sourceOrg||'未标注')===o).length}张</option>`).join('');so.value=orgs.includes(state.sourceOrg)?state.sourceOrg:'';if(!orgs.includes(state.sourceOrg))state.sourceOrg=''}}
@@ -711,8 +687,6 @@ function questionPrincipleHTML(i){
 }
 
 function notebookSummaryData(i){
-  const merged = MERGE_ENGINE && MERGE_INDEX ? MERGE_ENGINE.summaryFor(i,MERGE_INDEX) : null;
-  if(merged)return merged;
   const n=i.notebookSummary||{};
   const uniq=(arr,limit=8)=>{const out=[],seen=new Set();for(const v of (arr||[])){const x=String(v||'').replace(/\[\[(.*?)\]\]/g,'$1').trim();if(!x||seen.has(x))continue;seen.add(x);out.push(x);if(out.length>=limit)break}return out};
   if(n.overview||n.core?.length)return {...n,core:uniq(n.core,6),method:uniq(n.method,5),mistakes:uniq(n.mistakes,4)};
@@ -742,10 +716,8 @@ function notebookSummaryText(i){
 }
 function notebookSummaryHTML(i){
   const n=notebookSummaryData(i),s=st(i.id),block=(title,arr,cls='')=>arr?.length?`<section class="notebook-block ${cls}"><h3>${esc(title)}</h3><ol>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></section>`:'';
-  const mergedBanner=n.mergedCount?`<div class="notebook-merged-banner"><b>同主题合并版</b><span>已合并 ${n.mergedCount} 张：${esc((n.sourceTitles||[]).join('、'))}</span></div>`:'';
   return `<div class="notebook-summary-card" data-notebook-id="${esc(i.id)}">
     <div class="notebook-summary-head"><div><span>可直接抄到笔记本</span><h3>${esc(i.title)}</h3><p>${esc(n.sourceLabel||importTag(i))}</p></div><div class="notebook-summary-actions"><button data-copy-summary="${esc(i.id)}">复制全文</button><button class="ghost ${s.notebookCopied?'done':''}" data-notebook-copied="${esc(i.id)}">${s.notebookCopied?'已抄写 ✓':'标记已抄写'}</button></div></div>
-    ${mergedBanner}
     ${n.overview?`<div class="notebook-overview"><b>一句话总览</b><p>${esc(n.overview)}</p></div>`:''}
     ${block('一、笔记本必写',n.core,'core')}
     ${block(isQuestionCard(i)?'二、解题原理与顺序':'二、理解与复习方法',n.method,'method')}
@@ -755,27 +727,14 @@ function notebookSummaryHTML(i){
   </div>`;
 }
 function allNotebookSummaryText(){
-  const notebookItems=MERGE_ENGINE&&MERGE_INDEX?MERGE_ENGINE.exportItems(ITEMS,MERGE_INDEX):ITEMS;
-  const groups={};notebookItems.forEach(i=>{const key=`${i.subject}｜${i.importLabel||''}`;(groups[key]||(groups[key]=[])).push(i)});
-  const lines=[`专升本笔记本总结`, `生成时间：${new Date().toLocaleString('zh-CN')}`, `共 ${notebookItems.length} 个抄写主题`, ''];
+  const groups={};ITEMS.forEach(i=>{const key=`${i.subject}｜${i.importLabel||''}`;(groups[key]||(groups[key]=[])).push(i)});
+  const lines=[`专升本笔记本总结`, `生成时间：${new Date().toLocaleString('zh-CN')}`, `共 ${ITEMS.length} 张卡片`, ''];
   Object.entries(groups).forEach(([key,arr])=>{lines.push('='.repeat(36),key,'='.repeat(36),'');arr.sort((a,b)=>(a.order||0)-(b.order||0)).forEach(i=>{lines.push(notebookSummaryText(i),'','-'.repeat(32),'')})});
   return lines.join('\n');
 }
 async function copyPlainText(text){
   try{await navigator.clipboard.writeText(text);return true}catch{}
   const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch{}ta.remove();return ok;
-}
-function mergedLearnHTML(i){
-  const n=MERGE_ENGINE&&MERGE_INDEX?MERGE_ENGINE.summaryFor(i,MERGE_INDEX):null;
-  if(!n)return '';
-  const sourceList=(n.sourceTitles||[]).map(title=>`<li>${esc(title)}</li>`).join('');
-  return `<section class="merged-topic-card" data-merge-group="${esc(n.mergeGroupId)}">
-    <div class="merged-topic-head"><div><span>同主题合并版 · 已自动去重</span><h3>${esc(n.mergedTitle||i.title)}</h3></div><b>${n.mergedCount} 张合 1</b></div>
-    <p class="merged-topic-overview">${esc(n.overview||'')}</p>
-    ${sec('直接抄这份',list(n.core||[]),true)}
-    ${n.method?.length?sec('理解补充',list(n.method),true):''}
-    <details class="merged-topic-sources"><summary>查看原始来源（${n.mergedCount}张）</summary><ul>${sourceList}</ul></details>
-  </section>`;
 }
 function blocksHTML(i){const bs=i.memoBlocks||[]; if(!bs.length)return ''; return bs.map(b=>`<details class="sec" open><summary>${esc(b.title||'背诵整理')}</summary><div class="inside">${list(b.understanding)}${list(b.mustKnow)}</div></details>`).join('')}
 function renderDetail(){
@@ -802,7 +761,7 @@ function renderDetail(){
     ? `<div class="note-reading-tip"><b>阅读笔记</b><span>本卡不参与填空背诵、掌握率和抗遗忘，只用于理解、复习与查阅。</span></div>${sec('快速概览',list([i.oneLine]),true)}${blocksHTML(i)}`
     : (i.pageCloze
       ? '<p class="muted slim-tip">这类卡来自录屏黄色重点，直接用“填空背诵”和“PDF原图/干净整理”即可。</p>'
-      : (mergedLearnHTML(i)||`${sec('先背这里', list(i.mustPatterns||[]), true)}${sec('详细解释版', list(i.basicExplain||[]), true)}${blocksHTML(i)}`));
+      : `${sec('先背这里', list(i.mustPatterns||[]), true)}${sec('详细解释版', list(i.basicExplain||[]), true)}${blocksHTML(i)}`);
   const ops=noteMode
     ? `<div class="ops slim-ops"><button data-act="read" class="${s.read?'on':''}">${s.read?'已看':'标已看'}</button><button data-act="star" class="star ${s.starred?'on':''}">重点</button><span class="note-mode-tag">只读笔记</span></div>`
     : `<div class="ops slim-ops"><button data-act="read" class="${s.read?'on':''}">${s.read?'已看':'标已看'}</button><button data-act="star" class="star ${s.starred?'on':''}">重点</button><button data-act="master" class="master ${s.mastered?'on':''}">${s.mastered?'已掌握':'掌握'}</button><button data-act="forget" class="memory-on">抗遗忘</button></div>`;
@@ -814,8 +773,8 @@ function renderDetail(){
   requestAnimationFrame(()=>$$('#detailPane [data-cloze-input]').forEach(resizeClozeInput));
 }
 function renderFilteredContent({filters=false,tree=false}={}){if(filters)renderFilters();if(tree)renderTree();renderStats();renderKnowledgeBlockStats();renderChapterMindmap();renderList();renderDetail();syncImportHistoryActive()}
-function renderStudyUpdate(){renderStats();renderFocusDesk();renderKnowledgeBlockStats();renderChapterMindmap();renderTree();renderTasks();renderReview();renderList();renderDetail();syncImportHistoryActive()}
-function render(){renderStats();renderFocusDesk();renderFilters();renderTree();renderTasks();renderImportHistory();renderKnowledgeBlockStats();renderChapterMindmap();renderReview();renderAudit();renderList();renderDetail();renderTimer()}
+function renderStudyUpdate(){renderStats();renderKnowledgeBlockStats();renderChapterMindmap();renderTree();renderTasks();renderReview();renderList();renderDetail();syncImportHistoryActive()}
+function render(){renderStats();renderFilters();renderTree();renderTasks();renderImportHistory();renderKnowledgeBlockStats();renderChapterMindmap();renderReview();renderAudit();renderList();renderDetail();renderTimer()}
 document.addEventListener('click',async e=>{
   const subj=e.target.closest('[data-subject]'); if(subj && subj.parentElement?.id==='subjectTabs'){state.blockKey='';state.chapterRootKey='';state.subject=subj.dataset.subject||'';state.chapter='';state.selected='';renderFilteredContent({filters:true,tree:true});return}
   const content=e.target.closest('[data-content-mode]'); if(content && content.parentElement?.id==='contentTabs'){state.contentMode=content.dataset.contentMode||'';state.selected='';renderFilteredContent();return}
@@ -835,7 +794,6 @@ document.addEventListener('click',async e=>{
   if(e.target.id==='mindmapCollapseBtn'){$$('#chapterMindmapList details').forEach(d=>d.open=false);return}
   if(e.target.id==='mindmapCopyBtn'){const chapter=CHAPTER_MINDMAP_INDEX.byKey.get(state.mindmapChapterKey);if(!chapter)return;const ok=await copyPlainText(chapterMindmapText(chapter));e.target.textContent=ok?'已复制 ✓':'复制失败';setTimeout(()=>{e.target.textContent='复制导图'},1200);return}
   const task=e.target.closest('[data-task]'); if(task){state.selected=task.dataset.task;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderFilteredContent();return}
-  if(e.target.id==='focusTimerStart'){document.querySelector('#timerStart')?.click();return}
   const row=e.target.closest('.row'); if(row){state.selected=row.dataset.id;const it=ITEM_BY_ID.get(state.selected);state.panel=defaultPanelFor(it);markRead(state.selected);renderKnowledgeBlockStats();renderChapterMindmap();renderList();renderDetail();return}
   const act=e.target.closest('[data-act]')?.dataset.act; if(act&&state.selected){const s=st(state.selected); if(act==='read')setst(state.selected,{read:!s.read}); if(act==='star')setst(state.selected,{starred:!s.starred}); if(act==='wrong')setst(state.selected,{wrong:!s.wrong,read:true}); if(act==='master'){setst(state.selected,{mastered:!s.mastered,read:true});if(!s.mastered){ensureReview(state.selected);renderReview();renderStats();}} if(act==='forget'){ensureReview(state.selected);renderStudyUpdate();} return}
   const panel=e.target.closest('[data-panel]'); if(panel){const name=panel.dataset.panel;state.panel=name; $$('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.panel===name)); $$('.panel').forEach(p=>p.classList.toggle('active',p.dataset.panelBox===name)); return}
@@ -913,8 +871,8 @@ $('#importBatchFilter')?.addEventListener('change',e=>{state.blockKey='';state.c
 $('#recordTypeFilter')?.addEventListener('change',e=>{state.blockKey='';state.chapterRootKey='';state.recordType=e.target.value;state.selected='';renderFilteredContent()});
 $('#sourceOrgFilter')?.addEventListener('change',e=>{state.blockKey='';state.chapterRootKey='';state.sourceOrg=e.target.value;state.selected='';renderFilteredContent()});
 $('#closeDialog').addEventListener('click',()=>$('#imageDialog').close());
-$('#exportNotebookBtn')?.addEventListener('click',()=>{const blob=new Blob([allNotebookSummaryText()],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='专升本笔记本总结_v49_每章轻量思维导图版.txt';a.click();URL.revokeObjectURL(a.href)});
-$('#exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:49,knowledgeVersion:META.version,importDates:META.importBatches||[],exportedAt:new Date().toISOString(),study:data.study,stats:data.stats,reviews:data.reviews,answers:data.answers,blockCompletions:data.blockCompletions,chapterCompletions:data.chapterCompletions,settings:data.settings},null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='专升本知识点学习记录_v49_每章轻量思维导图版.json'; a.click(); URL.revokeObjectURL(a.href)});
+$('#exportNotebookBtn')?.addEventListener('click',()=>{const blob=new Blob([allNotebookSummaryText()],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='专升本笔记本总结_v53_大型导图联动版.txt';a.click();URL.revokeObjectURL(a.href)});
+$('#exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:53,knowledgeVersion:META.version,importDates:META.importBatches||[],exportedAt:new Date().toISOString(),study:data.study,stats:data.stats,reviews:data.reviews,answers:data.answers,blockCompletions:data.blockCompletions,chapterCompletions:data.chapterCompletions,settings:data.settings},null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='专升本知识点学习记录_v53_大型导图联动版.json'; a.click(); URL.revokeObjectURL(a.href)});
 $('#importInput').addEventListener('change',async e=>{const f=e.target.files?.[0]; if(!f)return; try{const x=JSON.parse(await f.text()); data.study=compat(x.study||x||{}); data.stats=x.stats||data.stats; data.reviews=x.reviews||data.reviews||{};data.answers=x.answers||data.answers||{};data.blockCompletions=x.blockCompletions||data.blockCompletions||{};data.chapterCompletions=x.chapterCompletions||data.chapterCompletions||{};data.settings={...data.settings,...(x.settings||{})}; save(); render(); alert('导入完成')}catch{alert('导入失败，请选择正确 JSON')}});
 setInterval(()=>{if(document.hidden||!state.selected)return; const i=ITEM_BY_ID.get(state.selected); if(!i)return; data.stats.totalSeconds=(data.stats.totalSeconds||0)+15; data.stats.days[today()]=(data.stats.days[today()]||0)+15; data.stats.subjectSeconds[i.subject]=(data.stats.subjectSeconds[i.subject]||0)+15; data.stats.itemSeconds[i.id]=(data.stats.itemSeconds[i.id]||0)+15; save(); renderStats();},15000);
 
@@ -934,4 +892,11 @@ if(localStorage.getItem('zsb-theme')==='dark') document.body.classList.add('dark
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('#installBtn').classList.remove('hidden')});
 $('#installBtn').addEventListener('click',async()=>{if(deferredPrompt){deferredPrompt.prompt(); deferredPrompt=null; $('#installBtn').classList.add('hidden')}});
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{})}
+const deepLinkItem=new URLSearchParams(location.search).get('item');
+if(deepLinkItem&&ITEM_BY_ID.has(deepLinkItem)){
+  const it=ITEM_BY_ID.get(deepLinkItem);
+  state.subject='';state.chapter='';state.chapterRootKey='';state.blockKey='';state.importBatch='';state.recordType='';state.sourceOrg='';state.contentMode='';state.q='';
+  state.selected=deepLinkItem;state.panel=defaultPanelFor(it);
+}
 render();
+if(deepLinkItem&&ITEM_BY_ID.has(deepLinkItem))requestAnimationFrame(()=>document.querySelector('.layout')?.scrollIntoView({behavior:'auto',block:'start'}));

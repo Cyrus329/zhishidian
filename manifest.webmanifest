@@ -1,6 +1,6 @@
 {
-  "name": "专升本知识点速记本 · 每章轻量思维导图版",
-  "short_name": "章节导图",
+  "name": "专升本知识点速记本 · v53大型思维导图联动版",
+  "short_name": "知识点v53",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f7f6",
@@ -15,6 +15,14 @@
       "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "大型思维导图",
+      "short_name": "思维导图",
+      "url": "./mindmap.html",
+      "icons": [{"src":"./icon-192.png","sizes":"192x192"}]
     }
   ]
 }

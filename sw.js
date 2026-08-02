@@ -1,10 +1,14 @@
-const CACHE_NAME = 'zsb-knowledge-v50-dual-source';
+const CACHE_NAME = 'zsb-knowledge-v53-large-mindmap';
 const CORE_ASSETS = [
   './',
   './index.html',
-  './styles.css?v=50',
-  './app.js?v=50',
-  './knowledge-data.js?v=50',
+  './mindmap.html',
+  './styles.css?v=53',
+  './mindmap.css?v=53',
+  './app.js?v=53',
+  './mindmap.js?v=53',
+  './mindmap-data.js?v=53',
+  './knowledge-data.js?v=53',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png'
@@ -43,7 +47,7 @@ self.addEventListener('fetch', event => {
           }
           return response;
         })
-        .catch(() => caches.match(request).then(hit => hit || caches.match('./index.html')))
+        .catch(() => caches.match(request).then(hit => hit || caches.match(url.pathname.includes('mindmap')?'./mindmap.html':'./index.html')))
     );
     return;
   }

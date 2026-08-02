@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>专升本知识点速记本 · v50双机构来源分章导入版</title>
+  <title>专升本知识点速记本 · v53大型导图联动版</title>
   <meta name="theme-color" content="#2563eb" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon-192.png" />
-  <link rel="stylesheet" href="./styles.css?v=50" />
+  <link rel="stylesheet" href="./styles.css?v=53" />
 </head>
 <body>
 <header class="topbar">
@@ -15,43 +15,15 @@
     <span class="logo">升</span>
     <div>
       <p>全新题库 · 按自然日期归档 · 计算机、英语、数学分科保存</p>
-      <h1>专升本知识点速记本 · 每章轻量思维导图</h1>
+      <h1>专升本知识点速记本 · 每章大型思维导图联动版</h1>
     </div>
   </div>
   <div class="top-actions">
+    <a href="./mindmap.html" class="ghost map-entry-link">大型导图</a>
     <button id="themeBtn" class="ghost">夜间</button>
     <button id="installBtn" class="ghost hidden">安装</button>
   </div>
 </header>
-
-<section class="focus-desk" id="focusDesk">
-  <article class="focus-hero">
-    <div class="focus-hero-copy">
-      <p class="eyebrow">TODAY'S FOCUS</p>
-      <h2>今天，完成一件最重要的事</h2>
-      <p id="focusHeroTask" class="focus-hero-task">正在整理你的学习计划…</p>
-      <button id="focusStartBtn" class="focus-primary">开始专注学习</button>
-    </div>
-    <div class="focus-progress-wrap">
-      <div class="focus-progress" id="focusProgress"><b id="focusProgressValue">0%</b><span>今日掌握度</span></div>
-      <small id="focusProgressNote">持续学习，让节奏成为习惯</small>
-    </div>
-  </article>
-  <aside class="focus-rhythm">
-    <div class="focus-section-head"><span>学习节奏</span><em>25 分钟专注</em></div>
-    <div class="focus-timer-line"><b id="focusTimerMirror">25:00</b><button id="focusTimerStart">开始计时</button></div>
-    <div class="focus-rhythm-note"><i></i><span>今天的每一次专注，都会沉淀成进步。</span></div>
-  </aside>
-  <section class="focus-subjects" id="focusSubjects"></section>
-  <section class="focus-queue-panel">
-    <div class="focus-section-head"><span>学习队列</span><em id="focusQueueCount">优先完成未掌握内容</em></div>
-    <div class="focus-queue" id="focusQueue"></div>
-  </section>
-  <aside class="focus-review-panel">
-    <div class="focus-section-head"><span>复习清单</span><em id="focusReviewCount">0 项待复习</em></div>
-    <div id="focusReviewList" class="focus-review-list"></div>
-  </aside>
-</section>
 
 <section class="home-sections">
 
@@ -60,7 +32,7 @@
     <section class="import-history-panel">
       <div class="import-history-intro">
         <div><b>从今天开始建立全新题库</b><p>2026年7月15日固定为第1天，7月16日为第2天；同一天继续导入仍归同一天。计算机、英语、数学分科保存，笔记、知识点和题目互不覆盖。</p></div>
-        <span class="day-one-badge">当前第12天 · 7.26</span>
+        <span class="day-one-badge">当前第14天 · 7.28</span>
       </div>
       <div id="importHistoryList" class="import-history-list"></div>
       <div id="sourceOutline"></div>
@@ -110,6 +82,7 @@
           <button id="mindmapExpandBtn" class="ghost">展开全部</button>
           <button id="mindmapCollapseBtn" class="ghost">收起全部</button>
           <button id="mindmapCopyBtn" class="ghost">复制导图</button>
+          <a href="./mindmap.html" class="mindmap-open-link">打开大型导图</a>
         </div>
       </div>
       <div id="mindmapActiveBanner" class="active-block-banner hidden"></div>
@@ -204,14 +177,13 @@
 
   <main class="main">
     <section class="list" id="itemList"></section>
-    <section class="detail" id="detailPane"><div class="empty"><b>235 张独立卡片</b><p>按7.15—7.26自然日期归档；蓝色森林与全方位来源分开标注，同一知识体系统一章节。</p></div></section>
+    <section class="detail" id="detailPane"><div class="empty"><b>250 张独立卡片</b><p>按7.15—7.28自然日期归档；蓝色森林与全方位来源分开标注，英语冠词与数词继续按标准章节归类。</p></div></section>
   </main>
 </div>
 
 <dialog id="imageDialog"><button id="closeDialog">×</button><img id="dialogImage" alt="页面预览"></dialog>
 
-<script src="./knowledge-data.js?v=50"></script>
-<script src="./knowledge-merge.js?v=51"></script>
-<script src="./app.js?v=50"></script>
+<script src="./knowledge-data.js?v=53"></script>
+<script src="./app.js?v=53"></script>
 </body>
 </html>

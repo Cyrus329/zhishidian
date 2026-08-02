@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>课堂笔记中心 · 独立分章整理</title>
+  <meta name="theme-color" content="#059669" />
+  <link rel="icon" href="./icon-192.png" />
+  <link rel="stylesheet" href="./notes.css?v=56" />
+  <script src="./reset-start.js?v=56zero"></script>
+</head>
+<body>
+<div class="zero-start-warning">零起点版：首次打开已自动清空旧学习进度，从今天重新开始。知识卡和资料不会删除。</div>
+<header class="notes-topbar">
+  <div class="brand-row"><a href="./index.html" class="ghost-link">← 返回题库</a><div><p>课堂过程型资料单独保存，不参与背诵掌握率</p><h1>课堂笔记中心</h1></div></div>
+  <nav><a href="./memory.html">背诵中心</a><a href="./mindmap.html" class="ghost-link">背诵导图</a></nav>
+</header>
+<section class="notes-controls">
+  <label><span>学科</span><select id="subjectFilter"></select></label>
+  <label><span>章节</span><select id="chapterFilter"></select></label>
+  <label><span>机构</span><select id="sourceFilter"></select></label>
+  <label><span>日期</span><select id="dateFilter"></select></label>
+  <label class="search-label"><span>搜索笔记</span><input id="searchInput" placeholder="标题、小节、关键词……" /></label>
+  <label><span>状态</span><select id="statusFilter"><option value="">全部状态</option><option value="unread">未看</option><option value="read">已看</option><option value="starred">重点</option></select></label>
+</section>
+<main class="notes-workspace">
+  <aside class="notes-list-panel">
+    <header><div><b>课堂笔记</b><span id="noteCount"></span></div><p>每张均标记学科、章、节、知识块、机构和导入日期。</p></header>
+    <div id="noteList" class="note-list"></div>
+  </aside>
+  <section id="noteDetail" class="note-detail-panel">
+    <div class="empty"><b>选择一篇课堂笔记</b><p>手机端点击后会进入全屏阅读，返回时保留当前筛选。</p></div>
+  </section>
+</main>
+<script src="./knowledge-data.js?v=56"></script>
+<script src="./notes.js?v=56"></script>
+</body>
+</html>

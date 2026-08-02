@@ -3,7 +3,7 @@ window.DOCUMENT_MINDMAP_SCHEMAS = [
     id: 'computer-ch1',
     subject: '计算机',
     title: '第一章 计算机基础',
-    subtitle: '严格按照原思维导图中的 01—10 小标题组织；知识点、课堂笔记和题目挂在对应小标题下面。',
+    subtitle: '严格按照原思维导图中的 01—10 小标题组织；需要背诵的知识点和题目挂在对应小标题下面；课堂笔记已移到独立页面。',
     sections: [
       {
         id: 'computer-1-1',
@@ -290,7 +290,7 @@ window.DOCUMENT_MINDMAP_SCHEMAS = [
     id: 'english-ch1',
     subject: '英语',
     title: '第一章 基础语法',
-    subtitle: '按照资料中的语法大标题和小标题组织，点击小标题可查看对应知识点、笔记和题目。',
+    subtitle: '按照资料中的语法大标题和小标题组织，点击小标题可查看对应的必背知识点和题目；课堂笔记从独立页面查看。',
     sections: [
       {
         id: 'english-core', title: '基础语法文档',
@@ -362,7 +362,7 @@ window.DOCUMENT_MINDMAP_SCHEMAS = [
     id: 'math-ch1',
     subject: '数学',
     title: '第一章 函数、极限与连续',
-    subtitle: '按照数学课堂资料的小标题组织；知识点、课堂笔记和题目均挂在相应方法或性质下面。',
+    subtitle: '按照数学课堂资料的小标题组织；需要背诵的知识点和题目挂在相应方法或性质下面；课堂笔记从独立页面查看。',
     sections: [
       {
         id: 'math-functions', title: '函数',
@@ -420,7 +420,7 @@ window.DOCUMENT_MINDMAP_SCHEMAS = [
             {id:'math-trig-relations',title:'倒数、平方、二倍角与降幂公式',match:{keyword:['倒数关系','平方关系','二倍角','降幂']}},
             {id:'math-special-angles',title:'特殊角三角函数值',match:{keyword:['特殊角']}}
           ]},
-          { id:'math-elementary', title:'1.4 基本初等函数', summary:'课堂笔记中的幂、指数、对数、三角和反三角函数。', match:{ chapter:['基本初等函数'] }, outline:[
+          { id:'math-elementary', title:'1.4 基本初等函数', summary:'幂、指数、对数、三角和反三角函数的必背内容。', match:{ chapter:['基本初等函数'] }, outline:[
             {id:'math-elementary-pel',title:'幂、指数、对数函数性质',match:{keyword:['幂、指数、对数','幂指数对数']}},
             {id:'math-elementary-trig',title:'三角函数图像性质与常用公式',match:{keyword:['三角函数图像性质']}},
             {id:'math-elementary-inverse',title:'反三角函数图像与性质',match:{keyword:['反三角函数图像']}}

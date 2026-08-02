@@ -1,33 +1,17 @@
 {
-  "name": "专升本知识点速记本 · v54手机适配与原文小标题导图版",
-  "short_name": "知识点v54",
+  "name": "专升本知识点速记本 · v56零起点全清空版",
+  "short_name": "知识点零起点",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f7f6",
-  "theme_color": "#7c3aed",
+  "theme_color": "#2563eb",
   "icons": [
-    {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png"}
   ],
   "shortcuts": [
-    {
-      "name": "大型思维导图",
-      "short_name": "思维导图",
-      "url": "./mindmap.html",
-      "icons": [
-        {
-          "src": "./icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
-    }
+    {"name":"背诵中心","short_name":"背诵","url":"./memory.html","icons":[{"src":"./icon-192.png","sizes":"192x192"}]},
+    {"name":"课堂笔记","short_name":"笔记","url":"./notes.html","icons":[{"src":"./icon-192.png","sizes":"192x192"}]},
+    {"name":"背诵思维导图","short_name":"导图","url":"./mindmap.html","icons":[{"src":"./icon-192.png","sizes":"192x192"}]}
   ]
 }

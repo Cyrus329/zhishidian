@@ -3,29 +3,34 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>专升本知识点速记本 · v54手机适配与原文小标题导图版</title>
+  <title>专升本知识点速记本 · v56零起点全清空版</title>
   <meta name="theme-color" content="#2563eb" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon-192.png" />
-  <link rel="stylesheet" href="./styles.css?v=54" />
+  <link rel="stylesheet" href="./styles.css?v=56" />
+  <script src="./reset-start.js?v=56zero"></script>
 </head>
 <body>
+<div class="zero-start-warning">零起点版：首次打开已自动清空旧学习进度，从今天重新开始。知识卡和资料不会删除。</div>
 <header class="topbar">
   <div class="brand">
     <span class="logo">升</span>
     <div>
       <p>全新题库 · 按自然日期归档 · 计算机、英语、数学分科保存</p>
-      <h1>专升本知识点速记本 · 每章手机适配与原文小标题导图版</h1>
+      <h1>专升本知识点速记本 · 零起点全清空版</h1>
     </div>
   </div>
   <div class="top-actions">
-    <a href="./mindmap.html" class="ghost map-entry-link">大型导图</a>
+    <a href="./memory.html" class="ghost map-entry-link">背诵中心</a>
+    <a href="./notes.html" class="ghost map-entry-link">课堂笔记</a>
+    <a href="./mindmap.html" class="ghost map-entry-link">背诵导图</a>
     <button id="themeBtn" class="ghost">夜间</button>
     <button id="installBtn" class="ghost hidden">安装</button>
   </div>
 </header>
 
 <section class="home-sections">
+  <section id="dailyPriorityPanel" class="daily-priority-panel"></section>
 
   <details class="home-section import-history-zone" id="importZone" open>
     <summary><span>导入日期记录</span><em>按自然日期计算第几天；学科和资料类型分别记录</em></summary>
@@ -73,7 +78,7 @@
 
 
   <details class="home-section chapter-mindmap-zone" id="chapterMindmapZone" open>
-    <summary><span>每章轻量思维导图</span><em>按章汇总章节、小节、知识块和卡片；默认只渲染当前一章，避免卡顿</em></summary>
+    <summary><span>每章轻量背诵导图</span><em>只汇总需要记忆的知识点和题目；课堂笔记已移到独立页面</em></summary>
     <section class="chapter-mindmap-panel">
       <div class="mindmap-toolbar">
         <label><span>选择章节</span><select id="mindmapChapterSelect"></select></label>
@@ -82,13 +87,13 @@
           <button id="mindmapExpandBtn" class="ghost">展开全部</button>
           <button id="mindmapCollapseBtn" class="ghost">收起全部</button>
           <button id="mindmapCopyBtn" class="ghost">复制导图</button>
-          <a href="./mindmap.html" class="mindmap-open-link">打开大型导图</a>
+          <a href="./mindmap.html" class="mindmap-open-link">打开背诵导图</a>
         </div>
       </div>
       <div id="mindmapActiveBanner" class="active-block-banner hidden"></div>
       <div id="mindmapOverview" class="mindmap-overview"></div>
       <div id="chapterMindmapList" class="chapter-mindmap-list"></div>
-      <p class="block-rule-note">结构：章 → 小节 → 知识块 → 卡片。点击卡片可直接进入学习；章节完成度沿用“知识点/题目需掌握，笔记需已看”的规则。</p>
+      <p class="block-rule-note">结构：章 → 小节 → 知识块 → 必背知识点/题目。课堂笔记不再出现在本导图中。</p>
     </section>
   </details>
 
@@ -183,7 +188,7 @@
 
 <dialog id="imageDialog"><button id="closeDialog">×</button><img id="dialogImage" alt="页面预览"></dialog>
 
-<script src="./knowledge-data.js?v=54"></script>
-<script src="./app.js?v=54"></script>
+<script src="./knowledge-data.js?v=56"></script>
+<script src="./app.js?v=56"></script>
 </body>
 </html>

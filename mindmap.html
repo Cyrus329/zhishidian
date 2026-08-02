@@ -3,21 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>章节大型思维导图 · 标题联动版</title>
+  <title>背诵思维导图 · 原文小标题联动版</title>
   <meta name="theme-color" content="#6d28d9" />
   <link rel="icon" href="./icon-192.png" />
-  <link rel="stylesheet" href="./mindmap.css?v=54" />
+  <link rel="stylesheet" href="./mindmap.css?v=56" />
+  <script src="./reset-start.js?v=56zero"></script>
 </head>
 <body>
+<div class="zero-start-warning">零起点版：首次打开已自动清空旧学习进度，从今天重新开始。知识卡和资料不会删除。</div>
   <header class="map-topbar">
     <div class="map-brand">
       <a class="back-link" href="./index.html">← 返回题库</a>
       <div>
-        <p>按原文档小标题建立大型导图</p>
-        <h1>章节思维导图</h1>
+        <p>只显示需要背诵的知识点与题目</p>
+        <h1>背诵思维导图</h1>
       </div>
     </div>
-    <div class="map-top-actions">
+    <div class="map-top-actions"><a class="ghost map-page-link" href="./memory.html">背诵中心</a><a class="ghost map-page-link" href="./notes.html">课堂笔记</a>
       <button id="fitBtn" class="ghost">回到顶部</button>
       <button id="themeBtn" class="ghost">夜间</button>
     </div>
@@ -27,7 +29,7 @@
     <label><span>学科</span><select id="subjectSelect"></select></label>
     <label><span>大型导图</span><select id="mapSelect"></select></label>
     <label><span>机构来源</span><select id="sourceSelect"><option value="">全部机构</option></select></label>
-    <label><span>内容类型</span><select id="typeSelect"><option value="">全部内容</option><option value="knowledge">知识点</option><option value="notes">课堂笔记</option><option value="questions">题目</option><option value="pdf">PDF资料</option></select></label>
+    <label><span>内容类型</span><select id="typeSelect"><option value="">知识点＋题目</option><option value="knowledge">知识点</option><option value="questions">题目</option></select></label>
     <label class="map-search"><span>搜索小标题/卡片</span><input id="searchInput" placeholder="例如：嵌入式计算机、反函数、名词的数" /></label>
     <button id="expandBtn">展开全部</button>
     <button id="collapseBtn" class="ghost">收起全部</button>
@@ -37,7 +39,7 @@
     <aside class="map-tree-panel">
       <div class="tree-panel-head">
         <div><b id="treeTitle">章节导图</b><span id="treeMeta"></span></div>
-        <span class="legend"><i class="heading"></i>原文小标题 <i class="knowledge"></i>知识点 <i class="note"></i>笔记 <i class="question"></i>题目 <i class="pdf"></i>PDF</span>
+        <span class="legend"><i class="heading"></i>原文小标题 <i class="knowledge"></i>知识点 <i class="question"></i>题目</span>
       </div>
       <div id="mapTree" class="map-tree"></div>
     </aside>
@@ -46,16 +48,16 @@
       <button id="mobilePreviewClose" class="mobile-preview-close" type="button">← 返回导图</button>
       <div class="preview-empty">
         <span>思</span>
-        <h2>点击左侧小标题</h2>
+        <h2>点击左侧背诵小标题</h2>
         <p>电脑端在右侧显示详情；手机端会打开全屏详情，再返回导图继续查看。</p>
       </div>
     </section>
   </main>
 
-  <div class="mobile-tip">点击灰色小标题查看对应内容，点击卡片直接进入原知识点。</div>
+  <div class="mobile-tip">本导图不再混入课堂笔记；点击节点查看背诵内容，课堂笔记请从独立入口打开。</div>
 
-  <script src="./knowledge-data.js?v=54"></script>
-  <script src="./mindmap-data.js?v=54"></script>
-  <script src="./mindmap.js?v=54"></script>
+  <script src="./knowledge-data.js?v=56"></script>
+  <script src="./mindmap-data.js?v=56"></script>
+  <script src="./mindmap.js?v=56"></script>
 </body>
 </html>

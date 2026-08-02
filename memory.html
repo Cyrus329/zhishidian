@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>高效背诵中心 · 自适应复习与闭卷回忆</title>
+  <meta name="theme-color" content="#dc2626" />
+  <link rel="icon" href="./icon-192.png" />
+  <link rel="stylesheet" href="./memory.css?v=56" />
+  <script src="./reset-start.js?v=56zero"></script>
+</head>
+<body>
+<div class="zero-start-warning">零起点版：首次打开已自动清空旧学习进度，从今天重新开始。知识卡和资料不会删除。</div>
+<header class="center-topbar">
+  <div class="brand-row">
+    <a href="./index.html" class="ghost-link">← 返回题库</a>
+    <div><p>只处理必须记住的知识点与题目</p><h1>高效背诵中心</h1></div>
+  </div>
+  <nav><a href="./mindmap.html">背诵导图</a><a href="./notes.html" class="ghost-link">课堂笔记</a></nav>
+</header>
+
+<section class="today-command" id="todayCommand"></section>
+<section class="hero-stats" id="heroStats"></section>
+
+<nav class="mode-tabs" aria-label="背诵模式">
+  <button data-mode="daily" class="active">今日必做</button>
+  <button data-mode="adaptive">自适应复习</button>
+  <button data-mode="white">白纸回忆</button>
+  <button data-mode="train">一题多练</button>
+  <button data-mode="compare">对比卡</button>
+  <button data-mode="challenge">章节闯关</button>
+  <button data-mode="mixed">混合复习</button>
+  <button data-mode="errors">错因统计</button>
+  <button data-mode="quick">睡前/次日</button>
+  <button data-mode="weekly">周复习报告</button>
+  <button data-mode="weak">薄弱导图</button>
+</nav>
+
+<main>
+  <section class="mode-panel active" data-panel="daily">
+    <div class="section-head"><div><h2>今天必须完成</h2><p>红色是今天到期复习，橙色是今天新背知识点。完成后才会从清单消失。</p></div><div class="head-actions"><button id="changeQuota" class="ghost">每日新背数量</button><button id="rebuildPlan" class="ghost">重排今日计划</button></div></div>
+    <div class="daily-grid">
+      <section class="daily-column review-column"><header><span>必须复习</span><b id="reviewPlanCount">0</b></header><div id="todayReviewList" class="queue-list single"></div></section>
+      <section class="daily-column new-column"><header><span>必须背诵</span><b id="newPlanCount">0</b></header><div id="todayNewList" class="queue-list single"></div></section>
+    </div>
+  </section>
+
+  <section class="mode-panel" data-panel="adaptive">
+    <div class="section-head"><div><h2>自适应复习</h2><p>根据遗忘风险、错误次数、熟练度和间隔自动排序。每次选择真实熟练度。</p></div><button id="nextAdaptive" class="ghost">换一张</button></div>
+    <article id="adaptiveCard" class="study-stage"></article>
+  </section>
+
+  <section class="mode-panel" data-panel="white">
+    <div class="section-head"><div><h2>白纸回忆</h2><p>只看本章小标题，先在空白区复述，再检测整章漏点。</p></div><button id="newWhite" class="ghost">重新抽取</button></div>
+    <div class="filter-row"><label><span>学科</span><select id="whiteSubject"></select></label><label><span>章节</span><select id="whiteChapter"></select></label></div>
+    <article id="whiteBoard" class="white-board"></article>
+  </section>
+
+  <section class="mode-panel" data-panel="train">
+    <div class="section-head"><div><h2>一题多练</h2><p>同一知识点自动转换为标题回忆、反向识别、填空、判断、选择和辨析。</p></div><button id="nextTrain" class="ghost">下一题</button></div>
+    <div class="filter-row"><label><span>题型</span><select id="trainType"><option value="random">随机题型</option><option value="title">看标题回忆</option><option value="reverse">看内容猜标题</option><option value="cloze">填空</option><option value="judge">判断</option><option value="choice">选择</option><option value="contrast">辨析</option></select></label><label><span>学科</span><select id="trainSubject"></select></label></div>
+    <article id="trainCard" class="study-stage"></article>
+  </section>
+
+  <section class="mode-panel" data-panel="compare">
+    <div class="section-head"><div><h2>相似知识点对比卡</h2><p>把最容易混淆的概念放在同一张卡中对照。</p></div><button id="randomCompare" class="ghost">随机一组</button></div>
+    <div class="filter-row"><label><span>学科</span><select id="compareSubject"></select></label><label><span>搜索</span><input id="compareSearch" placeholder="如 few、ENIAC、定义域" /></label></div>
+    <div id="compareList" class="compare-list"></div>
+  </section>
+
+  <section class="mode-panel" data-panel="challenge">
+    <div class="section-head"><div><h2>章节闯关</h2><p>第一关识记，第二关理解，第三关综合。每关10题，达到80%才建议进入下一关。</p></div></div>
+    <div class="filter-row"><label><span>学科</span><select id="challengeSubject"></select></label><label><span>章节</span><select id="challengeChapter"></select></label><label><span>关卡</span><select id="challengeStage"><option value="1">第一关·识记</option><option value="2">第二关·理解</option><option value="3">第三关·综合</option></select></label><button id="startChallenge">开始闯关</button></div>
+    <article id="challengeArea" class="study-stage"><div class="empty">选择章节和关卡后开始。</div></article>
+  </section>
+
+  <section class="mode-panel" data-panel="mixed">
+    <div class="section-head"><div><h2>混合复习</h2><p>跨学科、跨章节随机混合，避免只在同一语境里“刚看完就会”。</p></div></div>
+    <div class="mixed-settings"><label><input type="checkbox" value="计算机" checked />计算机</label><label><input type="checkbox" value="英语" checked />英语</label><label><input type="checkbox" value="数学" checked />数学</label><label>题量<select id="mixedCount"><option>10</option><option selected>15</option><option>20</option><option>30</option></select></label><button id="startMixed">生成混合复习</button></div>
+    <article id="mixedArea" class="study-stage"><div class="empty">选择学科和题量后开始。</div></article>
+  </section>
+
+  <section class="mode-panel" data-panel="errors">
+    <div class="section-head"><div><h2>错因统计与反向关联</h2><p>不仅记录错题，还统计为什么错，并直接返回关联知识点、课堂笔记和同类题。</p></div><button id="clearErrorFilter" class="ghost">显示全部</button></div>
+    <div id="errorSummary" class="error-summary"></div>
+    <div id="errorItems" class="error-items"></div>
+  </section>
+
+  <section class="mode-panel" data-panel="quick">
+    <div class="section-head"><div><h2>睡前5分钟与次日回顾</h2><p>睡前只看当天关键词；第二天首次打开，快速检查昨天内容。</p></div></div>
+    <div class="quick-grid"><section><header><h3>睡前5分钟</h3><span>当天新增与今天错过的内容</span></header><div id="bedtimeList" class="quick-list"></div></section><section><header><h3>次日快速回顾</h3><span>昨天背过、复习过或答错的内容</span></header><div id="nextdayList" class="quick-list"></div></section></div>
+  </section>
+
+  <section class="mode-panel" data-panel="weekly">
+    <div class="section-head"><div><h2>最近7天复习报告</h2><p>重点不是展示数量，而是给出下一周优先清单。</p></div><button id="copyWeekly" class="ghost">复制报告</button></div>
+    <div id="weeklyReport" class="weekly-report"></div>
+  </section>
+
+  <section class="mode-panel" data-panel="weak">
+    <div class="section-head"><div><h2>薄弱知识导图</h2><p>只显示错题、到期、低熟练、关键词漏点和重复犯错内容。</p></div><button id="expandWeak" class="ghost">展开全部</button></div>
+    <div id="weakMap" class="weak-map"></div>
+  </section>
+</main>
+
+<dialog id="reasonDialog" class="reason-dialog">
+  <form method="dialog">
+    <h2>这次为什么没记住？</h2>
+    <p>选择最主要的原因，系统以后会按错因安排复习。</p>
+    <div id="reasonButtons" class="reason-buttons"></div>
+    <button value="cancel" class="ghost">暂不记录</button>
+  </form>
+</dialog>
+
+<script src="./knowledge-data.js?v=56"></script>
+<script src="./memory.js?v=56"></script>
+</body>
+</html>

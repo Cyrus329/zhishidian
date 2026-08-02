@@ -15,9 +15,10 @@ function loadStudy(){
 function st(id){return data.study?.[id]||{read:false,mastered:false,wrong:false,starred:false,note:''}}
 function isQuestion(i){return i?.studyMode==='question'||String(i?.recordType||'').includes('题目')}
 function isNote(i){return !isQuestion(i)&&(i?.studyMode==='note'||String(i?.recordType||'').includes('笔记'))}
-function isPdf(i){return String(i?.recordType||'').includes('PDF')||!!i?.pdf}
-function typeKey(i){return isQuestion(i)?'questions':(isNote(i)?'notes':(isPdf(i)?'pdf':'knowledge'))}
-function typeLabel(i){return isQuestion(i)?'题目':(isNote(i)?'课堂笔记':(isPdf(i)?'PDF资料':'知识点'))}
+function isPdf(i){return String(i?.recordType||'').includes('PDF')}
+function isMemoryItem(i){return !isNote(i)&&(!isPdf(i)||isQuestion(i))}
+function typeKey(i){return isQuestion(i)?'questions':'knowledge'}
+function typeLabel(i){return isQuestion(i)?'题目':'知识点'}
 function sourceLabel(i){return i?.sourceOrg||'未标注'}
 function quick(i){return i?.oneLine||i?.notebookSummary?.overview||i?.mustPatterns?.[0]||i?.basicExplain?.[0]||''}
 function itemText(i){return [i.title,i.chapter,i.category,i.range,i.oneLine,...(i.keywords||[]),...(i.mustPatterns||[]),...(i.basicExplain||[]),...(i.examRefine||[])].join(' ').toLowerCase()}
@@ -37,6 +38,7 @@ function matchesRule(i, rule={}){
   return tests.length?tests.some(Boolean):false;
 }
 function passesBasicFilters(i){
+  if(!isMemoryItem(i))return false;
   if(state.source&&sourceLabel(i)!==state.source)return false;
   if(state.type&&typeKey(i)!==state.type)return false;
   return true;
@@ -49,14 +51,14 @@ function passesFilters(i){
 function progress(items){
   const unique=[...new Map(items.map(i=>[i.id,i])).values()];
   const total=unique.length;
-  const done=unique.filter(i=>isNote(i)?st(i.id).read:st(i.id).mastered).length;
+  const done=unique.filter(i=>st(i.id).mastered).length;
   return {total,done,pct:total?Math.round(done/total*100):0};
 }
 function shortChapter(ch){return String(ch||'').split('｜').slice(-1)[0]||ch||'未分章'}
 function uniqueItems(items){return [...new Map((items||[]).map(i=>[i.id,i])).values()]}
 
 function buildSchemaTree(schema){
-  const subjectItems=ITEMS.filter(i=>i.subject===schema.subject);
+  const subjectItems=ITEMS.filter(i=>i.subject===schema.subject&&isMemoryItem(i));
   const assigned=new Set();
   const sections=[];
   (schema.sections||[]).forEach(sec=>{
@@ -128,7 +130,7 @@ function fillControls(){
   if(!state.schemaId||!maps.some(x=>x.id===state.schemaId))state.schemaId=maps[0]?.id||'';
   $('#mapSelect').innerHTML=maps.map(x=>`<option value="${esc(x.id)}">${esc(x.title)}</option>`).join('');
   $('#mapSelect').value=state.schemaId;
-  const sources=[...new Set(ITEMS.filter(i=>i.subject===state.subject).map(sourceLabel))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+  const sources=[...new Set(ITEMS.filter(i=>i.subject===state.subject&&isMemoryItem(i)).map(sourceLabel))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
   $('#sourceSelect').innerHTML='<option value="">全部机构</option>'+sources.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
   if(state.source&&!sources.includes(state.source))state.source='';
   $('#sourceSelect').value=state.source;
@@ -137,12 +139,11 @@ function fillControls(){
 }
 function statusMark(i){
   const s=st(i.id);
-  if(isNote(i))return s.read?'✓':'○';
   return s.mastered?'✓':(s.read?'◐':'○');
 }
 function statusClass(i){
   const s=st(i.id);
-  if((isNote(i)&&s.read)||(!isNote(i)&&s.mastered))return 'done';
+  if(s.mastered)return 'done';
   if(s.read)return 'started';
   return '';
 }
@@ -267,7 +268,7 @@ function renderItemPreview(i){
     ${listHTML('易错提醒',mistakes)}
     ${!isNote(i)&&i.clozeLines?.length?listHTML('填空背诵内容',i.clozeLines.map(x=>String(x).replace(/\[\[|\]\]/g,''))):''}
     ${images.length?`<section class="preview-section"><h3>关联原图</h3><div class="preview-images">${images.map(src=>`<a href="${esc(src)}" target="_blank"><img src="${esc(src)}" loading="lazy" alt="原图"></a>`).join('')}</div></section>`:''}
-    <div class="preview-actions"><a class="primary" href="./index.html?item=${encodeURIComponent(i.id)}">进入原卡片</a><a href="./index.html?item=${encodeURIComponent(i.id)}" target="_blank">新窗口打开</a>${i.pdf?`<a href="${esc(i.pdf)}" target="_blank">打开原PDF</a>`:''}</div>
+    <div class="preview-actions"><a class="primary" href="./index.html?item=${encodeURIComponent(i.id)}">进入原卡片</a><a href="./index.html?item=${encodeURIComponent(i.id)}" target="_blank">新窗口打开</a><a href="./notes.html?related=${encodeURIComponent(i.id)}">关联课堂笔记</a>${i.pdf?`<a href="${esc(i.pdf)}" target="_blank">打开原PDF</a>`:''}</div>
   </article>`;
   openMobilePreview();
 }
@@ -281,7 +282,7 @@ function renderOutlinePreview(id){
   $('#previewPanel').innerHTML=`${closeButton()}<article class="group-preview">
     <header class="preview-head"><div class="preview-breadcrumb">${esc(found.schema.subject)} / ${esc(found.sec.title)} / ${esc(found.group.title)}</div><div class="preview-badges"><span class="heading">原文小标题</span><span>${items.length}张对应卡片</span></div><h2>${esc(found.node.title)}</h2><p>${esc(found.node.summary||`该节点来自原思维导图：${found.path.join(' → ')}`)}</p></header>
     <section class="preview-section"><h3>原文层级</h3><div class="outline-path">${found.path.map((x,idx)=>`<span>${esc(x)}${idx<found.path.length-1?' → ':''}</span>`).join('')}</div></section>
-    <section class="preview-section"><h3>对应知识点 / 笔记 / 题目</h3>${items.length?`<div class="group-item-grid">${items.map(i=>`<button data-item-id="${esc(i.id)}"><b>${esc(i.title)}</b><span>${esc(typeLabel(i))} · ${esc(sourceLabel(i))}</span></button>`).join('')}</div>`:'<p class="muted">目前还没有单独卡片挂在这个小标题下。小标题已按原文档保留，后续导入对应内容时会自动归入这里。</p>'}</section>
+    <section class="preview-section"><h3>对应必背知识点 / 题目</h3>${items.length?`<div class="group-item-grid">${items.map(i=>`<button data-item-id="${esc(i.id)}"><b>${esc(i.title)}</b><span>${esc(typeLabel(i))} · ${esc(sourceLabel(i))}</span></button>`).join('')}</div>`:'<p class="muted">目前还没有单独卡片挂在这个小标题下。小标题已按原文档保留，后续导入对应内容时会自动归入这里。</p>'}</section>
     <div class="group-progress"><span>本节点完成度</span><b>${p.pct}%</b><i><em style="width:${p.pct}%"></em></i><small>${p.done}/${p.total}</small></div>
     <div class="preview-actions">${found.group.pdf?`<a class="primary" href="${esc(found.group.pdf)}" target="_blank">打开原PDF</a>`:''}<button data-show-outline="${esc(found.node.id)}">定位左侧小标题</button></div>
   </article>`;

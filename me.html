@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>我的 · v60.5</title><meta name="theme-color" content="#2563eb"><link rel="icon" href="./icon-192.png"><link rel="stylesheet" href="./v60.css?v=60.5"><script src="./reset-start.js?v=60.5zero"></script></head><body>
+<div class="app-shell"><header class="topbar"><div class="brand"><span class="brand-mark">我</span><div><h1>我的</h1><p>统计、考试日期、备份与恢复</p></div></div><div class="top-links"><a href="./index.html">今日</a><a href="./library.html">完整资料库</a></div></header>
+<div class="settings-grid">
+<section class="setting-card"><h3>考试日期</h3><p>设置后首页显示倒计时；30天内自动显示冲刺阶段提醒。</p><input id="examDate" type="date"><button id="saveExam">保存日期</button></section>
+<section class="setting-card"><h3>界面显示</h3><p>可跟随系统，也可固定浅色或深色。</p><select id="themeSelect"><option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option></select><button id="saveTheme">保存显示</button></section>
+<section class="setting-card"><h3>学习记录备份</h3><p>导出后可在手机、电脑或新版本中恢复。</p><button id="exportData">导出学习记录</button><label class="ghost-btn" style="display:inline-block;margin-top:10px;cursor:pointer">导入学习记录<input id="importData" type="file" accept="application/json" hidden></label></section>
+<section class="setting-card"><h3>完整资料库</h3><p>保留旧版所有原卡片、原图、答案解析、导入日期与高级筛选，平时不占首页。</p><a class="primary-btn" href="./library.html">打开完整资料库</a></section>
+<section class="setting-card"><h3>最近35天学习热力图</h3><div id="heatmap" class="heatmap"></div></section>
+<section class="setting-card"><h3>当前数据</h3><div id="dataStats"></div></section>
+<section class="setting-card danger-zone"><h3>重新从零开始</h3><p>只清空已看、掌握、错题、复习排期和学习记录；不会删除核心内容、题目、课堂笔记和原始资料。</p><button id="resetProgress">清空全部学习进度</button></section>
+</div></div>
+<nav class="bottom-nav"><a href="./index.html"><b>今</b><span>今日</span></a><a href="./learn.html"><b>学</b><span>学习</span></a><a href="./knowledge.html"><b>树</b><span>知识树</span></a><a href="./notes.html"><b>记</b><span>笔记</span></a><a href="./questions.html"><b>题</b><span>题库</span></a><a class="active" href="./me.html"><b>我</b><span>我的</span></a></nav>
+<script src="./knowledge-data.js?v=60.5"></script><script src="./v60-core.js?v=60.5"></script><script src="./me.js?v=60.5"></script></body></html>

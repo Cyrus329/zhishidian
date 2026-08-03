@@ -1,15 +1,5 @@
-const CACHE_NAME = 'zsb-knowledge-v56-zero-clean-start';
-const CORE_ASSETS = [
-  './','./index.html','./memory.html','./notes.html','./mindmap.html',
-  './styles.css?v=56','./memory.css?v=56','./notes.css?v=56','./mindmap.css?v=56',
-  './app.js?v=56','./memory.js?v=56','./notes.js?v=56','./mindmap.js?v=56','./mindmap-data.js?v=56','./knowledge-data.js?v=56',
-  './reset-start.js?v=56zero','./manifest.webmanifest','./icon-192.png','./icon-512.png'
-];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(CORE_ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',event=>{
-  const request=event.request;if(request.method!=='GET')return;const url=new URL(request.url);if(url.origin!==self.location.origin)return;
-  const isCore=/\.(?:html|css|js|webmanifest)$/.test(url.pathname)||url.pathname.endsWith('/');
-  if(isCore){event.respondWith(fetch(request).then(response=>{if(response&&response.ok){const copy=response.clone();caches.open(CACHE_NAME).then(c=>c.put(request,copy))}return response}).catch(()=>caches.match(request).then(hit=>hit||caches.match('./index.html'))));return}
-  event.respondWith(caches.match(request).then(hit=>hit||fetch(request).then(response=>{if(response&&response.ok){const copy=response.clone();caches.open(CACHE_NAME).then(c=>c.put(request,copy))}return response})));
-});
+const CACHE_NAME='zsb-knowledge-v60-5-track-order';
+const CORE=['./','./index.html','./learn.html','./knowledge.html','./notes.html','./questions.html','./me.html','./library.html','./memory.html','./mindmap.html','./v60.css?v=60.5','./v60-core.js?v=60.5','./home.js?v=60.5','./learn.js?v=60.5','./knowledge.js?v=60.5','./notes-v60.js?v=60.5','./questions.js?v=60.5','./me.js?v=60.5','./styles.css?v=60.5','./app.js?v=60.5','./knowledge-data.js?v=60.5','./reset-start.js?v=60.5zero','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(u.origin!==self.location.origin)return;const core=/\.(?:html|css|js|webmanifest)$/.test(u.pathname)||u.pathname.endsWith('/');if(core){e.respondWith(fetch(r).then(res=>{if(res&&res.ok)caches.open(CACHE_NAME).then(c=>c.put(r,res.clone()));return res}).catch(()=>caches.match(r).then(x=>x||caches.match('./index.html'))));return}e.respondWith(caches.match(r).then(x=>x||fetch(r).then(res=>{if(res&&res.ok)caches.open(CACHE_NAME).then(c=>c.put(r,res.clone()));return res})));});

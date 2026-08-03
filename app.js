@@ -121,7 +121,7 @@ function load(){
   // v50 将数学第一章统一为“函数、极限与连续”，迁移旧章节/知识块完结日期。
   Object.entries({...base.blockCompletions}).forEach(([k,v])=>{const nk=k.replace('数学｜第一章 函数｜','数学｜第一章 函数、极限与连续｜');if(nk!==k&&!base.blockCompletions[nk])base.blockCompletions[nk]=v});
   if(base.chapterCompletions['数学|||第一章 函数']&&!base.chapterCompletions['数学|||第一章 函数、极限与连续'])base.chapterCompletions['数学|||第一章 函数、极限与连续']=base.chapterCompletions['数学|||第一章 函数'];
-  base.settings = {autoNext:true,dailyNewQuota:20,dailyReviewCap:40,...(base.settings||{})};
+  base.settings = {autoNext:true,planMode:'adaptive-time',dailyMinutes:0,examDate:'',targetRetention:0.90,avgReviewSec:45,avgNewSec:150,timingSamples:0,...(base.settings||{})};
   base.dailyPlans ||= {}; base.errorReasons ||= {}; base.eventLog ||= []; base.challengeRecords ||= {}; base.quickReview ||= {};
   return base;
 }
@@ -142,17 +142,30 @@ function compat(study){
 }
 function st(id){return data.study[id]||{read:false,starred:false,mastered:false,note:''}}
 function isQuestionCard(i){return i?.studyMode==='question'||String(i?.recordType||'').includes('题目')}
-function isNoteCard(i){return !isQuestionCard(i)&&(i?.studyMode==='note'||String(i?.recordType||'').includes('笔记'))}
+function isNoteCard(i){return !isQuestionCard(i)&&(i?.studyMode==='note'||i?.studyMode==='understand'||String(i?.recordType||'').includes('笔记')||String(i?.recordType||'').includes('了解'))}
 function isMemoryMapCard(i){return !isNoteCard(i)&&!(String(i?.recordType||'').includes('PDF')&&!isQuestionCard(i))}
 function dailyPlanDateKey(d=new Date()){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
 function appIsDue(i){const r=data.reviews?.[i.id];return !!r?.due&&r.due<=dailyPlanDateKey()}
 function appWeakScore(i){const s=st(i.id),r=data.reviews?.[i.id]||{},errors=Object.values(data.errorReasons?.[i.id]||{}).reduce((n,x)=>n+Number(x||0),0);let score=0;if(s.wrong)score+=8;if(appIsDue(i))score+=6;if(!s.mastered)score+=2;if(r.lastGrade===0)score+=4;if(r.lastGrade===1)score+=2;return score+Math.min(5,errors)}
+function appConfigured(){return Number(data.settings.dailyMinutes||0)>0}
+function appDaysBetween(a,b){const A=new Date(`${a}T00:00:00`),B=new Date(`${b}T00:00:00`);return Math.round((B-A)/86400000)}
+function appExamDaysLeft(){if(!data.settings.examDate)return null;return appDaysBetween(dailyPlanDateKey(),data.settings.examDate)}
+function appRetention(){const base=Math.max(.85,Math.min(.95,Number(data.settings.targetRetention||.90))),d=appExamDaysLeft();if(d===null)return base;if(d<=21)return Math.max(base,.93);if(d<=60)return Math.max(base,.91);return base}
+function appRetrievability(i){const r=data.reviews?.[i.id]||{};if(!r.count||!r.last)return 0;const S=Math.max(.1,Number(r.stability||r.interval||1)),t=Math.max(0,appDaysBetween(r.last,dailyPlanDateKey()));return 1/(1+t/(9*S))}
+function appScientificDue(i){const r=data.reviews?.[i.id]||{};return !!r.count&&(appIsDue(i)||appRetrievability(i)<=appRetention()||st(i.id).wrong)}
+function appInterleave(items){const g=new Map();items.forEach(i=>{const a=g.get(i.subject)||[];a.push(i);g.set(i.subject,a)});const keys=[...g.keys()],out=[];let moved=true;while(moved){moved=false;for(const k of keys){const a=g.get(k);if(a?.length){out.push(a.shift());moved=true}}}return out}
 function ensureAppDailyPlan(){
-  const key=dailyPlanDateKey();let p=data.dailyPlans[key];
+  const key=dailyPlanDateKey();let p=data.dailyPlans[key];if(p&&p.algorithm!=='adaptive-time-v57'){delete data.dailyPlans[key];p=null}
   if(!p){
-    const mem=ITEMS.filter(isMemoryMapCard),due=mem.filter(appIsDue).sort((a,b)=>appWeakScore(b)-appWeakScore(a)||(a.order||0)-(b.order||0)).slice(0,Number(data.settings.dailyReviewCap||40));
-    const used=new Set(due.map(i=>i.id));const fresh=mem.filter(i=>!used.has(i.id)&&!st(i.id).mastered&&!data.reviews?.[i.id]?.count&&!st(i.id).read).sort((a,b)=>(a.order||0)-(b.order||0)).slice(0,Number(data.settings.dailyNewQuota||20));
-    p={date:key,reviewIds:due.map(i=>i.id),newIds:fresh.map(i=>i.id),completedIds:[],createdAt:new Date().toISOString()};data.dailyPlans[key]=p;scheduleSave(0);
+    if(!appConfigured())p={date:key,reviewIds:[],newIds:[],completedIds:[],createdAt:new Date().toISOString(),algorithm:'adaptive-time-v57',needsSetup:true,estimatedSeconds:0,backlogCount:0};
+    else{
+      const mem=ITEMS.filter(isMemoryMapCard),budget=Math.max(10,Number(data.settings.dailyMinutes))*60,reviewSec=Math.max(15,Number(data.settings.avgReviewSec||45)),newSec=Math.max(45,Number(data.settings.avgNewSec||150));
+      const dueAll=mem.filter(appScientificDue).sort((a,b)=>appRetrievability(a)-appRetrievability(b)||appWeakScore(b)-appWeakScore(a)||(a.order||0)-(b.order||0));
+      const due=dueAll.slice(0,Math.floor(budget/reviewSec)),used=new Set(due.map(i=>i.id)),remaining=Math.max(0,budget-due.length*reviewSec);
+      const fresh=appInterleave(mem.filter(i=>!used.has(i.id)&&!st(i.id).mastered&&!data.reviews?.[i.id]?.count&&!st(i.id).read).sort((a,b)=>(a.order||0)-(b.order||0))).slice(0,Math.floor(remaining/newSec));
+      p={date:key,reviewIds:due.map(i=>i.id),newIds:fresh.map(i=>i.id),completedIds:[],createdAt:new Date().toISOString(),algorithm:'adaptive-time-v57',minutes:Number(data.settings.dailyMinutes),targetRetention:appRetention(),estimatedSeconds:due.length*reviewSec+fresh.length*newSec,backlogCount:Math.max(0,dueAll.length-due.length)};
+    }
+    data.dailyPlans[key]=p;scheduleSave(0);
   }
   p.reviewIds=(p.reviewIds||[]).filter(id=>ITEM_BY_ID.has(id));p.newIds=(p.newIds||[]).filter(id=>ITEM_BY_ID.has(id));p.completedIds=p.completedIds||[];return p;
 }
@@ -160,9 +173,10 @@ function appPlanType(id){const p=ensureAppDailyPlan();if(p.completedIds.includes
 function renderDailyPriority(){
   const host=$('#dailyPriorityPanel');if(!host)return;const p=ensureAppDailyPlan(),reviewIds=p.reviewIds.filter(id=>!p.completedIds.includes(id)),newIds=p.newIds.filter(id=>!p.completedIds.includes(id));
   const rows=(ids,type)=>ids.slice(0,8).map(id=>{const i=ITEM_BY_ID.get(id);return i?`<a href="./memory.html?item=${encodeURIComponent(id)}"><span>${type==='review'?'今日复习':'今日必背'}</span><b>${esc(i.title)}</b><em>${esc(i.subject)} · ${esc(i.category||'未分类')}</em></a>`:''}).join('');
-  host.innerHTML=`<div class="daily-priority-head"><div><strong>今天必须完成</strong><p>红色是到期复习，橙色是新背知识点。完成后自动安排下次时间。</p></div><a href="./memory.html">进入高效背诵中心</a></div><div class="daily-priority-grid"><section class="must-review"><header><span>🔴 今日必须复习</span><b>${reviewIds.length}</b></header><div>${rows(reviewIds,'review')||'<p>今天没有待复习内容。</p>'}</div></section><section class="must-new"><header><span>🟠 今日必须背诵</span><b>${newIds.length}</b></header><div>${rows(newIds,'new')||'<p>今天的新背任务已完成。</p>'}</div></section></div>`;
+  const desc=appConfigured()?`按${data.settings.dailyMinutes}分钟时间预算：先复习，再根据剩余时间安排新知识；不是固定张数。${p.backlogCount?` 当前还有${p.backlogCount}张复习积压。`:''}`:'尚未设置科学计划，不再默认每天20张。';
+  host.innerHTML=`<div class="daily-priority-head"><div><strong>今天必须完成</strong><p>${desc}</p></div><a href="./memory.html">${appConfigured()?'进入高效背诵中心':'设置科学计划'}</a></div><div class="daily-priority-grid"><section class="must-review"><header><span>🔴 今日必须复习</span><b>${reviewIds.length}</b></header><div>${rows(reviewIds,'review')||'<p>今天没有待复习内容。</p>'}</div></section><section class="must-new"><header><span>🟠 今日必须背诵</span><b>${newIds.length}</b></header><div>${rows(newIds,'new')||(appConfigured()?'<p>今天没有安全的新背额度。</p>':'<p>设置可用时间后自动计算。</p>')}</div></section></div>`;
 }
-function recordTypeClass(type){return type==='PDF资料整理'?'pdf':(type==='图片知识点'?'image':(String(type||'').includes('题目')?'question':(String(type||'').includes('笔记')?'note':'')))}
+function recordTypeClass(type){return type==='PDF资料整理'?'pdf':(type==='图片知识点'?'image':(String(type||'').includes('题目')?'question':(String(type||'').includes('了解')?'understand':(String(type||'').includes('笔记')?'note':''))))}
 function itemBlockKey(i){return [i?.subject||'未分类',i?.chapter||'未分章',i?.category||'未分类'].join('|||')}
 function buildKnowledgeBlockIndex(){
   const byKey=new Map();
@@ -903,8 +917,8 @@ $('#importBatchFilter')?.addEventListener('change',e=>{state.blockKey='';state.c
 $('#recordTypeFilter')?.addEventListener('change',e=>{state.blockKey='';state.chapterRootKey='';state.recordType=e.target.value;state.selected='';renderFilteredContent()});
 $('#sourceOrgFilter')?.addEventListener('change',e=>{state.blockKey='';state.chapterRootKey='';state.sourceOrg=e.target.value;state.selected='';renderFilteredContent()});
 $('#closeDialog').addEventListener('click',()=>$('#imageDialog').close());
-$('#exportNotebookBtn')?.addEventListener('click',()=>{const blob=new Blob([allNotebookSummaryText()],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='专升本笔记本总结_v56_全优先级高效记忆版.txt';a.click();URL.revokeObjectURL(a.href)});
-$('#exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:56,knowledgeVersion:META.version,importDates:META.importBatches||[],exportedAt:new Date().toISOString(),study:data.study,stats:data.stats,reviews:data.reviews,recall:data.recall,answers:data.answers,blockCompletions:data.blockCompletions,chapterCompletions:data.chapterCompletions,settings:data.settings,dailyPlans:data.dailyPlans,errorReasons:data.errorReasons,eventLog:data.eventLog,challengeRecords:data.challengeRecords,quickReview:data.quickReview},null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='专升本知识点学习记录_v56_全优先级高效记忆版.json'; a.click(); URL.revokeObjectURL(a.href)});
+$('#exportNotebookBtn')?.addEventListener('click',()=>{const blob=new Blob([allNotebookSummaryText()],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='专升本笔记本总结_v57_科学自适应时间计划版.txt';a.click();URL.revokeObjectURL(a.href)});
+$('#exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({version:57,knowledgeVersion:META.version,importDates:META.importBatches||[],exportedAt:new Date().toISOString(),study:data.study,stats:data.stats,reviews:data.reviews,recall:data.recall,answers:data.answers,blockCompletions:data.blockCompletions,chapterCompletions:data.chapterCompletions,settings:data.settings,dailyPlans:data.dailyPlans,errorReasons:data.errorReasons,eventLog:data.eventLog,challengeRecords:data.challengeRecords,quickReview:data.quickReview},null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='专升本知识点学习记录_v57_科学自适应时间版.json'; a.click(); URL.revokeObjectURL(a.href)});
 $('#importInput').addEventListener('change',async e=>{const f=e.target.files?.[0]; if(!f)return; try{const x=JSON.parse(await f.text()); data.study=compat(x.study||x||{}); data.stats=x.stats||data.stats; data.reviews=x.reviews||data.reviews||{};data.recall=x.recall||data.recall||{};data.answers=x.answers||data.answers||{};data.blockCompletions=x.blockCompletions||data.blockCompletions||{};data.chapterCompletions=x.chapterCompletions||data.chapterCompletions||{};data.settings={...data.settings,...(x.settings||{})};data.dailyPlans=x.dailyPlans||data.dailyPlans||{};data.errorReasons=x.errorReasons||data.errorReasons||{};data.eventLog=x.eventLog||data.eventLog||[];data.challengeRecords=x.challengeRecords||data.challengeRecords||{};data.quickReview=x.quickReview||data.quickReview||{}; save(); render(); alert('导入完成')}catch{alert('导入失败，请选择正确 JSON')}});
 setInterval(()=>{if(document.hidden||!state.selected)return; const i=ITEM_BY_ID.get(state.selected); if(!i)return; data.stats.totalSeconds=(data.stats.totalSeconds||0)+15; data.stats.days[today()]=(data.stats.days[today()]||0)+15; data.stats.subjectSeconds[i.subject]=(data.stats.subjectSeconds[i.subject]||0)+15; data.stats.itemSeconds[i.id]=(data.stats.itemSeconds[i.id]||0)+15; save(); renderStats();},15000);
 

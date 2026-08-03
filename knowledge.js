@@ -23,7 +23,7 @@
   function cardHtml(b){
     const s=V.blockSummary(b),isPdf=b.track==='pdf',must=b.knowledge.reduce((n,i)=>n+(i.mustPatterns||[]).length,0),understand=b.understand.length+b.knowledge.reduce((n,i)=>n+(i.understandOnly||[]).length,0);
     const status=b.complete?'已完成':b.started?'学习中':(b.knowledge.length?'未开始':'仅了解');
-    return `<article class="compact-block-row ${isPdf?'pdf-block-row':'daily-block-row'}"><div class="compact-block-main"><div class="compact-block-title"><h4>${V.esc(displayTitle(b))}</h4><span>${status}</span></div><p>${s.core[0]?V.esc(s.core[0]):'本模块没有加粗必背内容，只需阅读了解'}</p><div class="mini-progress"><i style="width:${b.progress}%"></i></div><div class="compact-meta">${isPdf?'<span class="track-tag pdf">PDF专题</span>':'<span class="track-tag daily">日常背诵</span>'}<span>必背 ${must}条</span><span>了解 ${understand}项</span><span>课堂笔记 ${b.notes.length}</span><span>关联题 ${b.questions.length}</span></div></div><div class="compact-block-actions"><a class="primary-btn" href="./learn.html?block=${encodeURIComponent(b.key)}&track=${b.track}">${b.knowledge.length?(isPdf?'背这一份PDF':'开始这一块'):'阅读了解'}</a><details><summary>查看细项</summary><div class="fine-item-list">${[...b.knowledge,...b.understand].map(i=>`<a href="./library.html?item=${encodeURIComponent(i.id)}">${V.esc(i.title)}</a>`).join('')}</div></details></div></article>`;
+    return `<article class="compact-block-row ${isPdf?'pdf-block-row':'daily-block-row'}"><div class="compact-block-main"><div class="compact-block-title"><h4>${V.esc(displayTitle(b))}</h4><span>${status}</span></div><p>${s.core[0]?V.esc(s.core[0]):'本模块没有加粗必背内容，只需阅读了解'}</p><div class="mini-progress"><i style="width:${b.progress}%"></i></div><div class="compact-meta">${isPdf?'<span class="track-tag pdf">PDF原资料</span>':'<span class="track-tag daily">日常知识点</span>'}<span>必背 ${must}条</span><span>了解 ${understand}项</span><span>课堂笔记 ${b.notes.length}</span><span>关联题 ${b.questions.length}</span></div></div><div class="compact-block-actions"><a class="primary-btn" href="./learn.html?block=${encodeURIComponent(b.key)}&track=${b.track}">${b.knowledge.length?(isPdf?'背这一份PDF':'开始这一块'):'阅读了解'}</a><details><summary>查看细项</summary><div class="fine-item-list">${[...b.knowledge,...b.understand].map(i=>`<a href="./library.html?item=${encodeURIComponent(i.id)}">${V.esc(i.title)}</a>`).join('')}</div></details></div></article>`;
   }
   function render(){
     const blocks=V.refreshBlocks(state.track).filter(matchesBlock),chapters=new Map();
@@ -44,8 +44,8 @@
   function updateTrackUi(){
     const isPdf=state.track==='pdf';
     V.$('#trackDaily').classList.toggle('active',!isPdf);V.$('#trackPdf').classList.toggle('active',isPdf);
-    V.$('#trackTitle').textContent=isPdf?'计算机 PDF 01—10 加粗必背':'日常背诵知识树';
-    V.$('#trackDesc').textContent=isPdf?'与日常背诵完全分开。只背原PDF黑色加粗内容，普通字仍可查看了解；按1.1、1.2和PDF 01—10顺序排列。':'这里只安排平时导入的日常知识点，不包含PDF 01—10专题。';
+    V.$('#trackTitle').textContent=isPdf?'PDF原资料 01—10（独立专区）':'日常知识点（非PDF）';
+    V.$('#trackDesc').textContent=isPdf?'这里只显示10张由PDF 01—10直接整理出的专属卡；不会带入任何日常知识点。只背原PDF黑色加粗内容，普通字只作了解。':'这里只显示原来的日常知识点，例如历史人物、历史事件、计算机特点等；这些不是PDF卡。';
     const action=V.$('#trackAction');
     action.href=isPdf?'./learn.html?track=pdf':'./learn.html';
     action.textContent=isPdf?'按 01—10 顺序开始 PDF 背诵':'开始今日背诵';

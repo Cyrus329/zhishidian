@@ -35,7 +35,7 @@
   function isNote(i){ return !isQuestion(i) && (i?.studyMode==='note' || String(i?.recordType||'').includes('笔记')); }
   function isUnderstand(i){ return !isQuestion(i) && !isNote(i) && (i?.studyMode==='understand' || String(i?.recordType||'').includes('了解')); }
   function isPdf(i){ return String(i?.recordType||'').includes('PDF'); }
-  function isPdfTrack(i){ return !!i?.pdfModule; }
+  function isPdfTrack(i){ return i?.pdfTrack===true; }
   function isSourceMaterial(i){
     if(i?.boldOnlyRule || i?.studyMode==='understand')return false;
     const text=`${i?.recordType||''} ${i?.category||''} ${i?.title||''}`;

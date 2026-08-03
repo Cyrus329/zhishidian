@@ -63,7 +63,7 @@ html[data-theme="light"] .tree-section h3{color:#1e293b}
 @media(max-width:820px){.app-shell{padding-left:10px;padding-right:10px}.hero{padding:20px}.hero h2{font-size:27px}.compact-block-row{grid-template-columns:1fr;gap:11px;padding:14px}.compact-block-actions{grid-template-columns:1fr auto;align-items:center}.compact-block-actions details{min-width:92px}.compact-block-title{align-items:flex-start}.compact-block-title h4{font-size:16px}.compact-study-heading{display:block}.compact-study-heading>span{display:inline-block;margin-top:9px}.compact-study-card{padding:16px}.compact-study-heading h1{font-size:23px}.compact-core{padding:14px}.compact-core li{line-height:1.65}.page-title{padding:15px}.page-title h1{font-size:21px}.bottom-nav{width:calc(100% - 16px)}}
 
 
-/* v60.5 - PDF 01-10: bold memorization vs understand-only */
+/* v60.6 - PDF 01-10: bold memorization vs understand-only */
 .bold-only-core{border:2px solid #ef4444;background:#fff7f7}
 .bold-only-core .compact-core-title{color:#b91c1c;font-size:1.05rem}
 .bold-group{padding:12px 0;border-top:1px solid #fecaca}
@@ -77,7 +77,7 @@ html[data-theme="light"] .tree-section h3{color:#1e293b}
 .record-type-badge.understand{background:#e2e8f0;color:#475569}
 @media(max-width:720px){.bold-group li,.understand-details li{font-size:15px}.bold-only-core,.understand-details{border-radius:14px}.source-pdf-row a{width:100%;justify-content:center}}
 
-/* v60.5：日常背诵与PDF专题彻底分区 */
+/* v60.6：日常背诵与PDF专题彻底分区 */
 .track-switch-wrap{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:16px;margin-bottom:14px}
 .track-switch{display:inline-grid;grid-template-columns:1fr 1fr;background:#eef2f7;border-radius:13px;padding:4px;gap:4px}
 .track-switch button{border:0;background:transparent;color:#526071;border-radius:10px;padding:10px 18px;font-weight:900;cursor:pointer}

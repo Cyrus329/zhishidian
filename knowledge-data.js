@@ -85,7 +85,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-15 用户截图：冯·诺依曼"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "day-01-2026-07-15-knowledge",
@@ -120,14 +120,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "冯·诺依曼被称为“计算机之父”。",
       "mnemonic": "冯·诺依曼 → 计算机之父 → 存储程序 → 程序控制 → 运算器 → 控制器",
       "sourceLabel": "第1天 · 7.15 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "02-冯·诺依曼",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -216,7 +209,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-15 用户截图：图灵"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "day-01-2026-07-15-knowledge",
@@ -251,14 +244,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "图灵被称为“人工智能之父”。",
       "mnemonic": "图灵 → 人工智能之父 → 图灵机 → 图灵测试 → 人机对话 → 图灵奖",
       "sourceLabel": "第1天 · 7.15 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "01-阿兰·图灵",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -313,7 +299,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-15 用户截图：巴贝奇"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "day-01-2026-07-15-knowledge",
@@ -340,14 +326,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "1834年，巴贝奇发明的分析机被誉为现代计算机的雏形。",
       "mnemonic": "巴贝奇 → 1834年 → 分析机 → 现代计算机的雏形",
       "sourceLabel": "第1天 · 7.15 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "03-著名计算机",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -586,7 +565,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "图灵机主要由一条无限长的纸带和一个读写头组成。",
       "sourceLabel": "计算机PDF 01 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "subject": "计算机",
@@ -693,7 +674,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-15 用户新发图片：01-阿兰·图灵知识点图（独立图片知识点卡）"
     ],
-    "recordType": "了解内容",
+    "recordType": "图片知识点",
     "importHistory": [
       {
         "id": "day-01-2026-07-15-image-note",
@@ -730,14 +711,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "图灵机（TM）是一台假想的机器，不是一台实际的计算机。",
       "mnemonic": "阿兰·图灵 → 图灵机 → TM → 通用图灵机 → UTM → 丘奇-图灵论题",
       "sourceLabel": "第1天 · 7.15 · 图片知识点"
-    },
-    "originalRecordType": "图片知识点",
-    "studyMode": "understand",
-    "pdfModule": "01-阿兰·图灵",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "id": "D02-COMP-PDF-001",
@@ -855,7 +829,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "冯·诺依曼是第一台冯·诺依曼机EDVAC的设计者，首次提出“存储程序控制”原理。",
       "sourceLabel": "计算机PDF 02 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "subject": "计算机",
@@ -927,7 +903,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-16 用户新发图片：02-冯·诺依曼知识点图（独立图片知识点卡）"
     ],
-    "recordType": "了解内容",
+    "recordType": "图片知识点",
     "importHistory": [
       {
         "id": "day-02-2026-07-16-image-note",
@@ -961,14 +937,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "EDVAC是世界上第一台冯·诺依曼机。",
       "mnemonic": "冯·诺依曼 → EDVAC → 第一台冯·诺依曼机 → 存储程序原理 → 冯·诺依曼体系结构 → 现代计算机",
       "sourceLabel": "第2天 · 7.16 · 图片知识点"
-    },
-    "originalRecordType": "图片知识点",
-    "studyMode": "understand",
-    "pdfModule": "02-冯·诺依曼",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "英语",
@@ -4666,7 +4635,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-16 用户截图：计算机的分代"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "date-2026-07-16",
@@ -4700,14 +4669,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "世界上第一台电子计算机所采用的逻辑元件是电子管。",
       "mnemonic": "电子管 → 物理器件 → 第四代 → Intel 4004 → 计算机的分代",
       "sourceLabel": "第2天 · 7.16 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "04-发展阶段",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -4759,7 +4721,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-16 用户截图：ENIAC"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "date-2026-07-16",
@@ -4787,14 +4749,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "世界上第一台电子计算机于1946年诞生，它的英文名字叫ENIAC。",
       "mnemonic": "ENIAC → 1946年 → 第一台电子计算机",
       "sourceLabel": "第2天 · 7.16 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "03-著名计算机",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -4840,7 +4795,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-16 用户截图：神威·太湖之光"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "date-2026-07-16",
@@ -4866,14 +4821,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "我国目前速度最快的高性能计算机是神威·太湖之光。",
       "mnemonic": "神威·太湖之光 → 高性能计算机",
       "sourceLabel": "第2天 · 7.16 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "03-著名计算机",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -4919,7 +4867,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-16 用户截图：UNIVAC"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "date-2026-07-16",
@@ -4945,14 +4893,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "标志计算机进入商业应用时代的计算机称为UNIVAC。",
       "mnemonic": "UNIVAC → 商业应用时代",
       "sourceLabel": "第2天 · 7.16 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "03-著名计算机",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -4999,7 +4940,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "2026-07-16 用户截图：EDVAC"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "importHistory": [
       {
         "id": "date-2026-07-16",
@@ -5025,14 +4966,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "世界上第一台“冯机”叫做EDVAC，为现在计算机在体系结构和工作原理上奠定了基础。",
       "mnemonic": "EDVAC → 冯机 → 存储程序",
       "sourceLabel": "第2天 · 7.16 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "03-著名计算机",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false,
-    "sourceOrg": "全方位"
+    }
   },
   {
     "subject": "计算机",
@@ -6680,7 +6614,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "算筹是古代中国人发明的世界上最早的计算工具。",
       "sourceLabel": "计算机PDF 03 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "id": "D03-COMP-PDF-002",
@@ -6833,7 +6769,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "第一代是电子管时代。",
       "sourceLabel": "计算机PDF 04 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "importBatchId": "date-2026-07-18",
@@ -17080,7 +17018,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "计算机运算速度快、精度高。",
       "sourceLabel": "计算机PDF 05 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "id": "D12-COMP-PDF-002",
@@ -17209,7 +17149,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "计算机按用途分为通用机和专用机。",
       "sourceLabel": "计算机PDF 06 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "id": "D12-COMP-PDF-003",
@@ -17389,7 +17331,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "科学计算又称数值计算，科研和军事是其主要领域，也是计算机最早的应用领域。",
       "sourceLabel": "计算机PDF 07 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "id": "D12-COMP-PDF-004",
@@ -17525,7 +17469,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "未来计算机将朝着巨型化、微型化、网络化和智能化的方向发展。",
       "sourceLabel": "计算机PDF 08 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "subject": "计算机",
@@ -17588,7 +17534,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（05）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（05）",
     "importHistory": [
@@ -17622,13 +17568,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "计算机运算速度快、精度高。",
       "mnemonic": "速度快 → 精度高 → 存储 → 逻辑判断 → 自动运行 → 人机交互",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "05-计算机的特点",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -17683,7 +17623,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（06）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（06）",
     "importHistory": [
@@ -17713,13 +17653,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "按用途分为通用机和专用机。",
       "mnemonic": "通用机 → 专用机 → 服务器 → 工作站 → 微型机 → 嵌入式",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "06-计算机的分类",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -17772,7 +17706,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（06）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（06）",
     "importHistory": [
@@ -17802,13 +17736,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "嵌入式计算机是嵌入应用系统的信息处理部件。",
       "mnemonic": "嵌入式计算机 → 单片机 → ROM → 软硬件一体化",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "06-计算机的分类",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -17869,7 +17797,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（07）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（07）",
     "importHistory": [
@@ -17901,13 +17829,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "科学计算又称数值计算，数据量小但计算复杂。",
       "mnemonic": "科学计算 → 数值计算 → 数据处理 → 非数值计算 → 过程控制 → 实时",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "07-计算机的应用",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -17967,7 +17889,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（07）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（07）",
     "importHistory": [
@@ -17999,13 +17921,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "CAD是计算机辅助设计。",
       "mnemonic": "CAD → CAI → CAM → CIMS → CAE → CAT",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "07-计算机的应用",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -18061,7 +17977,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（07）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（07）",
     "importHistory": [
@@ -18091,13 +18007,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "多媒体技术以计算机技术为核心，融合现代声像与通信技术。",
       "mnemonic": "多媒体 → Internet → IoT → AI → 机器学习 → AlphaGO",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "07-计算机的应用",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -18158,7 +18068,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（08）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（08）",
     "importHistory": [
@@ -18190,13 +18100,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "未来计算机朝巨型化、微型化、网络化和智能化方向发展。",
       "mnemonic": "巨型化 → 微型化 → 网络化 → 智能化 → 光子计算机 → 生物计算机",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "08-计算机的未来",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "计算机",
@@ -18253,7 +18157,7 @@ window.KNOWLEDGE_ITEMS = [
     "sourceFiles": [
       "全方位计算机基础（08）"
     ],
-    "recordType": "了解内容",
+    "recordType": "知识点背诵",
     "sourceOrg": "全方位",
     "sourceCourse": "计算机基础（08）",
     "importHistory": [
@@ -18285,13 +18189,7 @@ window.KNOWLEDGE_ITEMS = [
       "conclusion": "量子比特可处于0和1的叠加态。",
       "mnemonic": "Qubit → 态叠加 → Hilbert空间 → 量子纠缠 → 量子并行 → 九章",
       "sourceLabel": "第12天 · 7.26 · 全方位 · 知识点背诵"
-    },
-    "originalRecordType": "知识点背诵",
-    "studyMode": "understand",
-    "pdfModule": "08-计算机的未来",
-    "pdfSection": "1.1 PDF 01-08",
-    "understandSource": "由原计算机PDF 01-10规则校正：本细卡不再参与背诵。",
-    "boldOnlyRule": false
+    }
   },
   {
     "subject": "英语",
@@ -24339,7 +24237,9 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "计算是基于规则的符号串变换。",
       "sourceLabel": "计算机PDF 09 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   },
   {
     "id": "D12-COMP-UNDERSTAND-010",
@@ -24425,9 +24325,12 @@ window.KNOWLEDGE_ITEMS = [
       ],
       "conclusion": "本页只需了解。",
       "sourceLabel": "计算机PDF 10 · 加粗规则"
-    }
+    },
+    "pdfTrack": true,
+    "sourceType": "computer-pdf-original"
   }
 ];
+
 window.KNOWLEDGE_META = {
   "version": "v60.3 英语课堂笔记导入版",
   "lightweight": true,
@@ -25640,7 +25543,7 @@ window.KNOWLEDGE_META = {
     "录屏2": 0
   },
   "removedOldExamCards": 0,
-  "note": "v60.4规则校正：计算机PDF 01-10仅黑色加粗内容参与背诵；普通字和浅灰字保留为了解；学习记录重新清零。",
+  "note": "v60.6分类修正：日常知识点与计算机PDF 01-10严格分离；PDF专区仅包含10张原PDF整理卡，任何日常知识点均不进入PDF专区。",
   "sourceOrganizations": [
     "蓝色森林",
     "全方位",
@@ -25651,6 +25554,9 @@ window.KNOWLEDGE_META = {
     "range": "PDF 01-10",
     "memorize": "仅黑色加粗",
     "understand": "普通字与浅灰字",
-    "resetProgress": true
+    "resetProgress": true,
+    "strictTrack": true,
+    "pdfCards": 10,
+    "dailyCardsRestored": 18
   }
 };

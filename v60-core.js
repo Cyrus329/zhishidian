@@ -216,6 +216,49 @@
     const keywords=uniq(reps.flatMap(i=>i.keywords||[]).filter(Boolean)).slice(0,12);
     return {core,keywords,titles:block.knowledge.map(i=>i.title),representative:reps[0]||block.knowledge[0]};
   }
+  function normalizeText(s){ return String(s||'').toLowerCase().replace(/[\s　]/g,'').replace(/[，。、“”‘’；：:!！?？（）()【】\[\]<>《》、,.;+\-_=—]/g,''); }
+  function pickBlankAnswer(line,keywords){
+    const pool=(keywords||[]).map(x=>String(x||'').trim()).filter(x=>x&&x.length>=2).sort((a,b)=>b.length-a.length);
+    for(const kw of pool){ if(line.includes(kw)) return kw; }
+    const parts=String(line||'').split(/[，。,、；;：:\s（）()【】\[\]\/]/).map(x=>x.trim()).filter(x=>x.length>=2);
+    parts.sort((a,b)=>b.length-a.length);
+    return parts[0]||'';
+  }
+  function buildBlockCheck(block){
+    if(!block) return [];
+    const s=blockSummary(block);
+    let sourceLines=[];
+    if(block.track==='pdf'){
+      const boldItems=block.knowledge.filter(i=>i.boldOnlyRule);
+      sourceLines=uniq(boldItems.flatMap(i=>i.mustPatterns||[]));
+    }else{
+      sourceLines=s.core.length ? s.core.slice() : uniq(block.knowledge.flatMap(i=>i.mustPatterns||[]));
+    }
+    const tests=[]; const used=new Set();
+    sourceLines.forEach(line=>{
+      const text=String(line||'').trim(); if(!text || tests.length>=6) return;
+      const answer=pickBlankAnswer(text,s.keywords);
+      if(!answer || answer.length<2 || used.has(answer)) return;
+      const prompt=text.replace(answer,'____');
+      if(prompt===text) return;
+      used.add(answer);
+      tests.push({prompt,answer,line:text});
+    });
+    if(tests.length<3){
+      s.keywords.forEach(kw=>{
+        if(tests.length>=6) return;
+        if(!kw || used.has(kw)) return;
+        used.add(kw);
+        tests.push({prompt:'请写出这个知识块的一个核心关键词',answer:String(kw),line:String(kw)});
+      });
+    }
+    return tests;
+  }
+  function checkTypedAnswer(input,answer){
+    const a=normalizeText(input),b=normalizeText(answer);
+    if(!a||!b) return false;
+    return a===b || a.includes(b) || b.includes(a);
+  }
   function answerHtml(i){
     if(isQuestion(i))return `<div class="answer-core"><strong>答案：${esc(i.answer||'资料未提供')}</strong></div>${i.solutionSteps?.length?`<ol>${i.solutionSteps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}${i.principle?.summary?`<p class="principle"><b>本题原理：</b>${esc(i.principle.summary)}</p>`:''}`;
     const lines=contentLines(i).slice(0,8); return `<p class="one-line">${esc(i.oneLine||'')}</p>${lines.length?`<ul>${lines.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${i.keywords?.length?`<div class="keyword-row">${i.keywords.slice(0,10).map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}`;
@@ -253,5 +296,5 @@
   function exportData(){ const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`专升本学习记录_${dateKey()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000); }
   function importData(file){ return file.text().then(text=>{const parsed=JSON.parse(text);if(!parsed||typeof parsed!=='object')throw new Error('无效记录');data={...defaults(),...parsed};save(0);return true}); }
   function resetProgress(){ const settings={...data.settings};data=defaults();data.settings=settings;save(0); }
-  window.V60={ITEMS,SORTED,BY_ID,STORE,$,$$,esc,dateKey,addDays,data:()=>data,save,state,updateState,isQuestion,isNote,isUnderstand,isPdf,isPdfTrack,isSourceMaterial,isKnowledge,parts,chapter,section,source,dateLabel,groupInfo,blockKey,blockLabel,refreshBlocks,dailyBlocks,pdfBlocks,compareBlocks,pdfDisplaySection,pdfDisplayCode,reviewDue,urgency,dueBlocks,nextBlock,dueItems,relatedQuestions,todayPlan,examDays,markGrade,markBlockGrade,markUnderstandBlock,subjectStats,pdfStats,coach,contentLines,blockSummary,answerHtml,questionHtml,blockQuestionHtml,blockAnswerHtml,openLibrary,registerSW,setTheme,exportData,importData,resetProgress,uniq};
+  window.V60={ITEMS,SORTED,BY_ID,STORE,$,$$,esc,dateKey,addDays,data:()=>data,save,state,updateState,isQuestion,isNote,isUnderstand,isPdf,isPdfTrack,isSourceMaterial,isKnowledge,parts,chapter,section,source,dateLabel,groupInfo,blockKey,blockLabel,refreshBlocks,dailyBlocks,pdfBlocks,compareBlocks,pdfDisplaySection,pdfDisplayCode,reviewDue,urgency,dueBlocks,nextBlock,dueItems,relatedQuestions,todayPlan,examDays,markGrade,markBlockGrade,markUnderstandBlock,subjectStats,pdfStats,coach,contentLines,blockSummary,buildBlockCheck,checkTypedAnswer,answerHtml,questionHtml,blockQuestionHtml,blockAnswerHtml,openLibrary,registerSW,setTheme,exportData,importData,resetProgress,uniq};
 })();

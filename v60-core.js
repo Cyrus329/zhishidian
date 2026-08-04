@@ -216,48 +216,227 @@
     const keywords=uniq(reps.flatMap(i=>i.keywords||[]).filter(Boolean)).slice(0,12);
     return {core,keywords,titles:block.knowledge.map(i=>i.title),representative:reps[0]||block.knowledge[0]};
   }
-  function normalizeText(s){ return String(s||'').toLowerCase().replace(/[\s　]/g,'').replace(/[，。、“”‘’；：:!！?？（）()【】\[\]<>《》、,.;+\-_=—]/g,''); }
-  function pickBlankAnswer(line,keywords){
-    const pool=(keywords||[]).map(x=>String(x||'').trim()).filter(x=>x&&x.length>=2).sort((a,b)=>b.length-a.length);
-    for(const kw of pool){ if(line.includes(kw)) return kw; }
-    const parts=String(line||'').split(/[，。,、；;：:\s（）()【】\[\]\/]/).map(x=>x.trim()).filter(x=>x.length>=2);
-    parts.sort((a,b)=>b.length-a.length);
-    return parts[0]||'';
+  function normalizeText(s){ return String(s||'').toLowerCase().replace(/[\s\u3000]/g,'').replace(/[，。、“”‘’；：:!！?？（）()【】\[\]<>《》、,.;+\-_=—]/g,''); }
+  function cleanSentence(s){ return String(s||'').trim().replace(/[。；;]+$/,'').trim(); }
+  function splitList(s){
+    return uniq(String(s||'').replace(/[。；;]+$/,'').split(/(?:、|，|,|；|;|以及|并且|和|与|或)/).map(x=>x.trim().replace(/(?:五部分|四部分|三部分|两部分|两步|两大类)$/,'')).filter(x=>x.length>=2));
+  }
+  function meaningfulParts(s){
+    const stop=new Set(['一个','一种','这些','所有','目前','现代','实际','主要','核心','基础','理论','问题','功能','内容','方法','方面','进行','可以','能够','不能','就是','也是','以及','并且','反之亦然']);
+    const raw=String(s||'').replace(/[“”‘’《》【】()（）]/g,'').split(/(?:、|，|,|；|;|以及|并且|和|与|或|是|为|指|由|采用|具有|包括|分为|提出|证明|奠定|实现|解决|建立|构建|战胜|击败|成为|属于|通过|利用|使用)/);
+    return uniq(raw.map(x=>x.trim()).filter(x=>x.length>=2&&x.length<=32&&!stop.has(x)));
+  }
+  function makeCheckQuestion(line,group,topic,keywords){
+    const full=cleanSentence(line),ctx=group||topic||'本知识块';
+    let m, prompt='', points=[], required=1;
+    const set=(q,ps,need)=>{prompt=q;points=uniq((ps||[]).map(cleanSentence).filter(Boolean));required=Math.max(1,Math.min(Number(need||1),points.length||1));};
+    if((m=full.match(/^“?神威·太湖之光”?于(\d{4}年)投入运行，CPU采用拥有自主知识产权的(.+)$/))){
+      set(`“神威·太湖之光”何时投入运行？采用哪款自主CPU？`,[m[1],m[2]],2);
+    }else if((m=full.match(/^计算机运算速度快、精度高$/))){
+      set(`计算机在运算速度和计算精度方面有什么特点？`,['运算速度快','精度高'],2);
+    }else if((m=full.match(/^计算机具备存储能力$/))){
+      set(`计算机在信息保存方面具备什么能力？`,['存储能力'],1);
+    }else if((m=full.match(/^计算机具备逻辑判断能力$/))){
+      set(`计算机在分析和判断方面具备什么能力？`,['逻辑判断能力'],1);
+    }else if((m=full.match(/^计算机具备自动运行和自动控制的能力$/))){
+      set(`计算机在运行与控制方面具备什么能力？`,['自动运行','自动控制'],2);
+    }else if((m=full.match(/^计算机具备人机交互功能$/))){
+      set(`计算机在与用户交互方面具备什么功能？`,['人机交互功能'],1);
+    }else if((m=full.match(/^嵌入式计算机软件与硬件一体化，应用最广泛，数量超过PC$/))){
+      set(`嵌入式计算机在软硬件、应用范围和数量方面有哪些特点？`,['软件与硬件一体化','应用最广泛','数量超过PC'],2);
+    }else if((m=full.match(/^IoT是Internet of Things，实现(.+)$/))){
+      set(`IoT的英文全称是什么？它实现了哪些对象之间的互联？`,['Internet of Things',m[1]],2);
+    }else if((m=full.match(/^Artificial Intelligence（AI）指(.+?)，实现人工智能的根本途径是(.+)$/))){
+      set(`人工智能（AI）指什么？实现人工智能的根本途径是什么？`,[m[1],m[2]],2);
+    }else if((m=full.match(/^第三代出现操作系统，第一个经典的分时操作系统是(.+?)[（(](\d{4}年)[）)]$/))){
+      set(`第三代出现的第一个经典分时操作系统是什么？出现于哪一年？`,[m[1],m[2]],2);
+    }else if((m=full.match(/^(.+?)是(.+?)，首次提出(.+)$/))){
+      set(`${m[1]}具有哪两项重要贡献？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)是(.+?)，奠定了(.+?)的基础$/))){
+      set(`${m[1]}是什么，并奠定了什么基础？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)即(.+?)，主要用于(.+)$/))){
+      set(`${m[1]}又叫什么，主要用于哪些领域？`,[m[2],...splitList(m[3])],2);
+    }else if((m=full.match(/^(.+?)又称(.+?)，(.+)$/))){
+      set(`${m[1]}又称什么？它主要用于或具有什么特点？`,[m[2],...meaningfulParts(m[3]).slice(0,4)],2);
+    }else if((m=full.match(/^(.+?)把(.+?)集成在一个芯片上，是(.+)$/))){
+      set(`${m[1]}把哪些部分集成在一个芯片上？它是什么系统的基础？`,[...splitList(m[2]),m[3]],2);
+    }else if((m=full.match(/^(.+?)硬件采用(.+?)，软件出现(.+)$/))){
+      set(`${m[1]}硬件采用什么器件？软件出现了什么系统？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^处理和计算(.+?)、运行(.+?)的装置称为(.+)$/))){
+      set(`处理和计算什么信息、运行什么算法的装置称为什么？`,[m[1],m[2],m[3]],2);
+    }else if((m=full.match(/^抽象以后就是(.+?)，抽象是(.+?)的前提(?:和基础)?$/))){
+      set(`抽象以后是什么？抽象又是什么的前提和基础？`,[m[1],m[2]],2);
+    }else if((m=full.match(/^(.+?)属于(.+?)，不是(.+)$/))){
+      set(`${m[1]}属于谁的思维？不属于谁的思维？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^可计算问题可以由计算机在(.+)$/))){
+      set(`什么样的问题属于可计算问题？`,[m[1]],1);
+    }else if((m=full.match(/^计算思维方法分为来自数学和工程的方法、计算机科学独有的方法两大类$/))){
+      set(`计算思维方法分为哪两大类？`,['来自数学和工程的方法','计算机科学独有的方法'],2);
+    }else if((m=full.match(/^(.+?)通过(.+?)测试(.+)$/))){
+      set(`${m[1]}通过什么方式测试什么？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)拥有(.+)$/))){
+      set(`${m[1]}拥有什么？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)能够解决(.+)$/))){
+      set(`${m[1]}能够解决什么范围的问题？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)能够实现的功能是(.+)$/))){
+      set(`${m[1]}能够实现的功能与图灵机功能是什么关系？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)不可以计算的问题，(.+?)也不能计算$/))){
+      set(`${m[1]}不能计算的问题，${m[2]}能否计算？请写出结论。`,[full],1);
+    }else if((m=full.match(/^(.+?)表明(.+?)，具有(.+)$/))){
+      set(`${m[1]}表明了什么，并具有什么意义？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)诞生于(.+)$/))){
+      set(`${m[1]}诞生于什么时间？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)于(\d{4}年(?:\d{1,2}月(?:\d{1,2}日)?)?)(.+)$/))){
+      set(`${m[1]}在${m[2]}发生了什么？`,meaningfulParts(m[3]).slice(0,5),1);
+    }else if((m=full.match(/^(.+?)被公认为(.+)$/))){
+      set(`${m[1]}被公认为何种地位或雏形？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)的依据是(.+)$/))){
+      set(`${m[1]}的依据是什么？`,[m[2]],1);
+    }else if((m=full.match(/^并不是(.+)$/))){
+      set(`是否${m[1]}？请写出正确结论。`,[full],1);
+    }else if((m=full.match(/^(.+?)可由(.+?)，也可由(.+)$/))){
+      set(`${m[1]}可以由谁执行？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)应用于(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}应用于哪些领域？`,ps,Math.min(3,ps.length));
+    }else if((m=full.match(/^(.+?)将朝着(.+?)的方向发展$/))){
+      const ps=splitList(m[2]); set(`${m[1]}将朝哪些方向发展？`,ps,Math.min(3,ps.length));
+    }else if((m=full.match(/^(.+?)的装置称为(.+)$/))){
+      set(`处理“${m[1]}”的装置称为什么？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)处于(.+)$/))){
+      set(`${m[1]}处于什么地位？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)包含(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}包含哪些内容？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)以(.+?)为核心，将(.+)$/))){
+      set(`${m[1]}以什么为核心，并融合了哪些技术？`,[m[2],...splitList(m[3])],2);
+    }else if((m=full.match(/^(.+?)离不开(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}离不开哪些要素？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)以后就是(.+?)，(.+?)的前提是(.+)$/))){
+      set(`${m[1]}以后是什么？${m[3]}的前提是什么？`,[m[2],m[4]],2);
+    }else if((m=full.match(/^计算思维的基本问题有(.+)$/))){
+      const ps=splitList(m[1]); set(`计算思维的基本问题有哪些？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)可以由(.+)$/))){
+      set(`${m[1]}如何判定或解决？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)认为(.+)$/))){
+      set(`${m[1]}的核心观点是什么？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)指出了(.+)$/))){
+      set(`${m[1]}指出了哪些内容？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)具备(.+)$/))){
+      set(`${m[1]}具备什么能力或功能？`,[m[2]],1);
+    }else if((m=full.match(/^(.+?)以(.+?)为主$/))){
+      set(`${m[1]}以什么为主？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)表示(.+?)(?:，(.+?)表示(.+))?$/))){
+      const ps=[m[2],m[4]].filter(Boolean); set(`${[m[1],m[3]].filter(Boolean).join('和')}分别表示什么？`,ps,ps.length);
+    }else if((m=full.match(/^(.+?)面向(.+?)，(.+)$/))){
+      set(`${m[1]}主要面向什么应用？早期计算机主要用于什么？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^程序和数据以(.+)表示$/))){
+      set(`程序和数据采用什么形式表示？`,[m[1]],1);
+    }else if((m=full.match(/^程序和数据以同等地位存储在(.+)中，并按(.+)访问$/))){
+      set(`程序和数据以什么地位存放在哪里，并按什么访问？`,['同等地位',m[1],m[2]],2);
+    }else if((m=full.match(/^计算机按照(.+)执行$/))){
+      set(`计算机按照什么顺序执行？`,[m[1]],1);
+    }else if((m=full.match(/^(.+?)主要由(.+?)组成$/))){
+      const ps=splitList(m[2]); set(`${m[1]}主要由哪些部分组成？请把组成部分写出来。`,ps,ps.length);
+    }else if((m=full.match(/^(.+?)由(.+?)组成$/))){
+      const ps=splitList(m[2]); set(`${m[1]}由哪些部分组成？`,ps,ps.length);
+    }else if((m=full.match(/^(.+?)分为(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}分为哪些类型或部分？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)包括(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}包括哪些内容？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)的本质是(.+)$/))){
+      set(`${m[1]}的本质是什么？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)的核心(?:原理|技术|思想)?是(.+)$/))){
+      set(`${m[1]}的核心${full.includes('原理')?'原理':full.includes('技术')?'技术':full.includes('思想')?'思想':'内容'}是什么？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)的标志是(.+)$/))){
+      set(`${m[1]}的标志是什么？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)被称为(.+)$/))){
+      set(`${m[1]}被称为什么？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)又称(?:为)?(.+)$/))){
+      set(`${m[1]}又称什么？`,splitList(m[2]),1);
+    }else if((m=full.match(/^(.+?)是指(.+)$/))){
+      set(`${m[1]}是指什么？`,meaningfulParts(m[2]).slice(0,4),1);
+    }else if((m=full.match(/^(.+?)指(.+)$/))){
+      set(`${m[1]}指什么？`,meaningfulParts(m[2]).slice(0,4),1);
+    }else if((m=full.match(/^(.+?)是(.+?)，不是(.+)$/))){
+      set(`${m[1]}是什么性质？它不是什么？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)证明了(.+?)，奠定了(.+?)的基础$/))){
+      set(`${m[1]}证明了什么，并奠定了什么基础？`,[m[2],m[3]],2);
+    }else if((m=full.match(/^(.+?)由(.+?)为(.+?)而创立，是(.+)$/))){
+      set(`${m[1]}由谁创立、为什么创立，它在该领域处于什么地位？`,[m[2],m[3],m[4]],2);
+    }else if((m=full.match(/^(.+?)采用(.+)$/))){
+      set(`${m[1]}采用什么技术、结构或方法？`,meaningfulParts(m[2]).slice(0,4),1);
+    }else if((m=full.match(/^(.+?)具有(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}具有哪些特点？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)能够(.+)$/))){
+      set(`${m[1]}能够完成或解决什么？`,meaningfulParts(m[2]).slice(0,4),1);
+    }else if((m=full.match(/^(.+?)不可能(.+)$/))){
+      set(`${m[1]}是否可能${m[2]}？请写出结论。`,[full],1);
+    }else if((m=full.match(/^(.+?)不可以(.+?)，(.+?)也不能(.+)$/))){
+      set(`当${m[1]}不可以${m[2]}时，${m[3]}能否${m[4]}？`,[full],1);
+    }else if((m=full.match(/^只有(.+?)，(.+?)才能(.+)$/))){
+      set(`${m[2]}要${m[3]}，必须满足什么前提？`,[m[1]],1);
+    }else if((m=full.match(/^一切(.+?)都(.+?)，反之亦然$/))){
+      set(`请写出“${ctx}”中这条双向结论。题干关键词：${m[1]}。`,[m[1],m[2]],1);
+    }else if((m=full.match(/^存在(.+?)，例如(.+)$/))){
+      set(`是否存在${m[1]}？请写出一个例子。`,[m[1],m[2]],1);
+    }else if((m=full.match(/^(\d{4}年(?:\d{1,2}月)?)[，,]?(.+)$/))){
+      set(`${m[1]}发生了什么重要事件？`,meaningfulParts(m[2]).slice(0,5),1);
+    }else if((m=full.match(/^(.+?)的度量标准有(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}的度量标准有哪些？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)主要有(.+)$/))){
+      const ps=splitList(m[2]); set(`${m[1]}主要有哪些？`,ps,Math.min(2,ps.length));
+    }else if((m=full.match(/^(.+?)是(.+)$/))){
+      set(`${m[1]}是什么？请写出关键定义、身份或结论。`,meaningfulParts(m[2]).slice(0,5),1);
+    }else{
+      const predicates=['提出','首次','发明','设计','建立','构建','战胜','击败','使用','利用','实现','奠定','解决','说明'];
+      let subject='';
+      for(const v of predicates){const pos=full.indexOf(v);if(pos>0){subject=full.slice(0,pos);break;}}
+      if(!subject)subject=full.split(/[，,：:]/)[0];
+      const basePoints=uniq([...(keywords||[]).filter(k=>full.includes(k)),...meaningfulParts(full)]).slice(0,6);
+      set(`在“${ctx}”中，关于“${subject.slice(0,24)}”需要记住什么关键结论？请写关键词，不必逐字一致。`,basePoints.length?basePoints:[full],1);
+    }
+    if(!points.length) points=[full];
+    return {prompt,points,required,line:full,group:ctx,answer:points.join('；')};
   }
   function buildBlockCheck(block){
     if(!block) return [];
-    const s=blockSummary(block);
-    let sourceLines=[];
+    const entries=[];
     if(block.track==='pdf'){
-      const boldItems=block.knowledge.filter(i=>i.boldOnlyRule);
-      sourceLines=uniq(boldItems.flatMap(i=>i.mustPatterns||[]));
+      block.knowledge.filter(i=>i.boldOnlyRule).forEach(i=>{
+        const groupMap=new Map();
+        (i.mustGroups||[]).forEach(g=>(g.lines||[]).forEach(line=>groupMap.set(cleanSentence(line),g.title||i.title||block.category)));
+        (i.mustPatterns||[]).forEach(line=>entries.push({line,group:groupMap.get(cleanSentence(line))||i.title||block.category,keywords:i.keywords||[]}));
+      });
     }else{
-      sourceLines=s.core.length ? s.core.slice() : uniq(block.knowledge.flatMap(i=>i.mustPatterns||[]));
-    }
-    const tests=[]; const used=new Set();
-    sourceLines.forEach(line=>{
-      const text=String(line||'').trim(); if(!text || tests.length>=6) return;
-      const answer=pickBlankAnswer(text,s.keywords);
-      if(!answer || answer.length<2 || used.has(answer)) return;
-      const prompt=text.replace(answer,'____');
-      if(prompt===text) return;
-      used.add(answer);
-      tests.push({prompt,answer,line:text});
-    });
-    if(tests.length<3){
-      s.keywords.forEach(kw=>{
-        if(tests.length>=6) return;
-        if(!kw || used.has(kw)) return;
-        used.add(kw);
-        tests.push({prompt:'请写出这个知识块的一个核心关键词',answer:String(kw),line:String(kw)});
+      block.knowledge.forEach(i=>{
+        const lines=(i.mustPatterns&&i.mustPatterns.length)?i.mustPatterns:[i.oneLine||i.notebookSummary?.conclusion||i.title];
+        lines.filter(Boolean).forEach(line=>entries.push({line,group:i.title||block.category,keywords:i.keywords||[]}));
       });
     }
+    const seen=new Set(),tests=[];
+    entries.forEach(entry=>{
+      const key=cleanSentence(entry.line); if(!key||seen.has(key))return; seen.add(key);
+      tests.push(makeCheckQuestion(entry.line,entry.group,block.category,entry.keywords));
+    });
     return tests;
   }
-  function checkTypedAnswer(input,answer){
-    const a=normalizeText(input),b=normalizeText(answer);
-    if(!a||!b) return false;
-    return a===b || a.includes(b) || b.includes(a);
+  function answerVariants(point){
+    const raw=String(point||'').trim(),out=[];
+    const add=x=>{x=String(x||'').trim();if(x.length>=2&&!out.includes(x)&&!/^(问题|功能|内容|方法|方面|领域|基础|理论|系统|能力)$/.test(x))out.push(x)};
+    add(raw);
+    const quoted=[...raw.matchAll(/[“《（(]([^”》）)]+)[”》）)]/g)].map(m=>m[1]); quoted.forEach(add);
+    raw.match(/[A-Za-z][A-Za-z0-9-]{1,}/g)?.forEach(add);
+    const lastDe=raw.split('的').pop(); if(lastDe&&lastDe!==raw)add(lastDe);
+    add(raw.replace(/^(?:一条|一个|一种|一台|第一台|世界上|我国|现代|实际|主要|拥有自主知识产权的|具有|采用|即|是)/,''));
+    splitList(raw).forEach(add);
+    meaningfulParts(raw).forEach(add);
+    return out;
+  }
+  function checkTypedAnswer(input,test){
+    const a=normalizeText(input); if(!a)return {ok:false,matched:[],required:test?.required||1};
+    const points=(test?.points||[test?.answer]).filter(Boolean);
+    const matched=points.filter(p=>answerVariants(p).some(v=>{const b=normalizeText(v);return b.length>=2&&a.includes(b);}));
+    const required=Math.max(1,Math.min(test?.required||1,points.length||1));
+    return {ok:matched.length>=required,matched,required,total:points.length};
   }
   function answerHtml(i){
     if(isQuestion(i))return `<div class="answer-core"><strong>答案：${esc(i.answer||'资料未提供')}</strong></div>${i.solutionSteps?.length?`<ol>${i.solutionSteps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}${i.principle?.summary?`<p class="principle"><b>本题原理：</b>${esc(i.principle.summary)}</p>`:''}`;

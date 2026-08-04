@@ -22,9 +22,9 @@
   function renderBlockTest(entry){
     const b=entry.block,isPdf=b.track==='pdf',tests=V.buildBlockCheck(b),code=isPdf?V.pdfDisplayCode(b):b.category;
     const backHref=isPdf?'./knowledge.html?track=pdf':'./knowledge.html?track=daily';
-    const hint=isPdf?'写出PDF加粗内容里的关键词、名称或关键结论。':'写出这一块最核心的关键词或关键结论。';
-    const testList=tests.length?tests.map((t,idx)=>`<div class="typed-test-item"><label>${idx+1}. ${V.esc(t.prompt)}</label><input type="text" data-test-input="${idx}" placeholder="在这里输入关键词或答案"></div>`).join(''):'<div class="empty">这块暂时没有可自动生成的填空，你可以先点“查看参考答案”自测。</div>';
-    return `<article class="study-card compact-study-card ${isPdf?'pdf-study-card':'daily-study-card'}"><div class="study-meta"><span class="${isPdf?'pdf-study-badge':'daily-study-badge'}">背完检验</span><span>${V.esc(b.subject)}</span><span>${V.esc(b.chapter)}</span><span>${V.esc(isPdf?V.pdfDisplaySection(b):b.section)}</span></div><div class="compact-study-heading"><div><small>${isPdf?'PDF专题检验 · 输入关键词即可':'日常知识块检验 · 输入关键词即可'}</small><h1>${V.esc(code)}</h1></div><span>${tests.length} 题自检</span></div><div class="recall-panel typed-test-panel"><div class="typed-test-tip"><b>使用方式：</b>${V.esc(hint)}</div>${testList}<div class="typed-test-actions">${tests.length?'<button class="primary-btn" id="submitTypedTest" type="button">提交检验</button>':''}<button class="ghost-btn" id="revealBtn" type="button">查看参考答案</button></div></div><section id="typedResult" class="typed-result"></section><section id="answerPanel" class="answer-panel">${V.blockAnswerHtml(b)}<div class="detail-actions"><a href="${backHref}">返回${isPdf?'PDF专题':'日常知识树'}</a>${b.notes.length?`<a href="./notes.html?block=${encodeURIComponent(b.key)}">查看关联课堂笔记</a>`:''}${b.questions.length?`<a href="./questions.html?block=${encodeURIComponent(b.key)}">做关联题</a>`:''}</div></section><div id="gradeRow" class="grade-row"><button data-grade="0">还不会</button><button data-grade="1">大体会了</button><button data-grade="2">背会了</button></div></article>`;
+    const hint=isPdf?'每一条PDF加粗内容都会出一道明确问题。可写关键词，不必逐字照抄。':'每一个日常知识点都会出一道明确问题。可写关键词，不必逐字照抄。';
+    const testList=tests.length?tests.map((t,idx)=>`<div class="typed-test-item"><div class="typed-test-topic">${V.esc(t.group||code)}</div><label>${idx+1}. ${V.esc(t.prompt)}</label><small>至少写出 ${t.required||1} 个关键点；可用顿号或逗号分隔。</small><input type="text" data-test-input="${idx}" placeholder="例如：关键词1、关键词2（不用写完整原句）"></div>`).join(''):'<div class="empty">这块暂时没有可生成的检验题，可以先查看参考答案自测。</div>';
+    return `<article class="study-card compact-study-card ${isPdf?'pdf-study-card':'daily-study-card'}"><div class="study-meta"><span class="${isPdf?'pdf-study-badge':'daily-study-badge'}">背完检验</span><span>${V.esc(b.subject)}</span><span>${V.esc(b.chapter)}</span><span>${V.esc(isPdf?V.pdfDisplaySection(b):b.section)}</span></div><div class="compact-study-heading"><div><small>${isPdf?'PDF专题检验 · 输入关键词即可':'日常知识块检验 · 输入关键词即可'}</small><h1>${V.esc(code)}</h1></div><span>${tests.length} 条必背＝${tests.length} 题</span></div><div class="recall-panel typed-test-panel"><div class="typed-test-tip"><b>使用方式：</b>${V.esc(hint)}</div>${testList}<div class="typed-test-actions">${tests.length?'<button class="primary-btn" id="submitTypedTest" type="button">提交检验</button>':''}<button class="ghost-btn" id="revealBtn" type="button">查看参考答案</button></div></div><section id="typedResult" class="typed-result"></section><section id="answerPanel" class="answer-panel">${V.blockAnswerHtml(b)}<div class="detail-actions"><a href="${backHref}">返回${isPdf?'PDF专题':'日常知识树'}</a>${b.notes.length?`<a href="./notes.html?block=${encodeURIComponent(b.key)}">查看关联课堂笔记</a>`:''}${b.questions.length?`<a href="./questions.html?block=${encodeURIComponent(b.key)}">做关联题</a>`:''}</div></section><div id="gradeRow" class="grade-row"><button data-grade="0">还不会</button><button data-grade="1">大体会了</button><button data-grade="2">背会了</button></div></article>`;
   }
   function handleTypedTest(){
     const entry=queue[index];
@@ -41,9 +41,10 @@
     let correct=0;
     const rows=tests.map((t,idx)=>{
       const input=V.$(`[data-test-input="${idx}"]`)?.value||'';
-      const ok=V.checkTypedAnswer(input,t.answer);
+      const check=V.checkTypedAnswer(input,t),ok=check.ok;
       if(ok) correct++;
-      return `<div class="typed-result-item ${ok?'ok':'bad'}"><div><b>${idx+1}. ${ok?'正确':'再记一下'}</b><p>你的答案：${V.esc(input||'（未填写）')}</p></div><div class="typed-answer"><span>参考答案</span><strong>${V.esc(t.answer)}</strong><small>${V.esc(t.line)}</small></div></div>`;
+      const state=ok?'正确':check.matched.length?'部分答对':'再记一下';
+      return `<div class="typed-result-item ${ok?'ok':check.matched.length?'partial':'bad'}"><div><b>${idx+1}. ${state}</b><p>你的答案：${V.esc(input||'（未填写）')}</p>${check.matched.length?`<p class="matched-points">已命中：${check.matched.map(V.esc).join('、')}</p>`:''}</div><div class="typed-answer"><span>应答关键点（至少 ${check.required} 个）</span><strong>${t.points.map(V.esc).join('；')}</strong><small>原始必背句：${V.esc(t.line)}</small></div></div>`;
     }).join('');
     const pct=Math.round(correct/tests.length*100);
     let tip='建议再多看两遍再点“背会了”。';

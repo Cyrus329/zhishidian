@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>专升本知识点记忆</title>
+  <meta name="theme-color" content="#eaf4ff">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./point-memory.css?v=km-b002-20260806">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Spaced Knowledge Lab</p>
+        <h1>专升本知识点记忆</h1>
+        <p class="subtitle">按资料时间线 · 核心重点挖空 · 一屏一条 · 学习时长自动记录</p>
+      </div>
+      <div class="topbar-actions">
+        <button class="secondary-button" id="importButton">↥ 导入进度</button>
+        <button class="secondary-button" id="exportButton">↧ 导出备份</button>
+        <button class="secondary-button" id="resetButton">⟳ 清空进度</button>
+        <a class="secondary-button link-button" href="./original-home.html">原资料库</a>
+        <input id="importFile" type="file" accept="application/json" hidden>
+      </div>
+    </header>
+
+    <button class="mobile-focus-entry" id="focusEntry" type="button">
+      <span>
+        <small>手机 / 电脑共用同一份进度</small>
+        <strong>一屏一条专注背知识点</strong>
+        <em>Shift显示答案 · ←记住 · ↓模糊 · →忘了 · Ctrl撤回</em>
+      </span>
+      <b>开始 →</b>
+    </button>
+
+    <nav class="module-switcher" aria-label="模块切换">
+      <button class="module-button active" data-module="timeline"><span>🗓</span><strong>资料时间线</strong><small>日期＋第几天</small></button>
+      <button class="module-button" data-module="study"><span>🧠</span><strong>记忆训练</strong><small>挖空 / 填写 / 回忆</small></button>
+      <button class="module-button" data-module="browser"><span>📚</span><strong>全部知识点</strong><small>原顺序快速浏览</small></button>
+      <button class="module-button" data-module="progress"><span>📊</span><strong>学习进度</strong><small>时长与掌握情况</small></button>
+      <a class="module-button" href="./original-home.html"><span>🗂</span><strong>原资料库</strong><small>图片 / PDF / 课堂笔记</small></a>
+    </nav>
+
+    <section class="stats-grid">
+      <article class="metric"><span>核心必背</span><strong id="coreCount">0</strong><small id="allCount">全部资料点 0</small></article>
+      <article class="metric time"><span>总学习时长</span><strong id="totalStudyTime">0分</strong><small id="todayStudyTime">今日 0分</small></article>
+      <article class="metric accent"><span>现在到期</span><strong id="dueCount">0</strong><small>按间隔复习自动计算</small></article>
+      <article class="metric warm"><span>今日完成</span><strong id="todayDone">0</strong><small id="todayAccuracy">正确反馈 0%</small></article>
+      <article class="metric calm"><span>本次学习</span><strong id="sessionTime">0:00</strong><small id="sessionActions">已完成 0 条</small></article>
+    </section>
+
+    <section class="module-section active" data-section="timeline">
+      <div class="panel-heading">
+        <div><p class="eyebrow">Timeline</p><h2>资料导入时间线</h2></div>
+        <p>继续使用“日期＋第几天”的方式。点击任意一天，只背当天的核心重点。</p>
+      </div>
+      <div id="timelineGrid" class="timeline-grid"></div>
+      <div class="timeline-note">
+        <strong>默认学习范围：</strong>只背“核心必背”。扩展重点保留在资料库中，需要时再加入，不强迫全部背完。
+      </div>
+    </section>
+
+    <section class="module-section" data-section="study">
+      <div class="hero-workbench">
+        <main class="study-area">
+          <div class="panel-heading compact">
+            <div><p class="eyebrow">Now</p><h2>记忆卡片</h2></div>
+            <div class="session-tools"><span id="scopeChip" class="chip">核心必背</span><span id="clockNow" class="chip">--:--</span></div>
+          </div>
+
+          <div class="mode-tabs" id="scopeTabs">
+            <button class="tab-button active" data-scope="due">到期复习</button>
+            <button class="tab-button" data-scope="new">新知识点</button>
+            <button class="tab-button" data-scope="wrong">错点回炉</button>
+            <button class="tab-button" data-scope="all">全部抽查</button>
+          </div>
+
+          <div class="practice-switch" id="practiceTabs">
+            <button class="practice-button active" data-practice="cloze">重点挖空</button>
+            <button class="practice-button" data-practice="type">关键词填写</button>
+            <button class="practice-button" data-practice="recall">看标题回忆</button>
+          </div>
+
+          <div class="quick-row">
+            <button data-quick="3">3分钟极速</button>
+            <button data-quick="5">5分钟极速</button>
+            <button data-quick="10">10分钟极速</button>
+            <button id="recentButton">最近10条</button>
+          </div>
+
+          <article id="activeCard" class="knowledge-card"></article>
+        </main>
+
+        <aside class="schedule-panel">
+          <div class="panel-heading compact"><div><p class="eyebrow">Range</p><h2>学习范围</h2></div></div>
+          <div class="filter-grid">
+            <label><span>背诵级别</span><select id="tierFilter"><option value="core">核心必背</option><option value="core+extended">核心＋扩展重点</option><option value="all">全部资料点</option></select></label>
+            <label><span>学科</span><select id="subjectFilter"></select></label>
+            <label><span>第几天</span><select id="dayFilter"></select></label>
+            <label><span>章节</span><select id="chapterFilter"></select></label>
+          </div>
+          <div class="range-summary" id="rangeSummary"></div>
+          <div class="keyboard-help"><b>键盘操作</b><span>Shift 显示答案</span><span>← 记住</span><span>↓ 模糊</span><span>→ 忘了</span><span>Ctrl 撤回上一条</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="module-section" data-section="browser">
+      <div class="panel-heading"><div><p class="eyebrow">Library</p><h2>全部知识点快速浏览</h2></div><p id="browserCount"></p></div>
+      <div class="browser-toolbar">
+        <input id="browserSearch" placeholder="搜索标题、内容、章节或关键词">
+        <select id="browserSubject"></select>
+        <select id="browserTier"><option value="">全部级别</option><option value="core">核心必背</option><option value="extended">扩展重点</option><option value="reference">资料了解</option></select>
+        <select id="browserStatus"><option value="">全部状态</option><option value="new">未学习</option><option value="remember">记住</option><option value="fuzzy">模糊</option><option value="forgot">忘了</option></select>
+        <select id="browserDay"></select>
+        <select disabled><option>我的原始顺序</option></select>
+      </div>
+      <div id="pointList" class="point-list"></div>
+      <div class="pager"><button id="prevPage">上一页</button><span id="pageInfo"></span><button id="nextPage">下一页</button></div>
+    </section>
+
+    <section class="module-section" data-section="progress">
+      <div class="panel-heading"><div><p class="eyebrow">Progress</p><h2>学习进度与时长</h2></div><p>学习时长只在页面可见且两分钟内有操作时累计。</p></div>
+      <div id="progressCards" class="progress-cards"></div>
+      <div class="progress-layout">
+        <div class="progress-panel"><h3>按学科</h3><div id="subjectProgress"></div></div>
+        <div class="progress-panel"><h3>按资料天数</h3><div id="dayProgress"></div></div>
+      </div>
+    </section>
+  </div>
+
+  <div id="focusMode" class="focus-mode" hidden>
+    <header><button id="exitFocus">退出</button><div><strong>一屏一条</strong><span id="focusMeta"></span></div><span id="focusCount"></span></header>
+    <div class="focus-progress"><span id="focusProgressBar"></span></div>
+    <main id="focusCard"></main>
+  </div>
+
+  <nav class="bottom-nav">
+    <button data-module="timeline" class="active">时间线</button>
+    <button data-module="study">背诵</button>
+    <button data-module="browser">全库</button>
+    <button data-module="progress">进度</button>
+  </nav>
+
+  <script src="./knowledge-memory-data.js?v=km-b002-20260806"></script>
+  <script src="./point-memory.js?v=km-b002-20260806"></script>
+</body>
+</html>

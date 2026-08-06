@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-08-06T00:50:33.776Z",
+  "sourceTotal": 749,
+  "uniqueTotal": 742,
+  "duplicatesRemoved": 7,
+  "tiers": {
+    "extended": 156,
+    "core": 391,
+    "reference": 195
+  },
+  "subjects": {
+    "计算机": 327,
+    "英语": 266,
+    "数学": 149
+  },
+  "days": {
+    "第1天 · 7.15": 33,
+    "第2天 · 7.16": 54,
+    "第3天 · 7.17": 66,
+    "第4天 · 7.18": 24,
+    "第5天 · 7.19": 71,
+    "第6天 · 7.20": 203,
+    "第11天 · 7.25": 53,
+    "第12天 · 7.26": 192,
+    "第14天 · 7.28": 46
+  },
+  "clozeSources": {
+    "source-cloze": 327,
+    "generated-keyword": 184,
+    "generated-list": 28,
+    "generated-relation": 124,
+    "fallback": 60,
+    "generated-colon": 17,
+    "self-test": 2
+  },
+  "recallTypes": {
+    "fact": 454,
+    "list": 160,
+    "formula": 122,
+    "contrast": 6
+  }
+}

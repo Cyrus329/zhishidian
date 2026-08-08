@@ -1,5 +1,5 @@
 {
-  "version": "v60.6",
+  "version": "B006",
   "name": "专升本学习系统_v60.6_日常知识点与PDF严格分离修正版",
   "base": "v60.5日常与PDF分区顺序版",
   "rawItems": 260,
@@ -40,5 +40,16 @@
     "D12-COMP-K-008"
   ],
   "learningRecords": "不再次清空；沿用已有零起点学习记录",
-  "date": "2026-08-03"
+  "date": "2026-08-03",
+  "title": "课堂笔记数学题分区导入版",
+  "baseline": "B005",
+  "importDate": "2026-08-08",
+  "importDay": 25,
+  "day25Classroom": {
+    "mathLectureNotes": 10,
+    "mathQuestionGroups": 25,
+    "englishClassNotes": 8,
+    "mathImages": 77,
+    "englishImages": 31
+  }
 }

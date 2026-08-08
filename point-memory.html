@@ -6,7 +6,7 @@
   <title>专升本知识点记忆</title>
   <meta name="theme-color" content="#eaf4ff">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./point-memory.css?v=km-b002-20260806">
+  <link rel="stylesheet" href="./point-memory.css?v=km-b006-classroom-split-20260808">
 </head>
 <body>
   <div class="app-shell">
@@ -39,13 +39,16 @@
       <button class="module-button" data-module="study"><span>🧠</span><strong>记忆训练</strong><small>挖空 / 填写 / 回忆</small></button>
       <button class="module-button" data-module="browser"><span>📚</span><strong>全部知识点</strong><small>原顺序快速浏览</small></button>
       <button class="module-button" data-module="progress"><span>📊</span><strong>学习进度</strong><small>时长与掌握情况</small></button>
-      <a class="module-button" href="./original-home.html"><span>🗂</span><strong>原资料库</strong><small>图片 / PDF / 课堂笔记</small></a>
+      <a class="module-button" href="./math-review.html"><span>∑</span><strong>数学题专项</strong><small>纯文字公式 · 逐题巩固</small></a>
+      <a class="module-button" href="./class-notes.html"><span>📝</span><strong>课堂笔记</strong><small>完整整理 · 原图</small></a>
+      <a class="module-button" href="./handwritten-notes.html"><span>✍</span><strong>手写笔记</strong><small>8组 · 42张原图</small></a>
+      <a class="module-button" href="./original-home.html"><span>🗂</span><strong>原资料库</strong><small>图片 / PDF / 全部资料</small></a>
     </nav>
 
     <section class="stats-grid">
       <article class="metric"><span>核心必背</span><strong id="coreCount">0</strong><small id="allCount">全部资料点 0</small></article>
       <article class="metric time"><span>总学习时长</span><strong id="totalStudyTime">0分</strong><small id="todayStudyTime">今日 0分</small></article>
-      <article class="metric accent"><span>现在到期</span><strong id="dueCount">0</strong><small>按间隔复习自动计算</small></article>
+      <article class="metric accent"><span>现在到期</span><strong id="dueCount">0</strong><small>20分→1时→9时→1天→2天→6天→31天</small></article>
       <article class="metric warm"><span>今日完成</span><strong id="todayDone">0</strong><small id="todayAccuracy">正确反馈 0%</small></article>
       <article class="metric calm"><span>本次学习</span><strong id="sessionTime">0:00</strong><small id="sessionActions">已完成 0 条</small></article>
     </section>
@@ -101,7 +104,7 @@
             <label><span>章节</span><select id="chapterFilter"></select></label>
           </div>
           <div class="range-summary" id="rangeSummary"></div>
-          <div class="keyboard-help"><b>键盘操作</b><span>Shift 显示答案</span><span>← 记住</span><span>↓ 模糊</span><span>→ 忘了</span><span>Ctrl 撤回上一条</span></div>
+          <div class="interval-help"><b>同单词版复习阶段</b><span>记住：20分钟 → 1小时 → 9小时 → 1天 → 2天 → 6天 → 31天</span><span>模糊：8分钟后回炉｜忘了：2分钟后回炉</span></div><div class="keyboard-help"><b>键盘操作</b><span>Shift 显示答案</span><span>← 记住</span><span>↓ 模糊</span><span>→ 忘了</span><span>Ctrl 撤回上一条</span></div>
         </aside>
       </div>
     </section>
@@ -139,11 +142,13 @@
   <nav class="bottom-nav">
     <button data-module="timeline" class="active">时间线</button>
     <button data-module="study">背诵</button>
-    <button data-module="browser">全库</button>
+    <a href="./math-review.html">数学题</a>
+    <a href="./class-notes.html">课堂</a>
+    <a href="./handwritten-notes.html">手写</a>
     <button data-module="progress">进度</button>
   </nav>
 
-  <script src="./knowledge-memory-data.js?v=km-b002-20260806"></script>
-  <script src="./point-memory.js?v=km-b002-20260806"></script>
+  <script src="./knowledge-memory-data.js?v=km-b006-classroom-split-20260808"></script>
+  <script src="./point-memory.js?v=km-b006-classroom-split-20260808"></script>
 </body>
 </html>
